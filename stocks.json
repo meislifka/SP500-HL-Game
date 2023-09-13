@@ -1,0 +1,2010 @@
+{
+    "MMM": {
+        "name": "3M Company",
+        "price": "107.12"
+    },
+    "ABT": {
+        "name": "Abbott Laboratories",
+        "price": "102.40"
+    },
+    "ABBV": {
+        "name": "AbbVie Inc",
+        "price": "149.28"
+    },
+    "ACN": {
+        "name": "Accenture plc",
+        "price": "314.88"
+    },
+    "ATVI": {
+        "name": "Activision Blizzard, Inc",
+        "price": "92.15"
+    },
+    "ADBE": {
+        "name": "Adobe Inc",
+        "price": "542.29"
+    },
+    "AMD": {
+        "name": "Advanced Micro Devices, Inc",
+        "price": "105.33"
+    },
+    "AFL": {
+        "name": "Aflac Incorporated",
+        "price": "76.27"
+    },
+    "A": {
+        "name": "Agilent Technologies, Inc",
+        "price": "112.79"
+    },
+    "APD": {
+        "name": "Air Products and Chemicals, Inc",
+        "price": "302.21"
+    },
+    "AKAM": {
+        "name": "Akamai Technologies, Inc",
+        "price": "104.04"
+    },
+    "ALK": {
+        "name": "Alaska Air Group, Inc",
+        "price": "40.07"
+    },
+    "ALB": {
+        "name": "Albemarle Corporation",
+        "price": "184.36"
+    },
+    "ARE": {
+        "name": "Alexandria Real Estate Equities, Inc",
+        "price": "111.79"
+    },
+    "ALGN": {
+        "name": "Align Technology, Inc",
+        "price": "322.25"
+    },
+    "ALLE": {
+        "name": "Allegion plc",
+        "price": "106.76"
+    },
+    "LNT": {
+        "name": "Alliant Energy Corporation",
+        "price": "50.72"
+    },
+    "GOOG": {
+        "name": "Alphabet Inc",
+        "price": "136.10"
+    },
+    "GOOGL": {
+        "name": "Alphabet Inc",
+        "price": "135.36"
+    },
+    "MO": {
+        "name": "Altria Group, Inc",
+        "price": "44.87"
+    },
+    "AMZN": {
+        "name": "Amazon.com, Inc",
+        "price": "141.26"
+    },
+    "AMCR": {
+        "name": "Amcor plc",
+        "price": "9.435"
+    },
+    "AEE": {
+        "name": "Ameren Corporation",
+        "price": "78.74"
+    },
+    "AAL": {
+        "name": "American Airlines Group Inc",
+        "price": "14.12"
+    },
+    "AEP": {
+        "name": "American Electric Power Company, Inc",
+        "price": "77.82"
+    },
+    "AXP": {
+        "name": "American Express Company",
+        "price": "158.50"
+    },
+    "AIG": {
+        "name": "American International Group, Inc",
+        "price": "60.58"
+    },
+    "AMT": {
+        "name": "American Tower Corporation (REIT)",
+        "price": "179.16"
+    },
+    "AWK": {
+        "name": "American Water Works Company, Inc",
+        "price": "137.56"
+    },
+    "AMP": {
+        "name": "Ameriprise Financial, Inc",
+        "price": "347.20"
+    },
+    "AME": {
+        "name": "AMETEK, Inc",
+        "price": "151.69"
+    },
+    "AMGN": {
+        "name": "Amgen Inc",
+        "price": "260.31"
+    },
+    "APH": {
+        "name": "Amphenol Corporation",
+        "price": "86.58"
+    },
+    "ADI": {
+        "name": "Analog Devices, Inc",
+        "price": "175.15"
+    },
+    "ANSS": {
+        "name": "ANSYS, Inc",
+        "price": "312.75"
+    },
+    "AON": {
+        "name": "Aon plc",
+        "price": "335.06"
+    },
+    "AOS": {
+        "name": "A. O. Smith Corporation",
+        "price": "68.24"
+    },
+    "APA": {
+        "name": "Apache Corporation",
+        "price": "44.20"
+    },
+    "AAPL": {
+        "name": "Apple Inc",
+        "price": "176.29"
+    },
+    "AMAT": {
+        "name": "Applied Materials, Inc",
+        "price": "143.99"
+    },
+    "APTV": {
+        "name": "Aptiv PLC",
+        "price": "102.67"
+    },
+    "ACGL": {
+        "name": "Arch Capital Group Ltd",
+        "price": "78.82"
+    },
+    "ADM": {
+        "name": "Archer-Daniels-Midland Company",
+        "price": "79.70"
+    },
+    "ANET": {
+        "name": "Arista Networks, Inc",
+        "price": "189.01"
+    },
+    "AJG": {
+        "name": "Arthur J. Gallagher & Co",
+        "price": "230.32"
+    },
+    "AIZ": {
+        "name": "Assurant, Inc",
+        "price": "141.055"
+    },
+    "ATO": {
+        "name": "Atmos Energy Corporation",
+        "price": "113.85"
+    },
+    "T": {
+        "name": "AT&T Inc",
+        "price": "14.46"
+    },
+    "ADSK": {
+        "name": "Autodesk, Inc",
+        "price": "211.80"
+    },
+    "ADP": {
+        "name": "Automatic Data Processing, Inc",
+        "price": "248.02"
+    },
+    "AZO": {
+        "name": "AutoZone, Inc",
+        "price": "2,528.21"
+    },
+    "AVB": {
+        "name": "AvalonBay Communities, Inc",
+        "price": "180.91"
+    },
+    "AVY": {
+        "name": "Avery Dennison Corporation",
+        "price": "181.88"
+    },
+    "AXON": {
+        "name": "Axon Enterprise Inc",
+        "price": "211.91"
+    },
+    "BKR": {
+        "name": "Baker Hughes Company Class A",
+        "price": "37.09"
+    },
+    "BALL": {
+        "name": "Ball Corp.",
+        "price": "51.88"
+    },
+    "BAC": {
+        "name": "Bank of America Corporation",
+        "price": "28.96"
+    },
+    "BBWI": {
+        "name": "Bath & Body Works Inc",
+        "price": "37.255"
+    },
+    "BAX": {
+        "name": "Baxter International Inc",
+        "price": "38.33"
+    },
+    "BDX": {
+        "name": "Becton, Dickinson and Company",
+        "price": "263.73"
+    },
+    "BRK.B": {
+        "name": "Berkshire Hathaway Inc",
+        "price": "367.72"
+    },
+    "BBY": {
+        "name": "Best Buy Co., Inc",
+        "price": "72.76"
+    },
+    "BIIB": {
+        "name": "Biogen Inc",
+        "price": "258.41"
+    },
+    "BIO": {
+        "name": "Bio-Rad Laboratories, Inc",
+        "price": "361.62"
+    },
+    "TECH": {
+        "name": "Bio-Techne Corporation",
+        "price": "71.99"
+    },
+    "BLK": {
+        "name": "BlackRock, Inc",
+        "price": "697.57"
+    },
+    "BKNG": {
+        "name": "Booking Holdings Inc",
+        "price": "3,173.45"
+    },
+    "BWA": {
+        "name": "BorgWarner Inc",
+        "price": "41.34"
+    },
+    "BXP": {
+        "name": "Boston Properties, Inc",
+        "price": "65.95"
+    },
+    "BSX": {
+        "name": "Boston Scientific Corporation",
+        "price": "53.425"
+    },
+    "BMY": {
+        "name": "Bristol-Myers Squibb Company",
+        "price": "60.23"
+    },
+    "AVGO": {
+        "name": "Broadcom Inc",
+        "price": "844.94"
+    },
+    "BR": {
+        "name": "Broadridge Financial Solutions, Inc",
+        "price": "188.83"
+    },
+    "BRO": {
+        "name": "Brown & Brown, Inc",
+        "price": "73.55"
+    },
+    "BF.B": {
+        "name": "Brown-Forman Corporation",
+        "price": "64.045"
+    },
+    "BG": {
+        "name": "Bunge Limited",
+        "price": "114.44"
+    },
+    "CDNS": {
+        "name": "Cadence Design Systems, Inc",
+        "price": "236.55"
+    },
+    "CZR": {
+        "name": "Caesars Entertainment Corporation",
+        "price": "53.81"
+    },
+    "CPT": {
+        "name": "Camden Property Trust",
+        "price": "103.44"
+    },
+    "CPB": {
+        "name": "Campbell Soup Company",
+        "price": "42.58"
+    },
+    "COF": {
+        "name": "Capital One Financial Corporation",
+        "price": "101.05"
+    },
+    "CAH": {
+        "name": "Cardinal Health, Inc",
+        "price": "88.93"
+    },
+    "KMX": {
+        "name": "CarMax, Inc",
+        "price": "81.555"
+    },
+    "CCL": {
+        "name": "Carnival Corporation & Plc",
+        "price": "15.45"
+    },
+    "CARR": {
+        "name": "Carrier Global Corp.",
+        "price": "56.58"
+    },
+    "CTLT": {
+        "name": "Catalent, Inc",
+        "price": "48.30"
+    },
+    "CAT": {
+        "name": "Caterpillar Inc",
+        "price": "281.76"
+    },
+    "CBRE": {
+        "name": "CBRE Group, Inc",
+        "price": "84.76"
+    },
+    "CDW": {
+        "name": "CDW Corporation",
+        "price": "208.90"
+    },
+    "CE": {
+        "name": "Celanese Corporation",
+        "price": "125.99"
+    },
+    "CNC": {
+        "name": "Centene Corporation",
+        "price": "67.02"
+    },
+    "CNP": {
+        "name": "CenterPoint Energy, Inc",
+        "price": "28.31"
+    },
+    "CDAY": {
+        "name": "Ceridian HCM Holding Inc",
+        "price": "74.46"
+    },
+    "CF": {
+        "name": "CF Industries Holdings, Inc",
+        "price": "81.67"
+    },
+    "CRL": {
+        "name": "Charles River Laboratories International, Inc",
+        "price": "197.135"
+    },
+    "CHTR": {
+        "name": "Charter Communications, Inc",
+        "price": "436.64"
+    },
+    "CVX": {
+        "name": "Chevron Corporation",
+        "price": "166.85"
+    },
+    "CMG": {
+        "name": "Chipotle Mexican Grill, Inc",
+        "price": "1,933.48"
+    },
+    "CHRW": {
+        "name": "C.H. Robinson Worldwide, Inc",
+        "price": "87.01"
+    },
+    "CB": {
+        "name": "Chubb Limited",
+        "price": "208.28"
+    },
+    "CHD": {
+        "name": "Church & Dwight Co., Inc",
+        "price": "95.32"
+    },
+    "CI": {
+        "name": "Cigna Corporation",
+        "price": "286.75"
+    },
+    "CINF": {
+        "name": "Cincinnati Financial Corporation",
+        "price": "107.17"
+    },
+    "CTAS": {
+        "name": "Cintas Corporation",
+        "price": "511.945"
+    },
+    "CSCO": {
+        "name": "Cisco Systems, Inc",
+        "price": "56.41"
+    },
+    "C": {
+        "name": "Citigroup Inc",
+        "price": "41.68"
+    },
+    "CFG": {
+        "name": "Citizens Financial Group, Inc",
+        "price": "28.365"
+    },
+    "CME": {
+        "name": "CME Group Inc",
+        "price": "206.18"
+    },
+    "CMS": {
+        "name": "CMS Energy Corporation",
+        "price": "56.02"
+    },
+    "CTSH": {
+        "name": "Cognizant Technology Solutions Corporation",
+        "price": "70.13"
+    },
+    "CL": {
+        "name": "Colgate-Palmolive Company",
+        "price": "72.51"
+    },
+    "CMCSA": {
+        "name": "Comcast Corporation",
+        "price": "45.18"
+    },
+    "CMA": {
+        "name": "Comerica Incorporated",
+        "price": "45.47"
+    },
+    "CAG": {
+        "name": "Conagra Brands, Inc",
+        "price": "28.625"
+    },
+    "COP": {
+        "name": "ConocoPhillips",
+        "price": "123.04"
+    },
+    "ED": {
+        "name": "Consolidated Edison, Inc",
+        "price": "90.19"
+    },
+    "STZ": {
+        "name": "Constellation Brands, Inc",
+        "price": "260.69"
+    },
+    "CEG": {
+        "name": "Constellation Energy Corporation",
+        "price": "108.60"
+    },
+    "CTRA": {
+        "name": "Contura Energy, Inc",
+        "price": "28.46"
+    },
+    "CPRT": {
+        "name": "Copart, Inc",
+        "price": "44.23"
+    },
+    "COR": {
+        "name": "CoreSite Realty Corporation",
+        "price": "178.475"
+    },
+    "GLW": {
+        "name": "Corning Incorporated",
+        "price": "31.40"
+    },
+    "CTVA": {
+        "name": "Corteva, Inc",
+        "price": "51.64"
+    },
+    "CSGP": {
+        "name": "CoStar Group, Inc",
+        "price": "81.77"
+    },
+    "COST": {
+        "name": "Costco Wholesale Corporation",
+        "price": "558.85"
+    },
+    "CCI": {
+        "name": "Crown Castle International Corp. (REIT)",
+        "price": "97.95"
+    },
+    "CSX": {
+        "name": "CSX Corporation",
+        "price": "30.61"
+    },
+    "CMI": {
+        "name": "Cummins Inc",
+        "price": "235.39"
+    },
+    "CVS": {
+        "name": "CVS Health Corporation",
+        "price": "70.53"
+    },
+    "DHR": {
+        "name": "Danaher Corporation",
+        "price": "248.32"
+    },
+    "DRI": {
+        "name": "Darden Restaurants, Inc",
+        "price": "149.80"
+    },
+    "DVA": {
+        "name": "DaVita Inc",
+        "price": "97.17"
+    },
+    "DE": {
+        "name": "Deere & Company",
+        "price": "402.35"
+    },
+    "DAL": {
+        "name": "Delta Air Lines, Inc",
+        "price": "40.69"
+    },
+    "XRAY": {
+        "name": "DENTSPLY SIRONA Inc",
+        "price": "36.66"
+    },
+    "DVN": {
+        "name": "Devon Energy Corporation",
+        "price": "51.39"
+    },
+    "DXCM": {
+        "name": "DexCom, Inc",
+        "price": "104.88"
+    },
+    "FANG": {
+        "name": "Diamondback Energy, Inc",
+        "price": "156.33"
+    },
+    "DLR": {
+        "name": "Digital Realty Trust, Inc",
+        "price": "130.97"
+    },
+    "DFS": {
+        "name": "Discover Financial Services",
+        "price": "89.14"
+    },
+    "DG": {
+        "name": "Dollar General Corporation",
+        "price": "123.88"
+    },
+    "DLTR": {
+        "name": "Dollar Tree, Inc",
+        "price": "114.09"
+    },
+    "D": {
+        "name": "Dominion Energy, Inc",
+        "price": "47.58"
+    },
+    "DPZ": {
+        "name": "Domino's Pizza, Inc",
+        "price": "393.43"
+    },
+    "DOV": {
+        "name": "Dover Corporation",
+        "price": "140.87"
+    },
+    "DOW": {
+        "name": "Dow Inc",
+        "price": "53.64"
+    },
+    "DHI": {
+        "name": "D.R. Horton, Inc",
+        "price": "114.63"
+    },
+    "DTE": {
+        "name": "DTE Energy Company",
+        "price": "103.89"
+    },
+    "DUK": {
+        "name": "Duke Energy Corporation",
+        "price": "92.12"
+    },
+    "DD": {
+        "name": "DuPont de Nemours, Inc",
+        "price": "75.16"
+    },
+    "DXC": {
+        "name": "DXC Technology Company",
+        "price": "20.405"
+    },
+    "EMN": {
+        "name": "Eastman Chemical Company",
+        "price": "79.31"
+    },
+    "ETN": {
+        "name": "Eaton Corporation plc",
+        "price": "227.93"
+    },
+    "EBAY": {
+        "name": "eBay Inc",
+        "price": "43.52"
+    },
+    "ECL": {
+        "name": "Ecolab Inc",
+        "price": "182.20"
+    },
+    "EIX": {
+        "name": "Edison International",
+        "price": "70.285"
+    },
+    "EW": {
+        "name": "Edwards Lifesciences Corporation",
+        "price": "73.36"
+    },
+    "EA": {
+        "name": "Electronic Arts Inc",
+        "price": "121.45"
+    },
+    "ELV": {
+        "name": "Elevance Health Inc",
+        "price": "445.30"
+    },
+    "LLY": {
+        "name": "Eli Lilly and Company",
+        "price": "599.415"
+    },
+    "EMR": {
+        "name": "Emerson Electric Co",
+        "price": "99.925"
+    },
+    "ENPH": {
+        "name": "Enphase Energy, Inc",
+        "price": "123.37"
+    },
+    "ETR": {
+        "name": "Entergy Corporation",
+        "price": "95.71"
+    },
+    "EOG": {
+        "name": "EOG Resources, Inc",
+        "price": "134.10"
+    },
+    "EPAM": {
+        "name": "EPAM Systems, Inc",
+        "price": "262.82"
+    },
+    "EQT": {
+        "name": "EQT Corporation",
+        "price": "43.76"
+    },
+    "EFX": {
+        "name": "Equifax Inc",
+        "price": "197.57"
+    },
+    "EQIX": {
+        "name": "Equinix, Inc. (REIT)",
+        "price": "773.12"
+    },
+    "EQR": {
+        "name": "Equity Residential",
+        "price": "63.14"
+    },
+    "ESS": {
+        "name": "Essex Property Trust, Inc",
+        "price": "225.71"
+    },
+    "ETSY": {
+        "name": "Etsy, Inc",
+        "price": "64.83"
+    },
+    "EG": {
+        "name": "Everest Group Ltd",
+        "price": "376.31"
+    },
+    "EVRG": {
+        "name": "Evergy, Inc",
+        "price": "53.02"
+    },
+    "ES": {
+        "name": "Eversource Energy",
+        "price": "62.37"
+    },
+    "EXC": {
+        "name": "Exelon Corporation",
+        "price": "40.58"
+    },
+    "EXPE": {
+        "name": "Expedia Group, Inc",
+        "price": "109.66"
+    },
+    "EXPD": {
+        "name": "Expeditors International of Washington, Inc",
+        "price": "116.47"
+    },
+    "EXR": {
+        "name": "Extra Space Storage Inc",
+        "price": "126.83"
+    },
+    "XOM": {
+        "name": "Exxon Mobil Corporation",
+        "price": "117.49"
+    },
+    "FFIV": {
+        "name": "F5 Networks, Inc",
+        "price": "160.24"
+    },
+    "FDS": {
+        "name": "FactSet Research Systems Inc",
+        "price": "423.68"
+    },
+    "FICO": {
+        "name": "Fair Isaac Corporation",
+        "price": "889.68"
+    },
+    "FAST": {
+        "name": "Fastenal Company",
+        "price": "54.53"
+    },
+    "FRT": {
+        "name": "Federal Realty Investment Trust",
+        "price": "98.25"
+    },
+    "FDX": {
+        "name": "FedEx Corporation",
+        "price": "251.49"
+    },
+    "FIS": {
+        "name": "Fidelity National Information Services, Inc",
+        "price": "55.72"
+    },
+    "FITB": {
+        "name": "Fifth Third Bancorp",
+        "price": "27.465"
+    },
+    "FE": {
+        "name": "FirstEnergy Corp",
+        "price": "35.88"
+    },
+    "FSLR": {
+        "name": "First Solar, Inc",
+        "price": "180.99"
+    },
+    "FLT": {
+        "name": "FleetCor Technologies, Inc",
+        "price": "272.10"
+    },
+    "FMC": {
+        "name": "FMC Corporation",
+        "price": "75.05"
+    },
+    "F": {
+        "name": "Ford Motor Company",
+        "price": "12.455"
+    },
+    "FTNT": {
+        "name": "Fortinet, Inc",
+        "price": "63.52"
+    },
+    "FTV": {
+        "name": "Fortive Corporation",
+        "price": "76.47"
+    },
+    "FOXA": {
+        "name": "Fox Corporation",
+        "price": "32.11"
+    },
+    "FOX": {
+        "name": "Fox Corporation",
+        "price": "29.59"
+    },
+    "BEN": {
+        "name": "Franklin Resources, Inc",
+        "price": "26.10"
+    },
+    "FI": {
+        "name": "Frank's International N.V",
+        "price": "121.63"
+    },
+    "FCX": {
+        "name": "Freeport-McMoRan Inc",
+        "price": "40.07"
+    },
+    "GRMN": {
+        "name": "Garmin Ltd",
+        "price": "105.63"
+    },
+    "IT": {
+        "name": "Gartner, Inc",
+        "price": "350.36"
+    },
+    "GEHC": {
+        "name": "GE HealthCare Technologies Inc",
+        "price": "65.405"
+    },
+    "GNRC": {
+        "name": "Generac Holdings Inc",
+        "price": "114.14"
+    },
+    "GD": {
+        "name": "General Dynamics Corporation",
+        "price": "217.42"
+    },
+    "GE": {
+        "name": "General Electric Company",
+        "price": "115.01"
+    },
+    "GIS": {
+        "name": "General Mills, Inc",
+        "price": "65.49"
+    },
+    "GM": {
+        "name": "General Motors Company",
+        "price": "33.47"
+    },
+    "GEN": {
+        "name": "Genesis Healthcare, Inc",
+        "price": "19.505"
+    },
+    "GPC": {
+        "name": "Genuine Parts Company",
+        "price": "147.25"
+    },
+    "GILD": {
+        "name": "Gilead Sciences, Inc",
+        "price": "76.80"
+    },
+    "GPN": {
+        "name": "Global Payments Inc",
+        "price": "125.12"
+    },
+    "GL": {
+        "name": "Globe Life Inc",
+        "price": "110.13"
+    },
+    "HAL": {
+        "name": "Halliburton Company",
+        "price": "42.35"
+    },
+    "HAS": {
+        "name": "Hasbro, Inc",
+        "price": "70.37"
+    },
+    "HCA": {
+        "name": "HCA Healthcare, Inc",
+        "price": "260.88"
+    },
+    "PEAK": {
+        "name": "Healthpeak Properties Inc.",
+        "price": "19.93"
+    },
+    "HSIC": {
+        "name": "Henry Schein, Inc",
+        "price": "74.815"
+    },
+    "HES": {
+        "name": "Hess Corporation",
+        "price": "161.24"
+    },
+    "HPE": {
+        "name": "Hewlett Packard Enterprise Company",
+        "price": "17.09"
+    },
+    "HLT": {
+        "name": "Hilton Worldwide Holdings Inc",
+        "price": "155.71"
+    },
+    "HOLX": {
+        "name": "Hologic, Inc",
+        "price": "72.01"
+    },
+    "HON": {
+        "name": "Honeywell International Inc",
+        "price": "189.24"
+    },
+    "HRL": {
+        "name": "Hormel Foods Corporation",
+        "price": "37.40"
+    },
+    "HST": {
+        "name": "Host Hotels & Resorts, Inc",
+        "price": "16.35"
+    },
+    "HWM": {
+        "name": "Howmet Aerospace Inc.",
+        "price": "47.72"
+    },
+    "HPQ": {
+        "name": "HP Inc",
+        "price": "28.93"
+    },
+    "HUM": {
+        "name": "Humana Inc",
+        "price": "469.07"
+    },
+    "HBAN": {
+        "name": "Huntington Bancshares Incorporated",
+        "price": "10.94"
+    },
+    "HII": {
+        "name": "Huntington Ingalls Industries, Inc",
+        "price": "211.335"
+    },
+    "IEX": {
+        "name": "IDEX Corporation",
+        "price": "213.92"
+    },
+    "IDXX": {
+        "name": "IDEXX Laboratories, Inc",
+        "price": "470.15"
+    },
+    "ITW": {
+        "name": "Illinois Tool Works Inc",
+        "price": "237.47"
+    },
+    "ILMN": {
+        "name": "Illumina, Inc",
+        "price": "150.44"
+    },
+    "INCY": {
+        "name": "Incyte Corporation",
+        "price": "64.23"
+    },
+    "IR": {
+        "name": "Ingersoll-Rand Plc",
+        "price": "68.34"
+    },
+    "PODD": {
+        "name": "Insulet Corporation",
+        "price": "175.56"
+    },
+    "INTC": {
+        "name": "Intel Corporation",
+        "price": "38.88"
+    },
+    "ICE": {
+        "name": "Intercontinental Exchange, Inc",
+        "price": "116.01"
+    },
+    "IBM": {
+        "name": "International Business Machines Corporation",
+        "price": "146.31"
+    },
+    "IFF": {
+        "name": "International Flavors & Fragrances Inc",
+        "price": "68.10"
+    },
+    "IP": {
+        "name": "International Paper Company",
+        "price": "34.485"
+    },
+    "INTU": {
+        "name": "Intuit Inc",
+        "price": "546.19"
+    },
+    "ISRG": {
+        "name": "Intuitive Surgical, Inc",
+        "price": "301.70"
+    },
+    "IVZ": {
+        "name": "Invesco Ltd",
+        "price": "15.57"
+    },
+    "INVH": {
+        "name": "Invitation Homes Inc",
+        "price": "34.34"
+    },
+    "IQV": {
+        "name": "IQVIA Holdings Inc",
+        "price": "216.74"
+    },
+    "IRM": {
+        "name": "Iron Mountain Incorporated",
+        "price": "63.14"
+    },
+    "JKHY": {
+        "name": "Jack Henry & Associates, Inc",
+        "price": "152.98"
+    },
+    "J": {
+        "name": "Jacobs Engineering Group Inc.",
+        "price": "131.43"
+    },
+    "JBHT": {
+        "name": "J.B. Hunt Transport Services, Inc",
+        "price": "181.90"
+    },
+    "JCI": {
+        "name": "Johnson Controls International plc",
+        "price": "57.315"
+    },
+    "JNJ": {
+        "name": "Johnson & Johnson",
+        "price": "163.615"
+    },
+    "JPM": {
+        "name": "JPMorgan Chase & Co",
+        "price": "146.36"
+    },
+    "JNPR": {
+        "name": "Juniper Networks, Inc",
+        "price": "28.735"
+    },
+    "K": {
+        "name": "Kellogg Company",
+        "price": "59.59"
+    },
+    "KVUE": {
+        "name": "Kenvue Inc",
+        "price": "21.05"
+    },
+    "KDP": {
+        "name": "Keurig Dr Pepper Inc",
+        "price": "33.27"
+    },
+    "KEY": {
+        "name": "KeyCorp",
+        "price": "11.76"
+    },
+    "KEYS": {
+        "name": "Keysight Technologies, Inc",
+        "price": "131.67"
+    },
+    "KMB": {
+        "name": "Kimberly-Clark Corporation",
+        "price": "124.905"
+    },
+    "KIM": {
+        "name": "Kimco Realty Corporation",
+        "price": "18.76"
+    },
+    "KMI": {
+        "name": "Kinder Morgan, Inc",
+        "price": "17.14"
+    },
+    "KLAC": {
+        "name": "KLA Corporation",
+        "price": "485.93"
+    },
+    "LHX": {
+        "name": "L3Harris Technologies, Inc",
+        "price": "169.22"
+    },
+    "LH": {
+        "name": "Laboratory Corporation of America Holdings",
+        "price": "201.75"
+    },
+    "LW": {
+        "name": "Lamb Weston Holdings, Inc",
+        "price": "97.63"
+    },
+    "LRCX": {
+        "name": "Lam Research Corporation",
+        "price": "652.71"
+    },
+    "LVS": {
+        "name": "Las Vegas Sands Corp",
+        "price": "49.00"
+    },
+    "LDOS": {
+        "name": "Leidos Holdings, Inc",
+        "price": "95.80"
+    },
+    "LEN": {
+        "name": "Lennar Corporation",
+        "price": "116.51"
+    },
+    "LNC": {
+        "name": "Lincoln National Corporation",
+        "price": "25.05"
+    },
+    "LIN": {
+        "name": "Linde plc",
+        "price": "388.07"
+    },
+    "LYV": {
+        "name": "Live Nation Entertainment, Inc",
+        "price": "81.66"
+    },
+    "LKQ": {
+        "name": "LKQ Corporation",
+        "price": "50.31"
+    },
+    "LMT": {
+        "name": "Lockheed Martin Corporation",
+        "price": "417.87"
+    },
+    "L": {
+        "name": "Loews Corporation",
+        "price": "64.02"
+    },
+    "LOW": {
+        "name": "Lowe's Companies, Inc",
+        "price": "230.49"
+    },
+    "LYB": {
+        "name": "LyondellBasell Industries N.V",
+        "price": "100.15"
+    },
+    "MRO": {
+        "name": "Marathon Oil Corporation",
+        "price": "27.13"
+    },
+    "MPC": {
+        "name": "Marathon Petroleum Corporation",
+        "price": "155.84"
+    },
+    "MKTX": {
+        "name": "MarketAxess Holdings Inc",
+        "price": "221.985"
+    },
+    "MAR": {
+        "name": "Marriott International, Inc",
+        "price": "203.81"
+    },
+    "MMC": {
+        "name": "Marsh & McLennan Companies, Inc",
+        "price": "196.91"
+    },
+    "MLM": {
+        "name": "Martin Marietta Materials, Inc",
+        "price": "437.14"
+    },
+    "MAS": {
+        "name": "Masco Corporation",
+        "price": "55.86"
+    },
+    "MA": {
+        "name": "Mastercard Incorporated",
+        "price": "416.36"
+    },
+    "MTCH": {
+        "name": "Match Group, Inc",
+        "price": "43.31"
+    },
+    "MKC": {
+        "name": "McCormick & Company, Incorporated",
+        "price": "80.73"
+    },
+    "MCD": {
+        "name": "McDonald's Corporation",
+        "price": "280.75"
+    },
+    "MCK": {
+        "name": "McKesson Corporation",
+        "price": "422.09"
+    },
+    "MDT": {
+        "name": "Medtronic plc",
+        "price": "80.99"
+    },
+    "MRK": {
+        "name": "Merck & Co., Inc",
+        "price": "109.01"
+    },
+    "META": {
+        "name": "Meta Platforms Inc.",
+        "price": "301.76"
+    },
+    "MET": {
+        "name": "MetLife, Inc",
+        "price": "63.96"
+    },
+    "MTD": {
+        "name": "Mettler-Toledo International Inc",
+        "price": "1,120.50"
+    },
+    "MGM": {
+        "name": "MGM Resorts International",
+        "price": "41.98"
+    },
+    "MCHP": {
+        "name": "Microchip Technology Incorporated",
+        "price": "78.38"
+    },
+    "MU": {
+        "name": "Micron Technology, Inc",
+        "price": "70.32"
+    },
+    "MSFT": {
+        "name": "Microsoft Corporation",
+        "price": "331.91"
+    },
+    "MAA": {
+        "name": "Mid-America Apartment Communities, Inc",
+        "price": "138.41"
+    },
+    "MRNA": {
+        "name": "Moderna, Inc",
+        "price": "105.27"
+    },
+    "MHK": {
+        "name": "Mohawk Industries, Inc",
+        "price": "92.00"
+    },
+    "MOH": {
+        "name": "Molina Healthcare, Inc",
+        "price": "321.22"
+    },
+    "TAP": {
+        "name": "Molson Coors Brewing Company",
+        "price": "64.08"
+    },
+    "MDLZ": {
+        "name": "Mondelez International, Inc",
+        "price": "71.07"
+    },
+    "MPWR": {
+        "name": "Monolithic Power Systems, Inc",
+        "price": "474.20"
+    },
+    "MNST": {
+        "name": "Monster Beverage Corporation",
+        "price": "56.17"
+    },
+    "MCO": {
+        "name": "Moody's Corporation",
+        "price": "339.22"
+    },
+    "MS": {
+        "name": "Morgan Stanley",
+        "price": "85.56"
+    },
+    "MSI": {
+        "name": "Motorola Solutions, Inc",
+        "price": "281.315"
+    },
+    "MSCI": {
+        "name": "MSCI Inc",
+        "price": "525.97"
+    },
+    "MTB": {
+        "name": "M&T Bank Corporation",
+        "price": "129.615"
+    },
+    "NDAQ": {
+        "name": "Nasdaq, Inc",
+        "price": "51.47"
+    },
+    "NTAP": {
+        "name": "NetApp, Inc",
+        "price": "78.32"
+    },
+    "NFLX": {
+        "name": "Netflix, Inc",
+        "price": "434.76"
+    },
+    "NWL": {
+        "name": "Newell Brands Inc",
+        "price": "9.65"
+    },
+    "NEM": {
+        "name": "Newmont Goldcorp Corporation",
+        "price": "38.82"
+    },
+    "NWSA": {
+        "name": "News Corporation",
+        "price": "20.81"
+    },
+    "NWS": {
+        "name": "News Corporation",
+        "price": "21.47"
+    },
+    "NEE": {
+        "name": "NextEra Energy, Inc",
+        "price": "67.74"
+    },
+    "NKE": {
+        "name": "NIKE, Inc",
+        "price": "96.32"
+    },
+    "NI": {
+        "name": "NiSource Inc",
+        "price": "27.12"
+    },
+    "NDSN": {
+        "name": "Nordson Corporation",
+        "price": "232.255"
+    },
+    "NSC": {
+        "name": "Norfolk Southern Corporation",
+        "price": "198.555"
+    },
+    "NTRS": {
+        "name": "Northern Trust Corporation",
+        "price": "71.88"
+    },
+    "NOC": {
+        "name": "Northrop Grumman Corporation",
+        "price": "424.18"
+    },
+    "NCLH": {
+        "name": "Norwegian Cruise Line Holdings Ltd",
+        "price": "16.65"
+    },
+    "NRG": {
+        "name": "NRG Energy, Inc",
+        "price": "38.70"
+    },
+    "NUE": {
+        "name": "Nucor Corporation",
+        "price": "163.00"
+    },
+    "NVDA": {
+        "name": "NVIDIA Corporation",
+        "price": "448.80"
+    },
+    "NVR": {
+        "name": "NVR, Inc",
+        "price": "6,168.645"
+    },
+    "NXPI": {
+        "name": "NXP Semiconductors N.V",
+        "price": "199.43"
+    },
+    "OXY": {
+        "name": "Occidental Petroleum Corporation",
+        "price": "66.45"
+    },
+    "ODFL": {
+        "name": "Old Dominion Freight Line, Inc",
+        "price": "422.075"
+    },
+    "OMC": {
+        "name": "Omnicom Group Inc",
+        "price": "79.05"
+    },
+    "OKE": {
+        "name": "ONEOK, Inc",
+        "price": "66.30"
+    },
+    "ON": {
+        "name": "ON Semiconductor Corporation",
+        "price": "96.79"
+    },
+    "ORCL": {
+        "name": "Oracle Corporation",
+        "price": "109.58"
+    },
+    "ORLY": {
+        "name": "O'Reilly Automotive, Inc",
+        "price": "924.38"
+    },
+    "OGN": {
+        "name": "Organon & Co.",
+        "price": "19.43"
+    },
+    "OTIS": {
+        "name": "Otis Worldwide Corporation",
+        "price": "82.59"
+    },
+    "PCAR": {
+        "name": "PACCAR Inc",
+        "price": "85.24"
+    },
+    "PKG": {
+        "name": "Packaging Corporation of America",
+        "price": "146.91"
+    },
+    "PANW": {
+        "name": "Palo Alto Networks, Inc",
+        "price": "245.91"
+    },
+    "PARA": {
+        "name": "Paramount Global - Class B",
+        "price": "13.50"
+    },
+    "PH": {
+        "name": "Parker-Hannifin Corporation",
+        "price": "405.465"
+    },
+    "PAYX": {
+        "name": "Paychex, Inc",
+        "price": "119.79"
+    },
+    "PAYC": {
+        "name": "Paycom Software, Inc",
+        "price": "284.22"
+    },
+    "PYPL": {
+        "name": "PayPal Holdings, Inc",
+        "price": "62.82"
+    },
+    "PNR": {
+        "name": "Pentair plc",
+        "price": "67.49"
+    },
+    "PEP": {
+        "name": "PepsiCo, Inc",
+        "price": "178.28"
+    },
+    "PFE": {
+        "name": "Pfizer Inc",
+        "price": "34.15"
+    },
+    "PCG": {
+        "name": "PG&E Corporation",
+        "price": "16.935"
+    },
+    "PM": {
+        "name": "Philip Morris International Inc",
+        "price": "94.44"
+    },
+    "PSX": {
+        "name": "Phillips 66",
+        "price": "124.29"
+    },
+    "PNW": {
+        "name": "Pinnacle West Capital Corporation",
+        "price": "76.485"
+    },
+    "PXD": {
+        "name": "Pioneer Natural Resources Company",
+        "price": "235.99"
+    },
+    "POOL": {
+        "name": "Pool Corporation",
+        "price": "348.13"
+    },
+    "PPG": {
+        "name": "PPG Industries, Inc",
+        "price": "133.81"
+    },
+    "PPL": {
+        "name": "PPL Corporation",
+        "price": "25.07"
+    },
+    "PFG": {
+        "name": "Principal Financial Group, Inc",
+        "price": "76.01"
+    },
+    "PLD": {
+        "name": "Prologis, Inc",
+        "price": "121.97"
+    },
+    "PRU": {
+        "name": "Prudential Financial, Inc",
+        "price": "96.60"
+    },
+    "PTC": {
+        "name": "PTC Inc",
+        "price": "140.14"
+    },
+    "PEG": {
+        "name": "Public Service Enterprise Group Incorporated",
+        "price": "60.63"
+    },
+    "PSA": {
+        "name": "Public Storage",
+        "price": "272.63"
+    },
+    "PHM": {
+        "name": "PulteGroup, Inc",
+        "price": "78.35"
+    },
+    "QRVO": {
+        "name": "Qorvo, Inc",
+        "price": "94.49"
+    },
+    "QCOM": {
+        "name": "QUALCOMM Incorporated",
+        "price": "111.25"
+    },
+    "PWR": {
+        "name": "Quanta Services, Inc",
+        "price": "204.55"
+    },
+    "DGX": {
+        "name": "Quest Diagnostics Incorporated",
+        "price": "127.22"
+    },
+    "RL": {
+        "name": "Ralph Lauren Corporation",
+        "price": "117.35"
+    },
+    "RJF": {
+        "name": "Raymond James Financial, Inc",
+        "price": "107.87"
+    },
+    "RTX": {
+        "name": "Raytheon Technologies Corporation",
+        "price": "75.56"
+    },
+    "O": {
+        "name": "Realty Income Corporation",
+        "price": "55.14"
+    },
+    "REG": {
+        "name": "Regency Centers Corporation",
+        "price": "64.30"
+    },
+    "REGN": {
+        "name": "Regeneron Pharmaceuticals, Inc",
+        "price": "832.95"
+    },
+    "RF": {
+        "name": "Regions Financial Corporation",
+        "price": "18.195"
+    },
+    "RSG": {
+        "name": "Republic Services, Inc",
+        "price": "148.585"
+    },
+    "RMD": {
+        "name": "ResMed Inc",
+        "price": "148.995"
+    },
+    "RVTY": {
+        "name": "Revvity Inc.",
+        "price": "109.18"
+    },
+    "RHI": {
+        "name": "Robert Half International Inc",
+        "price": "72.30"
+    },
+    "ROK": {
+        "name": "Rockwell Automation, Inc",
+        "price": "289.10"
+    },
+    "ROL": {
+        "name": "Rollins, Inc",
+        "price": "36.02"
+    },
+    "ROP": {
+        "name": "Roper Technologies, Inc",
+        "price": "493.73"
+    },
+    "ROST": {
+        "name": "Ross Stores, Inc",
+        "price": "118.39"
+    },
+    "RCL": {
+        "name": "Royal Caribbean Cruises Ltd",
+        "price": "99.01"
+    },
+    "CRM": {
+        "name": "salesforce.com, inc",
+        "price": "221.61"
+    },
+    "SBAC": {
+        "name": "SBA Communications Corporation",
+        "price": "214.39"
+    },
+    "SLB": {
+        "name": "Schlumberger Limited",
+        "price": "62.10"
+    },
+    "STX": {
+        "name": "Seagate Technology plc",
+        "price": "62.74"
+    },
+    "SEE": {
+        "name": "Sealed Air Corporation",
+        "price": "33.92"
+    },
+    "SRE": {
+        "name": "Sempra Energy",
+        "price": "71.27"
+    },
+    "NOW": {
+        "name": "ServiceNow, Inc",
+        "price": "588.76"
+    },
+    "SPG": {
+        "name": "Simon Property Group, Inc",
+        "price": "115.48"
+    },
+    "SWKS": {
+        "name": "Skyworks Solutions, Inc",
+        "price": "96.92"
+    },
+    "SNA": {
+        "name": "Snap-on Incorporated",
+        "price": "262.36"
+    },
+    "SEDG": {
+        "name": "SolarEdge Technologies, Inc",
+        "price": "150.82"
+    },
+    "LUV": {
+        "name": "Southwest Airlines Co",
+        "price": "29.28"
+    },
+    "SPGI": {
+        "name": "S&P Global Inc",
+        "price": "387.36"
+    },
+    "SWK": {
+        "name": "Stanley Black & Decker, Inc",
+        "price": "89.32"
+    },
+    "SBUX": {
+        "name": "Starbucks Corporation",
+        "price": "96.25"
+    },
+    "STT": {
+        "name": "State Street Corporation",
+        "price": "71.50"
+    },
+    "STLD": {
+        "name": "Steel Dynamics, Inc",
+        "price": "100.22"
+    },
+    "STE": {
+        "name": "STERIS plc",
+        "price": "226.75"
+    },
+    "SYK": {
+        "name": "Stryker Corporation",
+        "price": "294.69"
+    },
+    "SYF": {
+        "name": "Synchrony Financial",
+        "price": "32.28"
+    },
+    "SNPS": {
+        "name": "Synopsys, Inc",
+        "price": "454.45"
+    },
+    "SYY": {
+        "name": "Sysco Corporation",
+        "price": "69.97"
+    },
+    "TTWO": {
+        "name": "Take-Two Interactive Software, Inc",
+        "price": "143.16"
+    },
+    "TPR": {
+        "name": "Tapestry, Inc",
+        "price": "31.52"
+    },
+    "TRGP": {
+        "name": "Targa Resources Corp",
+        "price": "85.17"
+    },
+    "TGT": {
+        "name": "Target Corporation",
+        "price": "122.40"
+    },
+    "TEL": {
+        "name": "TE Connectivity Ltd",
+        "price": "128.46"
+    },
+    "TDY": {
+        "name": "Teledyne Technologies Incorporated",
+        "price": "408.98"
+    },
+    "TFX": {
+        "name": "Teleflex Incorporated",
+        "price": "210.41"
+    },
+    "TER": {
+        "name": "Teradyne, Inc",
+        "price": "97.84"
+    },
+    "TSLA": {
+        "name": "Tesla, Inc",
+        "price": "267.41"
+    },
+    "TXN": {
+        "name": "Texas Instruments Incorporated",
+        "price": "163.54"
+    },
+    "TXT": {
+        "name": "Textron Inc",
+        "price": "75.61"
+    },
+    "AES": {
+        "name": "The AES Corporation",
+        "price": "17.035"
+    },
+    "ALL": {
+        "name": "The Allstate Corporation",
+        "price": "109.48"
+    },
+    "BK": {
+        "name": "The Bank of New York Mellon Corporation",
+        "price": "45.38"
+    },
+    "BA": {
+        "name": "The Boeing Company",
+        "price": "210.62"
+    },
+    "SCHW": {
+        "name": "The Charles Schwab Corporation",
+        "price": "60.54"
+    },
+    "CLX": {
+        "name": "The Clorox Company",
+        "price": "149.575"
+    },
+    "KO": {
+        "name": "The Coca-Cola Company",
+        "price": "58.29"
+    },
+    "COO": {
+        "name": "The Cooper Companies, Inc",
+        "price": "347.68"
+    },
+    "EL": {
+        "name": "The Estee Lauder Companies Inc",
+        "price": "151.29"
+    },
+    "GS": {
+        "name": "The Goldman Sachs Group, Inc",
+        "price": "330.815"
+    },
+    "HIG": {
+        "name": "The Hartford Financial Services Group, Inc",
+        "price": "72.30"
+    },
+    "HSY": {
+        "name": "The Hershey Company",
+        "price": "207.665"
+    },
+    "HD": {
+        "name": "The Home Depot, Inc",
+        "price": "326.18"
+    },
+    "IPG": {
+        "name": "The Interpublic Group of Companies, Inc",
+        "price": "31.925"
+    },
+    "SJM": {
+        "name": "The J. M. Smucker Company",
+        "price": "129.87"
+    },
+    "KHC": {
+        "name": "The Kraft Heinz Company",
+        "price": "33.56"
+    },
+    "KR": {
+        "name": "The Kroger Co",
+        "price": "45.68"
+    },
+    "MOS": {
+        "name": "The Mosaic Company",
+        "price": "37.37"
+    },
+    "PNC": {
+        "name": "The PNC Financial Services Group, Inc",
+        "price": "124.86"
+    },
+    "PG": {
+        "name": "The Procter & Gamble Company",
+        "price": "152.03"
+    },
+    "PGR": {
+        "name": "The Progressive Corporation",
+        "price": "138.61"
+    },
+    "TMO": {
+        "name": "Thermo Fisher Scientific Inc",
+        "price": "511.03"
+    },
+    "SHW": {
+        "name": "The Sherwin-Williams Company",
+        "price": "268.77"
+    },
+    "SO": {
+        "name": "The Southern Company",
+        "price": "68.61"
+    },
+    "TJX": {
+        "name": "The TJX Companies, Inc",
+        "price": "92.18"
+    },
+    "TRV": {
+        "name": "The Travelers Companies, Inc",
+        "price": "162.78"
+    },
+    "DIS": {
+        "name": "The Walt Disney Company",
+        "price": "83.69"
+    },
+    "WMB": {
+        "name": "The Williams Companies, Inc",
+        "price": "34.14"
+    },
+    "TMUS": {
+        "name": "T-Mobile US, Inc",
+        "price": "140.10"
+    },
+    "TSCO": {
+        "name": "Tractor Supply Company",
+        "price": "217.01"
+    },
+    "TT": {
+        "name": "Trane Technologies plc",
+        "price": "208.48"
+    },
+    "TDG": {
+        "name": "TransDigm Group Incorporated",
+        "price": "872.605"
+    },
+    "TRMB": {
+        "name": "Trimble Inc",
+        "price": "50.50"
+    },
+    "TROW": {
+        "name": "T. Rowe Price Group, Inc",
+        "price": "110.29"
+    },
+    "TFC": {
+        "name": "Truist Financial Corporation",
+        "price": "30.01"
+    },
+    "TYL": {
+        "name": "Tyler Technologies, Inc",
+        "price": "382.39"
+    },
+    "TSN": {
+        "name": "Tyson Foods, Inc",
+        "price": "52.89"
+    },
+    "UDR": {
+        "name": "UDR, Inc",
+        "price": "38.725"
+    },
+    "ULTA": {
+        "name": "Ulta Beauty, Inc",
+        "price": "414.46"
+    },
+    "UNP": {
+        "name": "Union Pacific Corporation",
+        "price": "213.88"
+    },
+    "UAL": {
+        "name": "United Airlines Holdings, Inc",
+        "price": "47.60"
+    },
+    "UNH": {
+        "name": "UnitedHealth Group Incorporated",
+        "price": "480.08"
+    },
+    "UPS": {
+        "name": "United Parcel Service, Inc",
+        "price": "156.55"
+    },
+    "URI": {
+        "name": "United Rentals, Inc",
+        "price": "457.03"
+    },
+    "UHS": {
+        "name": "Universal Health Services, Inc",
+        "price": "126.905"
+    },
+    "USB": {
+        "name": "U.S. Bancorp",
+        "price": "37.00"
+    },
+    "VLO": {
+        "name": "Valero Energy Corporation",
+        "price": "146.28"
+    },
+    "VTR": {
+        "name": "Ventas, Inc",
+        "price": "43.29"
+    },
+    "VRSN": {
+        "name": "VeriSign, Inc",
+        "price": "198.52"
+    },
+    "VRSK": {
+        "name": "Verisk Analytics, Inc",
+        "price": "244.49"
+    },
+    "VZ": {
+        "name": "Verizon Communications Inc",
+        "price": "34.02"
+    },
+    "VRTX": {
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "price": "346.54"
+    },
+    "VFC": {
+        "name": "V.F. Corporation",
+        "price": "18.09"
+    },
+    "VTRS": {
+        "name": "Viatris Inc.",
+        "price": "9.86"
+    },
+    "VICI": {
+        "name": "VICI Properties Inc",
+        "price": "31.42"
+    },
+    "V": {
+        "name": "Visa Inc",
+        "price": "247.31"
+    },
+    "VMC": {
+        "name": "Vulcan Materials Company",
+        "price": "214.80"
+    },
+    "WAB": {
+        "name": "Wabtec Corporation",
+        "price": "107.42"
+    },
+    "WBA": {
+        "name": "Walgreens Boots Alliance, Inc",
+        "price": "21.71"
+    },
+    "WMT": {
+        "name": "Walmart Inc",
+        "price": "164.51"
+    },
+    "WBD": {
+        "name": "Warner Bros.Discovery Inc - Class A",
+        "price": "11.34"
+    },
+    "WM": {
+        "name": "Waste Management, Inc",
+        "price": "158.57"
+    },
+    "WAT": {
+        "name": "Waters Corporation",
+        "price": "260.58"
+    },
+    "WEC": {
+        "name": "WEC Energy Group, Inc",
+        "price": "84.44"
+    },
+    "WFC": {
+        "name": "Wells Fargo & Company",
+        "price": "42.55"
+    },
+    "WELL": {
+        "name": "Welltower Inc",
+        "price": "83.59"
+    },
+    "WDC": {
+        "name": "Western Digital Corporation",
+        "price": "42.31"
+    },
+    "WST": {
+        "name": "West Pharmaceutical Services, Inc",
+        "price": "393.83"
+    },
+    "WRK": {
+        "name": "WestRock Company",
+        "price": "34.99"
+    },
+    "WY": {
+        "name": "Weyerhaeuser Company",
+        "price": "32.30"
+    },
+    "WHR": {
+        "name": "Whirlpool Corporation",
+        "price": "136.41"
+    },
+    "WTW": {
+        "name": "Willis Towers Watson Public Limited Co",
+        "price": "203.63"
+    },
+    "WRB": {
+        "name": "W. R. Berkley Corporation",
+        "price": "63.29"
+    },
+    "GWW": {
+        "name": "W.W. Grainger, Inc",
+        "price": "686.675"
+    },
+    "WYNN": {
+        "name": "Wynn Resorts, Limited",
+        "price": "95.31"
+    },
+    "XEL": {
+        "name": "Xcel Energy Inc",
+        "price": "57.235"
+    },
+    "XYL": {
+        "name": "Xylem Inc",
+        "price": "96.57"
+    },
+    "YUM": {
+        "name": "YUM! Brands, Inc",
+        "price": "128.07"
+    },
+    "ZBRA": {
+        "name": "Zebra Technologies Corporation",
+        "price": "251.26"
+    },
+    "ZBH": {
+        "name": "Zimmer Biomet Holdings, Inc",
+        "price": "121.45"
+    },
+    "ZION": {
+        "name": "Zions Bancorporation, National Association",
+        "price": "37.08"
+    },
+    "ZTS": {
+        "name": "Zoetis Inc",
+        "price": "187.71"
+    }
+}
