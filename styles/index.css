@@ -1,0 +1,42 @@
+main {
+  display: flex;
+}
+
+header {
+  text-align: center;
+}
+
+#comp-side,
+#guess-side {
+  border: 2px solid black;
+  flex: 1;
+  text-align: center;
+  height: 85vh;
+}
+
+.guess-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  padding-left: 1px;
+  padding-right: 3px;
+  text-align: center;
+}
+
+#js-higher-button {
+  background-color: rgb(61, 160, 61);
+}
+
+#js-lower-button {
+  background-color: rgb(160, 61, 61);
+}
+
+#js-higher-button:hover {
+  background-color: rgb(69, 193, 69);
+}
+
+#js-lower-button:hover {
+  background-color: rgb(210, 74, 74);
+}

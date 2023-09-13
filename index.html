@@ -4,12 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheets" href="index.css">
+  <link rel="stylesheet" href="styles/index.css">
   <script src="scripts/index.js" defer></script>
   <title>Higher or Lower</title>
 </head>
 
 <body>
+  <header>
+    <h1>S&P 500 Higher or Lower stocks</h1>
+
+  </header>
+  <main>
+    <div id="comp-side">
+      <p id="compStock-name"></p>
+      <p id="compStock-ticker"></p>
+      <p id="compStock-price"></p>
+    </div>
+    <div id="guess-side">
+      <p id="guessStock-name"></p>
+      <p id="guessStock-ticker"></p>
+      <button class="guess-button" id="js-higher-button"> Higher</button>
+      <button class="guess-button" id="js-lower-button"> Lower</button>
+
+
+      <p id="result"></p>
+    </div>
+  </main>
 
 </body>
 
