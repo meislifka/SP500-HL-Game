@@ -21,21 +21,21 @@ function getTicker(data) {
   return (randTicker)
 }
 
-var firstGame = new Boolean(true); // initial value of false
+
 function beginGame(data) {
-  if (firstGame) {
-    var compTicker = getTicker(data);
-    var guessTicker = getTicker(data);
 
-    var compName = data[compTicker].name;
-    var compTick = compTicker;
-    var compPrice = data[compTicker].price;
+  var compTicker = getTicker(data);
+  var guessTicker = getTicker(data);
 
-    var guessName = data[guessTicker].name;
-    var guessTick = guessTicker;
-    var guessPrice = data[guessTicker].price;
+  var compName = data[compTicker].name;
+  var compTick = compTicker;
+  var compPrice = data[compTicker].price;
 
-  }
+  var guessName = data[guessTicker].name;
+  var guessTick = guessTicker;
+  var guessPrice = data[guessTicker].price;
+
+
 
 
   /*
