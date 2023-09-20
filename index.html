@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
-  <script src="scripts/index.js" defer></script>
+  <script src="scripts/index.js" defer>
+
+  </script>
   <title>Higher or Lower</title>
 </head>
 
 <body>
   <header>
     <h1>S&P 500 HIGHER OR LOWER STOCKS</h1>
-    <img src="untitled.png">
-
+    <!--<img src="untitled.png"> -->
   </header>
   <main>
     <div id="comp-side">
@@ -21,17 +22,23 @@
       <p id="compStock-ticker"></p>
       <p id="compStock-price"></p>
     </div>
+
     <div id="guess-side">
       <p id="guessStock-name"></p>
       <p id="guessStock-ticker"></p>
-      <button class="guess-button" id="js-higher-button"> Higher</button>
-      <button class="guess-button" id="js-lower-button"> Lower</button>
+      <p id="guessStock-price"></p>
+
+      <div id="button-container">
+        <button class="guess-button" id="js-higher-button"> Higher</button>
+        <button class="guess-button" id="js-lower-button"> Lower</button>
+        <button class="guess-button" id="js-new-game-button"> New Game</button>
+      </div>
 
 
+      <p id="wins"></p>
       <p id="result"></p>
     </div>
   </main>
-
 </body>
 
 </html>

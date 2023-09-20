@@ -1,11 +1,17 @@
 main {
   display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
+
+
 
 header {
   text-align: center;
   font-family: arial;
 }
+
+
 
 #comp-side,
 #guess-side {
@@ -26,6 +32,13 @@ header {
   text-align: center;
 }
 
+
+
+#js-new-game-button {
+  display: none;
+  background-color: rgb(238, 222, 0);
+}
+
 #js-higher-button {
   background-color: rgb(61, 160, 61);
 }
@@ -40,4 +53,15 @@ header {
 
 #js-lower-button:hover {
   background-color: rgb(210, 74, 74);
+}
+
+#js-new-game-button:hover {
+  background-color: rgb(255, 238, 1);
+}
+
+#button-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-color: blue;
 }
