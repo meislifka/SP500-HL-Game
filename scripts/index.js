@@ -20,9 +20,12 @@ fetch("./stocks.json")
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
+    const lText = document.getElementById('button-lower-text').innerHTML;
+    const rText = document.getElementById('button-higher-text').innerHTML;
 
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
+
       // console.log("BUTTON CLICKED (L)");
       // console.log("GUESS PRICE: " + guessPrice + "and COMP PRICE: " + compPrice);
       // console.log("head to getData function");
@@ -34,6 +37,8 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
+        document.getElementById('button-higher-text').innerHTML = "";
+        document.getElementById('button-lower-text').innerHTML = "";
       }
 
       //  console.log(oldGuess[0]);
@@ -53,6 +58,8 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
+        document.getElementById('button-higher-text').innerHTML = "";
+        document.getElementById('button-lower-text').innerHTML = "";
       }
 
       guessName = oldGuess[0];
@@ -65,6 +72,8 @@ fetch("./stocks.json")
 
 
     newGameButton.addEventListener("click", () => {
+      document.getElementById('button-higher-text').innerHTML = "Higher";
+      document.getElementById('button-lower-text').innerHTML = "Lower";
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
@@ -86,14 +95,7 @@ fetch("./stocks.json")
   });
 
 
-function endGame(lowerButton, higherButton) {
-  lowerButton.prototype.remove = function () {
-    this.parentElement.removeChild(this);
-  }
-  higherButton.prototype.remove = function () {
-    this.parentElement.removeChild(this);
-  }
-}
+
 
 function getTicker(data) {
   //array of object keys
