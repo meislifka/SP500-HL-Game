@@ -17,17 +17,20 @@ if response.status_code == 200:
     # Find all the <tr> elements
     tr_elements = soup.find_all("tr")
     outer_dict = {}
-    fields = ("name", "price")  # tuple - immutable
+    fields = ("name", "price", "trend")  # tuple - immutable
     # Extract and print the text from the second and third <td> tags under each <tr> tag
     for tr in tr_elements:
         td_elements = tr.find_all("td")
         if len(td_elements) >= 3:  # Ensure there are at least 3 <td> tags
             name = f"{td_elements[2].text.strip()}"
             price = f"{td_elements[3].text.strip()}"
+            trend_str = td_elements[0].text.strip().replace("\n", " ")
+            trend = f"{trend_str}"
             inner_dict = {}
 
             inner_dict[fields[0]] = name
             inner_dict[fields[1]] = price
+            inner_dict[fields[2]] = trend
 
             outer_dict[f"{td_elements[1].text.strip()}"] = inner_dict
     print(outer_dict)
