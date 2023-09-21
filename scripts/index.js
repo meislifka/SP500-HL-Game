@@ -13,24 +13,20 @@ fetch("./stocks.json")
     compName = test[0];
     compTick = test[1];
     compPrice = test[2];
-
     //console.log(test);
     guessName = test[3];
     guessTick = test[4];
     guessPrice = test[5];
-    compTrend = test[6];
-
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
 
     var oldGuess = [];
-
     lowerButton.addEventListener("click", () => {
       // console.log("BUTTON CLICKED (L)");
       // console.log("GUESS PRICE: " + guessPrice + "and COMP PRICE: " + compPrice);
       // console.log("head to getData function");
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, compTrend, 0);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, 0);
       //  console.log("newGuess: " + oldGuess);
 
       if (oldGuess === -1) {
@@ -53,7 +49,6 @@ fetch("./stocks.json")
       //  console.log("head to getData function");
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, 1);
       //  console.log("newGuess: " + oldGuess);
-
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
@@ -64,11 +59,9 @@ fetch("./stocks.json")
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
       //console.log(oldGuess[1]);
-      //  console.log(oldGuess[2]); 
-
+      //  console.log(oldGuess[2]);
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     })
-
 
 
     newGameButton.addEventListener("click", () => {
@@ -90,22 +83,17 @@ fetch("./stocks.json")
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     }
     )
-
   });
-
 
 
 function endGame(lowerButton, higherButton) {
   lowerButton.prototype.remove = function () {
     this.parentElement.removeChild(this);
   }
-
   higherButton.prototype.remove = function () {
     this.parentElement.removeChild(this);
   }
 }
-
-
 
 function getTicker(data) {
   //array of object keys
@@ -120,27 +108,20 @@ function getTicker(data) {
 }
 
 
-
-function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend) {
+function setElements(compName, compTick, compPrice, guessName, guessTick, guessPrice) {
   document.getElementById("compStock-name").innerText = compName;
-  if (compTrend.includes('-')) {
-    document.getElementById("compStock-trend").style.color = "rgb(208, 10, 10)";
-
-  } else {
-    document.getElementById("compStock-trend").style.color = "rgb(20, 138, 10)";
-  }
-
-  document.getElementById("compStock-trend").innerText = compTrend;
-  document.getElementById("compStock-ticker").innerText = `(${compTick})`;
+  document.getElementById("compStock-ticker").innerText = compTick;
   document.getElementById("compStock-price").innerText = `$ ${compPrice}`;
+
   document.getElementById("guessStock-name").innerText = guessName;
-  document.getElementById("guessStock-ticker").innerText = `(${guessTick})`;
+  document.getElementById("guessStock-ticker").innerText = guessTick;
   // document.getElementById("guessStock-price").innerText = `$ ${guessPrice}`;
 }
 
 
 
 function beginGame(data) {
+
   // console.log("IN BEGIN GAME")
   var compTicker = getTicker(data);
   var guessTicker = getTicker(data);
@@ -156,18 +137,14 @@ function beginGame(data) {
   var guessName = data[guessTicker].name;
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
-  var compTrend = data[compTicker].trend;
-  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend);
-
+  setElements(compName, compTick, compPrice, guessName, guessTick, guessPrice);
   return [compName, compTick, compPrice, guessName, guessTick, guessPrice];
+
 }
-
-
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, higher) {
   //console.log("IN GETDATA")
   // console.log(" guessPrice:" + guessPrice + " compPrice:" + compPrice);
-
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
@@ -197,12 +174,15 @@ function getData(data, guessPrice, compPrice, guessName, guessTick, higher) {
       //  console.log("new guess in getData: " + newGuess)
       // return ("hello");
     }
+
     else {
       // console.log("in getData game lower");
       return (-1);
     }
   }
 };
+
+
 
 function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice) {
   // console.log("IN NEXT GAME")
@@ -217,15 +197,13 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice) {
   //console.log("comp Price: " + compPrice);
   //console.log("guess Price: " + guessPrice);
 
-  setElements(compName, compTick, compPrice, guessName, guessTick);
-
+  setElements(compName, compTick, compPrice, guessName, guessTick, guessPrice);
   guessPrice = guessPrice.replace(/,/g, '');
   compPrice = compPrice.replace(/,/g, '');
 
   // console.log("C:" + Number(compPrice) + "vs  G:" + Number(guessPrice));
   //console.log("comp Price: " + compPrice);
   // console.log("guess Price: " + guessPrice);
+
   return ([guessName, guessTick, guessPrice]);
-
-
 }

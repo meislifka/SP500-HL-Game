@@ -23,10 +23,10 @@ header {
 
 .guess-button {
   margin-left: -5px;
-  margin-right: -5px;
+  margin-right: -1px;
   width: 50px;
   height: 50px;
-  border-radius: 30px;
+  border-radius: 10px;
   padding-left: 1px;
   padding-right: 3px;
   text-align: center;
@@ -34,6 +34,7 @@ header {
   font-size: 50px;
   color: white;
   font-weight: bold;
+
 }
 
 
@@ -47,13 +48,21 @@ header {
 }
 
 #js-higher-button {
+
   background-color: transparent;
   /* rgb(160, 61, 61);*/
   color: rgb(20, 138, 10);
 }
 
+#js-higher-button:hover {
+  background-color: transparent;
+  color: rgb(76, 210, 74);
+
+}
+
 
 #js-lower-button {
+  margin-left: 1px;
   background-color: transparent;
   /* rgb(160, 61, 61);*/
   color: rgb(138, 10, 10);
@@ -66,11 +75,7 @@ header {
   color: rgb(210, 74, 74);
 }
 
-#js-higher-button:hover {
-  background-color: transparent;
-  color: rgb(76, 210, 74);
 
-}
 
 #js-new-game-button:hover {
   background-color: rgb(255, 238, 1);
@@ -84,4 +89,22 @@ header {
 img {
   height: 100px;
   width: auto;
+}
+
+header {
+  background-color: black;
+}
+
+#button-higher-text {
+  position: absolute;
+  margin-left: 5px;
+  font-size: 12px;
+  transform: translate(-5px, -18px);
+}
+
+#button-lower-text {
+  position: absolute;
+  margin-left: 5px;
+  font-size: 12px;
+  transform: translate(5px, -19px);
 }
