@@ -26,7 +26,7 @@ fetch("./stocks.json")
 
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, compTrend, guessTrend, 0);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, 0);
 
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -34,6 +34,7 @@ fetch("./stocks.json")
         lowerButton.style.display = "none";
         document.getElementById('button-higher-text').innerHTML = "";
         document.getElementById('button-lower-text').innerHTML = "";
+        document.getElementById('guessStock-price').innerHTML = guessPrice;
       }
 
       guessName = oldGuess[0];
@@ -44,7 +45,7 @@ fetch("./stocks.json")
     })
 
     higherButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, compTrend, guessTrend, 1);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, 1);
 
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -52,6 +53,7 @@ fetch("./stocks.json")
         lowerButton.style.display = "none";
         document.getElementById('button-higher-text').innerHTML = "";
         document.getElementById('button-lower-text').innerHTML = "";
+        document.getElementById('guessStock-price').innerHTML = "here";
       }
 
       guessName = oldGuess[0];
@@ -64,6 +66,7 @@ fetch("./stocks.json")
     newGameButton.addEventListener("click", () => {
       document.getElementById('button-higher-text').innerHTML = "Higher";
       document.getElementById('button-lower-text').innerHTML = "Lower";
+      document.getElementById('guessStock-price').innerHTML = "here";
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
@@ -141,7 +144,7 @@ function beginGame(data) {
 
 }
 
-function getData(data, guessPrice, compPrice, guessName, guessTick, guessTrend, higher) {
+function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, higher) {
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
