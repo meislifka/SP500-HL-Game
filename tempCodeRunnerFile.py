@@ -1,1 +1,1 @@
-_lis
+f"{td_elements[1].text.strip()}"
