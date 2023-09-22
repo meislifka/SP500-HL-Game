@@ -86,9 +86,14 @@ header {
   justify-content: center;
 }
 
+
+
 img {
-  height: 100px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  animation-name: moveAcross;
+
 }
 
 header {
