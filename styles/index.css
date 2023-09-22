@@ -21,6 +21,13 @@ header {
   height: 85vh;
 }
 
+.stock-image {
+  width: 100px;
+  height: 50px;
+  border: solid;
+  border-color: black
+}
+
 .guess-button {
   margin-left: -5px;
   margin-right: -1px;
@@ -112,4 +119,8 @@ header {
   margin-left: 5px;
   font-size: 12px;
   transform: translate(5px, -19px);
+}
+
+#compStock-price {
+  font-size: 20px;
 }
