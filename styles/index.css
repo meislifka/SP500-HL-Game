@@ -4,14 +4,10 @@ main {
   font-weight: bold;
 }
 
-
-
 header {
   text-align: center;
   font-family: arial;
 }
-
-
 
 #comp-side,
 #guess-side {
@@ -41,10 +37,7 @@ header {
   font-size: 50px;
   color: white;
   font-weight: bold;
-
 }
-
-
 
 #js-new-game-button {
   display: none;
@@ -67,7 +60,6 @@ header {
 
 }
 
-
 #js-lower-button {
   margin-left: 1px;
   background-color: transparent;
@@ -75,14 +67,10 @@ header {
   color: rgb(138, 10, 10);
 }
 
-
-
 #js-lower-button:hover {
   background-color: transparent;
   color: rgb(210, 74, 74);
 }
-
-
 
 #js-new-game-button:hover {
   background-color: rgb(255, 238, 1);
@@ -91,9 +79,8 @@ header {
 #button-container {
   display: flex;
   justify-content: center;
+  margin-top: -15px;
 }
-
-
 
 img {
   max-width: 100%;
@@ -123,4 +110,30 @@ header {
 
 #compStock-price {
   font-size: 20px;
+}
+
+#than-container {
+  position: relative;
+
+}
+
+#than-text-container {
+  position: absolute;
+  border-radius: 30px;
+  border-style: solid;
+  height: 40px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: -10px;
+  margin: 0px;
+  font-size: 20px;
+
+  text-align: center;
+  transform: translate(-26px, 120px);
+  background-color: white;
+
+}
+
+p {
+  margin-bottom: 10px;
 }

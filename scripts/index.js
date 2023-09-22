@@ -116,7 +116,6 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 
   document.getElementById("guessStock-trend").innerText = guessTrend;
 
-  document.getElementById("compStock-name-2").innerText = compName + `(${compTick})`;
 
 }
 
