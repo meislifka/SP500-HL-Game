@@ -12,58 +12,61 @@
 </head>
 
 <body>
-  <header>
 
-    <img src="stockbanner.png">
-  </header>
-  <main>
+  <div id="game-container">
+    <header>
 
-    <div id="guess-side">
-      <p id="guessStock-name"></p>
-      <img class="stock-image" id="guessStock-image" src="">
-      <p id="guessStock-trend"></p>
-      <p id="guess-text">is</p>
-      <p id="guessStock-price"></p>
+      <img src="stockbanner.png">
+    </header>
+    <main>
 
-      <div id="button-container">
-        <div>
-          <button class="guess-button" id="js-higher-button"> &#9650; </button>
-          <p id="button-higher-text">Higher</p>
+      <div id="guess-side">
+        <p id="guessStock-name"></p>
+        <img class="stock-image" id="guessStock-image" src="">
+        <p id="guessStock-trend"></p>
+        <p id="guess-text">is</p>
+        <p id="guessStock-price"></p>
+
+        <div id="button-container">
+          <div>
+            <button class="guess-button" id="js-higher-button"> &#9650; </button>
+            <p id="button-higher-text">Higher</p>
+          </div>
+
+          <div>
+            <button class="guess-button" id="js-lower-button"> &#9660; </button>
+            <p id="button-lower-text">Lower</p>
+          </div>
+
+
+          <button class=" guess-button" id="js-new-game-button"> New Game</button>
         </div>
 
-        <div>
-          <button class="guess-button" id="js-lower-button"> &#9660; </button>
-          <p id="button-lower-text">Lower</p>
-        </div>
 
 
-        <button class=" guess-button" id="js-new-game-button"> New Game</button>
+        <p id="wins"></p>
+        <p id="result"></p>
       </div>
 
 
+      <div id="than-container">
+        <div id="than-text-container">
+          than</div>
 
-      <p id="wins"></p>
-      <p id="result"></p>
-    </div>
+      </div>
 
-
-    <div id="than-container">
-      <div id="than-text-container">
-        than</div>
-
-    </div>
-
-    <div id="comp-side">
-      <p id="compStock-name"></p>
-      <img class="stock-image" id="compStock-image" src="">
-      <p id="compStock-ticker"></p>
-      <p id="compStock-trend"></p>
-      <p id="compStock-price"></p>
+      <div id="comp-side">
+        <p id="compStock-name"></p>
+        <img class="stock-image" id="compStock-image" src="">
+        <p id="compStock-ticker"></p>
+        <p id="compStock-trend"></p>
+        <p id="compStock-price"></p>
 
 
-    </div>
+      </div>
 
-  </main>
+    </main>
+  </div>
 </body>
 
 </html>

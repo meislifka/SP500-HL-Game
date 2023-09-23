@@ -2,19 +2,35 @@ main {
   display: flex;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  color: white;
+
+
+
+}
+
+#game-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+
 }
 
 header {
   text-align: center;
   font-family: arial;
+  border-bottom-color: white;
+
+
 }
 
 #comp-side,
 #guess-side {
   border: 2px solid black;
+  border-top-color: white;
   flex: 1;
   text-align: center;
-  height: 85vh;
+  height: auto;
+  background-color: black;
+
 }
 
 .stock-image {
@@ -130,7 +146,7 @@ header {
 
   text-align: center;
   transform: translate(-26px, 120px);
-  background-color: white;
+  background-color: black;
 
 }
 

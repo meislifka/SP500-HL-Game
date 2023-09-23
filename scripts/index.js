@@ -40,18 +40,19 @@ fetch("./stocks.json")
         document.getElementById('button-lower-text').innerHTML = "";
         document.getElementById('guessStock-price').innerHTML = guessPrice;
       }
-
+      console.log(oldGuess);
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
+      console.log("guessLogo in lowerButton: " + oldGuess[4]);
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     })
 
     higherButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 1);
-
+      console.log(oldGuess);
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
@@ -86,6 +87,9 @@ fetch("./stocks.json")
       guessPrice = test[5];
       compTrend = test[6];
       guessTrend = test[7];
+      compLogo = test[8];
+      guessLogo = test[9];
+      console.log("next button: " + guessLogo);
       wins = 0;
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     }
@@ -115,12 +119,13 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   } else {
     document.getElementById("guessStock-trend").style.color = "rgb(76, 210, 74)";
   }
-  document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
 
+
+  document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
   document.getElementById("compStock-price").innerText = `$ ${compPrice}`;
   document.getElementById("compStock-trend").innerHTML = compTrend;
+  console.log("compLogo in set elements: " + compLogo);
   document.getElementById("compStock-image").src = compLogo;
-
   document.getElementById("guessStock-name").innerText = guessName + `(${guessTick})`;
 
   document.getElementById("guessStock-trend").innerText = guessTrend;
@@ -130,8 +135,8 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 }
 
 function beginGame(data) {
-  var compTicker = 'MMM';
-  var guessTicker = "ABT"; //getTicker(data);
+  var compTicker = getTicker(data);
+  var guessTicker = getTicker(data);
   console.log(compTicker);
 
   while (compTicker === guessTicker) { //made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
@@ -146,8 +151,8 @@ function beginGame(data) {
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
-  var compLogo = data[guessTicker].logoUrl;
-  var guessLogo = data[compTicker].logoUrl;
+  var compLogo = data[compTicker].logoUrl;
+  var guessLogo = data[guessTicker].logoUrl;
 
   console.log(guessLogo);
   console.log(compLogo);
@@ -190,7 +195,7 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
-  var guessLogo = data[compTicker].logoUrl;
+  var guessLogo = data[guessTicker].logoUrl;
 
 
   setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);

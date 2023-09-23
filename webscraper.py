@@ -34,10 +34,12 @@ if response.status_code == 200:
             inner_dict[fields[0]] = name
             inner_dict[fields[1]] = price
             inner_dict[fields[2]] = trend
-            inner_dict[fields[3]] = f.readline()
+            url = f.readline()
+            url = url.strip()
+            inner_dict[fields[3]] = url
 
             outer_dict[f"{td_elements[1].text.strip()}"] = inner_dict
-    print(outer_dict)
+    # print(outer_dict)
 
     # Specify the output JSON file path
     output_file_path = "stocks.json"
