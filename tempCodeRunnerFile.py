@@ -1,1 +1,1 @@
-f"{td_elements[1].text.strip()}"
+logoUrl

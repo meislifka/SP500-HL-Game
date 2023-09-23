@@ -16,6 +16,8 @@ fetch("./stocks.json")
     guessTick = test[4];
     guessPrice = test[5];
     guessTrend = test[7];
+    compLogo = test[8];
+    guessLogo = test[9];
 
 
     const lowerButton = document.getElementById("js-lower-button");
@@ -24,9 +26,11 @@ fetch("./stocks.json")
     document.getElementById('button-lower-text').innerHTML;
     document.getElementById('button-higher-text').innerHTML;
 
+
+
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, 0);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 0);
 
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -41,11 +45,12 @@ fetch("./stocks.json")
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
+      guessLogo = oldGuess[4];
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     })
 
     higherButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, 1);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 1);
 
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -99,7 +104,7 @@ function getTicker(data) {
   return (randTicker);
 }
 
-function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend) {
+function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo) {
   if (compTrend.includes("-")) {
     document.getElementById("compStock-trend").style.color = "rgb(210, 74, 74)";
   } else {
@@ -114,17 +119,20 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 
   document.getElementById("compStock-price").innerText = `$ ${compPrice}`;
   document.getElementById("compStock-trend").innerHTML = compTrend;
+  document.getElementById("compStock-image").src = compLogo;
 
   document.getElementById("guessStock-name").innerText = guessName + `(${guessTick})`;
 
   document.getElementById("guessStock-trend").innerText = guessTrend;
-
+  document.getElementById("guessStock-image").src = guessLogo;
+  ;
 
 }
 
 function beginGame(data) {
-  var compTicker = getTicker(data);
-  var guessTicker = getTicker(data);
+  var compTicker = 'MMM';
+  var guessTicker = "ABT"; //getTicker(data);
+  console.log(compTicker);
 
   while (compTicker === guessTicker) { //made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
     guessTicker = getTicker(data);
@@ -138,17 +146,23 @@ function beginGame(data) {
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
+  var compLogo = data[guessTicker].logoUrl;
+  var guessLogo = data[compTicker].logoUrl;
 
-  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend);
+  console.log(guessLogo);
+  console.log(compLogo);
+
+
+  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   return [compName, compTick, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend];
 
 }
 
-function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, higher) {
+function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessTrend, guessLogo, higher) {
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
-      return (nextGame(data, guessName, guessTick, guessPrice, guessTrend));
+      return (nextGame(data, guessName, guessTick, guessPrice, guessTrend, guessLogo));
     }
     else {
       return (-1);
@@ -157,7 +171,7 @@ function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, 
   else {
     if (Number(guessPrice) < Number(compPrice)) {
       wins++;
-      return (nextGame(data, guessName, guessTick, guessPrice, guessTrend));
+      return (nextGame(data, guessName, guessTick, guessPrice, guessTrend, guessLogo));
     }
     else {
       return (-1);
@@ -165,19 +179,22 @@ function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, 
   }
 };
 
-function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessTrend) {
+function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessTrend, prevGuessLogo) {
   compName = prevGuessName;
   compTick = prevGuessTick;
   compPrice = prevGuessPrice;
   compTrend = prevGuessTrend;
+  compLogo = prevGuessLogo;
   var guessTicker = getTicker(data);
   var guessName = data[guessTicker].name;
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
+  var guessLogo = data[compTicker].logoUrl;
 
-  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend);
+
+  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   guessPrice = guessPrice.replace(/,/g, '');
   compPrice = compPrice.replace(/,/g, '');
-  return ([guessName, guessTick, guessPrice, guessTrend]);
+  return ([guessName, guessTick, guessPrice, guessTrend, guessLogo]);
 }

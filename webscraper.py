@@ -17,9 +17,11 @@ if response.status_code == 200:
     # Find all the <tr> elements
     tr_elements = soup.find_all("tr")
     outer_dict = {}
-    fields = ("name", "price", "trend", "url")  # tuple - immutable
+    fields = ("name", "price", "trend", "logoUrl")  # tuple - immutable
     # Extract and print the text from the second and third <td> tags under each <tr> tag
     url = ""
+
+    f = open("urls.txt", "r")
     for tr in tr_elements:
         td_elements = tr.find_all("td")
         if len(td_elements) >= 3:  # Ensure there are at least 3 <td> tags
@@ -32,7 +34,7 @@ if response.status_code == 200:
             inner_dict[fields[0]] = name
             inner_dict[fields[1]] = price
             inner_dict[fields[2]] = trend
-            inner_dict[fields[3]] = url
+            inner_dict[fields[3]] = f.readline()
 
             outer_dict[f"{td_elements[1].text.strip()}"] = inner_dict
     print(outer_dict)

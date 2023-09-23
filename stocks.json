@@ -1,3014 +1,3014 @@
 {
     "MMM": {
         "name": "3M Company",
-        "price": "97.27",
-        "trend": "\u25bc -0.23%",
-        "url": ""
+        "price": "97.04",
+        "trend": "\u25bc -0.46%",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3M_wordmark.svg/2560px-3M_wordmark.svg.png\n"
     },
     "ABT": {
         "name": "Abbott Laboratories",
-        "price": "98.27",
-        "trend": "\u25bc -0.67%",
-        "url": ""
+        "price": "98.15",
+        "trend": "\u25bc -0.79%",
+        "logoUrl": "https://images.forbes.com/media/lists/companies/abbott-laboratories_416x416.jpg\n"
     },
     "ABBV": {
         "name": "AbbVie Inc",
-        "price": "153.36",
-        "trend": "\u25bc -0.05%",
-        "url": ""
+        "price": "152.74",
+        "trend": "\u25bc -0.45%",
+        "logoUrl": "https://1000logos.net/wp-content/uploads/2021/08/AbbVie-Logo.jpg\n"
     },
     "ACN": {
         "name": "Accenture plc",
-        "price": "315.96",
-        "trend": "\u25b2 1.27%",
-        "url": ""
+        "price": "316.09",
+        "trend": "\u25b2 1.31%",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/2560px-Accenture.svg.png\n"
     },
     "ATVI": {
         "name": "Activision Blizzard, Inc",
-        "price": "93.905",
-        "trend": "\u25b2 1.68%",
-        "url": ""
+        "price": "93.92",
+        "trend": "\u25b2 1.70%",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Activision-blizzard_logo_Black.svg/1200px-Activision-blizzard_logo_Black.svg.png\n"
     },
     "ADBE": {
         "name": "Adobe Inc",
-        "price": "512.86",
-        "trend": "\u25bc -0.20%",
-        "url": ""
+        "price": "512.90",
+        "trend": "\u25bc -0.19%",
+        "logoUrl": ".\n"
     },
     "AMD": {
         "name": "Advanced Micro Devices, Inc",
-        "price": "95.85",
-        "trend": "\u25bc -0.27%",
-        "url": ""
+        "price": "96.20",
+        "trend": "\u25b2 0.09%",
+        "logoUrl": ".\n"
     },
     "AFL": {
         "name": "Aflac Incorporated",
-        "price": "76.425",
-        "trend": "\u25b2 0.35%",
-        "url": ""
+        "price": "76.31",
+        "trend": "\u25b2 0.20%",
+        "logoUrl": ".\n"
     },
     "A": {
         "name": "Agilent Technologies, Inc",
-        "price": "110.95",
-        "trend": "\u25b2 1.11%",
-        "url": ""
+        "price": "111.41",
+        "trend": "\u25b2 1.53%",
+        "logoUrl": ".\n"
     },
     "APD": {
         "name": "Air Products and Chemicals, Inc",
-        "price": "286.89",
-        "trend": "\u25bc -0.06%",
-        "url": ""
+        "price": "286.64",
+        "trend": "\u25bc -0.15%",
+        "logoUrl": ".\n"
     },
     "AKAM": {
         "name": "Akamai Technologies, Inc",
-        "price": "107.33",
-        "trend": "\u25bc -0.56%",
-        "url": ""
+        "price": "107.55",
+        "trend": "\u25bc -0.35%",
+        "logoUrl": ".\n"
     },
     "ALK": {
         "name": "Alaska Air Group, Inc",
-        "price": "37.44",
-        "trend": "\u25bc -1.86%",
-        "url": ""
+        "price": "37.50",
+        "trend": "\u25bc -1.70%",
+        "logoUrl": ".\n"
     },
     "ALB": {
         "name": "Albemarle Corporation",
-        "price": "168.09",
-        "trend": "\u25bc -0.50%",
-        "url": ""
+        "price": "168.21",
+        "trend": "\u25bc -0.43%",
+        "logoUrl": ".\n"
     },
     "ARE": {
         "name": "Alexandria Real Estate Equities, Inc",
-        "price": "101.82",
-        "trend": "\u25bc -1.08%",
-        "url": ""
+        "price": "101.26",
+        "trend": "\u25bc -1.62%",
+        "logoUrl": ".\n"
     },
     "ALGN": {
         "name": "Align Technology, Inc",
-        "price": "298.00",
-        "trend": "\u25bc -0.76%",
-        "url": ""
+        "price": "298.56",
+        "trend": "\u25bc -0.57%",
+        "logoUrl": ".\n"
     },
     "ALLE": {
         "name": "Allegion plc",
-        "price": "104.44",
-        "trend": "\u25b2 0.57%",
-        "url": ""
+        "price": "103.82",
+        "trend": "\u25bc -0.03%",
+        "logoUrl": ".\n"
     },
     "LNT": {
         "name": "Alliant Energy Corporation",
-        "price": "51.41",
-        "trend": "\u25b2 0.16%",
-        "url": ""
+        "price": "51.25",
+        "trend": "\u25bc -0.16%",
+        "logoUrl": ".\n"
     },
     "GOOG": {
         "name": "Alphabet Inc",
-        "price": "131.33",
-        "trend": "\u25bc -0.02%",
-        "url": ""
+        "price": "131.25",
+        "trend": "\u25bc -0.08%",
+        "logoUrl": ".\n"
     },
     "GOOGL": {
         "name": "Alphabet Inc",
-        "price": "130.36",
-        "trend": "\u25bc -0.06%",
-        "url": ""
+        "price": "130.25",
+        "trend": "\u25bc -0.15%",
+        "logoUrl": ".\n"
     },
     "MO": {
         "name": "Altria Group, Inc",
-        "price": "42.53",
-        "trend": "\u25bc -0.89%",
-        "url": ""
+        "price": "42.33",
+        "trend": "\u25bc -1.35%",
+        "logoUrl": ".\n"
     },
     "AMZN": {
         "name": "Amazon.com, Inc",
-        "price": "128.94",
-        "trend": "\u25bc -0.30%",
-        "url": ""
+        "price": "129.12",
+        "trend": "\u25bc -0.16%",
+        "logoUrl": ".\n"
     },
     "AMCR": {
         "name": "Amcor plc",
-        "price": "9.09",
-        "trend": "\u25bc -0.22%",
-        "url": ""
+        "price": "9.05",
+        "trend": "\u25bc -0.66%",
+        "logoUrl": ".\n"
     },
     "AEE": {
         "name": "Ameren Corporation",
-        "price": "80.26",
-        "trend": "\u25b2 0.17%",
-        "url": ""
+        "price": "80.21",
+        "trend": "\u25b2 0.11%",
+        "logoUrl": ".\n"
     },
     "AAL": {
         "name": "American Airlines Group Inc",
-        "price": "12.89",
-        "trend": "\u25bc -1.30%",
-        "url": ""
+        "price": "12.90",
+        "trend": "\u25bc -1.23%",
+        "logoUrl": ".\n"
     },
     "AEP": {
         "name": "American Electric Power Company, Inc",
-        "price": "79.56",
-        "trend": "\u25bc -0.40%",
-        "url": ""
+        "price": "79.17",
+        "trend": "\u25bc -0.89%",
+        "logoUrl": ".\n"
     },
     "AXP": {
         "name": "American Express Company",
-        "price": "153.22",
-        "trend": "\u25bc -0.96%",
-        "url": ""
+        "price": "153.08",
+        "trend": "\u25bc -1.05%",
+        "logoUrl": ".\n"
     },
     "AIG": {
         "name": "American International Group, Inc",
-        "price": "61.49",
-        "trend": "\u25b2 0.26%",
-        "url": ""
+        "price": "61.58",
+        "trend": "\u25b2 0.41%",
+        "logoUrl": ".\n"
     },
     "AMT": {
         "name": "American Tower Corporation (REIT)",
-        "price": "167.79",
-        "trend": "\u25bc -0.90%",
-        "url": ""
+        "price": "166.21",
+        "trend": "\u25bc -1.84%",
+        "logoUrl": ".\n"
     },
     "AWK": {
         "name": "American Water Works Company, Inc",
-        "price": "133.115",
-        "trend": "\u25bc -0.33%",
-        "url": ""
+        "price": "132.25",
+        "trend": "\u25bc -0.97%",
+        "logoUrl": ".\n"
     },
     "AMP": {
         "name": "Ameriprise Financial, Inc",
-        "price": "333.875",
-        "trend": "\u25bc -0.99%",
-        "url": ""
+        "price": "333.49",
+        "trend": "\u25bc -1.11%",
+        "logoUrl": ".\n"
     },
     "AME": {
         "name": "AMETEK, Inc",
-        "price": "151.97",
-        "trend": "\u25b2 0.62%",
-        "url": ""
+        "price": "151.66",
+        "trend": "\u25b2 0.42%",
+        "logoUrl": ".\n"
     },
     "AMGN": {
         "name": "Amgen Inc",
-        "price": "267.97",
-        "trend": "\u25bc -0.53%",
-        "url": ""
+        "price": "267.70",
+        "trend": "\u25bc -0.63%",
+        "logoUrl": ".\n"
     },
     "APH": {
         "name": "Amphenol Corporation",
-        "price": "83.60",
-        "trend": "\u25b2 0.31%",
-        "url": ""
+        "price": "83.33",
+        "trend": "\u25bc -0.01%",
+        "logoUrl": ".\n"
     },
     "ADI": {
         "name": "Analog Devices, Inc",
-        "price": "175.38",
-        "trend": "\u25b2 0.89%",
-        "url": ""
+        "price": "175.48",
+        "trend": "\u25b2 0.94%",
+        "logoUrl": ".\n"
     },
     "ANSS": {
         "name": "ANSYS, Inc",
-        "price": "303.435",
-        "trend": "\u25b2 0.89%",
-        "url": ""
+        "price": "302.91",
+        "trend": "\u25b2 0.71%",
+        "logoUrl": ".\n"
     },
     "AON": {
         "name": "Aon plc",
-        "price": "336.98",
-        "trend": "\u25bc -0.36%",
-        "url": ""
+        "price": "336.02",
+        "trend": "\u25bc -0.65%",
+        "logoUrl": ".\n"
     },
     "AOS": {
         "name": "A. O. Smith Corporation",
-        "price": "64.67",
-        "trend": "\u25bc -0.77%",
-        "url": ""
+        "price": "64.51",
+        "trend": "\u25bc -1.01%",
+        "logoUrl": ".\n"
     },
     "APA": {
         "name": "Apache Corporation",
-        "price": "40.225",
-        "trend": "\u25b2 0.21%",
-        "url": ""
+        "price": "40.22",
+        "trend": "\u25b2 0.20%",
+        "logoUrl": ".\n"
     },
     "AAPL": {
         "name": "Apple Inc",
-        "price": "175.19",
-        "trend": "\u25b2 0.72%",
-        "url": ""
+        "price": "174.79",
+        "trend": "\u25b2 0.49%",
+        "logoUrl": ".\n"
     },
     "AMAT": {
         "name": "Applied Materials, Inc",
-        "price": "136.59",
-        "trend": "\u25b2 1.04%",
-        "url": ""
+        "price": "136.17",
+        "trend": "\u25b2 0.72%",
+        "logoUrl": ".\n"
     },
     "APTV": {
         "name": "Aptiv PLC",
-        "price": "98.26",
-        "trend": "\u25b2 0.37%",
-        "url": ""
+        "price": "97.93",
+        "trend": "\u25b2 0.03%",
+        "logoUrl": ".\n"
     },
     "ACGL": {
         "name": "Arch Capital Group Ltd",
-        "price": "81.20",
-        "trend": "\u25b2 1.13%",
-        "url": ""
+        "price": "80.96",
+        "trend": "\u25b2 0.83%",
+        "logoUrl": ".\n"
     },
     "ADM": {
         "name": "Archer-Daniels-Midland Company",
-        "price": "77.32",
-        "trend": "\u25bc -1.98%",
-        "url": ""
+        "price": "76.98",
+        "trend": "\u25bc -2.41%",
+        "logoUrl": ".\n"
     },
     "ANET": {
         "name": "Arista Networks, Inc",
-        "price": "180.11",
-        "trend": "\u25b2 1.27%",
-        "url": ""
+        "price": "180.34",
+        "trend": "\u25b2 1.39%",
+        "logoUrl": ".\n"
     },
     "AJG": {
         "name": "Arthur J. Gallagher & Co",
-        "price": "233.63",
-        "trend": "\u25b2 0.30%",
-        "url": ""
+        "price": "233.08",
+        "trend": "\u25b2 0.06%",
+        "logoUrl": ".\n"
     },
     "AIZ": {
         "name": "Assurant, Inc",
-        "price": "144.895",
-        "trend": "\u25b2 1.30%",
-        "url": ""
+        "price": "145.02",
+        "trend": "\u25b2 1.38%",
+        "logoUrl": ".\n"
     },
     "ATO": {
         "name": "Atmos Energy Corporation",
-        "price": "111.20",
-        "trend": "\u25bc -0.39%",
-        "url": ""
+        "price": "110.85",
+        "trend": "\u25bc -0.71%",
+        "logoUrl": ".\n"
     },
     "T": {
         "name": "AT&T Inc",
-        "price": "15.185",
-        "trend": "\u25bc -0.82%",
-        "url": ""
+        "price": "15.12",
+        "trend": "\u25bc -1.24%",
+        "logoUrl": ".\n"
     },
     "ADSK": {
         "name": "Autodesk, Inc",
-        "price": "204.67",
-        "trend": "\u25b2 0.30%",
-        "url": ""
+        "price": "204.04",
+        "trend": "\u25bc -0.01%",
+        "logoUrl": ".\n"
     },
     "ADP": {
         "name": "Automatic Data Processing, Inc",
-        "price": "239.47",
-        "trend": "\u25b2 0.31%",
-        "url": ""
+        "price": "239.35",
+        "trend": "\u25b2 0.26%",
+        "logoUrl": ".\n"
     },
     "AZO": {
         "name": "AutoZone, Inc",
-        "price": "2,570.165",
+        "price": "2,570.27",
         "trend": "\u25b2 1.56%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "AVB": {
         "name": "AvalonBay Communities, Inc",
-        "price": "178.39",
-        "trend": "\u25bc -0.62%",
-        "url": ""
+        "price": "177.64",
+        "trend": "\u25bc -1.04%",
+        "logoUrl": ".\n"
     },
     "AVY": {
         "name": "Avery Dennison Corporation",
-        "price": "181.515",
-        "trend": "\u25b2 0.80%",
-        "url": ""
+        "price": "180.86",
+        "trend": "\u25b2 0.44%",
+        "logoUrl": ".\n"
     },
     "AXON": {
         "name": "Axon Enterprise Inc",
-        "price": "195.305",
-        "trend": "\u25bc -0.42%",
-        "url": ""
+        "price": "195.42",
+        "trend": "\u25bc -0.36%",
+        "logoUrl": ".\n"
     },
     "BKR": {
         "name": "Baker Hughes Company Class A",
-        "price": "35.41",
-        "trend": "\u25b2 1.00%",
-        "url": ""
+        "price": "35.40",
+        "trend": "\u25b2 0.97%",
+        "logoUrl": ".\n"
     },
     "BALL": {
         "name": "Ball Corp.",
-        "price": "49.965",
-        "trend": "\u25bc -0.86%",
-        "url": ""
+        "price": "49.54",
+        "trend": "\u25bc -1.71%",
+        "logoUrl": ".\n"
     },
     "BAC": {
         "name": "Bank of America Corporation",
-        "price": "27.625",
-        "trend": "\u25bc -1.52%",
-        "url": ""
+        "price": "27.64",
+        "trend": "\u25bc -1.46%",
+        "logoUrl": ".\n"
     },
     "BBWI": {
         "name": "Bath & Body Works Inc",
-        "price": "33.01",
-        "trend": "\u25bc -3.11%",
-        "url": ""
+        "price": "33.11",
+        "trend": "\u25bc -2.82%",
+        "logoUrl": ".\n"
     },
     "BAX": {
         "name": "Baxter International Inc",
         "price": "37.70",
         "trend": "\u25bc -1.08%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "BDX": {
         "name": "Becton, Dickinson and Company",
-        "price": "265.73",
-        "trend": "\u25b2 0.26%",
-        "url": ""
+        "price": "265.20",
+        "trend": "\u25b2 0.06%",
+        "logoUrl": ".\n"
     },
     "BRK.B": {
         "name": "Berkshire Hathaway Inc",
-        "price": "360.74",
-        "trend": "\u25bc -0.70%",
-        "url": ""
+        "price": "360.16",
+        "trend": "\u25bc -0.86%",
+        "logoUrl": ".\n"
     },
     "BBY": {
         "name": "Best Buy Co., Inc",
-        "price": "69.42",
-        "trend": "\u25bc -1.46%",
-        "url": ""
+        "price": "69.25",
+        "trend": "\u25bc -1.70%",
+        "logoUrl": ".\n"
     },
     "BIIB": {
         "name": "Biogen Inc",
-        "price": "257.95",
-        "trend": "\u25bc -0.38%",
-        "url": ""
+        "price": "257.68",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "BIO": {
         "name": "Bio-Rad Laboratories, Inc",
-        "price": "352.71",
-        "trend": "\u25bc -1.28%",
-        "url": ""
+        "price": "353.03",
+        "trend": "\u25bc -1.20%",
+        "logoUrl": ".\n"
     },
     "TECH": {
         "name": "Bio-Techne Corporation",
-        "price": "69.91",
-        "trend": "\u25bc -0.01%",
-        "url": ""
+        "price": "69.35",
+        "trend": "\u25bc -0.82%",
+        "logoUrl": ".\n"
     },
     "BLK": {
         "name": "BlackRock, Inc",
-        "price": "660.62",
-        "trend": "\u25bc -1.23%",
-        "url": ""
+        "price": "660.10",
+        "trend": "\u25bc -1.31%",
+        "logoUrl": ".\n"
     },
     "BKNG": {
         "name": "Booking Holdings Inc",
-        "price": "3,056.31",
-        "trend": "\u25b2 0.66%",
-        "url": ""
+        "price": "3,062.54",
+        "trend": "\u25b2 0.87%",
+        "logoUrl": ".\n"
     },
     "BWA": {
         "name": "BorgWarner Inc",
         "price": "40.76",
         "trend": "\u25b2 1.65%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "BXP": {
         "name": "Boston Properties, Inc",
-        "price": "60.42",
-        "trend": "\u25bc -0.76%",
-        "url": ""
+        "price": "60.31",
+        "trend": "\u25bc -0.94%",
+        "logoUrl": ".\n"
     },
     "BSX": {
         "name": "Boston Scientific Corporation",
-        "price": "53.595",
+        "price": "53.60",
         "trend": "\u25bc -0.69%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "BMY": {
         "name": "Bristol-Myers Squibb Company",
-        "price": "58.985",
-        "trend": "\u25bc -0.16%",
-        "url": ""
+        "price": "58.90",
+        "trend": "\u25bc -0.30%",
+        "logoUrl": ".\n"
     },
     "AVGO": {
         "name": "Broadcom Inc",
-        "price": "823.115",
-        "trend": "\u25b2 1.83%",
-        "url": ""
+        "price": "829.08",
+        "trend": "\u25b2 2.56%",
+        "logoUrl": ".\n"
     },
     "BR": {
         "name": "Broadridge Financial Solutions, Inc",
-        "price": "184.60",
-        "trend": "\u25b2 0.60%",
-        "url": ""
+        "price": "184.25",
+        "trend": "\u25b2 0.41%",
+        "logoUrl": ".\n"
     },
     "BRO": {
         "name": "Brown & Brown, Inc",
-        "price": "72.49",
-        "trend": "\u25b2 0.17%",
-        "url": ""
+        "price": "72.27",
+        "trend": "\u25bc -0.14%",
+        "logoUrl": ".\n"
     },
     "BF.B": {
         "name": "Brown-Forman Corporation",
-        "price": "60.94",
-        "trend": "\u25bc -0.36%",
-        "url": ""
+        "price": "60.51",
+        "trend": "\u25bc -1.06%",
+        "logoUrl": ".\n"
     },
     "BG": {
         "name": "Bunge Limited",
-        "price": "110.65",
-        "trend": "\u25bc -2.28%",
-        "url": ""
+        "price": "110.40",
+        "trend": "\u25bc -2.50%",
+        "logoUrl": ".\n"
     },
     "CDNS": {
         "name": "Cadence Design Systems, Inc",
-        "price": "231.20",
-        "trend": "\u25b2 1.15%",
-        "url": ""
+        "price": "230.66",
+        "trend": "\u25b2 0.91%",
+        "logoUrl": ".\n"
     },
     "CZR": {
         "name": "Caesars Entertainment Corporation",
-        "price": "46.22",
-        "trend": "\u25bc -2.72%",
-        "url": ""
+        "price": "46.00",
+        "trend": "\u25bc -3.18%",
+        "logoUrl": ".\n"
     },
     "CPT": {
         "name": "Camden Property Trust",
-        "price": "98.84",
-        "trend": "\u25bc -0.37%",
-        "url": ""
+        "price": "97.95",
+        "trend": "\u25bc -1.27%",
+        "logoUrl": ".\n"
     },
     "CPB": {
         "name": "Campbell Soup Company",
-        "price": "42.915",
-        "trend": "\u25b2 0.03%",
-        "url": ""
+        "price": "42.61",
+        "trend": "\u25bc -0.68%",
+        "logoUrl": ".\n"
     },
     "COF": {
         "name": "Capital One Financial Corporation",
-        "price": "98.10",
-        "trend": "\u25bc -0.84%",
-        "url": ""
+        "price": "98.27",
+        "trend": "\u25bc -0.67%",
+        "logoUrl": ".\n"
     },
     "CAH": {
         "name": "Cardinal Health, Inc",
-        "price": "89.31",
-        "trend": "\u25b2 0.24%",
-        "url": ""
+        "price": "88.96",
+        "trend": "\u25bc -0.16%",
+        "logoUrl": ".\n"
     },
     "KMX": {
         "name": "CarMax, Inc",
-        "price": "77.15",
-        "trend": "\u25bc -2.22%",
-        "url": ""
+        "price": "76.66",
+        "trend": "\u25bc -2.84%",
+        "logoUrl": ".\n"
     },
     "CCL": {
         "name": "Carnival Corporation & Plc",
-        "price": "14.09",
-        "trend": "\u25bc -2.49%",
-        "url": ""
+        "price": "14.05",
+        "trend": "\u25bc -2.77%",
+        "logoUrl": ".\n"
     },
     "CARR": {
         "name": "Carrier Global Corp.",
-        "price": "53.115",
-        "trend": "\u25b2 1.06%",
-        "url": ""
+        "price": "52.87",
+        "trend": "\u25b2 0.59%",
+        "logoUrl": ".\n"
     },
     "CTLT": {
         "name": "Catalent, Inc",
-        "price": "45.485",
-        "trend": "\u25bc -2.29%",
-        "url": ""
+        "price": "45.34",
+        "trend": "\u25bc -2.60%",
+        "logoUrl": ".\n"
     },
     "CAT": {
         "name": "Caterpillar Inc",
-        "price": "273.40",
-        "trend": "\u25b2 0.50%",
-        "url": ""
+        "price": "273.06",
+        "trend": "\u25b2 0.38%",
+        "logoUrl": ".\n"
     },
     "CBRE": {
         "name": "CBRE Group, Inc",
-        "price": "75.40",
-        "trend": "\u25b2 0.29%",
-        "url": ""
+        "price": "75.17",
+        "trend": "\u25bc -0.01%",
+        "logoUrl": ".\n"
     },
     "CDW": {
         "name": "CDW Corporation",
-        "price": "205.85",
-        "trend": "\u25b2 0.40%",
-        "url": ""
+        "price": "205.76",
+        "trend": "\u25b2 0.35%",
+        "logoUrl": ".\n"
     },
     "CE": {
         "name": "Celanese Corporation",
-        "price": "124.185",
-        "trend": "\u25bc -0.93%",
-        "url": ""
+        "price": "123.90",
+        "trend": "\u25bc -1.16%",
+        "logoUrl": ".\n"
     },
     "CNC": {
         "name": "Centene Corporation",
-        "price": "68.87",
-        "trend": "\u25bc -0.96%",
-        "url": ""
+        "price": "68.68",
+        "trend": "\u25bc -1.24%",
+        "logoUrl": ".\n"
     },
     "CNP": {
         "name": "CenterPoint Energy, Inc",
-        "price": "28.43",
-        "trend": "\u25b2 0.14%",
-        "url": ""
+        "price": "28.30",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "CDAY": {
         "name": "Ceridian HCM Holding Inc",
-        "price": "65.35",
-        "trend": "\u25bc -0.97%",
-        "url": ""
+        "price": "65.16",
+        "trend": "\u25bc -1.26%",
+        "logoUrl": ".\n"
     },
     "CF": {
         "name": "CF Industries Holdings, Inc",
-        "price": "84.545",
-        "trend": "\u25b2 1.22%",
-        "url": ""
+        "price": "84.21",
+        "trend": "\u25b2 0.81%",
+        "logoUrl": ".\n"
     },
     "CRL": {
         "name": "Charles River Laboratories International, Inc",
-        "price": "199.82",
-        "trend": "\u25b2 0.84%",
-        "url": ""
+        "price": "199.62",
+        "trend": "\u25b2 0.74%",
+        "logoUrl": ".\n"
     },
     "CHTR": {
         "name": "Charter Communications, Inc",
-        "price": "445.85",
-        "trend": "\u25bc -0.22%",
-        "url": ""
+        "price": "445.21",
+        "trend": "\u25bc -0.36%",
+        "logoUrl": ".\n"
     },
     "CVX": {
         "name": "Chevron Corporation",
-        "price": "166.50",
-        "trend": "\u25b2 0.79%",
-        "url": ""
+        "price": "166.28",
+        "trend": "\u25b2 0.66%",
+        "logoUrl": ".\n"
     },
     "CMG": {
         "name": "Chipotle Mexican Grill, Inc",
-        "price": "1,873.03",
-        "trend": "\u25b2 0.38%",
-        "url": ""
+        "price": "1,875.58",
+        "trend": "\u25b2 0.51%",
+        "logoUrl": ".\n"
     },
     "CHRW": {
         "name": "C.H. Robinson Worldwide, Inc",
-        "price": "86.23",
-        "trend": "\u25bc -0.60%",
-        "url": ""
+        "price": "85.93",
+        "trend": "\u25bc -0.95%",
+        "logoUrl": ".\n"
     },
     "CB": {
         "name": "Chubb Limited",
-        "price": "213.70",
-        "trend": "\u25b2 0.57%",
-        "url": ""
+        "price": "213.08",
+        "trend": "\u25b2 0.28%",
+        "logoUrl": ".\n"
     },
     "CHD": {
         "name": "Church & Dwight Co., Inc",
-        "price": "95.13",
-        "trend": "\u25b2 0.12%",
-        "url": ""
+        "price": "94.69",
+        "trend": "\u25bc -0.35%",
+        "logoUrl": ".\n"
     },
     "CI": {
         "name": "Cigna Corporation",
-        "price": "290.215",
-        "trend": "\u25bc -0.21%",
-        "url": ""
+        "price": "289.44",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "CINF": {
         "name": "Cincinnati Financial Corporation",
-        "price": "107.085",
-        "trend": "\u25bc -0.33%",
-        "url": ""
+        "price": "107.01",
+        "trend": "\u25bc -0.40%",
+        "logoUrl": ".\n"
     },
     "CTAS": {
         "name": "Cintas Corporation",
-        "price": "506.19",
-        "trend": "\u25b2 0.35%",
-        "url": ""
+        "price": "504.75",
+        "trend": "\u25b2 0.06%",
+        "logoUrl": ".\n"
     },
     "CSCO": {
         "name": "Cisco Systems, Inc",
         "price": "53.57",
         "trend": "\u25b2 0.43%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "C": {
         "name": "Citigroup Inc",
-        "price": "41.21",
-        "trend": "\u25bc -1.20%",
-        "url": ""
+        "price": "40.92",
+        "trend": "\u25bc -1.89%",
+        "logoUrl": ".\n"
     },
     "CFG": {
         "name": "Citizens Financial Group, Inc",
-        "price": "26.705",
-        "trend": "\u25bc -0.98%",
-        "url": ""
+        "price": "26.56",
+        "trend": "\u25bc -1.52%",
+        "logoUrl": ".\n"
     },
     "CME": {
         "name": "CME Group Inc",
-        "price": "202.14",
-        "trend": "\u25bc -0.03%",
-        "url": ""
+        "price": "201.72",
+        "trend": "\u25bc -0.24%",
+        "logoUrl": ".\n"
     },
     "CMS": {
         "name": "CMS Energy Corporation",
-        "price": "56.41",
-        "trend": "\u25bc -0.18%",
-        "url": ""
+        "price": "56.37",
+        "trend": "\u25bc -0.25%",
+        "logoUrl": ".\n"
     },
     "CTSH": {
         "name": "Cognizant Technology Solutions Corporation",
-        "price": "69.70",
-        "trend": "\u25b2 0.71%",
-        "url": ""
+        "price": "69.61",
+        "trend": "\u25b2 0.58%",
+        "logoUrl": ".\n"
     },
     "CL": {
         "name": "Colgate-Palmolive Company",
-        "price": "72.815",
-        "trend": "\u25bc -0.55%",
-        "url": ""
+        "price": "72.45",
+        "trend": "\u25bc -1.05%",
+        "logoUrl": ".\n"
     },
     "CMCSA": {
         "name": "Comcast Corporation",
-        "price": "45.48",
-        "trend": "\u25bc -0.48%",
-        "url": ""
+        "price": "45.30",
+        "trend": "\u25bc -0.88%",
+        "logoUrl": ".\n"
     },
     "CMA": {
         "name": "Comerica Incorporated",
-        "price": "41.10",
-        "trend": "\u25bc -0.27%",
-        "url": ""
+        "price": "41.22",
+        "trend": "\u25b2 0.02%",
+        "logoUrl": ".\n"
     },
     "CAG": {
         "name": "Conagra Brands, Inc",
-        "price": "28.985",
-        "trend": "\u25bc -0.16%",
-        "url": ""
+        "price": "28.86",
+        "trend": "\u25bc -0.59%",
+        "logoUrl": ".\n"
     },
     "COP": {
         "name": "ConocoPhillips",
-        "price": "119.23",
-        "trend": "\u25b2 0.13%",
-        "url": ""
+        "price": "119.16",
+        "trend": "\u25b2 0.08%",
+        "logoUrl": ".\n"
     },
     "ED": {
         "name": "Consolidated Edison, Inc",
-        "price": "91.22",
-        "trend": "\u25b2 0.40%",
-        "url": ""
+        "price": "90.83",
+        "trend": "\u25bc -0.03%",
+        "logoUrl": ".\n"
     },
     "STZ": {
         "name": "Constellation Brands, Inc",
-        "price": "257.69",
-        "trend": "\u25b2 0.48%",
-        "url": ""
+        "price": "256.03",
+        "trend": "\u25bc -0.17%",
+        "logoUrl": ".\n"
     },
     "CEG": {
         "name": "Constellation Energy Corporation",
-        "price": "110.17",
-        "trend": "\u25b2 0.21%",
-        "url": ""
+        "price": "110.36",
+        "trend": "\u25b2 0.38%",
+        "logoUrl": ".\n"
     },
     "CTRA": {
         "name": "Contura Energy, Inc",
-        "price": "26.17",
-        "trend": "\u25b2 0.27%",
-        "url": ""
+        "price": "26.05",
+        "trend": "\u25bc -0.19%",
+        "logoUrl": ".\n"
     },
     "CPRT": {
         "name": "Copart, Inc",
-        "price": "43.24",
-        "trend": "\u25b2 0.23%",
-        "url": ""
+        "price": "43.16",
+        "trend": "\u25b2 0.05%",
+        "logoUrl": ".\n"
     },
     "COR": {
         "name": "CoreSite Realty Corporation",
-        "price": "186.00",
-        "trend": "\u25b2 0.58%",
-        "url": ""
+        "price": "185.95",
+        "trend": "\u25b2 0.55%",
+        "logoUrl": ".\n"
     },
     "GLW": {
         "name": "Corning Incorporated",
-        "price": "31.14",
-        "trend": "\u25bc -0.13%",
-        "url": ""
+        "price": "31.22",
+        "trend": "\u25b2 0.13%",
+        "logoUrl": ".\n"
     },
     "CTVA": {
         "name": "Corteva, Inc",
-        "price": "51.50",
-        "trend": "\u25bc -0.06%",
-        "url": ""
+        "price": "51.42",
+        "trend": "\u25bc -0.21%",
+        "logoUrl": ".\n"
     },
     "CSGP": {
         "name": "CoStar Group, Inc",
-        "price": "78.28",
-        "trend": "\u25b2 0.06%",
-        "url": ""
+        "price": "78.06",
+        "trend": "\u25bc -0.22%",
+        "logoUrl": ".\n"
     },
     "COST": {
         "name": "Costco Wholesale Corporation",
-        "price": "559.94",
-        "trend": "\u25b2 0.88%",
-        "url": ""
+        "price": "558.59",
+        "trend": "\u25b2 0.63%",
+        "logoUrl": ".\n"
     },
     "CCI": {
         "name": "Crown Castle International Corp. (REIT)",
-        "price": "92.39",
-        "trend": "\u25bc -0.55%",
-        "url": ""
+        "price": "91.98",
+        "trend": "\u25bc -0.99%",
+        "logoUrl": ".\n"
     },
     "CSX": {
         "name": "CSX Corporation",
-        "price": "31.165",
-        "trend": "\u25b2 0.47%",
-        "url": ""
+        "price": "31.20",
+        "trend": "\u25b2 0.58%",
+        "logoUrl": ".\n"
     },
     "CMI": {
         "name": "Cummins Inc",
-        "price": "231.18",
-        "trend": "\u25b2 1.04%",
-        "url": ""
+        "price": "230.78",
+        "trend": "\u25b2 0.86%",
+        "logoUrl": ".\n"
     },
     "CVS": {
         "name": "CVS Health Corporation",
-        "price": "71.49",
-        "trend": "\u25bc -0.56%",
-        "url": ""
+        "price": "71.15",
+        "trend": "\u25bc -1.03%",
+        "logoUrl": ".\n"
     },
     "DHR": {
         "name": "Danaher Corporation",
-        "price": "249.60",
-        "trend": "\u25bc -0.01%",
-        "url": ""
+        "price": "248.37",
+        "trend": "\u25bc -0.50%",
+        "logoUrl": ".\n"
     },
     "DRI": {
         "name": "Darden Restaurants, Inc",
-        "price": "144.13",
-        "trend": "\u25bc -0.93%",
-        "url": ""
+        "price": "143.50",
+        "trend": "\u25bc -1.37%",
+        "logoUrl": ".\n"
     },
     "DVA": {
         "name": "DaVita Inc",
-        "price": "98.90",
-        "trend": "\u25bc -3.38%",
-        "url": ""
+        "price": "98.71",
+        "trend": "\u25bc -3.57%",
+        "logoUrl": ".\n"
     },
     "DE": {
         "name": "Deere & Company",
-        "price": "380.09",
-        "trend": "\u25bc -1.95%",
-        "url": ""
+        "price": "380.87",
+        "trend": "\u25bc -1.75%",
+        "logoUrl": ".\n"
     },
     "DAL": {
         "name": "Delta Air Lines, Inc",
-        "price": "37.63",
-        "trend": "\u25bc -1.75%",
-        "url": ""
+        "price": "37.67",
+        "trend": "\u25bc -1.64%",
+        "logoUrl": ".\n"
     },
     "XRAY": {
         "name": "DENTSPLY SIRONA Inc",
-        "price": "33.96",
-        "trend": "\u25bc -0.59%",
-        "url": ""
+        "price": "33.88",
+        "trend": "\u25bc -0.82%",
+        "logoUrl": ".\n"
     },
     "DVN": {
         "name": "Devon Energy Corporation",
-        "price": "46.41",
-        "trend": "0.00%",
-        "url": ""
+        "price": "46.59",
+        "trend": "\u25b2 0.39%",
+        "logoUrl": ".\n"
     },
     "DXCM": {
         "name": "DexCom, Inc",
-        "price": "87.48",
-        "trend": "\u25bc -1.80%",
-        "url": ""
+        "price": "87.50",
+        "trend": "\u25bc -1.77%",
+        "logoUrl": ".\n"
     },
     "FANG": {
         "name": "Diamondback Energy, Inc",
-        "price": "150.61",
-        "trend": "\u25bc -0.50%",
-        "url": ""
+        "price": "150.57",
+        "trend": "\u25bc -0.52%",
+        "logoUrl": ".\n"
     },
     "DLR": {
         "name": "Digital Realty Trust, Inc",
-        "price": "123.37",
-        "trend": "\u25bc -0.46%",
-        "url": ""
+        "price": "123.24",
+        "trend": "\u25bc -0.56%",
+        "logoUrl": ".\n"
     },
     "DFS": {
         "name": "Discover Financial Services",
-        "price": "87.20",
-        "trend": "\u25bc -0.40%",
-        "url": ""
+        "price": "87.19",
+        "trend": "\u25bc -0.41%",
+        "logoUrl": ".\n"
     },
     "DG": {
         "name": "Dollar General Corporation",
-        "price": "108.22",
-        "trend": "\u25bc -1.40%",
-        "url": ""
+        "price": "108.14",
+        "trend": "\u25bc -1.48%",
+        "logoUrl": ".\n"
     },
     "DLTR": {
         "name": "Dollar Tree, Inc",
-        "price": "104.31",
-        "trend": "\u25bc -1.13%",
-        "url": ""
+        "price": "104.50",
+        "trend": "\u25bc -0.95%",
+        "logoUrl": ".\n"
     },
     "D": {
         "name": "Dominion Energy, Inc",
-        "price": "47.59",
-        "trend": "\u25b2 0.42%",
-        "url": ""
+        "price": "47.75",
+        "trend": "\u25b2 0.76%",
+        "logoUrl": ".\n"
     },
     "DPZ": {
         "name": "Domino's Pizza, Inc",
-        "price": "380.525",
-        "trend": "\u25b2 0.65%",
-        "url": ""
+        "price": "381.35",
+        "trend": "\u25b2 0.87%",
+        "logoUrl": ".\n"
     },
     "DOV": {
         "name": "Dover Corporation",
-        "price": "141.08",
-        "trend": "\u25bc -0.34%",
-        "url": ""
+        "price": "141.35",
+        "trend": "\u25bc -0.15%",
+        "logoUrl": ".\n"
     },
     "DOW": {
         "name": "Dow Inc",
-        "price": "50.18",
-        "trend": "\u25bc -1.61%",
-        "url": ""
+        "price": "50.25",
+        "trend": "\u25bc -1.47%",
+        "logoUrl": ".\n"
     },
     "DHI": {
         "name": "D.R. Horton, Inc",
-        "price": "108.74",
-        "trend": "\u25bc -0.28%",
-        "url": ""
+        "price": "109.30",
+        "trend": "\u25b2 0.23%",
+        "logoUrl": ".\n"
     },
     "DTE": {
         "name": "DTE Energy Company",
-        "price": "106.13",
-        "trend": "\u25b2 0.04%",
-        "url": ""
+        "price": "106.21",
+        "trend": "\u25b2 0.11%",
+        "logoUrl": ".\n"
     },
     "DUK": {
         "name": "Duke Energy Corporation",
-        "price": "93.57",
-        "trend": "\u25b2 0.17%",
-        "url": ""
+        "price": "93.33",
+        "trend": "\u25bc -0.09%",
+        "logoUrl": ".\n"
     },
     "DD": {
         "name": "DuPont de Nemours, Inc",
-        "price": "73.195",
-        "trend": "\u25b2 0.46%",
-        "url": ""
+        "price": "72.84",
+        "trend": "\u25bc -0.03%",
+        "logoUrl": ".\n"
     },
     "DXC": {
         "name": "DXC Technology Company",
-        "price": "20.305",
-        "trend": "\u25bc -0.42%",
-        "url": ""
+        "price": "20.30",
+        "trend": "\u25bc -0.44%",
+        "logoUrl": ".\n"
     },
     "EMN": {
         "name": "Eastman Chemical Company",
-        "price": "75.83",
-        "trend": "\u25bc -1.10%",
-        "url": ""
+        "price": "75.77",
+        "trend": "\u25bc -1.17%",
+        "logoUrl": ".\n"
     },
     "ETN": {
         "name": "Eaton Corporation plc",
-        "price": "213.06",
-        "trend": "\u25b2 1.14%",
-        "url": ""
+        "price": "212.66",
+        "trend": "\u25b2 0.95%",
+        "logoUrl": ".\n"
     },
     "EBAY": {
         "name": "eBay Inc",
-        "price": "43.43",
-        "trend": "\u25bc -1.12%",
-        "url": ""
+        "price": "43.13",
+        "trend": "\u25bc -1.80%",
+        "logoUrl": ".\n"
     },
     "ECL": {
         "name": "Ecolab Inc",
-        "price": "172.455",
-        "trend": "\u25b2 0.21%",
-        "url": ""
+        "price": "171.98",
+        "trend": "\u25bc -0.07%",
+        "logoUrl": ".\n"
     },
     "EIX": {
         "name": "Edison International",
-        "price": "68.37",
-        "trend": "\u25bc -0.77%",
-        "url": ""
+        "price": "68.07",
+        "trend": "\u25bc -1.20%",
+        "logoUrl": ".\n"
     },
     "EW": {
         "name": "Edwards Lifesciences Corporation",
-        "price": "69.595",
-        "trend": "\u25bc -0.83%",
-        "url": ""
+        "price": "69.66",
+        "trend": "\u25bc -0.74%",
+        "logoUrl": ".\n"
     },
     "EA": {
         "name": "Electronic Arts Inc",
-        "price": "119.53",
-        "trend": "\u25b2 0.61%",
-        "url": ""
+        "price": "119.00",
+        "trend": "\u25b2 0.17%",
+        "logoUrl": ".\n"
     },
     "ELV": {
         "name": "Elevance Health Inc",
-        "price": "447.12",
-        "trend": "\u25bc -0.82%",
-        "url": ""
+        "price": "447.10",
+        "trend": "\u25bc -0.83%",
+        "logoUrl": ".\n"
     },
     "LLY": {
         "name": "Eli Lilly and Company",
-        "price": "550.62",
-        "trend": "\u25b2 0.09%",
-        "url": ""
+        "price": "550.54",
+        "trend": "\u25b2 0.07%",
+        "logoUrl": ".\n"
     },
     "EMR": {
         "name": "Emerson Electric Co",
-        "price": "97.185",
-        "trend": "\u25b2 0.72%",
-        "url": ""
+        "price": "97.10",
+        "trend": "\u25b2 0.63%",
+        "logoUrl": ".\n"
     },
     "ENPH": {
         "name": "Enphase Energy, Inc",
-        "price": "119.565",
-        "trend": "\u25bc -4.23%",
-        "url": ""
+        "price": "119.92",
+        "trend": "\u25bc -3.95%",
+        "logoUrl": ".\n"
     },
     "ETR": {
         "name": "Entergy Corporation",
-        "price": "96.89",
-        "trend": "\u25bc -0.07%",
-        "url": ""
+        "price": "96.55",
+        "trend": "\u25bc -0.42%",
+        "logoUrl": ".\n"
     },
     "EOG": {
         "name": "EOG Resources, Inc",
-        "price": "122.68",
-        "trend": "\u25b2 0.07%",
-        "url": ""
+        "price": "122.62",
+        "trend": "\u25b2 0.02%",
+        "logoUrl": ".\n"
     },
     "EPAM": {
         "name": "EPAM Systems, Inc",
-        "price": "258.73",
-        "trend": "\u25bc -0.60%",
-        "url": ""
+        "price": "261.00",
+        "trend": "\u25b2 0.27%",
+        "logoUrl": ".\n"
     },
     "EQT": {
         "name": "EQT Corporation",
-        "price": "38.63",
-        "trend": "\u25bc -0.28%",
-        "url": ""
+        "price": "38.45",
+        "trend": "\u25bc -0.75%",
+        "logoUrl": ".\n"
     },
     "EFX": {
         "name": "Equifax Inc",
-        "price": "185.75",
-        "trend": "\u25bc -0.18%",
-        "url": ""
+        "price": "185.56",
+        "trend": "\u25bc -0.28%",
+        "logoUrl": ".\n"
     },
     "EQIX": {
         "name": "Equinix, Inc. (REIT)",
-        "price": "733.50",
-        "trend": "\u25bc 0.00%",
-        "url": ""
+        "price": "731.91",
+        "trend": "\u25bc -0.22%",
+        "logoUrl": ".\n"
     },
     "EQR": {
         "name": "Equity Residential",
-        "price": "60.46",
-        "trend": "\u25bc -0.90%",
-        "url": ""
+        "price": "60.13",
+        "trend": "\u25bc -1.44%",
+        "logoUrl": ".\n"
     },
     "ESS": {
         "name": "Essex Property Trust, Inc",
-        "price": "217.77",
-        "trend": "\u25bc -0.60%",
-        "url": ""
+        "price": "215.64",
+        "trend": "\u25bc -1.57%",
+        "logoUrl": ".\n"
     },
     "ETSY": {
         "name": "Etsy, Inc",
-        "price": "63.73",
-        "trend": "\u25bc -0.81%",
-        "url": ""
+        "price": "63.80",
+        "trend": "\u25bc -0.70%",
+        "logoUrl": ".\n"
     },
     "EG": {
         "name": "Everest Group Ltd",
-        "price": "393.27",
-        "trend": "\u25b2 0.20%",
-        "url": ""
+        "price": "391.80",
+        "trend": "\u25bc -0.17%",
+        "logoUrl": ".\n"
     },
     "EVRG": {
         "name": "Evergy, Inc",
-        "price": "53.685",
-        "trend": "\u25bc -0.32%",
-        "url": ""
+        "price": "53.61",
+        "trend": "\u25bc -0.46%",
+        "logoUrl": ".\n"
     },
     "ES": {
         "name": "Eversource Energy",
-        "price": "62.87",
-        "trend": "\u25bc -1.78%",
-        "url": ""
+        "price": "62.58",
+        "trend": "\u25bc -2.23%",
+        "logoUrl": ".\n"
     },
     "EXC": {
         "name": "Exelon Corporation",
-        "price": "40.365",
-        "trend": "\u25bc -0.23%",
-        "url": ""
+        "price": "40.21",
+        "trend": "\u25bc -0.62%",
+        "logoUrl": ".\n"
     },
     "EXPE": {
         "name": "Expedia Group, Inc",
-        "price": "100.69",
-        "trend": "\u25bc -1.25%",
-        "url": ""
+        "price": "100.87",
+        "trend": "\u25bc -1.07%",
+        "logoUrl": ".\n"
     },
     "EXPD": {
         "name": "Expeditors International of Washington, Inc",
-        "price": "113.575",
-        "trend": "\u25b2 0.51%",
-        "url": ""
+        "price": "113.91",
+        "trend": "\u25b2 0.81%",
+        "logoUrl": ".\n"
     },
     "EXR": {
         "name": "Extra Space Storage Inc",
-        "price": "124.41",
-        "trend": "\u25b2 1.48%",
-        "url": ""
+        "price": "124.06",
+        "trend": "\u25b2 1.20%",
+        "logoUrl": ".\n"
     },
     "XOM": {
         "name": "Exxon Mobil Corporation",
-        "price": "115.185",
-        "trend": "\u25b2 0.37%",
-        "url": ""
+        "price": "114.94",
+        "trend": "\u25b2 0.16%",
+        "logoUrl": ".\n"
     },
     "FFIV": {
         "name": "F5 Networks, Inc",
-        "price": "158.965",
-        "trend": "\u25b2 0.92%",
-        "url": ""
+        "price": "158.66",
+        "trend": "\u25b2 0.73%",
+        "logoUrl": ".\n"
     },
     "FDS": {
         "name": "FactSet Research Systems Inc",
-        "price": "436.445",
-        "trend": "\u25b2 2.27%",
-        "url": ""
+        "price": "435.82",
+        "trend": "\u25b2 2.12%",
+        "logoUrl": ".\n"
     },
     "FICO": {
         "name": "Fair Isaac Corporation",
-        "price": "889.55",
-        "trend": "\u25bc -0.03%",
-        "url": ""
+        "price": "889.51",
+        "trend": "\u25bc -0.04%",
+        "logoUrl": ".\n"
     },
     "FAST": {
         "name": "Fastenal Company",
-        "price": "54.255",
-        "trend": "\u25b2 0.29%",
-        "url": ""
+        "price": "54.21",
+        "trend": "\u25b2 0.20%",
+        "logoUrl": ".\n"
     },
     "FRT": {
         "name": "Federal Realty Investment Trust",
-        "price": "94.02",
-        "trend": "\u25bc -0.03%",
-        "url": ""
+        "price": "92.90",
+        "trend": "\u25bc -1.22%",
+        "logoUrl": ".\n"
     },
     "FDX": {
         "name": "FedEx Corporation",
-        "price": "259.34",
-        "trend": "\u25bc -0.96%",
-        "url": ""
+        "price": "261.09",
+        "trend": "\u25bc -0.29%",
+        "logoUrl": ".\n"
     },
     "FIS": {
         "name": "Fidelity National Information Services, Inc",
-        "price": "56.32",
-        "trend": "\u25bc -1.28%",
-        "url": ""
+        "price": "56.12",
+        "trend": "\u25bc -1.63%",
+        "logoUrl": ".\n"
     },
     "FITB": {
         "name": "Fifth Third Bancorp",
-        "price": "25.86",
-        "trend": "\u25bc -1.97%",
-        "url": ""
+        "price": "25.70",
+        "trend": "\u25bc -2.58%",
+        "logoUrl": ".\n"
     },
     "FE": {
         "name": "FirstEnergy Corp",
-        "price": "36.145",
-        "trend": "\u25bc -0.15%",
-        "url": ""
+        "price": "36.05",
+        "trend": "\u25bc -0.41%",
+        "logoUrl": ".\n"
     },
     "FSLR": {
         "name": "First Solar, Inc",
-        "price": "162.36",
-        "trend": "\u25bc -2.33%",
-        "url": ""
+        "price": "162.45",
+        "trend": "\u25bc -2.28%",
+        "logoUrl": ".\n"
     },
     "FLT": {
         "name": "FleetCor Technologies, Inc",
-        "price": "269.265",
-        "trend": "\u25bc -0.25%",
-        "url": ""
+        "price": "269.98",
+        "trend": "\u25b2 0.01%",
+        "logoUrl": ".\n"
     },
     "FMC": {
         "name": "FMC Corporation",
-        "price": "68.71",
-        "trend": "\u25bc -1.55%",
-        "url": ""
+        "price": "68.39",
+        "trend": "\u25bc -2.01%",
+        "logoUrl": ".\n"
     },
     "F": {
         "name": "Ford Motor Company",
-        "price": "12.475",
-        "trend": "\u25b2 2.25%",
-        "url": ""
+        "price": "12.43",
+        "trend": "\u25b2 1.89%",
+        "logoUrl": ".\n"
     },
     "FTNT": {
         "name": "Fortinet, Inc",
-        "price": "58.32",
-        "trend": "\u25bc -0.78%",
-        "url": ""
+        "price": "58.24",
+        "trend": "\u25bc -0.92%",
+        "logoUrl": ".\n"
     },
     "FTV": {
         "name": "Fortive Corporation",
-        "price": "74.26",
-        "trend": "\u25b2 0.46%",
-        "url": ""
+        "price": "74.28",
+        "trend": "\u25b2 0.49%",
+        "logoUrl": ".\n"
     },
     "FOXA": {
         "name": "Fox Corporation",
-        "price": "31.61",
-        "trend": "\u25bc -1.65%",
-        "url": ""
+        "price": "31.35",
+        "trend": "\u25bc -2.46%",
+        "logoUrl": ".\n"
     },
     "FOX": {
         "name": "Fox Corporation",
-        "price": "29.055",
-        "trend": "\u25bc -1.81%",
-        "url": ""
+        "price": "28.85",
+        "trend": "\u25bc -2.50%",
+        "logoUrl": ".\n"
     },
     "BEN": {
         "name": "Franklin Resources, Inc",
         "price": "25.02",
         "trend": "\u25bc -0.64%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "FI": {
         "name": "Frank's International N.V",
-        "price": "116.39",
-        "trend": "\u25bc -0.28%",
-        "url": ""
+        "price": "116.08",
+        "trend": "\u25bc -0.55%",
+        "logoUrl": ".\n"
     },
     "FCX": {
         "name": "Freeport-McMoRan Inc",
-        "price": "37.295",
-        "trend": "\u25b2 0.17%",
-        "url": ""
+        "price": "37.15",
+        "trend": "\u25bc -0.21%",
+        "logoUrl": ".\n"
     },
     "GRMN": {
         "name": "Garmin Ltd",
-        "price": "105.81",
-        "trend": "\u25b2 0.73%",
-        "url": ""
+        "price": "105.31",
+        "trend": "\u25b2 0.26%",
+        "logoUrl": ".\n"
     },
     "IT": {
         "name": "Gartner, Inc",
-        "price": "355.22",
-        "trend": "\u25b2 1.72%",
-        "url": ""
+        "price": "356.26",
+        "trend": "\u25b2 2.02%",
+        "logoUrl": ".\n"
     },
     "GEHC": {
         "name": "GE HealthCare Technologies Inc",
-        "price": "64.25",
-        "trend": "\u25b2 0.56%",
-        "url": ""
+        "price": "64.33",
+        "trend": "\u25b2 0.69%",
+        "logoUrl": ".\n"
     },
     "GNRC": {
         "name": "Generac Holdings Inc",
-        "price": "106.51",
-        "trend": "\u25bc -1.80%",
-        "url": ""
+        "price": "106.75",
+        "trend": "\u25bc -1.58%",
+        "logoUrl": ".\n"
     },
     "GD": {
         "name": "General Dynamics Corporation",
-        "price": "218.815",
-        "trend": "\u25bc -1.38%",
-        "url": ""
+        "price": "218.34",
+        "trend": "\u25bc -1.60%",
+        "logoUrl": ".\n"
     },
     "GE": {
         "name": "General Electric Company",
-        "price": "112.04",
-        "trend": "\u25bc -0.84%",
-        "url": ""
+        "price": "111.25",
+        "trend": "\u25bc -1.54%",
+        "logoUrl": ".\n"
     },
     "GIS": {
         "name": "General Mills, Inc",
-        "price": "65.355",
-        "trend": "\u25bc -0.19%",
-        "url": ""
+        "price": "64.82",
+        "trend": "\u25bc -1.01%",
+        "logoUrl": ".\n"
     },
     "GM": {
         "name": "General Motors Company",
-        "price": "32.55",
-        "trend": "\u25bc -0.49%",
-        "url": ""
+        "price": "32.58",
+        "trend": "\u25bc -0.40%",
+        "logoUrl": ".\n"
     },
     "GEN": {
         "name": "Genesis Healthcare, Inc",
-        "price": "18.895",
-        "trend": "\u25bc -0.45%",
-        "url": ""
+        "price": "18.86",
+        "trend": "\u25bc -0.63%",
+        "logoUrl": ".\n"
     },
     "GPC": {
         "name": "Genuine Parts Company",
-        "price": "146.55",
-        "trend": "\u25b2 0.62%",
-        "url": ""
+        "price": "146.35",
+        "trend": "\u25b2 0.49%",
+        "logoUrl": ".\n"
     },
     "GILD": {
         "name": "Gilead Sciences, Inc",
-        "price": "75.08",
-        "trend": "\u25bc -0.25%",
-        "url": ""
+        "price": "75.01",
+        "trend": "\u25bc -0.35%",
+        "logoUrl": ".\n"
     },
     "GPN": {
         "name": "Global Payments Inc",
-        "price": "118.925",
-        "trend": "\u25bc -0.67%",
-        "url": ""
+        "price": "119.16",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "GL": {
         "name": "Globe Life Inc",
-        "price": "109.96",
-        "trend": "\u25bc -0.09%",
-        "url": ""
+        "price": "110.22",
+        "trend": "\u25b2 0.15%",
+        "logoUrl": ".\n"
     },
     "HAL": {
         "name": "Halliburton Company",
-        "price": "40.85",
-        "trend": "\u25b2 0.22%",
-        "url": ""
+        "price": "40.63",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "HAS": {
         "name": "Hasbro, Inc",
-        "price": "65.475",
-        "trend": "\u25bc -1.53%",
-        "url": ""
+        "price": "65.23",
+        "trend": "\u25bc -1.90%",
+        "logoUrl": ".\n"
     },
     "HCA": {
         "name": "HCA Healthcare, Inc",
-        "price": "251.68",
-        "trend": "\u25bc -0.69%",
-        "url": ""
+        "price": "252.27",
+        "trend": "\u25bc -0.46%",
+        "logoUrl": ".\n"
     },
     "PEAK": {
         "name": "Healthpeak Properties Inc.",
-        "price": "18.985",
-        "trend": "\u25bc -0.39%",
-        "url": ""
+        "price": "18.83",
+        "trend": "\u25bc -1.21%",
+        "logoUrl": ".\n"
     },
     "HSIC": {
         "name": "Henry Schein, Inc",
-        "price": "73.385",
-        "trend": "\u25bc -0.41%",
-        "url": ""
+        "price": "73.11",
+        "trend": "\u25bc -0.79%",
+        "logoUrl": ".\n"
     },
     "HES": {
         "name": "Hess Corporation",
-        "price": "150.45",
-        "trend": "\u25bc -0.32%",
-        "url": ""
+        "price": "150.12",
+        "trend": "\u25bc -0.54%",
+        "logoUrl": ".\n"
     },
     "HPE": {
         "name": "Hewlett Packard Enterprise Company",
-        "price": "16.965",
-        "trend": "\u25bc -0.09%",
-        "url": ""
+        "price": "17.02",
+        "trend": "\u25b2 0.24%",
+        "logoUrl": ".\n"
     },
     "HLT": {
         "name": "Hilton Worldwide Holdings Inc",
-        "price": "147.795",
-        "trend": "\u25b2 0.06%",
-        "url": ""
+        "price": "147.59",
+        "trend": "\u25bc -0.08%",
+        "logoUrl": ".\n"
     },
     "HOLX": {
         "name": "Hologic, Inc",
-        "price": "70.30",
-        "trend": "\u25b2 0.33%",
-        "url": ""
+        "price": "70.21",
+        "trend": "\u25b2 0.20%",
+        "logoUrl": ".\n"
     },
     "HON": {
         "name": "Honeywell International Inc",
-        "price": "190.83",
-        "trend": "\u25bc -0.31%",
-        "url": ""
+        "price": "189.78",
+        "trend": "\u25bc -0.86%",
+        "logoUrl": ".\n"
     },
     "HRL": {
         "name": "Hormel Foods Corporation",
-        "price": "39.29",
-        "trend": "\u25bc -0.10%",
-        "url": ""
+        "price": "38.91",
+        "trend": "\u25bc -1.07%",
+        "logoUrl": ".\n"
     },
     "HST": {
         "name": "Host Hotels & Resorts, Inc",
-        "price": "15.855",
-        "trend": "\u25bc -0.35%",
-        "url": ""
+        "price": "15.80",
+        "trend": "\u25bc -0.69%",
+        "logoUrl": ".\n"
     },
     "HWM": {
         "name": "Howmet Aerospace Inc.",
         "price": "45.80",
         "trend": "\u25bc -0.59%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "HPQ": {
         "name": "HP Inc",
-        "price": "26.765",
-        "trend": "\u25bc -0.13%",
-        "url": ""
+        "price": "26.77",
+        "trend": "\u25bc -0.11%",
+        "logoUrl": ".\n"
     },
     "HUM": {
         "name": "Humana Inc",
-        "price": "495.885",
-        "trend": "\u25b2 0.37%",
-        "url": ""
+        "price": "494.06",
+        "trend": "0.00%",
+        "logoUrl": ".\n"
     },
     "HBAN": {
         "name": "Huntington Bancshares Incorporated",
-        "price": "10.305",
-        "trend": "\u25bc -0.82%",
-        "url": ""
+        "price": "10.31",
+        "trend": "\u25bc -0.77%",
+        "logoUrl": ".\n"
     },
     "HII": {
         "name": "Huntington Ingalls Industries, Inc",
-        "price": "202.24",
-        "trend": "\u25bc -0.13%",
-        "url": ""
+        "price": "201.08",
+        "trend": "\u25bc -0.70%",
+        "logoUrl": ".\n"
     },
     "IEX": {
         "name": "IDEX Corporation",
-        "price": "207.21",
-        "trend": "\u25b2 0.20%",
-        "url": ""
+        "price": "207.13",
+        "trend": "\u25b2 0.16%",
+        "logoUrl": ".\n"
     },
     "IDXX": {
         "name": "IDEXX Laboratories, Inc",
-        "price": "435.62",
-        "trend": "\u25bc -0.69%",
-        "url": ""
+        "price": "435.69",
+        "trend": "\u25bc -0.67%",
+        "logoUrl": ".\n"
     },
     "ITW": {
         "name": "Illinois Tool Works Inc",
-        "price": "233.515",
-        "trend": "\u25b2 0.61%",
-        "url": ""
+        "price": "233.51",
+        "trend": "\u25b2 0.60%",
+        "logoUrl": ".\n"
     },
     "ILMN": {
         "name": "Illumina, Inc",
-        "price": "132.915",
-        "trend": "\u25bc -0.31%",
-        "url": ""
+        "price": "132.44",
+        "trend": "\u25bc -0.67%",
+        "logoUrl": ".\n"
     },
     "INCY": {
         "name": "Incyte Corporation",
-        "price": "58.19",
-        "trend": "\u25bc -1.05%",
-        "url": ""
+        "price": "58.10",
+        "trend": "\u25bc -1.21%",
+        "logoUrl": ".\n"
     },
     "IR": {
         "name": "Ingersoll-Rand Plc",
-        "price": "64.46",
-        "trend": "\u25b2 0.66%",
-        "url": ""
+        "price": "64.50",
+        "trend": "\u25b2 0.72%",
+        "logoUrl": ".\n"
     },
     "PODD": {
         "name": "Insulet Corporation",
-        "price": "156.76",
-        "trend": "\u25bc -1.98%",
-        "url": ""
+        "price": "155.70",
+        "trend": "\u25bc -2.64%",
+        "logoUrl": ".\n"
     },
     "INTC": {
         "name": "Intel Corporation",
-        "price": "34.265",
-        "trend": "\u25bc -1.11%",
-        "url": ""
+        "price": "34.18",
+        "trend": "\u25bc -1.36%",
+        "logoUrl": ".\n"
     },
     "ICE": {
         "name": "Intercontinental Exchange, Inc",
-        "price": "110.68",
-        "trend": "\u25bc -1.55%",
-        "url": ""
+        "price": "110.17",
+        "trend": "\u25bc -2.00%",
+        "logoUrl": ".\n"
     },
     "IBM": {
         "name": "International Business Machines Corporation",
-        "price": "147.03",
-        "trend": "\u25bc -0.24%",
-        "url": ""
+        "price": "146.91",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "IFF": {
         "name": "International Flavors & Fragrances Inc",
-        "price": "68.20",
-        "trend": "\u25bc -0.48%",
-        "url": ""
+        "price": "67.84",
+        "trend": "\u25bc -1.01%",
+        "logoUrl": ".\n"
     },
     "IP": {
         "name": "International Paper Company",
-        "price": "34.27",
-        "trend": "\u25b2 0.41%",
-        "url": ""
+        "price": "34.07",
+        "trend": "\u25bc -0.18%",
+        "logoUrl": ".\n"
     },
     "INTU": {
         "name": "Intuit Inc",
-        "price": "506.68",
-        "trend": "\u25b2 0.46%",
-        "url": ""
+        "price": "508.57",
+        "trend": "\u25b2 0.83%",
+        "logoUrl": ".\n"
     },
     "ISRG": {
         "name": "Intuitive Surgical, Inc",
-        "price": "288.69",
-        "trend": "\u25b2 1.53%",
-        "url": ""
+        "price": "288.20",
+        "trend": "\u25b2 1.35%",
+        "logoUrl": ".\n"
     },
     "IVZ": {
         "name": "Invesco Ltd",
-        "price": "14.425",
-        "trend": "\u25bc -1.40%",
-        "url": ""
+        "price": "14.49",
+        "trend": "\u25bc -0.96%",
+        "logoUrl": ".\n"
     },
     "INVH": {
         "name": "Invitation Homes Inc",
-        "price": "32.98",
-        "trend": "\u25bc -0.09%",
-        "url": ""
+        "price": "32.68",
+        "trend": "\u25bc -1.00%",
+        "logoUrl": ".\n"
     },
     "IQV": {
         "name": "IQVIA Holdings Inc",
-        "price": "199.145",
-        "trend": "\u25bc -0.02%",
-        "url": ""
+        "price": "198.75",
+        "trend": "\u25bc -0.22%",
+        "logoUrl": ".\n"
     },
     "IRM": {
         "name": "Iron Mountain Incorporated",
-        "price": "62.28",
-        "trend": "\u25b2 0.92%",
-        "url": ""
+        "price": "61.89",
+        "trend": "\u25b2 0.29%",
+        "logoUrl": ".\n"
     },
     "JKHY": {
         "name": "Jack Henry & Associates, Inc",
-        "price": "148.46",
-        "trend": "\u25bc -0.10%",
-        "url": ""
+        "price": "147.89",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "J": {
         "name": "Jacobs Engineering Group Inc.",
-        "price": "133.225",
-        "trend": "\u25b2 1.61%",
-        "url": ""
+        "price": "132.22",
+        "trend": "\u25b2 0.84%",
+        "logoUrl": ".\n"
     },
     "JBHT": {
         "name": "J.B. Hunt Transport Services, Inc",
-        "price": "189.675",
-        "trend": "\u25bc -0.15%",
-        "url": ""
+        "price": "189.49",
+        "trend": "\u25bc -0.25%",
+        "logoUrl": ".\n"
     },
     "JCI": {
         "name": "Johnson Controls International plc",
-        "price": "55.17",
-        "trend": "\u25bc -0.09%",
-        "url": ""
+        "price": "55.15",
+        "trend": "\u25bc -0.13%",
+        "logoUrl": ".\n"
     },
     "JNJ": {
         "name": "Johnson & Johnson",
-        "price": "160.86",
-        "trend": "\u25bc -0.49%",
-        "url": ""
+        "price": "160.50",
+        "trend": "\u25bc -0.72%",
+        "logoUrl": ".\n"
     },
     "JPM": {
         "name": "JPMorgan Chase & Co",
-        "price": "145.62",
-        "trend": "\u25bc -1.03%",
-        "url": ""
+        "price": "145.73",
+        "trend": "\u25bc -0.96%",
+        "logoUrl": ".\n"
     },
     "JNPR": {
         "name": "Juniper Networks, Inc",
         "price": "27.93",
         "trend": "\u25b2 0.72%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "K": {
         "name": "Kellogg Company",
-        "price": "60.46",
-        "trend": "0.00%",
-        "url": ""
+        "price": "60.21",
+        "trend": "\u25bc -0.41%",
+        "logoUrl": ".\n"
     },
     "KVUE": {
         "name": "Kenvue Inc",
-        "price": "20.695",
-        "trend": "\u25bc -0.70%",
-        "url": ""
+        "price": "20.55",
+        "trend": "\u25bc -1.39%",
+        "logoUrl": ".\n"
     },
     "KDP": {
         "name": "Keurig Dr Pepper Inc",
-        "price": "33.34",
-        "trend": "\u25b2 0.03%",
-        "url": ""
+        "price": "33.12",
+        "trend": "\u25bc -0.63%",
+        "logoUrl": ".\n"
     },
     "KEY": {
         "name": "KeyCorp",
-        "price": "10.605",
-        "trend": "\u25bc -1.07%",
-        "url": ""
+        "price": "10.61",
+        "trend": "\u25bc -1.03%",
+        "logoUrl": ".\n"
     },
     "KEYS": {
         "name": "Keysight Technologies, Inc",
-        "price": "131.48",
-        "trend": "\u25b2 0.37%",
-        "url": ""
+        "price": "130.98",
+        "trend": "\u25bc -0.02%",
+        "logoUrl": ".\n"
     },
     "KMB": {
         "name": "Kimberly-Clark Corporation",
-        "price": "124.68",
-        "trend": "\u25bc -0.47%",
-        "url": ""
+        "price": "123.97",
+        "trend": "\u25bc -1.04%",
+        "logoUrl": ".\n"
     },
     "KIM": {
         "name": "Kimco Realty Corporation",
-        "price": "17.885",
-        "trend": "\u25bc -0.47%",
-        "url": ""
+        "price": "17.69",
+        "trend": "\u25bc -1.56%",
+        "logoUrl": ".\n"
     },
     "KMI": {
         "name": "Kinder Morgan, Inc",
-        "price": "16.655",
-        "trend": "\u25b2 0.57%",
-        "url": ""
+        "price": "16.60",
+        "trend": "\u25b2 0.24%",
+        "logoUrl": ".\n"
     },
     "KLAC": {
         "name": "KLA Corporation",
-        "price": "451.825",
+        "price": "451.82",
         "trend": "\u25b2 1.10%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "LHX": {
         "name": "L3Harris Technologies, Inc",
-        "price": "174.145",
-        "trend": "\u25b2 0.12%",
-        "url": ""
+        "price": "173.57",
+        "trend": "\u25bc -0.21%",
+        "logoUrl": ".\n"
     },
     "LH": {
         "name": "Laboratory Corporation of America Holdings",
-        "price": "206.135",
-        "trend": "\u25b2 0.49%",
-        "url": ""
+        "price": "205.15",
+        "trend": "\u25b2 0.00%",
+        "logoUrl": ".\n"
     },
     "LW": {
         "name": "Lamb Weston Holdings, Inc",
-        "price": "94.31",
-        "trend": "\u25bc -1.48%",
-        "url": ""
+        "price": "94.05",
+        "trend": "\u25bc -1.75%",
+        "logoUrl": ".\n"
     },
     "LRCX": {
         "name": "Lam Research Corporation",
-        "price": "621.21",
-        "trend": "\u25b2 1.77%",
-        "url": ""
+        "price": "619.11",
+        "trend": "\u25b2 1.43%",
+        "logoUrl": ".\n"
     },
     "LVS": {
         "name": "Las Vegas Sands Corp",
-        "price": "45.30",
-        "trend": "\u25bc -1.18%",
-        "url": ""
+        "price": "45.79",
+        "trend": "\u25bc -0.11%",
+        "logoUrl": ".\n"
     },
     "LDOS": {
         "name": "Leidos Holdings, Inc",
-        "price": "91.39",
-        "trend": "\u25bc -1.09%",
-        "url": ""
+        "price": "91.13",
+        "trend": "\u25bc -1.37%",
+        "logoUrl": ".\n"
     },
     "LEN": {
         "name": "Lennar Corporation",
-        "price": "112.97",
-        "trend": "\u25bc -0.14%",
-        "url": ""
+        "price": "113.50",
+        "trend": "\u25b2 0.33%",
+        "logoUrl": ".\n"
     },
     "LNC": {
         "name": "Lincoln National Corporation",
-        "price": "24.655",
-        "trend": "\u25bc -1.46%",
-        "url": ""
+        "price": "24.65",
+        "trend": "\u25bc -1.48%",
+        "logoUrl": ".\n"
     },
     "LIN": {
         "name": "Linde plc",
-        "price": "372.97",
+        "price": "372.95",
         "trend": "\u25b2 0.14%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "LYV": {
         "name": "Live Nation Entertainment, Inc",
-        "price": "79.73",
-        "trend": "\u25bc -0.30%",
-        "url": ""
+        "price": "79.75",
+        "trend": "\u25bc -0.28%",
+        "logoUrl": ".\n"
     },
     "LKQ": {
         "name": "LKQ Corporation",
-        "price": "49.86",
-        "trend": "\u25b2 0.54%",
-        "url": ""
+        "price": "49.43",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "LMT": {
         "name": "Lockheed Martin Corporation",
-        "price": "414.39",
-        "trend": "\u25bc -0.75%",
-        "url": ""
+        "price": "413.65",
+        "trend": "\u25bc -0.93%",
+        "logoUrl": ".\n"
     },
     "L": {
         "name": "Loews Corporation",
-        "price": "64.47",
-        "trend": "\u25b2 0.44%",
-        "url": ""
+        "price": "64.50",
+        "trend": "\u25b2 0.48%",
+        "logoUrl": ".\n"
     },
     "LOW": {
         "name": "Lowe's Companies, Inc",
-        "price": "210.06",
-        "trend": "\u25bc -0.26%",
-        "url": ""
+        "price": "210.49",
+        "trend": "\u25bc -0.06%",
+        "logoUrl": ".\n"
     },
     "LYB": {
         "name": "LyondellBasell Industries N.V",
-        "price": "94.94",
-        "trend": "\u25bc -0.58%",
-        "url": ""
+        "price": "94.86",
+        "trend": "\u25bc -0.66%",
+        "logoUrl": ".\n"
     },
     "MRO": {
         "name": "Marathon Oil Corporation",
-        "price": "26.11",
-        "trend": "\u25b2 0.93%",
-        "url": ""
+        "price": "26.16",
+        "trend": "\u25b2 1.12%",
+        "logoUrl": ".\n"
     },
     "MPC": {
         "name": "Marathon Petroleum Corporation",
-        "price": "154.76",
-        "trend": "\u25bc -0.01%",
-        "url": ""
+        "price": "153.46",
+        "trend": "\u25bc -0.85%",
+        "logoUrl": ".\n"
     },
     "MKTX": {
         "name": "MarketAxess Holdings Inc",
-        "price": "218.595",
-        "trend": "\u25b2 1.66%",
-        "url": ""
+        "price": "215.97",
+        "trend": "\u25b2 0.44%",
+        "logoUrl": ".\n"
     },
     "MAR": {
         "name": "Marriott International, Inc",
-        "price": "194.64",
-        "trend": "\u25bc -0.27%",
-        "url": ""
+        "price": "194.36",
+        "trend": "\u25bc -0.42%",
+        "logoUrl": ".\n"
     },
     "MMC": {
         "name": "Marsh & McLennan Companies, Inc",
-        "price": "196.15",
-        "trend": "\u25b2 0.48%",
-        "url": ""
+        "price": "195.51",
+        "trend": "\u25b2 0.15%",
+        "logoUrl": ".\n"
     },
     "MLM": {
         "name": "Martin Marietta Materials, Inc",
-        "price": "405.945",
-        "trend": "\u25bc -0.15%",
-        "url": ""
+        "price": "406.38",
+        "trend": "\u25bc -0.04%",
+        "logoUrl": ".\n"
     },
     "MAS": {
         "name": "Masco Corporation",
-        "price": "52.96",
-        "trend": "\u25bc -1.18%",
-        "url": ""
+        "price": "53.09",
+        "trend": "\u25bc -0.93%",
+        "logoUrl": ".\n"
     },
     "MA": {
         "name": "Mastercard Incorporated",
-        "price": "402.655",
-        "trend": "\u25bc -0.17%",
-        "url": ""
+        "price": "402.22",
+        "trend": "\u25bc -0.28%",
+        "logoUrl": ".\n"
     },
     "MTCH": {
         "name": "Match Group, Inc",
-        "price": "41.28",
-        "trend": "\u25b2 0.61%",
-        "url": ""
+        "price": "41.26",
+        "trend": "\u25b2 0.56%",
+        "logoUrl": ".\n"
     },
     "MKC": {
         "name": "McCormick & Company, Incorporated",
-        "price": "76.82",
-        "trend": "\u25bc -0.76%",
-        "url": ""
+        "price": "76.55",
+        "trend": "\u25bc -1.11%",
+        "logoUrl": ".\n"
     },
     "MCD": {
         "name": "McDonald's Corporation",
-        "price": "272.35",
-        "trend": "\u25b2 0.42%",
-        "url": ""
+        "price": "272.22",
+        "trend": "\u25b2 0.37%",
+        "logoUrl": ".\n"
     },
     "MCK": {
         "name": "McKesson Corporation",
-        "price": "439.685",
-        "trend": "\u25b2 0.33%",
-        "url": ""
+        "price": "438.66",
+        "trend": "\u25b2 0.10%",
+        "logoUrl": ".\n"
     },
     "MDT": {
         "name": "Medtronic plc",
-        "price": "80.36",
-        "trend": "\u25bc -0.12%",
-        "url": ""
+        "price": "80.27",
+        "trend": "\u25bc -0.24%",
+        "logoUrl": ".\n"
     },
     "MRK": {
         "name": "Merck & Co., Inc",
-        "price": "106.515",
-        "trend": "\u25bc -0.20%",
-        "url": ""
+        "price": "106.34",
+        "trend": "\u25bc -0.37%",
+        "logoUrl": ".\n"
     },
     "META": {
         "name": "Meta Platforms Inc.",
-        "price": "300.25",
-        "trend": "\u25b2 1.53%",
-        "url": ""
+        "price": "299.08",
+        "trend": "\u25b2 1.13%",
+        "logoUrl": ".\n"
     },
     "MET": {
         "name": "MetLife, Inc",
-        "price": "64.465",
-        "trend": "\u25bc -0.35%",
-        "url": ""
+        "price": "64.42",
+        "trend": "\u25bc -0.42%",
+        "logoUrl": ".\n"
     },
     "MTD": {
         "name": "Mettler-Toledo International Inc",
-        "price": "1,097.83",
-        "trend": "\u25b2 0.35%",
-        "url": ""
+        "price": "1,100.03",
+        "trend": "\u25b2 0.55%",
+        "logoUrl": ".\n"
     },
     "MGM": {
         "name": "MGM Resorts International",
-        "price": "36.62",
-        "trend": "\u25bc -1.11%",
-        "url": ""
+        "price": "36.54",
+        "trend": "\u25bc -1.32%",
+        "logoUrl": ".\n"
     },
     "MCHP": {
         "name": "Microchip Technology Incorporated",
-        "price": "77.04",
-        "trend": "\u25b2 1.25%",
-        "url": ""
+        "price": "77.08",
+        "trend": "\u25b2 1.30%",
+        "logoUrl": ".\n"
     },
     "MU": {
         "name": "Micron Technology, Inc",
-        "price": "68.915",
-        "trend": "\u25b2 1.49%",
-        "url": ""
+        "price": "68.88",
+        "trend": "\u25b2 1.44%",
+        "logoUrl": ".\n"
     },
     "MSFT": {
         "name": "Microsoft Corporation",
-        "price": "317.345",
-        "trend": "\u25bc -0.68%",
-        "url": ""
+        "price": "317.01",
+        "trend": "\u25bc -0.79%",
+        "logoUrl": ".\n"
     },
     "MAA": {
         "name": "Mid-America Apartment Communities, Inc",
-        "price": "131.29",
-        "trend": "\u25bc -0.67%",
-        "url": ""
+        "price": "130.21",
+        "trend": "\u25bc -1.49%",
+        "logoUrl": ".\n"
     },
     "MRNA": {
         "name": "Moderna, Inc",
-        "price": "100.175",
-        "trend": "\u25bc -0.05%",
-        "url": ""
+        "price": "99.99",
+        "trend": "\u25bc -0.24%",
+        "logoUrl": ".\n"
     },
     "MHK": {
         "name": "Mohawk Industries, Inc",
-        "price": "86.31",
-        "trend": "\u25bc -3.33%",
-        "url": ""
+        "price": "86.84",
+        "trend": "\u25bc -2.73%",
+        "logoUrl": ".\n"
     },
     "MOH": {
         "name": "Molina Healthcare, Inc",
-        "price": "333.95",
-        "trend": "\u25bc -0.24%",
-        "url": ""
+        "price": "334.59",
+        "trend": "\u25bc -0.05%",
+        "logoUrl": ".\n"
     },
     "TAP": {
         "name": "Molson Coors Brewing Company",
-        "price": "63.74",
-        "trend": "\u25bc -0.67%",
-        "url": ""
+        "price": "63.40",
+        "trend": "\u25bc -1.20%",
+        "logoUrl": ".\n"
     },
     "MDLZ": {
         "name": "Mondelez International, Inc",
-        "price": "70.78",
-        "trend": "\u25b2 0.10%",
-        "url": ""
+        "price": "70.43",
+        "trend": "\u25bc -0.40%",
+        "logoUrl": ".\n"
     },
     "MPWR": {
         "name": "Monolithic Power Systems, Inc",
-        "price": "447.25",
-        "trend": "\u25b2 1.56%",
-        "url": ""
+        "price": "449.29",
+        "trend": "\u25b2 2.02%",
+        "logoUrl": ".\n"
     },
     "MNST": {
         "name": "Monster Beverage Corporation",
-        "price": "54.725",
-        "trend": "\u25bc -0.05%",
-        "url": ""
+        "price": "54.52",
+        "trend": "\u25bc -0.42%",
+        "logoUrl": ".\n"
     },
     "MCO": {
         "name": "Moody's Corporation",
-        "price": "324.35",
-        "trend": "\u25b2 0.02%",
-        "url": ""
+        "price": "324.22",
+        "trend": "\u25bc -0.02%",
+        "logoUrl": ".\n"
     },
     "MS": {
         "name": "Morgan Stanley",
-        "price": "83.095",
-        "trend": "\u25bc -2.10%",
-        "url": ""
+        "price": "83.29",
+        "trend": "\u25bc -1.87%",
+        "logoUrl": ".\n"
     },
     "MSI": {
         "name": "Motorola Solutions, Inc",
-        "price": "278.965",
-        "trend": "\u25bc -0.07%",
-        "url": ""
+        "price": "277.74",
+        "trend": "\u25bc -0.51%",
+        "logoUrl": ".\n"
     },
     "MSCI": {
         "name": "MSCI Inc",
-        "price": "513.59",
-        "trend": "\u25bc -0.36%",
-        "url": ""
+        "price": "513.16",
+        "trend": "\u25bc -0.44%",
+        "logoUrl": ".\n"
     },
     "MTB": {
         "name": "M&T Bank Corporation",
-        "price": "124.65",
-        "trend": "\u25bc -1.28%",
-        "url": ""
+        "price": "124.27",
+        "trend": "\u25bc -1.58%",
+        "logoUrl": ".\n"
     },
     "NDAQ": {
         "name": "Nasdaq, Inc",
-        "price": "48.76",
-        "trend": "\u25bc -0.16%",
-        "url": ""
+        "price": "48.67",
+        "trend": "\u25bc -0.35%",
+        "logoUrl": ".\n"
     },
     "NTAP": {
         "name": "NetApp, Inc",
-        "price": "75.98",
-        "trend": "\u25b2 0.11%",
-        "url": ""
+        "price": "76.02",
+        "trend": "\u25b2 0.16%",
+        "logoUrl": ".\n"
     },
     "NFLX": {
         "name": "Netflix, Inc",
-        "price": "379.08",
-        "trend": "\u25bc -1.32%",
-        "url": ""
+        "price": "379.81",
+        "trend": "\u25bc -1.13%",
+        "logoUrl": ".\n"
     },
     "NWL": {
         "name": "Newell Brands Inc",
         "price": "8.97",
         "trend": "\u25bc -1.10%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "NEM": {
         "name": "Newmont Goldcorp Corporation",
-        "price": "41.025",
-        "trend": "\u25b2 1.25%",
-        "url": ""
+        "price": "40.74",
+        "trend": "\u25b2 0.54%",
+        "logoUrl": ".\n"
     },
     "NWSA": {
         "name": "News Corporation",
-        "price": "19.60",
-        "trend": "\u25bc -1.61%",
-        "url": ""
+        "price": "19.68",
+        "trend": "\u25bc -1.20%",
+        "logoUrl": ".\n"
     },
     "NWS": {
         "name": "News Corporation",
-        "price": "20.32",
-        "trend": "\u25bc -1.65%",
-        "url": ""
+        "price": "20.36",
+        "trend": "\u25bc -1.45%",
+        "logoUrl": ".\n"
     },
     "NEE": {
         "name": "NextEra Energy, Inc",
-        "price": "67.845",
-        "trend": "\u25b2 1.40%",
-        "url": ""
+        "price": "67.70",
+        "trend": "\u25b2 1.18%",
+        "logoUrl": ".\n"
     },
     "NKE": {
         "name": "NIKE, Inc",
-        "price": "90.66",
-        "trend": "\u25bc -1.02%",
-        "url": ""
+        "price": "90.85",
+        "trend": "\u25bc -0.81%",
+        "logoUrl": ".\n"
     },
     "NI": {
         "name": "NiSource Inc",
-        "price": "26.84",
-        "trend": "\u25bc -0.81%",
-        "url": ""
+        "price": "26.69",
+        "trend": "\u25bc -1.37%",
+        "logoUrl": ".\n"
     },
     "NDSN": {
         "name": "Nordson Corporation",
-        "price": "223.65",
-        "trend": "\u25bc -0.03%",
-        "url": ""
+        "price": "224.18",
+        "trend": "\u25b2 0.21%",
+        "logoUrl": ".\n"
     },
     "NSC": {
         "name": "Norfolk Southern Corporation",
-        "price": "202.19",
-        "trend": "\u25b2 0.45%",
-        "url": ""
+        "price": "202.50",
+        "trend": "\u25b2 0.61%",
+        "logoUrl": ".\n"
     },
     "NTRS": {
         "name": "Northern Trust Corporation",
-        "price": "69.22",
-        "trend": "\u25bc -0.46%",
-        "url": ""
+        "price": "69.43",
+        "trend": "\u25bc -0.16%",
+        "logoUrl": ".\n"
     },
     "NOC": {
         "name": "Northrop Grumman Corporation",
-        "price": "426.95",
-        "trend": "\u25bc -2.32%",
-        "url": ""
+        "price": "424.90",
+        "trend": "\u25bc -2.79%",
+        "logoUrl": ".\n"
     },
     "NCLH": {
         "name": "Norwegian Cruise Line Holdings Ltd",
-        "price": "15.95",
-        "trend": "\u25bc -5.73%",
-        "url": ""
+        "price": "15.66",
+        "trend": "\u25bc -7.45%",
+        "logoUrl": ".\n"
     },
     "NRG": {
         "name": "NRG Energy, Inc",
-        "price": "38.37",
-        "trend": "\u25b2 1.27%",
-        "url": ""
+        "price": "38.63",
+        "trend": "\u25b2 1.95%",
+        "logoUrl": ".\n"
     },
     "NUE": {
         "name": "Nucor Corporation",
-        "price": "153.245",
-        "trend": "\u25b2 1.13%",
-        "url": ""
+        "price": "153.13",
+        "trend": "\u25b2 1.05%",
+        "logoUrl": ".\n"
     },
     "NVDA": {
         "name": "NVIDIA Corporation",
-        "price": "414.82",
-        "trend": "\u25b2 1.13%",
-        "url": ""
+        "price": "416.10",
+        "trend": "\u25b2 1.45%",
+        "logoUrl": ".\n"
     },
     "NVR": {
         "name": "NVR, Inc",
-        "price": "5,940.45",
-        "trend": "\u25b2 0.88%",
-        "url": ""
+        "price": "5,962.5898",
+        "trend": "\u25b2 1.26%",
+        "logoUrl": ".\n"
     },
     "NXPI": {
         "name": "NXP Semiconductors N.V",
-        "price": "197.40",
-        "trend": "\u25b2 1.75%",
-        "url": ""
+        "price": "196.79",
+        "trend": "\u25b2 1.44%",
+        "logoUrl": ".\n"
     },
     "OXY": {
         "name": "Occidental Petroleum Corporation",
-        "price": "62.755",
-        "trend": "\u25b2 0.31%",
-        "url": ""
+        "price": "62.89",
+        "trend": "\u25b2 0.53%",
+        "logoUrl": ".\n"
     },
     "ODFL": {
         "name": "Old Dominion Freight Line, Inc",
-        "price": "400.035",
-        "trend": "\u25bc -0.02%",
-        "url": ""
+        "price": "400.66",
+        "trend": "\u25b2 0.13%",
+        "logoUrl": ".\n"
     },
     "OMC": {
         "name": "Omnicom Group Inc",
-        "price": "73.915",
-        "trend": "\u25bc -1.04%",
-        "url": ""
+        "price": "73.74",
+        "trend": "\u25bc -1.27%",
+        "logoUrl": ".\n"
     },
     "OKE": {
         "name": "ONEOK, Inc",
-        "price": "66.22",
-        "trend": "\u25b2 0.35%",
-        "url": ""
+        "price": "66.19",
+        "trend": "\u25b2 0.30%",
+        "logoUrl": ".\n"
     },
     "ON": {
         "name": "ON Semiconductor Corporation",
-        "price": "93.53",
-        "trend": "\u25b2 2.86%",
-        "url": ""
+        "price": "93.81",
+        "trend": "\u25b2 3.17%",
+        "logoUrl": ".\n"
     },
     "ORCL": {
         "name": "Oracle Corporation",
-        "price": "108.85",
-        "trend": "\u25bc -0.53%",
-        "url": ""
+        "price": "109.03",
+        "trend": "\u25bc -0.37%",
+        "logoUrl": ".\n"
     },
     "ORLY": {
         "name": "O'Reilly Automotive, Inc",
-        "price": "939.43",
-        "trend": "\u25b2 1.40%",
-        "url": ""
+        "price": "936.02",
+        "trend": "\u25b2 1.03%",
+        "logoUrl": ".\n"
     },
     "OGN": {
         "name": "Organon & Co.",
-        "price": "18.245",
-        "trend": "\u25bc -1.80%",
-        "url": ""
+        "price": "18.26",
+        "trend": "\u25bc -1.72%",
+        "logoUrl": ".\n"
     },
     "OTIS": {
         "name": "Otis Worldwide Corporation",
-        "price": "80.97",
-        "trend": "\u25b2 0.05%",
-        "url": ""
+        "price": "80.82",
+        "trend": "\u25bc -0.14%",
+        "logoUrl": ".\n"
     },
     "PCAR": {
         "name": "PACCAR Inc",
-        "price": "85.31",
-        "trend": "\u25b2 1.79%",
-        "url": ""
+        "price": "84.93",
+        "trend": "\u25b2 1.34%",
+        "logoUrl": ".\n"
     },
     "PKG": {
         "name": "Packaging Corporation of America",
-        "price": "149.755",
-        "trend": "\u25bc -0.04%",
-        "url": ""
+        "price": "149.06",
+        "trend": "\u25bc -0.50%",
+        "logoUrl": ".\n"
     },
     "PANW": {
         "name": "Palo Alto Networks, Inc",
-        "price": "228.69",
-        "trend": "\u25b2 0.55%",
-        "url": ""
+        "price": "228.51",
+        "trend": "\u25b2 0.47%",
+        "logoUrl": ".\n"
     },
     "PARA": {
         "name": "Paramount Global - Class B",
-        "price": "12.615",
-        "trend": "\u25bc -5.15%",
-        "url": ""
+        "price": "12.64",
+        "trend": "\u25bc -4.96%",
+        "logoUrl": ".\n"
     },
     "PH": {
         "name": "Parker-Hannifin Corporation",
-        "price": "384.94",
-        "trend": "\u25b2 0.87%",
-        "url": ""
+        "price": "387.30",
+        "trend": "\u25b2 1.49%",
+        "logoUrl": ".\n"
     },
     "PAYX": {
         "name": "Paychex, Inc",
-        "price": "113.395",
-        "trend": "\u25b2 0.08%",
-        "url": ""
+        "price": "112.95",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "PAYC": {
         "name": "Paycom Software, Inc",
-        "price": "259.05",
-        "trend": "\u25bc -1.01%",
-        "url": ""
+        "price": "257.16",
+        "trend": "\u25bc -1.73%",
+        "logoUrl": ".\n"
     },
     "PYPL": {
         "name": "PayPal Holdings, Inc",
-        "price": "57.935",
-        "trend": "\u25bc -1.17%",
-        "url": ""
+        "price": "57.88",
+        "trend": "\u25bc -1.26%",
+        "logoUrl": ".\n"
     },
     "PNR": {
         "name": "Pentair plc",
-        "price": "64.875",
-        "trend": "\u25bc -0.28%",
-        "url": ""
+        "price": "64.98",
+        "trend": "\u25bc -0.12%",
+        "logoUrl": ".\n"
     },
     "PEP": {
         "name": "PepsiCo, Inc",
-        "price": "175.71",
-        "trend": "\u25b2 0.19%",
-        "url": ""
+        "price": "175.27",
+        "trend": "\u25bc -0.06%",
+        "logoUrl": ".\n"
     },
     "PFE": {
         "name": "Pfizer Inc",
-        "price": "32.56",
-        "trend": "\u25bc -0.88%",
-        "url": ""
+        "price": "32.69",
+        "trend": "\u25bc -0.49%",
+        "logoUrl": ".\n"
     },
     "PCG": {
         "name": "PG&E Corporation",
-        "price": "17.185",
-        "trend": "\u25bc -0.32%",
-        "url": ""
+        "price": "17.14",
+        "trend": "\u25bc -0.58%",
+        "logoUrl": ".\n"
     },
     "PM": {
         "name": "Philip Morris International Inc",
-        "price": "94.78",
-        "trend": "\u25bc -1.19%",
-        "url": ""
+        "price": "94.93",
+        "trend": "\u25bc -1.03%",
+        "logoUrl": ".\n"
     },
     "PSX": {
         "name": "Phillips 66",
-        "price": "119.17",
-        "trend": "\u25bc -0.64%",
-        "url": ""
+        "price": "118.58",
+        "trend": "\u25bc -1.13%",
+        "logoUrl": ".\n"
     },
     "PNW": {
         "name": "Pinnacle West Capital Corporation",
-        "price": "78.155",
-        "trend": "\u25bc -0.31%",
-        "url": ""
+        "price": "77.81",
+        "trend": "\u25bc -0.75%",
+        "logoUrl": ".\n"
     },
     "PXD": {
         "name": "Pioneer Natural Resources Company",
-        "price": "222.885",
-        "trend": "\u25bc -0.04%",
-        "url": ""
+        "price": "223.07",
+        "trend": "\u25b2 0.04%",
+        "logoUrl": ".\n"
     },
     "POOL": {
         "name": "Pool Corporation",
-        "price": "345.50",
-        "trend": "\u25bc -0.25%",
-        "url": ""
+        "price": "343.70",
+        "trend": "\u25bc -0.77%",
+        "logoUrl": ".\n"
     },
     "PPG": {
         "name": "PPG Industries, Inc",
-        "price": "130.28",
-        "trend": "\u25b2 1.55%",
-        "url": ""
+        "price": "130.13",
+        "trend": "\u25b2 1.43%",
+        "logoUrl": ".\n"
     },
     "PPL": {
         "name": "PPL Corporation",
-        "price": "25.25",
-        "trend": "0.00%",
-        "url": ""
+        "price": "25.13",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "PFG": {
         "name": "Principal Financial Group, Inc",
-        "price": "74.56",
-        "trend": "\u25bc -1.00%",
-        "url": ""
+        "price": "74.51",
+        "trend": "\u25bc -1.06%",
+        "logoUrl": ".\n"
     },
     "PLD": {
         "name": "Prologis, Inc",
-        "price": "114.665",
-        "trend": "\u25b2 0.10%",
-        "url": ""
+        "price": "114.07",
+        "trend": "\u25bc -0.42%",
+        "logoUrl": ".\n"
     },
     "PRU": {
         "name": "Prudential Financial, Inc",
-        "price": "96.34",
-        "trend": "\u25bc -0.65%",
-        "url": ""
+        "price": "96.42",
+        "trend": "\u25bc -0.57%",
+        "logoUrl": ".\n"
     },
     "PTC": {
         "name": "PTC Inc",
-        "price": "141.11",
-        "trend": "\u25bc -0.48%",
-        "url": ""
+        "price": "140.65",
+        "trend": "\u25bc -0.80%",
+        "logoUrl": ".\n"
     },
     "PEG": {
         "name": "Public Service Enterprise Group Incorporated",
-        "price": "60.62",
-        "trend": "\u25b2 0.30%",
-        "url": ""
+        "price": "60.52",
+        "trend": "\u25b2 0.13%",
+        "logoUrl": ".\n"
     },
     "PSA": {
         "name": "Public Storage",
-        "price": "265.88",
-        "trend": "\u25b2 1.04%",
-        "url": ""
+        "price": "263.98",
+        "trend": "\u25b2 0.32%",
+        "logoUrl": ".\n"
     },
     "PHM": {
         "name": "PulteGroup, Inc",
-        "price": "73.825",
-        "trend": "\u25bc -0.10%",
-        "url": ""
+        "price": "73.94",
+        "trend": "\u25b2 0.05%",
+        "logoUrl": ".\n"
     },
     "QRVO": {
         "name": "Qorvo, Inc",
-        "price": "94.21",
-        "trend": "\u25bc -0.36%",
-        "url": ""
+        "price": "94.13",
+        "trend": "\u25bc -0.44%",
+        "logoUrl": ".\n"
     },
     "QCOM": {
         "name": "QUALCOMM Incorporated",
-        "price": "108.35",
-        "trend": "\u25b2 0.36%",
-        "url": ""
+        "price": "107.68",
+        "trend": "\u25bc -0.26%",
+        "logoUrl": ".\n"
     },
     "PWR": {
         "name": "Quanta Services, Inc",
-        "price": "188.13",
-        "trend": "\u25b2 0.89%",
-        "url": ""
+        "price": "188.45",
+        "trend": "\u25b2 1.06%",
+        "logoUrl": ".\n"
     },
     "DGX": {
         "name": "Quest Diagnostics Incorporated",
-        "price": "123.81",
-        "trend": "\u25b2 0.23%",
-        "url": ""
+        "price": "123.48",
+        "trend": "\u25bc -0.03%",
+        "logoUrl": ".\n"
     },
     "RL": {
         "name": "Ralph Lauren Corporation",
-        "price": "111.87",
-        "trend": "\u25bc -0.33%",
-        "url": ""
+        "price": "112.14",
+        "trend": "\u25bc -0.09%",
+        "logoUrl": ".\n"
     },
     "RJF": {
         "name": "Raymond James Financial, Inc",
-        "price": "101.23",
-        "trend": "\u25bc -1.14%",
-        "url": ""
+        "price": "101.21",
+        "trend": "\u25bc -1.16%",
+        "logoUrl": ".\n"
     },
     "RTX": {
         "name": "Raytheon Technologies Corporation",
-        "price": "71.68",
-        "trend": "\u25bc -1.32%",
-        "url": ""
+        "price": "71.58",
+        "trend": "\u25bc -1.46%",
+        "logoUrl": ".\n"
     },
     "O": {
         "name": "Realty Income Corporation",
-        "price": "51.94",
-        "trend": "\u25bc -0.23%",
-        "url": ""
+        "price": "51.56",
+        "trend": "\u25bc -0.96%",
+        "logoUrl": ".\n"
     },
     "REG": {
         "name": "Regency Centers Corporation",
-        "price": "61.275",
-        "trend": "\u25bc -0.01%",
-        "url": ""
+        "price": "60.77",
+        "trend": "\u25bc -0.83%",
+        "logoUrl": ".\n"
     },
     "REGN": {
         "name": "Regeneron Pharmaceuticals, Inc",
-        "price": "827.735",
-        "trend": "\u25b2 0.53%",
-        "url": ""
+        "price": "824.84",
+        "trend": "\u25b2 0.18%",
+        "logoUrl": ".\n"
     },
     "RF": {
         "name": "Regions Financial Corporation",
-        "price": "17.12",
-        "trend": "\u25bc -1.72%",
-        "url": ""
+        "price": "17.06",
+        "trend": "\u25bc -2.07%",
+        "logoUrl": ".\n"
     },
     "RSG": {
         "name": "Republic Services, Inc",
-        "price": "146.73",
-        "trend": "\u25bc -0.42%",
-        "url": ""
+        "price": "146.36",
+        "trend": "\u25bc -0.67%",
+        "logoUrl": ".\n"
     },
     "RMD": {
         "name": "ResMed Inc",
-        "price": "136.87",
-        "trend": "\u25b2 0.43%",
-        "url": ""
+        "price": "136.61",
+        "trend": "\u25b2 0.23%",
+        "logoUrl": ".\n"
     },
     "RVTY": {
         "name": "Revvity Inc.",
-        "price": "109.54",
-        "trend": "\u25b2 0.97%",
-        "url": ""
+        "price": "109.50",
+        "trend": "\u25b2 0.93%",
+        "logoUrl": ".\n"
     },
     "RHI": {
         "name": "Robert Half International Inc",
-        "price": "73.27",
-        "trend": "\u25bc -0.38%",
-        "url": ""
+        "price": "72.92",
+        "trend": "\u25bc -0.86%",
+        "logoUrl": ".\n"
     },
     "ROK": {
         "name": "Rockwell Automation, Inc",
-        "price": "281.94",
-        "trend": "\u25b2 1.08%",
-        "url": ""
+        "price": "281.36",
+        "trend": "\u25b2 0.87%",
+        "logoUrl": ".\n"
     },
     "ROL": {
         "name": "Rollins, Inc",
-        "price": "37.86",
-        "trend": "\u25bc -0.21%",
-        "url": ""
+        "price": "37.43",
+        "trend": "\u25bc -1.34%",
+        "logoUrl": ".\n"
     },
     "ROP": {
         "name": "Roper Technologies, Inc",
-        "price": "496.70",
-        "trend": "\u25b2 0.22%",
-        "url": ""
+        "price": "494.97",
+        "trend": "\u25bc -0.13%",
+        "logoUrl": ".\n"
     },
     "ROST": {
         "name": "Ross Stores, Inc",
-        "price": "112.295",
-        "trend": "\u25bc -0.74%",
-        "url": ""
+        "price": "111.66",
+        "trend": "\u25bc -1.30%",
+        "logoUrl": ".\n"
     },
     "RCL": {
         "name": "Royal Caribbean Cruises Ltd",
-        "price": "91.62",
-        "trend": "\u25bc -2.86%",
-        "url": ""
+        "price": "91.24",
+        "trend": "\u25bc -3.27%",
+        "logoUrl": ".\n"
     },
     "CRM": {
         "name": "salesforce.com, inc",
-        "price": "206.645",
-        "trend": "\u25bc -0.94%",
-        "url": ""
+        "price": "206.43",
+        "trend": "\u25bc -1.05%",
+        "logoUrl": ".\n"
     },
     "SBAC": {
         "name": "SBA Communications Corporation",
-        "price": "202.665",
-        "trend": "\u25bc -0.98%",
-        "url": ""
+        "price": "201.11",
+        "trend": "\u25bc -1.74%",
+        "logoUrl": ".\n"
     },
     "SLB": {
         "name": "Schlumberger Limited",
-        "price": "59.165",
-        "trend": "\u25b2 0.59%",
-        "url": ""
+        "price": "59.04",
+        "trend": "\u25b2 0.37%",
+        "logoUrl": ".\n"
     },
     "STX": {
         "name": "Seagate Technology plc",
-        "price": "65.75",
-        "trend": "\u25b2 0.46%",
-        "url": ""
+        "price": "65.90",
+        "trend": "\u25b2 0.69%",
+        "logoUrl": ".\n"
     },
     "SEE": {
         "name": "Sealed Air Corporation",
-        "price": "31.44",
-        "trend": "\u25bc -1.29%",
-        "url": ""
+        "price": "31.41",
+        "trend": "\u25bc -1.38%",
+        "logoUrl": ".\n"
     },
     "SRE": {
         "name": "Sempra Energy",
-        "price": "72.025",
-        "trend": "\u25b2 0.09%",
-        "url": ""
+        "price": "71.82",
+        "trend": "\u25bc -0.19%",
+        "logoUrl": ".\n"
     },
     "NOW": {
         "name": "ServiceNow, Inc",
-        "price": "551.61",
-        "trend": "\u25b2 0.38%",
-        "url": ""
+        "price": "554.09",
+        "trend": "\u25b2 0.83%",
+        "logoUrl": ".\n"
     },
     "SPG": {
         "name": "Simon Property Group, Inc",
-        "price": "112.04",
-        "trend": "\u25b2 0.36%",
-        "url": ""
+        "price": "111.68",
+        "trend": "\u25b2 0.04%",
+        "logoUrl": ".\n"
     },
     "SWKS": {
         "name": "Skyworks Solutions, Inc",
-        "price": "96.39",
-        "trend": "\u25b2 0.11%",
-        "url": ""
+        "price": "96.42",
+        "trend": "\u25b2 0.15%",
+        "logoUrl": ".\n"
     },
     "SNA": {
         "name": "Snap-on Incorporated",
-        "price": "256.565",
-        "trend": "\u25b2 0.56%",
-        "url": ""
+        "price": "255.86",
+        "trend": "\u25b2 0.28%",
+        "logoUrl": ".\n"
     },
     "SEDG": {
         "name": "SolarEdge Technologies, Inc",
-        "price": "135.56",
-        "trend": "\u25bc -0.54%",
-        "url": ""
+        "price": "134.60",
+        "trend": "\u25bc -1.24%",
+        "logoUrl": ".\n"
     },
     "LUV": {
         "name": "Southwest Airlines Co",
-        "price": "28.065",
-        "trend": "\u25bc -0.76%",
-        "url": ""
+        "price": "28.05",
+        "trend": "\u25bc -0.81%",
+        "logoUrl": ".\n"
     },
     "SPGI": {
         "name": "S&P Global Inc",
-        "price": "371.48",
-        "trend": "\u25bc -0.22%",
-        "url": ""
+        "price": "371.69",
+        "trend": "\u25bc -0.17%",
+        "logoUrl": ".\n"
     },
     "SWK": {
         "name": "Stanley Black & Decker, Inc",
-        "price": "83.75",
-        "trend": "\u25bc -0.77%",
-        "url": ""
+        "price": "83.70",
+        "trend": "\u25bc -0.83%",
+        "logoUrl": ".\n"
     },
     "SBUX": {
         "name": "Starbucks Corporation",
-        "price": "93.745",
-        "trend": "\u25b2 0.69%",
-        "url": ""
+        "price": "93.68",
+        "trend": "\u25b2 0.62%",
+        "logoUrl": ".\n"
     },
     "STT": {
         "name": "State Street Corporation",
-        "price": "67.785",
-        "trend": "\u25bc -1.50%",
-        "url": ""
+        "price": "67.81",
+        "trend": "\u25bc -1.47%",
+        "logoUrl": ".\n"
     },
     "STLD": {
         "name": "Steel Dynamics, Inc",
-        "price": "101.35",
-        "trend": "\u25b2 1.82%",
-        "url": ""
+        "price": "101.10",
+        "trend": "\u25b2 1.57%",
+        "logoUrl": ".\n"
     },
     "STE": {
         "name": "STERIS plc",
-        "price": "224.34",
-        "trend": "\u25b2 1.66%",
-        "url": ""
+        "price": "223.94",
+        "trend": "\u25b2 1.48%",
+        "logoUrl": ".\n"
     },
     "SYK": {
         "name": "Stryker Corporation",
-        "price": "285.11",
-        "trend": "\u25b2 0.23%",
-        "url": ""
+        "price": "285.28",
+        "trend": "\u25b2 0.29%",
+        "logoUrl": ".\n"
     },
     "SYF": {
         "name": "Synchrony Financial",
-        "price": "31.29",
-        "trend": "\u25bc -1.63%",
-        "url": ""
+        "price": "31.38",
+        "trend": "\u25bc -1.35%",
+        "logoUrl": ".\n"
     },
     "SNPS": {
         "name": "Synopsys, Inc",
-        "price": "449.085",
-        "trend": "\u25b2 1.08%",
-        "url": ""
+        "price": "446.85",
+        "trend": "\u25b2 0.58%",
+        "logoUrl": ".\n"
     },
     "SYY": {
         "name": "Sysco Corporation",
-        "price": "68.925",
-        "trend": "\u25bc -0.86%",
-        "url": ""
+        "price": "68.63",
+        "trend": "\u25bc -1.28%",
+        "logoUrl": ".\n"
     },
     "TTWO": {
         "name": "Take-Two Interactive Software, Inc",
-        "price": "138.245",
-        "trend": "\u25b2 1.70%",
-        "url": ""
+        "price": "138.24",
+        "trend": "\u25b2 1.69%",
+        "logoUrl": ".\n"
     },
     "TPR": {
         "name": "Tapestry, Inc",
-        "price": "28.915",
-        "trend": "\u25bc -1.48%",
-        "url": ""
+        "price": "28.83",
+        "trend": "\u25bc -1.77%",
+        "logoUrl": ".\n"
     },
     "TRGP": {
         "name": "Targa Resources Corp",
-        "price": "84.42",
-        "trend": "\u25b2 1.63%",
-        "url": ""
+        "price": "84.44",
+        "trend": "\u25b2 1.65%",
+        "logoUrl": ".\n"
     },
     "TGT": {
         "name": "Target Corporation",
-        "price": "113.66",
-        "trend": "\u25bc -3.12%",
-        "url": ""
+        "price": "112.60",
+        "trend": "\u25bc -4.02%",
+        "logoUrl": ".\n"
     },
     "TEL": {
         "name": "TE Connectivity Ltd",
-        "price": "123.13",
-        "trend": "\u25bc -0.07%",
-        "url": ""
+        "price": "123.04",
+        "trend": "\u25bc -0.15%",
+        "logoUrl": ".\n"
     },
     "TDY": {
         "name": "Teledyne Technologies Incorporated",
-        "price": "417.73",
-        "trend": "\u25b2 0.77%",
-        "url": ""
+        "price": "417.88",
+        "trend": "\u25b2 0.81%",
+        "logoUrl": ".\n"
     },
     "TFX": {
         "name": "Teleflex Incorporated",
-        "price": "204.065",
-        "trend": "\u25b2 0.30%",
-        "url": ""
+        "price": "204.02",
+        "trend": "\u25b2 0.28%",
+        "logoUrl": ".\n"
     },
     "TER": {
         "name": "Teradyne, Inc",
-        "price": "95.575",
-        "trend": "\u25bc -0.04%",
-        "url": ""
+        "price": "95.40",
+        "trend": "\u25bc -0.22%",
+        "logoUrl": ".\n"
     },
     "TSLA": {
         "name": "Tesla, Inc",
-        "price": "246.73",
-        "trend": "\u25bc -3.51%",
-        "url": ""
+        "price": "244.88",
+        "trend": "\u25bc -4.23%",
+        "logoUrl": ".\n"
     },
     "TXN": {
         "name": "Texas Instruments Incorporated",
-        "price": "160.495",
-        "trend": "\u25b2 0.06%",
-        "url": ""
+        "price": "160.31",
+        "trend": "\u25bc -0.06%",
+        "logoUrl": ".\n"
     },
     "TXT": {
         "name": "Textron Inc",
-        "price": "78.00",
-        "trend": "\u25b2 0.10%",
-        "url": ""
+        "price": "77.79",
+        "trend": "\u25bc -0.17%",
+        "logoUrl": ".\n"
     },
     "AES": {
         "name": "The AES Corporation",
-        "price": "15.98",
-        "trend": "\u25bc -2.74%",
-        "url": ""
+        "price": "15.96",
+        "trend": "\u25bc -2.86%",
+        "logoUrl": ".\n"
     },
     "ALL": {
         "name": "The Allstate Corporation",
-        "price": "114.445",
-        "trend": "\u25b2 0.52%",
-        "url": ""
+        "price": "114.09",
+        "trend": "\u25b2 0.21%",
+        "logoUrl": ".\n"
     },
     "BK": {
         "name": "The Bank of New York Mellon Corporation",
-        "price": "42.65",
-        "trend": "\u25bc -1.18%",
-        "url": ""
+        "price": "42.70",
+        "trend": "\u25bc -1.07%",
+        "logoUrl": ".\n"
     },
     "BA": {
         "name": "The Boeing Company",
-        "price": "197.82",
-        "trend": "\u25bc -1.07%",
-        "url": ""
+        "price": "197.71",
+        "trend": "\u25bc -1.12%",
+        "logoUrl": ".\n"
     },
     "SCHW": {
         "name": "The Charles Schwab Corporation",
-        "price": "55.32",
-        "trend": "\u25bc -1.23%",
-        "url": ""
+        "price": "55.15",
+        "trend": "\u25bc -1.54%",
+        "logoUrl": ".\n"
     },
     "CLX": {
         "name": "The Clorox Company",
-        "price": "132.92",
-        "trend": "\u25bc -1.26%",
-        "url": ""
+        "price": "132.66",
+        "trend": "\u25bc -1.46%",
+        "logoUrl": ".\n"
     },
     "KO": {
         "name": "The Coca-Cola Company",
-        "price": "57.76",
-        "trend": "\u25b2 0.38%",
-        "url": ""
+        "price": "57.60",
+        "trend": "\u25b2 0.10%",
+        "logoUrl": ".\n"
     },
     "COO": {
         "name": "The Cooper Companies, Inc",
-        "price": "328.245",
-        "trend": "\u25bc -0.04%",
-        "url": ""
+        "price": "328.87",
+        "trend": "\u25b2 0.15%",
+        "logoUrl": ".\n"
     },
     "EL": {
         "name": "The Estee Lauder Companies Inc",
-        "price": "147.91",
-        "trend": "\u25b2 1.24%",
-        "url": ""
+        "price": "147.62",
+        "trend": "\u25b2 1.04%",
+        "logoUrl": ".\n"
     },
     "GS": {
         "name": "The Goldman Sachs Group, Inc",
-        "price": "327.04",
-        "trend": "\u25bc -0.97%",
-        "url": ""
+        "price": "327.89",
+        "trend": "\u25bc -0.71%",
+        "logoUrl": ".\n"
     },
     "HIG": {
         "name": "The Hartford Financial Services Group, Inc",
-        "price": "73.16",
-        "trend": "\u25b2 0.25%",
-        "url": ""
+        "price": "72.98",
+        "trend": "0.00%",
+        "logoUrl": ".\n"
     },
     "HSY": {
         "name": "The Hershey Company",
-        "price": "209.59",
-        "trend": "\u25b2 0.69%",
-        "url": ""
+        "price": "207.94",
+        "trend": "\u25bc -0.10%",
+        "logoUrl": ".\n"
     },
     "HD": {
         "name": "The Home Depot, Inc",
-        "price": "306.01",
-        "trend": "\u25bc -0.24%",
-        "url": ""
+        "price": "305.73",
+        "trend": "\u25bc -0.34%",
+        "logoUrl": ".\n"
     },
     "IPG": {
         "name": "The Interpublic Group of Companies, Inc",
-        "price": "28.99",
-        "trend": "\u25bc -1.09%",
-        "url": ""
+        "price": "28.85",
+        "trend": "\u25bc -1.57%",
+        "logoUrl": ".\n"
     },
     "SJM": {
         "name": "The J. M. Smucker Company",
-        "price": "127.14",
-        "trend": "\u25bc -1.20%",
-        "url": ""
+        "price": "126.59",
+        "trend": "\u25bc -1.63%",
+        "logoUrl": ".\n"
     },
     "KHC": {
         "name": "The Kraft Heinz Company",
-        "price": "34.32",
-        "trend": "\u25bc -0.49%",
-        "url": ""
+        "price": "34.16",
+        "trend": "\u25bc -0.96%",
+        "logoUrl": ".\n"
     },
     "KR": {
         "name": "The Kroger Co",
-        "price": "45.735",
-        "trend": "\u25b2 0.05%",
-        "url": ""
+        "price": "45.66",
+        "trend": "\u25bc -0.11%",
+        "logoUrl": ".\n"
     },
     "MOS": {
         "name": "The Mosaic Company",
-        "price": "35.88",
-        "trend": "\u25bc -3.31%",
-        "url": ""
+        "price": "35.80",
+        "trend": "\u25bc -3.53%",
+        "logoUrl": ".\n"
     },
     "PNC": {
         "name": "The PNC Financial Services Group, Inc",
-        "price": "120.90",
-        "trend": "\u25bc -1.04%",
-        "url": ""
+        "price": "120.85",
+        "trend": "\u25bc -1.08%",
+        "logoUrl": ".\n"
     },
     "PG": {
         "name": "The Procter & Gamble Company",
-        "price": "152.155",
-        "trend": "\u25b2 0.01%",
-        "url": ""
+        "price": "151.58",
+        "trend": "\u25bc -0.37%",
+        "logoUrl": ".\n"
     },
     "PGR": {
         "name": "The Progressive Corporation",
-        "price": "143.14",
-        "trend": "\u25b2 0.52%",
-        "url": ""
+        "price": "143.26",
+        "trend": "\u25b2 0.60%",
+        "logoUrl": ".\n"
     },
     "TMO": {
         "name": "Thermo Fisher Scientific Inc",
-        "price": "503.99",
-        "trend": "\u25b2 0.48%",
-        "url": ""
+        "price": "502.79",
+        "trend": "\u25b2 0.24%",
+        "logoUrl": ".\n"
     },
     "SHW": {
         "name": "The Sherwin-Williams Company",
-        "price": "254.14",
-        "trend": "\u25bc -0.09%",
-        "url": ""
+        "price": "254.67",
+        "trend": "\u25b2 0.11%",
+        "logoUrl": ".\n"
     },
     "SO": {
         "name": "The Southern Company",
-        "price": "69.77",
-        "trend": "\u25bc -0.19%",
-        "url": ""
+        "price": "69.37",
+        "trend": "\u25bc -0.76%",
+        "logoUrl": ".\n"
     },
     "TJX": {
         "name": "The TJX Companies, Inc",
-        "price": "89.47",
-        "trend": "\u25b2 0.34%",
-        "url": ""
+        "price": "89.16",
+        "trend": "\u25bc -0.01%",
+        "logoUrl": ".\n"
     },
     "TRV": {
         "name": "The Travelers Companies, Inc",
-        "price": "168.26",
-        "trend": "\u25bc -0.21%",
-        "url": ""
+        "price": "167.84",
+        "trend": "\u25bc -0.46%",
+        "logoUrl": ".\n"
     },
     "DIS": {
         "name": "The Walt Disney Company",
-        "price": "81.595",
-        "trend": "\u25bc -1.37%",
-        "url": ""
+        "price": "81.25",
+        "trend": "\u25bc -1.79%",
+        "logoUrl": ".\n"
     },
     "WMB": {
         "name": "The Williams Companies, Inc",
-        "price": "33.74",
-        "trend": "\u25b2 0.87%",
-        "url": ""
+        "price": "33.62",
+        "trend": "\u25b2 0.51%",
+        "logoUrl": ".\n"
     },
     "TMUS": {
         "name": "T-Mobile US, Inc",
-        "price": "139.79",
-        "trend": "\u25bc -0.14%",
-        "url": ""
+        "price": "139.35",
+        "trend": "\u25bc -0.46%",
+        "logoUrl": ".\n"
     },
     "TSCO": {
         "name": "Tractor Supply Company",
-        "price": "205.005",
-        "trend": "\u25b2 0.20%",
-        "url": ""
+        "price": "205.05",
+        "trend": "\u25b2 0.22%",
+        "logoUrl": ".\n"
     },
     "TT": {
         "name": "Trane Technologies plc",
-        "price": "200.76",
-        "trend": "\u25b2 1.38%",
-        "url": ""
+        "price": "200.45",
+        "trend": "\u25b2 1.23%",
+        "logoUrl": ".\n"
     },
     "TDG": {
         "name": "TransDigm Group Incorporated",
-        "price": "850.335",
-        "trend": "\u25b2 0.89%",
-        "url": ""
+        "price": "847.36",
+        "trend": "\u25b2 0.54%",
+        "logoUrl": ".\n"
     },
     "TRMB": {
         "name": "Trimble Inc",
-        "price": "50.50",
-        "trend": "\u25bc -0.71%",
-        "url": ""
+        "price": "50.22",
+        "trend": "\u25bc -1.26%",
+        "logoUrl": ".\n"
     },
     "TROW": {
         "name": "T. Rowe Price Group, Inc",
-        "price": "105.55",
-        "trend": "\u25bc -0.58%",
-        "url": ""
+        "price": "105.44",
+        "trend": "\u25bc -0.69%",
+        "logoUrl": ".\n"
     },
     "TFC": {
         "name": "Truist Financial Corporation",
-        "price": "28.08",
-        "trend": "\u25bc -0.28%",
-        "url": ""
+        "price": "28.07",
+        "trend": "\u25bc -0.32%",
+        "logoUrl": ".\n"
     },
     "TYL": {
         "name": "Tyler Technologies, Inc",
-        "price": "387.285",
-        "trend": "\u25b2 0.78%",
-        "url": ""
+        "price": "388.58",
+        "trend": "\u25b2 1.12%",
+        "logoUrl": ".\n"
     },
     "TSN": {
         "name": "Tyson Foods, Inc",
-        "price": "51.605",
-        "trend": "\u25bc -2.72%",
-        "url": ""
+        "price": "51.12",
+        "trend": "\u25bc -3.64%",
+        "logoUrl": ".\n"
     },
     "UDR": {
         "name": "UDR, Inc",
-        "price": "36.465",
-        "trend": "\u25bc -0.64%",
-        "url": ""
+        "price": "36.23",
+        "trend": "\u25bc -1.28%",
+        "logoUrl": ".\n"
     },
     "ULTA": {
         "name": "Ulta Beauty, Inc",
-        "price": "399.23",
-        "trend": "\u25bc -1.24%",
-        "url": ""
+        "price": "398.73",
+        "trend": "\u25bc -1.37%",
+        "logoUrl": ".\n"
     },
     "UNP": {
         "name": "Union Pacific Corporation",
         "price": "209.24",
         "trend": "\u25bc -1.02%",
-        "url": ""
+        "logoUrl": ".\n"
     },
     "UAL": {
         "name": "United Airlines Holdings, Inc",
-        "price": "42.95",
-        "trend": "\u25bc -1.69%",
-        "url": ""
+        "price": "43.07",
+        "trend": "\u25bc -1.42%",
+        "logoUrl": ".\n"
     },
     "UNH": {
         "name": "UnitedHealth Group Incorporated",
-        "price": "506.75",
-        "trend": "\u25b2 1.12%",
-        "url": ""
+        "price": "506.10",
+        "trend": "\u25b2 0.99%",
+        "logoUrl": ".\n"
     },
     "UPS": {
         "name": "United Parcel Service, Inc",
-        "price": "153.66",
-        "trend": "\u25bc -1.14%",
-        "url": ""
+        "price": "153.78",
+        "trend": "\u25bc -1.06%",
+        "logoUrl": ".\n"
     },
     "URI": {
         "name": "United Rentals, Inc",
-        "price": "433.23",
-        "trend": "\u25bc -0.58%",
-        "url": ""
+        "price": "433.29",
+        "trend": "\u25bc -0.56%",
+        "logoUrl": ".\n"
     },
     "UHS": {
         "name": "Universal Health Services, Inc",
-        "price": "127.40",
-        "trend": "\u25b2 0.62%",
-        "url": ""
+        "price": "127.02",
+        "trend": "\u25b2 0.32%",
+        "logoUrl": ".\n"
     },
     "USB": {
         "name": "U.S. Bancorp",
-        "price": "33.415",
-        "trend": "\u25bc -0.10%",
-        "url": ""
+        "price": "33.38",
+        "trend": "\u25bc -0.21%",
+        "logoUrl": ".\n"
     },
     "VLO": {
         "name": "Valero Energy Corporation",
-        "price": "146.01",
-        "trend": "\u25bc -0.20%",
-        "url": ""
+        "price": "145.27",
+        "trend": "\u25bc -0.70%",
+        "logoUrl": ".\n"
     },
     "VTR": {
         "name": "Ventas, Inc",
-        "price": "42.84",
-        "trend": "\u25bc -0.19%",
-        "url": ""
+        "price": "42.56",
+        "trend": "\u25bc -0.84%",
+        "logoUrl": ".\n"
     },
     "VRSN": {
         "name": "VeriSign, Inc",
-        "price": "200.03",
-        "trend": "\u25bc -0.15%",
-        "url": ""
+        "price": "199.72",
+        "trend": "\u25bc -0.30%",
+        "logoUrl": ".\n"
     },
     "VRSK": {
         "name": "Verisk Analytics, Inc",
-        "price": "243.19",
-        "trend": "\u25b2 0.94%",
-        "url": ""
+        "price": "241.95",
+        "trend": "\u25b2 0.42%",
+        "logoUrl": ".\n"
     },
     "VZ": {
         "name": "Verizon Communications Inc",
-        "price": "33.40",
-        "trend": "\u25b2 0.33%",
-        "url": ""
+        "price": "33.28",
+        "trend": "\u25bc -0.03%",
+        "logoUrl": ".\n"
     },
     "VRTX": {
         "name": "Vertex Pharmaceuticals Incorporated",
-        "price": "351.435",
-        "trend": "\u25bc -0.80%",
-        "url": ""
+        "price": "349.53",
+        "trend": "\u25bc -1.34%",
+        "logoUrl": ".\n"
     },
     "VFC": {
         "name": "V.F. Corporation",
-        "price": "17.435",
-        "trend": "\u25bc -1.22%",
-        "url": ""
+        "price": "17.47",
+        "trend": "\u25bc -1.02%",
+        "logoUrl": ".\n"
     },
     "VTRS": {
         "name": "Viatris Inc.",
-        "price": "9.625",
-        "trend": "\u25bc -0.67%",
-        "url": ""
+        "price": "9.64",
+        "trend": "\u25bc -0.52%",
+        "logoUrl": ".\n"
     },
     "VICI": {
         "name": "VICI Properties Inc",
-        "price": "29.92",
-        "trend": "\u25bc -0.60%",
-        "url": ""
+        "price": "29.73",
+        "trend": "\u25bc -1.23%",
+        "logoUrl": ".\n"
     },
     "V": {
         "name": "Visa Inc",
-        "price": "235.68",
-        "trend": "\u25bc -0.39%",
-        "url": ""
+        "price": "235.08",
+        "trend": "\u25bc -0.65%",
+        "logoUrl": ".\n"
     },
     "VMC": {
         "name": "Vulcan Materials Company",
-        "price": "200.41",
-        "trend": "\u25bc -0.96%",
-        "url": ""
+        "price": "200.62",
+        "trend": "\u25bc -0.85%",
+        "logoUrl": ".\n"
     },
     "WAB": {
         "name": "Wabtec Corporation",
-        "price": "106.55",
-        "trend": "\u25b2 0.83%",
-        "url": ""
+        "price": "106.18",
+        "trend": "\u25b2 0.48%",
+        "logoUrl": ".\n"
     },
     "WBA": {
         "name": "Walgreens Boots Alliance, Inc",
-        "price": "21.22",
-        "trend": "\u25bc -1.07%",
-        "url": ""
+        "price": "21.12",
+        "trend": "\u25bc -1.54%",
+        "logoUrl": ".\n"
     },
     "WMT": {
         "name": "Walmart Inc",
-        "price": "162.625",
-        "trend": "\u25b2 0.44%",
-        "url": ""
+        "price": "162.35",
+        "trend": "\u25b2 0.27%",
+        "logoUrl": ".\n"
     },
     "WBD": {
         "name": "Warner Bros.Discovery Inc - Class A",
-        "price": "11.135",
-        "trend": "\u25bc -3.26%",
-        "url": ""
+        "price": "11.10",
+        "trend": "\u25bc -3.56%",
+        "logoUrl": ".\n"
     },
     "WM": {
         "name": "Waste Management, Inc",
-        "price": "156.75",
-        "trend": "\u25bc -0.47%",
-        "url": ""
+        "price": "156.47",
+        "trend": "\u25bc -0.65%",
+        "logoUrl": ".\n"
     },
     "WAT": {
         "name": "Waters Corporation",
-        "price": "269.465",
-        "trend": "\u25b2 0.22%",
-        "url": ""
+        "price": "269.00",
+        "trend": "\u25b2 0.05%",
+        "logoUrl": ".\n"
     },
     "WEC": {
         "name": "WEC Energy Group, Inc",
-        "price": "85.85",
-        "trend": "\u25bc -0.53%",
-        "url": ""
+        "price": "85.44",
+        "trend": "\u25bc -1.01%",
+        "logoUrl": ".\n"
     },
     "WFC": {
         "name": "Wells Fargo & Company",
-        "price": "41.265",
-        "trend": "\u25bc -2.49%",
-        "url": ""
+        "price": "41.23",
+        "trend": "\u25bc -2.58%",
+        "logoUrl": ".\n"
     },
     "WELL": {
         "name": "Welltower Inc",
-        "price": "83.46",
-        "trend": "\u25bc -0.33%",
-        "url": ""
+        "price": "82.83",
+        "trend": "\u25bc -1.09%",
+        "logoUrl": ".\n"
     },
     "WDC": {
         "name": "Western Digital Corporation",
-        "price": "45.21",
-        "trend": "\u25b2 1.73%",
-        "url": ""
+        "price": "45.14",
+        "trend": "\u25b2 1.58%",
+        "logoUrl": ".\n"
     },
     "WST": {
         "name": "West Pharmaceutical Services, Inc",
-        "price": "372.04",
-        "trend": "\u25bc -0.60%",
-        "url": ""
+        "price": "372.51",
+        "trend": "\u25bc -0.48%",
+        "logoUrl": ".\n"
     },
     "WRK": {
         "name": "WestRock Company",
-        "price": "35.475",
-        "trend": "\u25b2 0.92%",
-        "url": ""
+        "price": "35.24",
+        "trend": "\u25b2 0.26%",
+        "logoUrl": ".\n"
     },
     "WY": {
         "name": "Weyerhaeuser Company",
-        "price": "31.285",
-        "trend": "\u25b2 0.34%",
-        "url": ""
+        "price": "31.28",
+        "trend": "\u25b2 0.32%",
+        "logoUrl": ".\n"
     },
     "WHR": {
         "name": "Whirlpool Corporation",
-        "price": "130.895",
-        "trend": "\u25bc -1.32%",
-        "url": ""
+        "price": "130.92",
+        "trend": "\u25bc -1.30%",
+        "logoUrl": ".\n"
     },
     "WTW": {
         "name": "Willis Towers Watson Public Limited Co",
-        "price": "213.47",
-        "trend": "\u25b2 0.54%",
-        "url": ""
+        "price": "212.95",
+        "trend": "\u25b2 0.30%",
+        "logoUrl": ".\n"
     },
     "WRB": {
         "name": "W. R. Berkley Corporation",
-        "price": "64.98",
-        "trend": "\u25bc -0.23%",
-        "url": ""
+        "price": "64.91",
+        "trend": "\u25bc -0.34%",
+        "logoUrl": ".\n"
     },
     "GWW": {
         "name": "W.W. Grainger, Inc",
-        "price": "681.79",
-        "trend": "\u25bc -0.10%",
-        "url": ""
+        "price": "681.48",
+        "trend": "\u25bc -0.14%",
+        "logoUrl": ".\n"
     },
     "WYNN": {
         "name": "Wynn Resorts, Limited",
-        "price": "91.01",
-        "trend": "\u25b2 0.72%",
-        "url": ""
+        "price": "91.56",
+        "trend": "\u25b2 1.33%",
+        "logoUrl": ".\n"
     },
     "XEL": {
         "name": "Xcel Energy Inc",
-        "price": "60.06",
-        "trend": "\u25b2 1.15%",
-        "url": ""
+        "price": "59.73",
+        "trend": "\u25b2 0.59%",
+        "logoUrl": ".\n"
     },
     "XYL": {
         "name": "Xylem Inc",
-        "price": "91.05",
-        "trend": "\u25bc -0.40%",
-        "url": ""
+        "price": "90.90",
+        "trend": "\u25bc -0.57%",
+        "logoUrl": ".\n"
     },
     "YUM": {
         "name": "YUM! Brands, Inc",
-        "price": "124.975",
-        "trend": "\u25b2 0.23%",
-        "url": ""
+        "price": "125.00",
+        "trend": "\u25b2 0.25%",
+        "logoUrl": ".\n"
     },
     "ZBRA": {
         "name": "Zebra Technologies Corporation",
-        "price": "226.78",
-        "trend": "\u25bc -0.83%",
-        "url": ""
+        "price": "227.15",
+        "trend": "\u25bc -0.67%",
+        "logoUrl": ".\n"
     },
     "ZBH": {
         "name": "Zimmer Biomet Holdings, Inc",
-        "price": "116.86",
-        "trend": "\u25bc -0.80%",
-        "url": ""
+        "price": "116.85",
+        "trend": "\u25bc -0.81%",
+        "logoUrl": "."
     },
     "ZION": {
         "name": "Zions Bancorporation, National Association",
-        "price": "34.07",
-        "trend": "\u25bc -0.26%",
-        "url": ""
+        "price": "34.10",
+        "trend": "\u25bc -0.18%",
+        "logoUrl": ""
     },
     "ZTS": {
         "name": "Zoetis Inc",
-        "price": "176.42",
-        "trend": "\u25bc -0.12%",
-        "url": ""
+        "price": "176.68",
+        "trend": "\u25b2 0.03%",
+        "logoUrl": ""
     }
 }
