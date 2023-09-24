@@ -18,6 +18,8 @@ fetch("./stocks.json")
     guessTrend = test[7];
     compLogo = test[8];
     guessLogo = test[9];
+    console.log("TEST:" + test[8]);
+    console.log("TEST:" + test[9]);
 
 
     const lowerButton = document.getElementById("js-lower-button");
@@ -31,7 +33,7 @@ fetch("./stocks.json")
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 0);
-
+      console.log("BUTTON PRESSED");
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
@@ -52,7 +54,9 @@ fetch("./stocks.json")
 
     higherButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 1);
+      console.log("BUTTON PRESSED");
       console.log(oldGuess);
+
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
@@ -109,6 +113,9 @@ function getTicker(data) {
 }
 
 function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo) {
+  //console.log("set elements guess: " + guessLogo);
+  // console.log("set elements comp: " + compLogo);
+
   if (compTrend.includes("-")) {
     document.getElementById("compStock-trend").style.color = "rgb(210, 74, 74)";
   } else {
@@ -124,7 +131,7 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
   document.getElementById("compStock-price").innerText = `$ ${compPrice}`;
   document.getElementById("compStock-trend").innerHTML = compTrend;
-  console.log("compLogo in set elements: " + compLogo);
+  //console.log("compLogo in set elements: " + compLogo);
   document.getElementById("compStock-image").src = compLogo;
   document.getElementById("guessStock-name").innerText = guessName + `(${guessTick})`;
 
@@ -153,17 +160,23 @@ function beginGame(data) {
   var guessTrend = data[guessTicker].trend;
   var compLogo = data[compTicker].logoUrl;
   var guessLogo = data[guessTicker].logoUrl;
+  console.log("GUESS: " + guessName + guessPrice);
+  console.log("Comp: " + compName + compPrice);
 
-  console.log(guessLogo);
-  console.log(compLogo);
+  //console.log("begin game: " + guessLogo);
+  //console.log("begin game: " + compLogo);
 
 
   setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
-  return [compName, compTick, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend];
+  return [compName, compTick, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo];
 
 }
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessTrend, guessLogo, higher) {
+  console.log("GUESS: " + guessName + guessPrice);
+  console.log("Comp: " + compName + compPrice);
+
+  console.log("GUESS PRICE:" + guessPrice);
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
@@ -196,6 +209,8 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
   var guessLogo = data[guessTicker].logoUrl;
+  console.log("next Game: " + compLogo);
+  console.log(guessName + guessPrice);
 
 
   setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
