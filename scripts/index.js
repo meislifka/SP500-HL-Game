@@ -18,8 +18,8 @@ fetch("./stocks.json")
     guessTrend = test[7];
     compLogo = test[8];
     guessLogo = test[9];
-    console.log("TEST:" + test[8]);
-    console.log("TEST:" + test[9]);
+    // console.log("TEST:" + test[8]);
+    // console.log("TEST:" + test[9]);
 
 
     const lowerButton = document.getElementById("js-lower-button");
@@ -34,7 +34,7 @@ fetch("./stocks.json")
     lowerButton.addEventListener("click", () => {
 
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 0);
-      console.log("BUTTON PRESSED");
+      // console.log("BUTTON PRESSED");
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
@@ -43,21 +43,21 @@ fetch("./stocks.json")
         document.getElementById('button-lower-text').innerHTML = "";
         document.getElementById('guessStock-price').innerHTML = guessPrice;
       }
-      console.log(oldGuess);
+      //console.log(oldGuess);
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      console.log("guessLogo in lowerButton: " + oldGuess[4]);
+      // console.log("guessLogo in lowerButton: " + oldGuess[4]);
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     })
 
     higherButton.addEventListener("click", () => {
 
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 1);
-      console.log("BUTTON PRESSED");
-      console.log(oldGuess);
+      //console.log("BUTTON PRESSED");
+      //console.log(oldGuess);
 
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -95,7 +95,7 @@ fetch("./stocks.json")
       guessTrend = test[7];
       compLogo = test[8];
       guessLogo = test[9];
-      console.log("next button: " + guessLogo);
+      // console.log("next button: " + guessLogo);
       wins = 0;
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     }
@@ -146,7 +146,7 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 function beginGame(data) {
   var compTicker = getTicker(data);
   var guessTicker = getTicker(data);
-  console.log(compTicker);
+  // console.log(compTicker);
 
   while (compTicker === guessTicker) { //made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
     guessTicker = getTicker(data);
@@ -162,8 +162,8 @@ function beginGame(data) {
   var guessTrend = data[guessTicker].trend;
   var compLogo = data[compTicker].logoUrl;
   var guessLogo = data[guessTicker].logoUrl;
-  console.log("GUESS: " + guessName + guessPrice);
-  console.log("Comp: " + compName + compPrice);
+  console.log("GUESS: " + guessName + " " + guessPrice);
+  console.log("Comp: " + compName + " " + compPrice);
 
   //console.log("begin game: " + guessLogo);
   //console.log("begin game: " + compLogo);
@@ -175,11 +175,11 @@ function beginGame(data) {
 }
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessTrend, guessLogo, higher) {
-  console.log("GUESS: " + guessName + guessPrice);
-  console.log("Comp: " + compName + compPrice);
-  console.log("higher (1): " + higher);
+  console.log("GUESS: " + guessName + " " + guessPrice);
+  console.log("Comp: " + compName + " " + compPrice);
+  //console.log("higher (1): " + higher);
 
-  console.log("GUESS PRICE:" + guessPrice);
+  //console.log("GUESS PRICE:" + guessPrice);
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
@@ -212,7 +212,7 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
   var guessLogo = data[guessTicker].logoUrl;
-  console.log("next Game: " + compLogo);
+  // console.log("next Game: " + compLogo);
   console.log(guessName + guessPrice);
 
 
