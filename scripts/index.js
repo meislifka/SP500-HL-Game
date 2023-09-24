@@ -32,7 +32,8 @@ fetch("./stocks.json")
 
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 0);
+
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 0);
       console.log("BUTTON PRESSED");
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -53,7 +54,8 @@ fetch("./stocks.json")
     })
 
     higherButton.addEventListener("click", () => {
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo, 1);
+
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 1);
       console.log("BUTTON PRESSED");
       console.log(oldGuess);
 
@@ -63,7 +65,7 @@ fetch("./stocks.json")
         lowerButton.style.display = "none";
         document.getElementById('button-higher-text').innerHTML = "";
         document.getElementById('button-lower-text').innerHTML = "";
-        document.getElementById('guessStock-price').innerHTML = "here";
+        document.getElementById('guessStock-price').innerHTML = "";
       }
 
       guessName = oldGuess[0];
@@ -76,7 +78,7 @@ fetch("./stocks.json")
     newGameButton.addEventListener("click", () => {
       document.getElementById('button-higher-text').innerHTML = "Higher";
       document.getElementById('button-lower-text').innerHTML = "Lower";
-      document.getElementById('guessStock-price').innerHTML = "here";
+      document.getElementById('guessStock-price').innerHTML = "";
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
@@ -175,6 +177,7 @@ function beginGame(data) {
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessTrend, guessLogo, higher) {
   console.log("GUESS: " + guessName + guessPrice);
   console.log("Comp: " + compName + compPrice);
+  console.log("higher (1): " + higher);
 
   console.log("GUESS PRICE:" + guessPrice);
   if (higher) {
