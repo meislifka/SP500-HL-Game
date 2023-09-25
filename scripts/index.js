@@ -33,7 +33,7 @@ fetch("./stocks.json")
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
 
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 0);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
       // console.log("BUTTON PRESSED");
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
@@ -174,12 +174,15 @@ function beginGame(data) {
 
 }
 
-function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessTrend, guessLogo, higher) {
+function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, higher) {
   console.log("GUESS: " + guessName + " " + guessPrice);
   console.log("Comp: " + compName + " " + compPrice);
+  console.log("compLogo in getData: " + compLogo);
   //console.log("higher (1): " + higher);
 
   //console.log("GUESS PRICE:" + guessPrice);
+  guessPrice = guessPrice.replace(/,/g, '');
+  compPrice = compPrice.replace(/,/g, '');
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
