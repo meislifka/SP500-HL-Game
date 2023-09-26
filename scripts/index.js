@@ -11,10 +11,10 @@ fetch("./stocks.json")
     compName = test[0];
     compTick = test[1];
     compPrice = test[2];
-    compTrend = test[6];
     guessName = test[3];
     guessTick = test[4];
     guessPrice = test[5];
+    compTrend = test[6];
     guessTrend = test[7];
     compLogo = test[8];
     guessLogo = test[9];
@@ -55,7 +55,7 @@ fetch("./stocks.json")
 
     higherButton.addEventListener("click", () => {
 
-      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, guessLogo, 1);
+      oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
       //console.log("BUTTON PRESSED");
       //console.log(oldGuess);
 
@@ -72,6 +72,7 @@ fetch("./stocks.json")
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
+      guessLogo = oldGuess[4];
       document.getElementById("wins").innerText = `Wins: ${wins}`;
     })
 
@@ -139,7 +140,7 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 
   document.getElementById("guessStock-trend").innerText = guessTrend;
   document.getElementById("guessStock-image").src = guessLogo;
-  ;
+
 
 }
 
@@ -163,7 +164,7 @@ function beginGame(data) {
   var compLogo = data[compTicker].logoUrl;
   var guessLogo = data[guessTicker].logoUrl;
   console.log("GUESS: " + guessName + " " + guessPrice);
-  console.log("Comp: " + compName + " " + compPrice);
+  // console.log("Comp: " + compName + " " + compPrice);
 
   //console.log("begin game: " + guessLogo);
   //console.log("begin game: " + compLogo);
@@ -175,9 +176,9 @@ function beginGame(data) {
 }
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, higher) {
-  console.log("GUESS: " + guessName + " " + guessPrice);
-  console.log("Comp: " + compName + " " + compPrice);
-  console.log("compLogo in getData: " + compLogo);
+  //console.log("GUESS: " + guessName + " " + guessPrice);
+  //console.log("Comp: " + compName + " " + compPrice);
+  //console.log("compLogo in getData: " + compLogo);
   //console.log("higher (1): " + higher);
 
   //console.log("GUESS PRICE:" + guessPrice);
@@ -216,7 +217,7 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   var guessTrend = data[guessTicker].trend;
   var guessLogo = data[guessTicker].logoUrl;
   // console.log("next Game: " + compLogo);
-  console.log(guessName + guessPrice);
+  //console.log(guessName + guessPrice);
 
 
   setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
