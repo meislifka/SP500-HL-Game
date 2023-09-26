@@ -1,46 +1,60 @@
 main {
-  display: flex;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  color: white;
-  font-size: 20px;
-
-
-
-}
-
-#game-container {
-  margin-left: 15vw;
-  margin-right: 15vw;
-
 }
 
 header {
   text-align: center;
   font-family: arial;
-  border-bottom-color: white;
-
-
+  border-color: pink;
+  border-style: solid;
 }
 
-#comp-side,
-#guess-side {
-  border: 2px solid black;
-  border-top-color: white;
-  flex: 1;
-  text-align: center;
+#banner-img {
+  max-width: 100%;
   height: auto;
-  background-color: black;
-
+  width: auto\9;
 
 }
 
-.stock-image {
-  width: 200px;
-  height: 150px;
-  border: solid;
-  border-color: black;
-  background-color: white;
+#game-container {
+  display: grid;
+  grid-template-rows: .25fr 1fr;
+  grid-template-columns: 1fr .25fr 1fr;
+}
+
+#stock-image {
+  max-width: 20%;
+  height: auto;
+  width: auto;
+
+}
+
+#guess-side,
+#comp-side,
+#middle-side {
+  border-style: solid;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#guess-side {
+  border-color: red;
+  border-style: solid;
+}
+
+#middle-side {
+  border-color: green;
+  vertical-align: middle;
+}
+
+#comp-side {
+  border-color: blue;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
 }
 
 .guess-button {
@@ -58,17 +72,16 @@ header {
   font-weight: bold;
 }
 
+
+
+
 #js-new-game-button {
   display: none;
-  background-color: rgb(243, 207, 0);
-  font-size: 10px;
-  color: white;
-  font-weight: bold;
-  margin-top: 20px;
+  margin-left: 40%;
+  background-color: rgb(238, 222, 0);
 }
 
 #js-higher-button {
-
   background-color: transparent;
   /* rgb(160, 61, 61);*/
   color: rgb(20, 138, 10);
@@ -77,16 +90,12 @@ header {
 #js-higher-button:hover {
   background-color: transparent;
   color: rgb(76, 210, 74);
-
-
 }
 
 #js-lower-button {
-  margin-left: 1px;
   background-color: transparent;
   /* rgb(160, 61, 61);*/
   color: rgb(138, 10, 10);
-  transform: translate(1px);
 }
 
 #js-lower-button:hover {
@@ -98,65 +107,6 @@ header {
   background-color: rgb(255, 238, 1);
 }
 
-#button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: -15px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
-  animation-name: moveAcross;
-
-}
-
-header {
-  background-color: black;
-}
-
-#button-higher-text {
-  position: absolute;
-  margin-left: 5px;
-  font-size: 15px;
-  transform: translate(-15px, -17px);
-
-}
-
-#button-lower-text {
-  position: absolute;
-  margin-left: 5px;
-  font-size: 15px;
-  transform: translate(6px, -17px);
-}
-
-#compStock-price {
-  font-size: 20px;
-}
-
-#than-container {
-  position: relative;
-
-}
-
-#than-text-container {
-  position: absolute;
-  border-radius: 30px;
-  border-style: solid;
-  height: 40px;
-  width: 50px;
-  padding-top: 10px;
-  padding-bottom: -10px;
-  margin: 0px;
-  font-size: 20px;
-
-  text-align: center;
-  transform: translate(-26px, 120px);
-  background-color: black;
-
-}
-
-p {
-  margin-bottom: 10px;
+#js-new-game-button:hover {
+  background-color: rgb(255, 238, 1);
 }

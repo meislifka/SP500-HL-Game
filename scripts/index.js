@@ -25,10 +25,6 @@ fetch("./stocks.json")
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
-    document.getElementById('button-lower-text').innerHTML;
-    document.getElementById('button-higher-text').innerHTML;
-
-
 
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
@@ -39,8 +35,6 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
-        document.getElementById('button-higher-text').innerHTML = "";
-        document.getElementById('button-lower-text').innerHTML = "";
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
       }
       //console.log(oldGuess);
@@ -63,8 +57,6 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
-        document.getElementById('button-higher-text').innerHTML = "";
-        document.getElementById('button-lower-text').innerHTML = "";
         document.getElementById('guessStock-price').innerHTML = "";
       }
 
@@ -77,8 +69,6 @@ fetch("./stocks.json")
     })
 
     newGameButton.addEventListener("click", () => {
-      document.getElementById('button-higher-text').innerHTML = "Higher";
-      document.getElementById('button-lower-text').innerHTML = "Lower";
       document.getElementById('guessStock-price').innerHTML = "";
 
       newGameButton.style.display = "none";
