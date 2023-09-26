@@ -41,7 +41,7 @@ fetch("./stocks.json")
         lowerButton.style.display = "none";
         document.getElementById('button-higher-text').innerHTML = "";
         document.getElementById('button-lower-text').innerHTML = "";
-        document.getElementById('guessStock-price').innerHTML = guessPrice;
+        document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
       }
       //console.log(oldGuess);
       guessName = oldGuess[0];
