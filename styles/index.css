@@ -35,23 +35,26 @@ header {
   width: auto;
 
   position: relative;
-  vertical-align: middle;
   left: 50%;
   transform: translate(-50%);
   border-color: greenyellow;
   border-style: solid;
   object-fit: fill;
+  border-radius: 10px;
 
 
 }
 
 #img-container {
-  width: 20%;
-  height: 70px;
-
+  width: 80px;
+  height: 80px;
+  padding-top: auto;
+  padding-bottom: auto;
   overflow: hidden;
   position: relative;
   display: inline-block;
+  border-color: greenyellow;
+  border-style: solid;
 }
 
 #guess-side,
