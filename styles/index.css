@@ -11,23 +11,47 @@ header {
 }
 
 #banner-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
+  width: 70%;
+
 
 }
 
+header {
+  background-color: black;
+}
+
+
+
 #game-container {
+  background-color: white;
   display: grid;
   grid-template-rows: .25fr 1fr;
   grid-template-columns: 1fr .25fr 1fr;
 }
 
-#stock-image {
-  max-width: 20%;
+.stock-image {
+  max-width: 100%;
   height: auto;
   width: auto;
 
+  position: relative;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%);
+  border-color: greenyellow;
+  border-style: solid;
+  object-fit: fill;
+
+
+}
+
+#img-container {
+  width: 20%;
+  height: 70px;
+
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
 }
 
 #guess-side,
@@ -36,6 +60,7 @@ header {
   border-style: solid;
   text-align: center;
   vertical-align: middle;
+
 }
 
 #guess-side {
@@ -77,8 +102,10 @@ header {
 
 #js-new-game-button {
   display: none;
-  margin-left: 40%;
+
   background-color: rgb(238, 222, 0);
+  font-size: 12px;
+
 }
 
 #js-higher-button {
