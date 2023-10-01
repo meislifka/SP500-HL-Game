@@ -86,14 +86,21 @@ header {
 
 #guess-side {
   vertical-align: middle;
+  border-style: solid;
+  border-color: red;
 }
 
 
 #middle-side {
   vertical-align: middle;
+  border-style: solid;
+  border-color: blue;
 }
 
-#comp-side {}
+#comp-side {
+  border-style: solid;
+  border-color: green;
+}
 
 #button-container {
   display: flex;
@@ -153,9 +160,19 @@ header {
   background-color: rgb(255, 238, 1);
 }
 
+
+
 @media only screen and (max-width: 768px) {
   #game-container {
-    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .25fr 1fr;
+    margin: 5vw 10vw 0vw 10vw;
+    /* top right  bottom left */
+    border-radius: 30px;
+    border-style: solid;
+    background-color: rgb(65, 64, 64);
+    height: 40vh 20vmin;
   }
 
   #img-container {
