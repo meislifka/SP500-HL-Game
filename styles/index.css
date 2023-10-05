@@ -1,427 +1,216 @@
 main {
-
   font-family: 'Courier New', Courier, monospace;
-
   font-weight: bold;
-
   background-color: black;
-
-
-
 }
-
-
 
 body {
-
   background-color: black;
-
-
-
 }
-
-
 
 p {
-
   font-size: 2vw;
-
 }
-
 
 
 header {
-
   text-align: center;
-
   font-family: arial;
-
-
   border-style: solid;
-
 }
-
-
 
 #banner-img {
-
   width: 70%;
-
 }
 
-
-
 header {
-
   background-color: black;
-
 }
 
 
 
 #game-container {
-
   display: grid;
-
   grid-template-rows: .25fr 1fr;
-
   grid-template-columns: 1fr .25fr 1fr;
-
   margin: 5vw 10vw 0vw 10vw;
-
   /* top right  bottom left */
-
   border-radius: 30px;
-
   border-style: solid;
-
-
-
   height: auto;
-
   margin: auto;
-
   max-height: 430px;
-
 }
-
 
 
 .stock-image {
-
   max-width: 100%;
-
   height: auto;
-
   width: auto;
-
   position: relative;
-
   left: 50%;
-
   transform: translate(-50%);
-
   border: none;
-
   object-fit: cover;
-
   border-radius: 10px;
-
   margin: auto;
-
 }
-
-
 
 #img-container {
-
   width: 100px;
-
   height: 100px;
-
   overflow: hidden;
-
   position: relative;
-
   border: none;
-
   background-color: white;
-
   display: flex;
-
   justify-content: center;
-
   border-radius: 10px;
-
   left: 50%;
-
   transform: translateX(-50%);
-
 }
-
 
 
 #guess-side,
-
 #comp-side,
-
 #middle-side {
-
   text-align: center;
-
   vertical-align: middle;
-
   background-color: rgb(65, 64, 64);
-
   color: white;
-
 }
-
-
 
 #guess-side {
-
   vertical-align: middle;
-
   border-style: solid;
-
   border-color: rgb(65, 64, 64);
-
   border-top-left-radius: 10px;
-
   border-bottom-left-radius: 10px;
-
 }
-
-
 
 #middle-side {
-
   vertical-align: middle;
-
   border-style: solid;
-
   border-color: rgb(65, 64, 64);
-
 }
-
-
 
 #guess-text {
-
   color: rgb(255, 196, 0);
-
 }
-
-
 
 #comp-side {
-
   border-style: solid;
-
   border-color: rgb(65, 64, 64);
-
   border-top-right-radius: 10px;
-
   border-bottom-right-radius: 10px;
-
 }
-
-
 
 #button-container {
-
   display: flex;
-
   justify-content: center;
-
 }
-
-
 
 
 .guess-button {
-
   margin-left: -5px;
-
   margin-right: -1px;
-
   width: 50px;
-
   height: 50px;
-
   border-radius: 10px;
-
   padding-left: .1vw;
-
   padding-right: .1vw;
-
   text-align: center;
-
   border: none;
-
   font-size: 5vw;
-
   color: white;
-
   font-weight: bold;
-
 }
-
 
 
 #js-new-game-button {
-
   display: none;
-
   background-color: rgb(238, 222, 0);
-
   font-size: 12px;
-
 }
-
-
 
 #js-higher-button {
-
   background-color: transparent;
-
   color: rgb(20, 138, 10);
-
 }
-
 
 
 #js-higher-button:hover {
-
   background-color: transparent;
-
   color: rgb(76, 210, 74);
-
 }
-
-
 
 #js-lower-button {
-
   background-color: transparent;
-
   color: rgb(138, 10, 10);
-
 }
-
-
 
 #js-lower-button:hover {
-
   background-color: transparent;
-
   color: rgb(210, 74, 74);
-
 }
-
-
 
 #js-new-game-button:hover {
-
   background-color: rgb(255, 238, 1);
-
 }
-
-
 
 #js-new-game-button:hover {
-
   background-color: rgb(255, 238, 1);
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
-
   #game-container {
-
     display: grid;
-
     grid-template-columns: 1fr;
-
     grid-template-rows: 1fr .25fr 1fr;
-
     margin: 5vw 10vw 0vw 10vw;
-
     /* top right  bottom left */
-
     border-radius: 30px;
-
     border-style: solid;
-
     background-color: rgb(65, 64, 64);
-
     height: 40vh 20vmin;
-
   }
-
-
 
   #img-container {
-
     width: 50px;
-
     height: 50px;
-
   }
-
-
 
   #guess-side {
-
     vertical-align: middle;
-
     border-style: solid;
-
-
 
     border-top-right-radius: 10px;
-
     border-bottom-left-radius: 0px;
-
   }
-
-
 
   #middle-side {
-
     vertical-align: middle;
-
     border-style: solid;
-
-
-
   }
-
-
 
   #comp-side {
-
     border-style: solid;
-
-
-
     border-top-right-radius: 0px;
-
     border-bottom-left-radius: 10px;
-
   }
-
-
 
 }
 
-
-
 .main::before {
-
   content: " ";
-
   display: block;
-
   position: absolute;
-
   top: 0;
-
   left: 0;
-
   bottom: 0;
-
   right: 0;
-
   background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-
   z-index: 2;
-
   background-size: 100% 2px, 3px 100%;
-
   pointer-events: none;
-
 }
