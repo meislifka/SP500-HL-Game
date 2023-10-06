@@ -1,4 +1,7 @@
 var wins = 0;
+var highscore = 0;
+localStorage.setItem("highscore", 0);
+console.log(localStorage);
 
 fetch("./stocks.json")
   .then(response => {
@@ -45,6 +48,8 @@ fetch("./stocks.json")
       guessLogo = oldGuess[4];
       // console.log("guessLogo in lowerButton: " + oldGuess[4]);
       document.getElementById("wins").innerText = `Wins: ${wins}`;
+      console.log(wins)
+      setHighScore(wins)
     })
 
     higherButton.addEventListener("click", () => {
@@ -58,6 +63,8 @@ fetch("./stocks.json")
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
         document.getElementById('guessStock-price').innerHTML = "";
+        console.log(wins)
+        setHighScore(wins)
       }
 
       guessName = oldGuess[0];
@@ -89,9 +96,20 @@ fetch("./stocks.json")
       // console.log("next button: " + guessLogo);
       wins = 0;
       document.getElementById("wins").innerText = `Wins: ${wins}`;
+
     }
     )
   });
+
+function setHighScore(score) {
+  if (parseInt(score) > parseInt(highscore)) {
+    localStorage.setItem("highscore", score);
+  } else {
+    localStorage.getItem("highscore");
+  }
+
+  console.log(localStorage);
+}
 
 function getTicker(data) {
   //array of object keys
