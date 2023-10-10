@@ -21,10 +21,28 @@ header {
 
 #banner-img {
   width: 70%;
+
 }
 
-header {
-  background-color: black;
+#banner-img:hover {
+  animation-name: slide;
+  animation-duration: 0.7s;
+  animation-direction: normal;
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100);
+  }
+
+  header {
+    background-color: black;
+  }
 }
 
 
