@@ -104,11 +104,10 @@ fetch("./stocks.json")
 function setHighScore(score) {
   if (parseInt(score) > parseInt(highscore)) {
     localStorage.setItem("highscore", score);
-  } else {
-    localStorage.getItem("highscore");
-  }
 
-  console.log(localStorage);
+
+    console.log(localStorage);
+  }
 }
 
 function getTicker(data) {
