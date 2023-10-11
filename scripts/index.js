@@ -1,6 +1,12 @@
 var wins = 0;
-var highscore = 0;
-localStorage.setItem("highscore", 0);
+var highscore = localStorage.getItem("highscore"); // Retrieve the highscore from local storage
+
+if (highscore === null) {
+  // If the highscore is not in local storage, set it to 0
+  highscore = 0;
+  localStorage.setItem("highscore", highscore);
+}
+
 console.log(localStorage);
 
 fetch("./stocks.json")
@@ -35,6 +41,7 @@ fetch("./stocks.json")
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
+        setHighScore(wins)
       }
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -42,8 +49,8 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("wins").innerText = `Wins: ${wins}`;
-      console.log(wins)
-      setHighScore(wins)
+
+
     })
 
     higherButton.addEventListener("click", () => {
@@ -54,7 +61,7 @@ fetch("./stocks.json")
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
         document.getElementById('guessStock-price').innerHTML = "";
-        console.log(wins)
+
         setHighScore(wins)
       }
 
@@ -92,9 +99,10 @@ fetch("./stocks.json")
   });
 
 function setHighScore(score) {
-  if (parseInt(score) > parseInt(highscore)) {
+  if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
-    console.log(localStorage);
+  } else {
+    localStorage.setItem("highscore", localStorage.getItem("highscore"));
   }
 }
 
