@@ -17,37 +17,53 @@ header {
   text-align: center;
   font-family: arial;
   border-style: solid;
+  display: flex;
 }
 
-#banner-img {
-  width: 70%;
-
-}
-
-#banner-img:hover {
-  animation-name: slide;
-  animation-duration: 0.7s;
-  animation-direction: normal;
-  cursor: pointer;
-}
-
-@keyframes slide {
+@keyframes example {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
 
   100% {
-    transform: translateX(100);
+    transform: translateX(-100%);
+  }
+}
+
+#banner-img,
+#banner-img2 {
+  width: 100%;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border: solid;
+  border-color: white;
+
+
+}
+
+@keyframes example2 {
+  0% {
+    transform: translateX(100%);
   }
 
-  header {
-    background-color: black;
+  100% {
+    transform: translateX(-100%);
   }
+}
+
+#banner-img2 {
+  animation-duration: 15s;
+  animation-name: example2;
+  border-color: red;
+  transform: translateX(-50px);
 }
 
 
 
 #game-container {
+
   display: grid;
   grid-template-rows: .25fr 1fr;
   grid-template-columns: 1fr .25fr 1fr;
