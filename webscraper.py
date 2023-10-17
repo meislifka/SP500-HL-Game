@@ -36,7 +36,24 @@ if response.status_code == 200:
             inner_dict[fields[2]] = trend
             url = f.readline()
             url = url.strip()
-            inner_dict[fields[3]] = url
+
+            if "Brown & Brown" in name:
+                print("name is brown")
+                inner_dict[
+                    fields[3]
+                ] = "https://static.gurufocus.com/cdn-cgi/image/width=500,quality=75/logos/0C0000071H.png"
+            if "Marsh & McLennan" in name:
+                print("name is marsh")
+                inner_dict[
+                    fields[3]
+                ] = "https://cdn.phenompeople.com/CareerConnectResources/MAMCGLOBAL/social/mmc-og-logo-1632326576517.png"
+            if "Church" in name:
+                print("name is church")
+                inner_dict[
+                    fields[3]
+                ] = "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Church_%26_Dwight_logo.svg/1200px-Church_%26_Dwight_logo.svg.png"
+            else:
+                inner_dict[fields[3]] = url
 
             outer_dict[f"{td_elements[1].text.strip()}"] = inner_dict
     # print(outer_dict)

@@ -2,6 +2,7 @@ main {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   background-color: black;
+
 }
 
 body {
@@ -17,6 +18,7 @@ header {
   font-family: arial;
   border-style: solid;
   display: flex;
+  overflow: hidden
 }
 
 @keyframes example {

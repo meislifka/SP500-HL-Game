@@ -3,13 +3,13 @@
         "name": "3M Company",
         "price": "89.95",
         "trend": "\u25b2 1.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GM64VevZMCSkT2eUm6lWeqZMjW-XS0FenNJiMAfWhzvinvfhWm3xP33sgQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTri-l1rHyTCxeRM-PIiNb9dBYDPrG72_GX1bnoOQERInMAXuIRg1aVSlEccA&s"
     },
     "ABT": {
         "name": "Abbott Laboratories",
         "price": "92.16",
         "trend": "\u25b2 1.42%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06Ybmf0Wz1uKftYkeTb0g_GeKocwWvPKNQD2_2yiZm6pSjVNiwdz-zatRwQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVq3lsaqZt7mFKhSsfXuiVbFLA4Z5zLSK50XrKVKNoXikQOz1iu0IWvNW_1Y&s"
     },
     "ABBV": {
         "name": "AbbVie Inc",
@@ -33,31 +33,31 @@
         "name": "Advanced Micro Devices, Inc",
         "price": "106.43",
         "trend": "\u25b2 1.28%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSzMBUL4FUkIu1iWHnObgbqNHbcGLkKloGIOX4qidC8rwd20O1JojFR6xeQQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQWzGJN806dJYEIV32BRFfvzkfLCFM_JishLnpSIqJ4Ke_TB9cXBLk-fLMQA&s"
     },
     "AFL": {
         "name": "Aflac Incorporated",
         "price": "81.11",
         "trend": "\u25b2 1.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_BrhU4KZ2JgCO0C1Sh2pj5O44_yv4VbPt9SUz01vXXDYwPsL4ZG7IEObXk9I&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7svy946zGE_IkmrM7UukR5VlJw2YoKufJlUyV4XPbPqjtxyrCY9hKuvzIyw&s"
     },
     "A": {
         "name": "Agilent Technologies, Inc",
         "price": "111.51",
         "trend": "\u25b2 0.90%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUSJrIWKo6MAIxTwsHiCNOJSET0zHzeOq2E8HHsNUTYq1cVbgHUg5rSHbg8wM&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTfUyIiaD0uLC8uIm3yqLYVMS8CYfyNI4WjtC8DVGQVl1FTZW9ChBAV50Vg&s"
     },
     "ABNB": {
         "name": "Airbnb Inc - Class A",
         "price": "125.17",
         "trend": "\u25b2 0.88%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_NIGgXx0vjmxgQIMAgR7fKUaZxY_gCxEsT_tFECzXinz1qGJ3L22LWNK9Cw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThoabu5W4VhiRzKS9RXvEu96zgRrh1AeLlG0fJw26MAGJ2jaSrXXJ8QCHBWg&s"
     },
     "APD": {
         "name": "Air Products and Chemicals, Inc",
         "price": "286.98",
         "trend": "\u25b2 0.53%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgoDKzw5RXWd845Xi4ehZr8MGiFlUH7_xW7fF21NIhHO6OcHFUhX-8QnPbdtg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-RI83qfnJn-RxVMszbMjTDNx6XR-a6WKOy4LHvvCh8ye9ZeRJEm5JKrqS4Y4&s"
     },
     "AKAM": {
         "name": "Akamai Technologies, Inc",
@@ -75,7 +75,7 @@
         "name": "Albemarle Corporation",
         "price": "167.70",
         "trend": "\u25b2 2.64%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLxjhNVYzpjPb-6qSzONxBYSjQs7RH6I3ABnOXtmn1Em2TIO1q7RfTSVN3Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mzJUmTC322QXgsvibW5UFNd957jYmC3-eX1IDRhHMxJDPwmXwLe4zz3W8Q&s"
     },
     "ARE": {
         "name": "Alexandria Real Estate Equities, Inc",
@@ -93,13 +93,13 @@
         "name": "Allegion plc",
         "price": "105.26",
         "trend": "\u25b2 1.72%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKaL5gKBJogGtlZTIIN3GhzlZu9MTbNLNHghr2goUTM8HMXX4NkTTIWIVOnw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGY46-3BYI8WusRfZqCw-3Now-ToZ8D-iLIwk4QF-uGJjqp1bD-ltcKLtiFo&s"
     },
     "LNT": {
         "name": "Alliant Energy Corporation",
         "price": "50.24",
         "trend": "\u25b2 0.98%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9ZEX69wENWfCIT2qp2Qs7FUiCiGrOgGH5sIlF9xK-DzrDsllTZC_TgJlpfg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmeuPNbK6ObrN6BvQqo6A792lEjOzfcn9aFXTvcthjYZvSp_Os3mQgU4npJw&s"
     },
     "GOOGL": {
         "name": "Alphabet Inc",
@@ -123,7 +123,7 @@
         "name": "Amazon.com, Inc",
         "price": "132.49",
         "trend": "\u25b2 2.08%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhtNHx0qYXTGZsQW-IFN9tsLmrCYoNOoBv3N3_fWMUSxnhJ8qkaIME9rbbUw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVgUSqLgCdD_v109F9zmRv5C9-R69TPzpz1nLY8_jQw7PZjX9Dt4BkdjGl4E&s"
     },
     "AMCR": {
         "name": "Amcor plc",
@@ -141,7 +141,7 @@
         "name": "American Airlines Group Inc",
         "price": "11.93",
         "trend": "\u25b2 1.79%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqarbH1CHxLZFte6c0vZyATCThYWaMrFu77WzMdq2iY_3_qIpgNvbG4he19Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsQzGndU73dvel74kMyebBHXYqxlsEgmQs2KDf6rGuIPD4WL3Zxlxopg9OSw&s"
     },
     "AEP": {
         "name": "American Electric Power Company, Inc",
@@ -153,7 +153,7 @@
         "name": "American Express Company",
         "price": "152.775",
         "trend": "\u25b2 1.11%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmRT-CDw6QQIkOC0yivCWXtgZXy5HMaR7tVkiCbQEGuiMvYTLw9cVVAlnebtk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8xNsQF4zATEmiCzie91Biy4ThefhoqyEEwYUZAgqq4t5U9uLumMZ8JvFXBcw&s"
     },
     "AIG": {
         "name": "American International Group, Inc",
@@ -165,7 +165,7 @@
         "name": "American Tower Corporation (REIT)",
         "price": "169.19",
         "trend": "\u25b2 1.34%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6L8QSmu-s2EPhZnZYFSIV2k1gpOznQXc2ZjHSByFlKFPRWg9EJ4vRLjcgKQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9BhHd4SniVPXXv7ZoEa1VxcnmiJBXfOE-qn5vE2kWhdLsWOZWr5s5FIcoQ&s"
     },
     "AWK": {
         "name": "American Water Works Company, Inc",
@@ -207,7 +207,7 @@
         "name": "ANSYS, Inc",
         "price": "297.00",
         "trend": "\u25b2 1.32%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnfMujkgQiQzM8ZXd3V7a3CDTZnyCUmudpyFO-AxwPiblo0oD3t27Ij6PKE0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVdtFwJd6qZDwEpuIdCvupssBTxJo5Wslh90NufjcI5XO-qGmqZ5PNqmgVJWI&s"
     },
     "AON": {
         "name": "Aon plc",
@@ -225,13 +225,13 @@
         "name": "Apache Corporation",
         "price": "42.19",
         "trend": "\u25b2 2.28%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYu5RCvQ2L7n2GxwCfYOQTafsYzWd_53Z4ogZMszUJpb1Tcw7f2ow_Xg47vY&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGrsXf_7LjjTPc7_huWJrROhodx2NDAk-Qtuvp80TAaBD-dzJcwG8ZjN6SUGw&s"
     },
     "AAPL": {
         "name": "Apple Inc",
         "price": "178.68",
         "trend": "\u25bc -0.10%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTIYs-m8lWB-LUjHZxt0d7AQkmJA9TsE6M7Yv6NZmAWXmXHK45OnFpLvbDw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTCeNvSeb2f3pFqrsuEib5B3U2NN7z-H-mFnFme1Uf4Tk0j_T8Bu3QVZZuX0&s"
     },
     "AMAT": {
         "name": "Applied Materials, Inc",
@@ -243,19 +243,19 @@
         "name": "Aptiv PLC",
         "price": "96.62",
         "trend": "\u25b2 1.75%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mwero6bVPjThrOnNbWy4kOcI7s3tv0AjzMA_G2iVNnxm78JKla-TbuXI9g&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUcVm7bhFDT4dkXyQFIReivVHEVCSUZtYpb3HryYUhpb5Cwff1rNAODLesYNA&s"
     },
     "ACGL": {
         "name": "Arch Capital Group Ltd",
         "price": "85.66",
         "trend": "\u25b2 1.78%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo32XN0ydViA59OLVlf0hB3-HrNQVT31O8hJIrdp5rjsmVi9OnuvTrNtA6vQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbs50iykAPfnxAuO2GO_Ilv0IUFQmqFCvmtGAn0qNS7swdWwnHA8og6_eNFw&s"
     },
     "ADM": {
         "name": "Archer-Daniels-Midland Company",
         "price": "74.49",
         "trend": "\u25b2 1.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4gbtEvlWtAWl5O55i4kbEhn7q_l_Yw6TmdgNEWZyVnzdVXLlfqAW7AxQ1Vg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36WNeiW7k9sysJLH6-VwHrwRQ7UPZkFfbbaR2VShIheD1IPbBZPxZyvNSog&s"
     },
     "ANET": {
         "name": "Arista Networks, Inc",
@@ -297,13 +297,13 @@
         "name": "Automatic Data Processing, Inc",
         "price": "249.25",
         "trend": "\u25b2 0.71%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2mu9cxWm5qQ0gBdc-bOJac41ab0ykMhgVGylCiFxaY31D24Qt_CGEH6v4A&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWqnFMjFZ0w2saDI2IhvxTcka_KrSCLqSmca3tEHXw2yd0qrizvX2B_YkvKY&s"
     },
     "AZO": {
         "name": "AutoZone, Inc",
         "price": "2,602.74",
         "trend": "\u25b2 1.96%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7RlCj-XI_ItXINCxM8VgfcMZBAmSN6xj1WzW32Rw5J7YFop7UnNedqegFGs&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQpFGLaGIfQ161gm9nAqPofaUaT-tqvl-lebgNnX7SRtS93VUhMSsa2bVreg&s"
     },
     "AVB": {
         "name": "AvalonBay Communities, Inc",
@@ -315,7 +315,7 @@
         "name": "Avery Dennison Corporation",
         "price": "182.63",
         "trend": "\u25bc -0.03%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgTIVxFDuQjvt32ixHERj4eqj4GfKeFuu9RgtTuMwFC-ViVmdj2ylkhta&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMUIj_Ab5Oa8bmEhRWeyitqS_hWbC6A6IJ7bz-QxuCc7b8yHvFi6WekHEboqE&s"
     },
     "AXON": {
         "name": "Axon Enterprise Inc",
@@ -333,13 +333,13 @@
         "name": "Ball Corp.",
         "price": "45.00",
         "trend": "\u25b2 2.09%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GqSD131toEYm-tRvWWS49Lud8TOYNpCc9UwRIsKDNvLpHkUDUfrFD2TFBA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcMrvdm6eR5X-dRWo8TNmf-wsHwN7l5ADtOmCXUqjb4I7XFVgWym8fyCFDZE&s"
     },
     "BAC": {
         "name": "Bank of America Corporation",
         "price": "26.98",
         "trend": "\u25b2 0.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJx40crp5sv5E2bRIcYeXHyLw5YXoq1BWzjzegtHgSGt__okWQ-5qdRCCXlA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9go2ljZX1K5dSqssEY0VjYdTs7BYOeRTgbkmQ96tyLrgjoLGVt2cEfbKZeU&s"
     },
     "BBWI": {
         "name": "Bath & Body Works Inc",
@@ -351,13 +351,13 @@
         "name": "Baxter International Inc",
         "price": "31.97",
         "trend": "\u25b2 0.41%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPDsKnd3a05acW049S8RUYyiEePIY3NNDR8i5RdS4z6MDJznoUmGfUkKMmS4&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIbGqrtcCbwsXnHZqO_N8lYE9ppMcZov7mLzGRQqi8jjAz54D8gfIj5xRCPN0&s"
     },
     "BDX": {
         "name": "Becton, Dickinson and Company",
         "price": "259.81",
         "trend": "\u25b2 0.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwgFOxLZhd4z1V5vI3_R1xoZ6kXb6ew8Vlv3N-CH4JLS1hOW4FeaHCqm0645k&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC359aa89aya-cua9hdnFQxagJtWw4jXNzNZ2yCexd25p5417yNshdbN9aKA&s"
     },
     "BRK.B": {
         "name": "Berkshire Hathaway Inc",
@@ -369,7 +369,7 @@
         "name": "Best Buy Co., Inc",
         "price": "70.73",
         "trend": "\u25b2 1.78%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5ty7OWJRGcukJTMMn8iMYNBvsNfymrhLvWWW8EbiMTDCrdQLcB0inpW2kOI&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZiy-8RuN8JLlIbT009xylkFHSQuTdipFJeBPktdgo5qcvFQZJttgHS6uaQ&s"
     },
     "BIIB": {
         "name": "Biogen Inc",
@@ -381,7 +381,7 @@
         "name": "Bio-Rad Laboratories, Inc",
         "price": "351.00",
         "trend": "\u25b2 1.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJoLCBY2EBgdX_cbAXjUeB5O3r_LEL2l0ZQafaEVlAkcHCAcfypEGmNF6WCRU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7BUQPAWhdCrjmdV4zto98Dd3qUjn4yeR1jz4UZcC4m3WGV4crNi4gb2QwZKA&s"
     },
     "TECH": {
         "name": "Bio-Techne Corporation",
@@ -393,13 +393,13 @@
         "name": "BlackRock, Inc",
         "price": "635.34",
         "trend": "\u25b2 1.22%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSphP4fbP19N3lLRVDK0LSrHVnhQQ_y9AD-uBDz7pY-ujfK-1IsOExlfdEAw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Lt1dxU-5eYHIZusMGgZiQToT-QZJJcVXvIFsOnA_zjavCtkH-pwSWukUHJc&s"
     },
     "BKNG": {
         "name": "Booking Holdings Inc",
         "price": "2,965.39",
         "trend": "\u25b2 0.52%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrCcCRdSm9vliDIo8aQLxBxLUE43M5oMhi_OSakFN9fYQWvyAOKQInq88jrEU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3mMDnF-4cY69YcxH-Z_p86Q8y9lL_y9NY8Tz2ouFZrcsSBO8xkLwv2vhEbfE&s"
     },
     "BWA": {
         "name": "BorgWarner Inc",
@@ -411,7 +411,7 @@
         "name": "Boston Properties, Inc",
         "price": "56.77",
         "trend": "\u25b2 2.40%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7AKaDu_N1efBdHxISjv0Xy_UNRgClzb0j3G9p0qOTSyzzTzbQnrl-h73NqA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABZgTOc1c73tuilqk6yGkG0H63zDX5NFZNopWTINVdEbnbJV_FoWbvMzEBA&s"
     },
     "BSX": {
         "name": "Boston Scientific Corporation",
@@ -423,7 +423,7 @@
         "name": "Bristol-Myers Squibb Company",
         "price": "57.17",
         "trend": "\u25b2 1.24%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLIJbruUMjEmJn1PUPz0LFWirfxpgeiOCxrLI-8nE7TxIlVQdX8fGt-bjC-8&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkEFTFakeLfJvfReV8A4mv9zFfjAEQU_GRZXmCdRFkF1f-AJNrWiTDyxwnQ&s"
     },
     "AVGO": {
         "name": "Broadcom Inc",
@@ -435,7 +435,7 @@
         "name": "Broadridge Financial Solutions, Inc",
         "price": "179.65",
         "trend": "\u25b2 1.11%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRei75l9i-k8HLjXXBpF0cLa7ql12cGQAU5Dd2Q7FGTUUkGIOdW6RQzIaP4cA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmQsxZc3WtcrfuISjs7Smatjjrv657wf0xc-G8Sos1MurevC6V-xZkxr7sw&s"
     },
     "BRO": {
         "name": "Brown & Brown, Inc",
@@ -447,7 +447,7 @@
         "name": "Brown-Forman Corporation",
         "price": "54.87",
         "trend": "\u25b2 2.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOMI1iW7wSC-OnoWTvCpRp5pD5ZkRZ5iQ6jsWp047TKTmaARvQaFUPxp6b5QY&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfoISHEk40DAmjDV_NyRTeiqr-wGhdRxB16dZuR0kL6RbaseQy7DncuTxa5A&s"
     },
     "BG": {
         "name": "Bunge Limited",
@@ -495,7 +495,7 @@
         "name": "CarMax, Inc",
         "price": "68.28",
         "trend": "\u25b2 0.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZrOYa9D9wqvZl2Yh1ga8kmsbCFwRS3ReGEQ9dQctLzA2dvgfnmllDaStsrxA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVUHSaiYh6W5lp5yJRGVvlcvjIg_XI97c4FOKYkLNQmaoSyicgDLChbP8Zg&s"
     },
     "CCL": {
         "name": "Carnival Corporation & Plc",
@@ -519,7 +519,7 @@
         "name": "Caterpillar Inc",
         "price": "270.66",
         "trend": "\u25b2 1.02%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGEl-qDxZZ_xCD7SIfOUilh6NDHB3RkMliwr3sNqwOiqc6LpgypEze7Zf0dtA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-Y4cq_3sy12noNEGWwbfk1WmEtnvBpNK02ljWq_nK-ghLIZhUEvs_05CNok&s"
     },
     "CBRE": {
         "name": "CBRE Group, Inc",
@@ -531,7 +531,7 @@
         "name": "CDW Corporation",
         "price": "208.72",
         "trend": "\u25b2 0.70%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZcrP93G-vqygZpPQ_rzD7r7A_b3Hl60uhBqh9PB-pUJgpfobMbPOLElzoQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcc2jBJVDTwmAf49_nt8_84yN-i4ZAdHLAaE_E9X4aiXMhIueoHxNaIFxwA&s"
     },
     "CE": {
         "name": "Celanese Corporation",
@@ -561,7 +561,7 @@
         "name": "CF Industries Holdings, Inc",
         "price": "84.27",
         "trend": "\u25bc -0.33%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH95BFI0y35waFa1rmKMPruC0X4bOb5jDNRCmYMa2Kmk5GJX8VPiE-wbABHg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjwtJDkF2PWQk1FnGVeLPWkHnTK91bkN81prPAGv3wwTi5fg8IXp_lmDuIwc&s"
     },
     "CRL": {
         "name": "Charles River Laboratories International, Inc",
@@ -597,13 +597,13 @@
         "name": "Chubb Limited",
         "price": "214.03",
         "trend": "\u25b2 1.46%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVB9SbWBek3alXNvogxKCbRIQae8gAJ1iTjE3Ag4CvGbd1tOpqlgfIVg5eRM4&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdrSHFOXzrkBoMgs-_39Yg3N4CAy8qA9S7EURm-rehlixrKrkc4nHOdE_2Tc&s"
     },
     "CHD": {
         "name": "Church & Dwight Co., Inc",
         "price": "88.92",
         "trend": "\u25b2 1.39%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQns2dlNHYhyVnL8nFaoGRUiq5Dsrjpr2rJ7y-7pUuoZ6vfRXhN7Pq46gFCVY&s"
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Church_%26_Dwight_logo.svg/1200px-Church_%26_Dwight_logo.svg.png"
     },
     "CI": {
         "name": "Cigna Corporation",
@@ -621,7 +621,7 @@
         "name": "Cintas Corporation",
         "price": "516.63",
         "trend": "\u25b2 0.78%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHsf6zTWiFCmAZDJY-zOC6MBJ4BBp2fe7ZzCSRp5hC87J-WImMuyiU_MIFvos&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL2T5yOBUHJ9ZG2rSXRXfzdVlha-7M7CmACBZoqgDQc0yH-Jw5RpkrWTenHyw&s"
     },
     "CSCO": {
         "name": "Cisco Systems, Inc",
@@ -675,7 +675,7 @@
         "name": "Comerica Incorporated",
         "price": "41.75",
         "trend": "\u25b2 2.38%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLO79qTjKgSpcJcp0GlYHhmFOcYZzEmB7K88pF2gpcpKTY2eRrNmzz79tn77o&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmH2hKsiDi4W5OE6R5JHENdRGNOwpliejVQcKkEc8GoyE3SBees9tqshZUuc&s"
     },
     "CAG": {
         "name": "Conagra Brands, Inc",
@@ -729,13 +729,13 @@
         "name": "Corning Incorporated",
         "price": "28.39",
         "trend": "\u25b2 1.65%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVCtQvTdCiHWrpV9Vgwn1E6Fkc0LActMyugi-XsDIOBsaZvtnMxiIKQ8P&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0N9a3aooFg1UePHcX0ASeH08IdyTQ5LPrX-5ZQtCvBm-6pbyYe-dR4bTLAg&s"
     },
     "CTVA": {
         "name": "Corteva, Inc",
         "price": "49.80",
         "trend": "\u25b2 0.50%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbfal5OgDTQ1-ODyUQ9ohXQ7yWz5dit6ChJ4cBXh8LnO8vweCMRtVQWjjNnjA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwFpfB5EVKyoRBBWTPcYg0I4TVkG3_wwZq7zfCqZa8sdYm4QyuuwPuwDybthg&s"
     },
     "CSGP": {
         "name": "CoStar Group, Inc",
@@ -747,7 +747,7 @@
         "name": "Costco Wholesale Corporation",
         "price": "572.14",
         "trend": "\u25b2 0.94%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmu2shz8KWqaocklA9VW_FRJ5Hj7CJ7LcGrCuS6kd5XFVxtSNElQl7EIToME&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmXG4BO2cpbmKnJSWdwUL0QfykQKaOKYvp6G0gJPeAN0Mm-upbLtTkln8rQ&s"
     },
     "CCI": {
         "name": "Crown Castle International Corp. (REIT)",
@@ -771,7 +771,7 @@
         "name": "CVS Health Corporation",
         "price": "71.49",
         "trend": "\u25bc -0.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Nv2cw3BynBebm7rp1FipOZVjkNDh-ehitufRam4_14s53WRtSVhS2gkNng&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGQZDW7k11-MdPVCHKx1LdWt4AnUo6uN87aSBDR7UE-01c4Rn6wyrihg42vI&s"
     },
     "DHR": {
         "name": "Danaher Corporation",
@@ -789,7 +789,7 @@
         "name": "DaVita Inc",
         "price": "74.54",
         "trend": "\u25b2 1.83%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShDugASXDB1cXoni307hs7Hy2dLA2v1EUCyu_vgRIQ0awkNyoODm4qh77rY7k&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKVPaPWAsdsbfvK9SOu33qa-NmfC_enxLROffNNmEtipsX-uGbTgzSN5GyBw&s"
     },
     "DE": {
         "name": "Deere & Company",
@@ -801,7 +801,7 @@
         "name": "Delta Air Lines, Inc",
         "price": "34.40",
         "trend": "\u25b2 0.88%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBlNizAFyrdiQLH4KBPSmfFje1_OJ87ZG5MRVEQ_s13CxWGBN3eHKBIAIs0Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSICHKGKuA-aV4CTBusFMiTTiUAhDmgZy7GZp93crwO5sy96UaiNPvQFQzdsA&s"
     },
     "XRAY": {
         "name": "DENTSPLY SIRONA Inc",
@@ -819,7 +819,7 @@
         "name": "DexCom, Inc",
         "price": "78.96",
         "trend": "\u25b2 3.64%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNNAqH8F6j4Nf5Jr5spPEuxFsmofnRQRvtV6kGx3L_G_tLSr3arNKVTrBe2w&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcv5D3iXaPORa3TEKEBYi79hOK5emb_AvCnpBmWwvDZIc50TuHLuwaSEGhw&s"
     },
     "FANG": {
         "name": "Diamondback Energy, Inc",
@@ -849,7 +849,7 @@
         "name": "Dollar Tree, Inc",
         "price": "110.07",
         "trend": "\u25b2 1.97%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGEqQcmHy2KbnT0__u1HAOxv5mfnVKh0pluxRT5yOfRX3TOMSSCaDrY2M_AE&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrFFKBpZpFbYxgyGD1CMYHQHnCrI6pA_uu4hBlLmpi4pyd10zOx4Fc5RrGkA&s"
     },
     "D": {
         "name": "Dominion Energy, Inc",
@@ -861,7 +861,7 @@
         "name": "Domino's Pizza, Inc",
         "price": "351.575",
         "trend": "\u25b2 1.37%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3Oy3Oz-ETDOnzD-vRfCIEyH19X87OmobgOO7Wg79T3gxUuXix-c1kRi9R5E&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNImOZuuVjSXtfew-4SzZ5WoqzpI_mGzfVb9-_HMr3euDP-Pu6R4VPp1Gudw&s"
     },
     "DOV": {
         "name": "Dover Corporation",
@@ -891,13 +891,13 @@
         "name": "Duke Energy Corporation",
         "price": "89.44",
         "trend": "\u25b2 0.86%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzLUUjmkw5DEJNBD3tVD8vVAqEKNl8OFGDkug8jg0h-C7NKhGbIF3_VbrRQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-0CkpXB81LNnG8dsfuPUF1A1GVWVPXYKFH0CEgLfFXAlNBW041UqPDQFUU8&s"
     },
     "DD": {
         "name": "DuPont de Nemours, Inc",
         "price": "75.24",
         "trend": "\u25bc -0.20%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJylujZ2C_PL_vC-77UWR0IJaA453YSRkZ5XeoGhwZhRlsuDoKVhJPi4aU8YA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BFsYNZbyQB16Qykf-Z-tH1QCKe4V4L2bhlw--WHm7uwLfuUwTRTjSzp42V8&s"
     },
     "EMN": {
         "name": "Eastman Chemical Company",
@@ -915,13 +915,13 @@
         "name": "eBay Inc",
         "price": "42.46",
         "trend": "\u25b2 1.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnasbpbjZsChfzPO9VTF0s539R0tr0bS2dO1yLMWdM6CUKFqCMDcDtPVHz17w&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGfGTEpHRvA76Ix66Tbs8aBl4OcXc2kEtEw8PEYpQEWVUj5VRsvxT3YZwxdM&s"
     },
     "ECL": {
         "name": "Ecolab Inc",
         "price": "166.33",
         "trend": "\u25b2 1.03%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4L7057fU1QeX8ESLNIUhojpSm_vI3GeJUoJcZavKst3v-3R48O06-XpRdPE&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz9U9VgvBIwoZybzNq9GrpaMSDhhGNY84Dh2zdR8zlKq7tc_FRGkBxpzarcXY&s"
     },
     "EIX": {
         "name": "Edison International",
@@ -939,13 +939,13 @@
         "name": "Electronic Arts Inc",
         "price": "131.11",
         "trend": "\u25bc -0.14%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDus-axlkomUcaiJGyCCKYq2H11dLIAxgThlDX9qooetAH_2OpQ7Akhd1UEA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuifm6wyM8AW9ePmRFqdlXFjxU8Gq-r4vx8EBXqOKH_lpL664UPmJhg1Ovmw&s"
     },
     "ELV": {
         "name": "Elevance Health Inc",
         "price": "462.38",
         "trend": "\u25b2 1.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHmKHIFV5AnvThWDDc91RozS3WhSKL-MowjPVzqqxI3nVHKwYC4WtFPV-K_hQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ1-NmF_xjqIpeCz_DinNZJvhfSPzuJ13Igmmw050NrroxfzPEW77XRqzXiaI&s"
     },
     "LLY": {
         "name": "Eli Lilly and Company",
@@ -1005,13 +1005,13 @@
         "name": "Equity Residential",
         "price": "60.09",
         "trend": "\u25b2 0.33%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEJP___jE2y42zUk4agT6Q7CnkRdnxm7I-7nbDSqOD62JAbPfAThlQYJlwBQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrBIFG9rQOYauj_xehdkYjWOJA-u54a3KJKsB48kGk-UwDxkhTR4hnKL1Iw&s"
     },
     "ESS": {
         "name": "Essex Property Trust, Inc",
         "price": "219.48",
         "trend": "\u25b2 0.01%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyJiTYNuX8fHuV0tAYuK5mZ7SX_heXR0W4DPwqKicHrEsL4wrZlj6sypEkg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuj39h7sXFxgRGxV4pLVXh9kHex0iOyN-c4wBrYjzXOlH8Sl4DfV82-mRREk&s"
     },
     "ETSY": {
         "name": "Etsy, Inc",
@@ -1035,7 +1035,7 @@
         "name": "Eversource Energy",
         "price": "56.20",
         "trend": "\u25b2 2.13%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YkFAPdPpgTlR89THZilCxSf-qVNgQEw9JCXcwfiWO_4PA-QYDxRbnaXBng&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqc1ZIBJ7Wcie3dAmdSA2WPlwk2fTindUHE-2CY6FoVKxvPolu6vBiu5xC3A&s"
     },
     "EXC": {
         "name": "Exelon Corporation",
@@ -1047,13 +1047,13 @@
         "name": "Expedia Group, Inc",
         "price": "99.65",
         "trend": "\u25b2 0.49%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsfiYxNpDUQcvbwCVTQ5A1BdHVIu-gn67V23CxnoB9s5jCTMwpImvAWYq5zw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfGyOGT5AtqXHZ94doLmO0QeefzG-D5mboPmUfFi4zpBmKu-XT0QdgoEt1Q&s"
     },
     "EXPD": {
         "name": "Expeditors International of Washington, Inc",
         "price": "118.93",
         "trend": "\u25b2 2.13%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyP8Z4Z-4mOEQ7nROOHlewg7zbpc6sIm99sB2PPhLaVnfl0Mc6eVDJNFbWsw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPXulZYRBfbho9o-mEENBfipJCIJOb06PGHi9aGEgUilZOGgVqJuqdJ8A7og&s"
     },
     "EXR": {
         "name": "Extra Space Storage Inc",
@@ -1065,7 +1065,7 @@
         "name": "Exxon Mobil Corporation",
         "price": "109.90",
         "trend": "\u25b2 0.03%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsyW4BgtC4LmgzhW9FKAAAKoc5n5pW9vCvzVxSVOzHy5VlZgNYszUUVt66QKk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkC5UUAlwEjPaVMa1MGggf677ahCvIoKrl5pGapy-CCOF72vP6W5-oxEao0hA&s"
     },
     "FFIV": {
         "name": "F5 Networks, Inc",
@@ -1107,13 +1107,13 @@
         "name": "Fidelity National Information Services, Inc",
         "price": "52.59",
         "trend": "\u25b2 1.49%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3B5p1FIphLxML2mwLVu89atHD0XNS4JYazosVpEo2YbQOXtatJutXgJzdz6Y&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBgdaWYvE1xIX_J-FPsvigJBUNnTofPKDJI4RDVE9GGbmn8NEvcvMtScuog&s"
     },
     "FITB": {
         "name": "Fifth Third Bancorp",
         "price": "24.67",
         "trend": "\u25b2 1.65%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiyYGD9AxslEip9dy992dNKRqu3xVOyXz1o6e2weziusaCFSGu_dFKocGQfCk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKH5tc8COkOg6FFvqccUGKPjfnh8ocWAFHqSHAJ9Tn7m8W5mcmDC64UaZJ9A&s"
     },
     "FE": {
         "name": "FirstEnergy Corp",
@@ -1137,7 +1137,7 @@
         "name": "FMC Corporation",
         "price": "64.18",
         "trend": "\u25b2 2.84%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkl_eFTKfEjcWF_CYiKJw1MucFcflTXER8vRGroRkgrFShdErdNbUfKIJZ6eI&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8CrwisHCxBMwJBMn2xIv6z9WQHbAOOlvhbsYwOI1gR8xfzxxTxHyaSiEsUw&s"
     },
     "F": {
         "name": "Ford Motor Company",
@@ -1173,7 +1173,7 @@
         "name": "Franklin Resources, Inc",
         "price": "22.95",
         "trend": "\u25b2 1.32%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsm9ofOzQLbWkz5-UDY8LJxoedLSZPuzP9T9J5f4FIvpIX7pBqDf5GBIQQBQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgaPTcDiHA6UQ9e4re7wv2SdGwA14oanCm6Mjli8jyWjqg40M_uRP4L7Iog&s"
     },
     "FI": {
         "name": "Frank's International N.V",
@@ -1185,31 +1185,31 @@
         "name": "Freeport-McMoRan Inc",
         "price": "35.85",
         "trend": "\u25b2 1.13%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsV3Ga8_QqChcYAymFmKZWdyHYzgAjghYCX_Rpf6Hd7431b4bzZ7s99UrjWdQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLSqJkNDfb5sGbcVVpeRCQ1ESvppHA3bI3gTnuOlpbsd3pBHNOPQEZyNwklO8&s"
     },
     "GRMN": {
         "name": "Garmin Ltd",
         "price": "107.86",
         "trend": "\u25b2 0.81%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNsgZxGkT1_xSisPShYoHs9_vvwDPN0LScv5bBrThmTIldi4igrRVG41doYQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSq-OjNIetBplWiyHCdznvoi2n9mgTLQlfKNgY8c0GTDPiRmo4t7RaHyghSw&s"
     },
     "IT": {
         "name": "Gartner, Inc",
         "price": "354.87",
         "trend": "\u25bc -0.94%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY38Qg2zlSRqoerUcSSZ-ZKsyxJ-w_guRUsl3Go-sNrzDn25lMrXos98OxyUs&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpZytxAXzsRFh4expbRzxwDRow_cy4A2YiEHTt-fPCoZI42sQUSyP4lkIRaQ&s"
     },
     "GEHC": {
         "name": "GE HealthCare Technologies Inc",
         "price": "66.86",
         "trend": "\u25bc -0.39%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIUqtiNGeARQtASjgAbr2YGrBdFygaMXPCsBNZliAR_myxF6ufNt4JcVFcEw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhdjhrwkiXPg61o07eI_aFjr9s9wI3DGZ6la9Osl0CxZ7muq1Rh2aqOPmbQ&s"
     },
     "GNRC": {
         "name": "Generac Holdings Inc",
         "price": "100.22",
         "trend": "\u25bc -1.39%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG52ebQkiffCwzgbDQ2Qpd_tzOEc0ZQXoViMELJFlHRyi1Fm-Awc6wFLB5IxI&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzYStgE-if8h-Z93kpX9YXqtHjLy9SWkYFEQIUBrC-IH2T8iT3MtyRPYWoWI&s"
     },
     "GD": {
         "name": "General Dynamics Corporation",
@@ -1221,7 +1221,7 @@
         "name": "General Electric Company",
         "price": "109.13",
         "trend": "\u25bc -0.23%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9AWgGIzhSR7CIdPpWx7MP8EzFMkxF0IZqaHmsPmYFq-mc_9ftNk-wmLeY95M&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHmZ7DLMOi305kGW3OfsvSfJLUDu2AjRbCnqWiOwRdHk6KDG_Xjx0ODb4LnQ0&s"
     },
     "GIS": {
         "name": "General Mills, Inc",
@@ -1269,13 +1269,13 @@
         "name": "Halliburton Company",
         "price": "42.35",
         "trend": "\u25bc -0.19%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO6wmI_a5rlABr6wIRU1d3xVC2gGBzLsaD8FqVOmgnTPXvIKWcObWpyzptpw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LXQ7MROlOdzNqbDkhEh_3oxw-Dh1LnHGiYQTxozOdTgIVgJO6uro83qx-w&s"
     },
     "HAS": {
         "name": "Hasbro, Inc",
         "price": "56.79",
         "trend": "\u25b2 1.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-_jRZ14iToLJwb6JsDHi1oHNDq3MkSvUkK-AsVSiZOSOjgbQhT1YE-dneg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR-Zr0NIyMVB-oDYk1c9_NbS-zIKtCUEnVh1ikq6_Us8UiUsyTq82r7-5709w&s"
     },
     "HCA": {
         "name": "HCA Healthcare, Inc",
@@ -1293,19 +1293,19 @@
         "name": "Henry Schein, Inc",
         "price": "71.78",
         "trend": "\u25bc -2.14%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIlyUMQmc7jSB4vlSucm2D4i7S7jJglSCSyOJg5lGkBkIaz1eCvOuchPQqZOU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLGHtMIY07C0pcnNXqw7e-HUeDcdkDPn7Tgz_K3OklS2UCi4uCLgkkxfZllg&s"
     },
     "HES": {
         "name": "Hess Corporation",
         "price": "161.36",
         "trend": "\u25b2 0.24%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhE696FqPveMQisP6vfegSzOVwAtRef-z8E0xCxHQz7aXXblsKxo4d-v6mDpA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcqRv6Lh_s8w34p1V4IUc_7YTDNiFhfnsvm46hNsJlbBVcpLbOdzob_drtg&s"
     },
     "HPE": {
         "name": "Hewlett Packard Enterprise Company",
         "price": "17.105",
         "trend": "\u25b2 3.79%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffVTLIjFzMzssvxLQZ_0uSFd-_KAE7G26Zuvt__abzkxQqYbiHOjYrafHPBc&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QWRJtXiJS3BmzSxNwyq7omsVdsi_px6FXBN_Nh5seSVENW8zPynk0UjX-bM&s"
     },
     "HLT": {
         "name": "Hilton Worldwide Holdings Inc",
@@ -1323,7 +1323,7 @@
         "name": "Honeywell International Inc",
         "price": "186.18",
         "trend": "\u25b2 1.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Q51nPSB851NwUQ_dM65ExKKoFgXluZFkkaz7AtRz2DY9WiMSbbXY8FQCNb8&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC_i7clGGun3JcQQ8_yhNPk02k-GFQU1wP4_ivBlqDsNYqCZOQRppfxzKbAd8&s"
     },
     "HRL": {
         "name": "Hormel Foods Corporation",
@@ -1347,7 +1347,7 @@
         "name": "HP Inc",
         "price": "26.88",
         "trend": "\u25b2 1.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvazHcoqoKzFbrwuOMvW5J2eLncgKYz1_tQhBztQe91ib5OAVceGmqHgRmQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJgKAmSR3yPp0Dhk3MMHTphDNxN8KJ5sOem33F2p71IvSfrTxpzrkfjzrtg&s"
     },
     "HUM": {
         "name": "Humana Inc",
@@ -1359,13 +1359,13 @@
         "name": "Huntington Bancshares Incorporated",
         "price": "10.175",
         "trend": "\u25b2 2.26%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMSvG6wLnz-daIHVWEZxOmrNqcNcZw8fbKj6Jb9wplSrupRi4irjxrsSznX0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3RIwrC3fdE0HL8qBpI7AkAeWfg6I1DUBceNhlQXhRYp3yY7qhUAlWPRphIw&s"
     },
     "HII": {
         "name": "Huntington Ingalls Industries, Inc",
         "price": "225.11",
         "trend": "\u25b2 0.12%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhWpcIdO84Y4iWIeU0K_ZvMiiInpqWyWBxGXDsUNExUjoCPp7uGLqSiP_mjRk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSupdCBMzemwGC-UElu5UWcboMDAtpWweZJtFD7xP_sK45P4zLYuFcCr9VUHjs&s"
     },
     "IEX": {
         "name": "IDEX Corporation",
@@ -1377,7 +1377,7 @@
         "name": "IDEXX Laboratories, Inc",
         "price": "429.59",
         "trend": "\u25b2 0.84%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX-_bLAyKoe5vGGotAkIl26ArcLodc0K5nSVWfHbTfXC_nOzZ62yI2JrSxRM&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT90l_jytLWcdBG4vkhNui1Cct9blqQ0805hHOtOxUQ8aNDFBYDIglJoIjCch0&s"
     },
     "ITW": {
         "name": "Illinois Tool Works Inc",
@@ -1443,7 +1443,7 @@
         "name": "Intuit Inc",
         "price": "540.99",
         "trend": "\u25b2 1.49%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nguY_6CtU5D2UeYw8NbMadSX6Qsx00Ku-B8AwVqhE0zlKd0iEE-p2wlOxec&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOGdTYm9t1vdRlW1QMyosVlKTmLyP-q1SMVW_uGW2EanQY1FqjkFLkHFjaKw&s"
     },
     "ISRG": {
         "name": "Intuitive Surgical, Inc",
@@ -1455,7 +1455,7 @@
         "name": "Invesco Ltd",
         "price": "13.335",
         "trend": "\u25b2 1.25%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBbWReRz5TkVQKzL7ZgM3e1-KfBl0zSRMlttqe0MyP8-dZwYY4E9gthJWM7g&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1xsJ68LTl8q0rx6CvrRwzkYFk7tf-5a8hRmCLZ6XhRs5K3U4W7UZ0qUiTdsw&s"
     },
     "INVH": {
         "name": "Invitation Homes Inc",
@@ -1515,7 +1515,7 @@
         "name": "Juniper Networks, Inc",
         "price": "26.29",
         "trend": "\u25b2 2.46%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6nfSLp5F2DaxUyvYVR_s3LW0FCYqoThTprK0_oACQ2zdurGgTusAZzfmjlU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxYaMcTvK4laYIwqyFxDCbnU-DVMC0VgJY_rtRzTh80XBiaxipYuY4HXC0w_w&s"
     },
     "K": {
         "name": "Kellogg Company",
@@ -1527,7 +1527,7 @@
         "name": "Kenvue Inc",
         "price": "19.53",
         "trend": "\u25b2 0.83%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIcE2UBg9S5S5yU3R8C3k3bQB07V3j5EV3-_vJ9PM1qgmgjdvAU25d7LH20g&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS31LxmuvxFxREuGhyGFuA8lsVaz8sty3FT2NiB5pHLv7oNhR9Tvwc909TWrg&s"
     },
     "KDP": {
         "name": "Keurig Dr Pepper Inc",
@@ -1557,7 +1557,7 @@
         "name": "Kimco Realty Corporation",
         "price": "17.21",
         "trend": "\u25b2 0.70%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSNRk1knfOs8jcHa4eCbovPcrNOv4RCN_MEh0IRAAcgeKgKW2PvUmANxXXJA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsY_cTjgcfdqjxyoPK2qhAE9BxCF2fqgbPZbDAQ6Y0HexuxrbLHGewq6ZrRA&s"
     },
     "KMI": {
         "name": "Kinder Morgan, Inc",
@@ -1569,31 +1569,31 @@
         "name": "KLA Corporation",
         "price": "490.76",
         "trend": "\u25b2 0.81%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTv83-TkUlQnqgy410vn132DXROxGwPTd8xyfagwR7H79-jEXRUpqSwRtLCQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRLiS-zcWLKarJgVeO42Lm1GYU2PMTa0f9PiF8vRI1AauCUKTLwa1xsaC9A&s"
     },
     "LHX": {
         "name": "L3Harris Technologies, Inc",
         "price": "178.955",
         "trend": "\u25b2 0.97%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZywYZ32nPr1ut7EPFY6XnsUhxwEgS2-yKsHzyev9pC6BBzFOrQDbi0xyd5Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWtwo3HEJcGUgei-0B9AJesqx_hdXU6nyatQDR2ZZ-q2OHAluzvV0Win0XQ&s"
     },
     "LH": {
         "name": "Laboratory Corporation of America Holdings",
         "price": "201.31",
         "trend": "\u25bc -0.12%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWxPLYZzQqrs4JjLRAHJ8hJ3FhINdJwNnlXkD--lLTnwsG5FXvDpb7t-QX8w&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVfQHvxJT5YOZdGVc_gAuQWvKkN7SrUDBrNLPhEC0upD7vCCpMuhU2aeK7Oc&s"
     },
     "LW": {
         "name": "Lamb Weston Holdings, Inc",
         "price": "84.61",
         "trend": "\u25b2 1.72%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJcyYGN-x2dMgaC5E2p8yiAQmFAoCV6lz4RU_BRNsFpexTxKOd3gqS37-W7A&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxJonzOdaIU7FKYJgU63mePJWUwZwQq-y5K6mG37KkkipVMZxUf8QicBs36I&s"
     },
     "LRCX": {
         "name": "Lam Research Corporation",
         "price": "650.69",
         "trend": "\u25b2 0.86%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzjsxT1cP28YEuAsn9l3OslYavGkNkvpwe825UIbxdrs5DehX3csejv7IA3Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo6Nbpp_Jk8b1Ex-39CZNsemJiXDPpf71y9Dqoaytoj5hA_vTgvv2sNNAjQ&s"
     },
     "LVS": {
         "name": "Las Vegas Sands Corp",
@@ -1623,7 +1623,7 @@
         "name": "Live Nation Entertainment, Inc",
         "price": "85.56",
         "trend": "\u25b2 1.19%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0jr0bBhu67tPitB1JgyiJsultpXDYSfIxmhyemRLkrrJ8tHIoNIZj80MS7sc&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1UnAFEOlkFNcw5YriNuBT1bR1Ogq2bpTEeElpcyStB3XFBRhs3hTdC6BsxOo&s"
     },
     "LKQ": {
         "name": "LKQ Corporation",
@@ -1641,7 +1641,7 @@
         "name": "Loews Corporation",
         "price": "64.68",
         "trend": "\u25b2 1.36%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHIpcjqeLRWfSvVEPtFRUwCLKWkVwJB7f5EpIhIFjcDJKD0BG8fo9kaxtwzbw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGT2Z-o5Sv86Ynh3Y0DQk-ZdV0QhZIQAQ9QfRhp1CrLVYmNeUowtTVvK0Nlw&s"
     },
     "LOW": {
         "name": "Lowe's Companies, Inc",
@@ -1653,19 +1653,19 @@
         "name": "LyondellBasell Industries N.V",
         "price": "93.38",
         "trend": "\u25b2 0.76%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMttYgxYqyqgwvw6weG5SYp6WLmeTByiUgGHt7uTDL4Fc6g-GMhwFMDtAcOA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7EI8E9zMT-jtBAO0XZZr3O8xL4so3DNk4SRTqt6W7XHrmz1COzKe5KrZ1WA&s"
     },
     "MRO": {
         "name": "Marathon Oil Corporation",
         "price": "28.45",
         "trend": "\u25b2 1.35%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfFMC7Bs1npsp5SG3349OsIKuoyqVNlnOAdY6xP8yTGePZPkOp-hAJIGx8_Ko&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxmQKIApZ98RV64JiKYmuc5pn6jZSDFD6_44G6a0Fh9e4ROf6rbhChuIpzuE&s"
     },
     "MPC": {
         "name": "Marathon Petroleum Corporation",
         "price": "150.655",
         "trend": "\u25b2 1.66%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSY4qTP6ujGAux6PisOlsYv_701B6oojdNQmSo-A1PsnuChsWUJSrPLci9Jw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhMqc-dPS3LLyuJcy4Hb7t7t96kPk1LwIqyppLuxdzlDhofZDQH-9tiePz5Q&s"
     },
     "MKTX": {
         "name": "MarketAxess Holdings Inc",
@@ -1677,7 +1677,7 @@
         "name": "Marriott International, Inc",
         "price": "196.93",
         "trend": "\u25b2 2.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5FYgLDc5qdciJfWDTIOEJBFoNzD_13W897R-I_j_EoJXbNSlsKR6x8R0dg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHq73k1EuBBNtf7U0F2wXtI9w71QXJPJZeZfTD5DNXW4VewW0FfOa-iCuWKrY&s"
     },
     "MMC": {
         "name": "Marsh & McLennan Companies, Inc",
@@ -1701,13 +1701,13 @@
         "name": "Mastercard Incorporated",
         "price": "400.81",
         "trend": "\u25b2 0.70%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVr8DbUKnf13-aEHV2PEYJ7GjQEw3V_kc5OEWc4RDk_3eFSF_Vy27jXN1Yvw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4RgAe-iVj1aEJNvrDMr_cEYlm5K-LrYwQ1OuT7yYlj3W8foiYnzk5npwIq4&s"
     },
     "MTCH": {
         "name": "Match Group, Inc",
         "price": "36.38",
         "trend": "\u25b2 2.36%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2qK4rfvLBm81Abn9htjsKLff2MxxVr8QVEs8PGnzLNsoBIe1j-OYFsYSQKw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwZeVy469Y1vAM5Ptr9QFJmZ3SXL2eCTHU1HPQTuu_Y039BtqUgCj_lGpuA&s"
     },
     "MKC": {
         "name": "McCormick & Company, Incorporated",
@@ -1725,7 +1725,7 @@
         "name": "McKesson Corporation",
         "price": "455.31",
         "trend": "\u25bc -1.57%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0iW8cvUkXVRKllImrjTJBBk5H4Kxz-t8JQyZuc2nNIFxBJ9i3qkBhru0Bl0c&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tlFOtQIKINdWfk0WGItDXkGJ3qp1vzIjWXKrJtctb60YhdzfKhoRiI5Q9g&s"
     },
     "MDT": {
         "name": "Medtronic plc",
@@ -1749,7 +1749,7 @@
         "name": "MetLife, Inc",
         "price": "63.33",
         "trend": "\u25b2 2.05%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJHN6PLNMLLfuV0n1sh2vBwoUuAS9tFSgisqYa6osoLhW75I6os9tEXsqPTA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDosC7uLt93hOW_qx34H4S9-Gew4pCt-95afp4WEZgpA5zEzlUQ6wDuOh7CHA&s"
     },
     "MTD": {
         "name": "Mettler-Toledo International Inc",
@@ -1767,13 +1767,13 @@
         "name": "Microchip Technology Incorporated",
         "price": "78.90",
         "trend": "\u25b2 1.86%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHS4c5aamEPKYjdbSNxkBovEPfNoArOgW_57V_dU2kRTPwAZfaARswRbXYUI0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcGy_iZyMjUEvOfWVm4s17PmsL9uMbKkf2ZwgOawiewAljC5G28efCQNZPA&s"
     },
     "MU": {
         "name": "Micron Technology, Inc",
         "price": "69.03",
         "trend": "\u25bc -0.26%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3c02a1X4FDvYh9XOyApG6mfpsVWdbm8eeC_wM-713JGcKooX5AWBF3vzBvuo&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdOVfBWoP6PLc4xDxxxivEBpr7kJU61Vqv3WJYNDQFW1hIoMJoPEu3KUG5cyk&s"
     },
     "MSFT": {
         "name": "Microsoft Corporation",
@@ -1785,7 +1785,7 @@
         "name": "Mid-America Apartment Communities, Inc",
         "price": "132.75",
         "trend": "\u25b2 1.01%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyK8tok3YSaxqgq-X4ms18YitY65JcMmHF3MagWz8OkA8Q918vwg_fN9PUag&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl4K8YGf4I6N3t65lrftegPVG8LvwSlRpdp_ZSjUumB3flpkrbgoGvpXe95j8&s"
     },
     "MRNA": {
         "name": "Moderna, Inc",
@@ -1815,13 +1815,13 @@
         "name": "Mondelez International, Inc",
         "price": "62.61",
         "trend": "\u25b2 1.79%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqkKXXT-ITVKwhA8XKGc1WnRncMkvTcjs6XTe7iaO1fbhe8NaWqYWwo_hq6II&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqMBc_vGQ4XBO-WXJv0DoYFUzb72o1oHX2wKv3fvIKBFMQTHpr9QbKG2K0oOY&s"
     },
     "MPWR": {
         "name": "Monolithic Power Systems, Inc",
         "price": "482.47",
         "trend": "\u25b2 1.41%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hWG2lmOoR1aqwXgEnNIojHmgkQbaH8_vu5cFdshs3VY-gsI23M5zDm0YFg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEXHP9xq28_rXrOu1MtGCXnrz459QAX-ypYzRWIVvEy8zpTkMwFEhu1CKSmg&s"
     },
     "MNST": {
         "name": "Monster Beverage Corporation",
@@ -1833,13 +1833,13 @@
         "name": "Moody's Corporation",
         "price": "321.42",
         "trend": "\u25b2 1.27%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCM-GT5J9bGSSfKX_CP-BX32IJUivNoSGXRI4yuhdoH9_uQvLxNhAXyq0Rw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjcHICJhZGrpasTuPEXICfZM-eXv-mQX58yZGbF0BbDr286NRU2EBerpLpM2g&s"
     },
     "MS": {
         "name": "Morgan Stanley",
         "price": "78.72",
         "trend": "\u25b2 1.20%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5uvw24rAUDT6a_NDzz53c9IVpgZb76ps6ACa5t_YbIi3Gu1g9J0Dq-6ivVnU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6DwpJreIKuzaqoL4OISIn08q7kLUKHUz4odnnwM85D67UUWX9gV5Hp5cGA&s"
     },
     "MSI": {
         "name": "Motorola Solutions, Inc",
@@ -1863,7 +1863,7 @@
         "name": "Nasdaq, Inc",
         "price": "50.28",
         "trend": "\u25b2 1.84%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAfeqYqD-GdHXwGDEpbh8DgsqnVQzQgDYxUWzR8TTffkITV4a3B1qGNunr3g&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREtOZKTpERIVhi7DGmWkXrv48HzvUhAF7ccPSdvbnMlIypBDZR46PpXF_rL9I&s"
     },
     "NTAP": {
         "name": "NetApp, Inc",
@@ -1875,7 +1875,7 @@
         "name": "Netflix, Inc",
         "price": "360.77",
         "trend": "\u25b2 1.43%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQVVkYO9dD4yUTpVJRxFJAOrmXYsHtJE30zzpxA0Z0pe-WaCqNmAYufe4VSk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytwy8VG9UrmhwwQfch9BQ_EOxO0EIhcDUedHbhPtdhNhjdu01r5ng9sk4fA&s"
     },
     "NEM": {
         "name": "Newmont Goldcorp Corporation",
@@ -1911,13 +1911,13 @@
         "name": "NiSource Inc",
         "price": "26.10",
         "trend": "\u25b2 1.24%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgbPXfI1zTVdOqHVJUONSTmSecF5y3i2BYJ-xkceTF6xArDRTCp6nn8vn-xS4&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BjlGhCamCQ5CzeVhCsItu6gLz3X85QsHWALFEp09qvmUgxDcPZZM9L6gUdE&s"
     },
     "NDSN": {
         "name": "Nordson Corporation",
         "price": "224.435",
         "trend": "\u25b2 0.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScIg0ScYFCWF_zANSN4e5N1186MXBv0FYum5SwTJqZpCsyp6nfdEDohhTVhw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYI0G4j2kFJVx8NOC4a8cnBXeOhiJTST4iPqgqBRj-YWLUMHPYw7HktUMCQ3w&s"
     },
     "NSC": {
         "name": "Norfolk Southern Corporation",
@@ -1935,13 +1935,13 @@
         "name": "Northrop Grumman Corporation",
         "price": "488.92",
         "trend": "\u25bc -0.25%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFSmRwD45HPTmN177kGJsSPqMpzm76xSCl9DD_jmLj4oytf_6pND5n5-qKIA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8r79-sNgoQGjP5BepZnTz-1PdxZRkpAsQ5x3-N07DH7vCQVuz9-WtZPSbsA&s"
     },
     "NCLH": {
         "name": "Norwegian Cruise Line Holdings Ltd",
         "price": "14.96",
         "trend": "\u25b2 0.67%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMg3Mdgu5Zt_JxQpXYik6Nicsk7SkjtgIIZnDQzMNqkmtOUljk8sZw4vJHiYk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTybF_r9LNyxaQb20JtGwexmWQYLWSBfMM2glqIq4_rs0IMjwRjTidEKjeuVg&s"
     },
     "NRG": {
         "name": "NRG Energy, Inc",
@@ -1959,7 +1959,7 @@
         "name": "NVIDIA Corporation",
         "price": "460.74",
         "trend": "\u25b2 1.35%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb3dZr_PJDr6hz4EvSODvMWLNa8tWqYrvnd1PgipRzBuh7nkxb7iJ6jQBtZWY&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt42VuJCn7OAc2wnXHyAcfo04lvGCK3AB6OiKOzB2WN5LShUPLbqphe3Yz8Q&s"
     },
     "NVR": {
         "name": "NVR, Inc",
@@ -1977,7 +1977,7 @@
         "name": "Occidental Petroleum Corporation",
         "price": "65.38",
         "trend": "\u25b2 1.57%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvO3Sn7DgodkgpQdgxvi1eOG3dTsa-i7SIvTT4rV4M4zjbMfCN5j5KGP1S7iA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAg97PphuV7O2MqAA3MBbsxiupA4k-6ePwEitMVHT6Jw6YUd1kwJM0WQvPRQ&s"
     },
     "ODFL": {
         "name": "Old Dominion Freight Line, Inc",
@@ -1995,7 +1995,7 @@
         "name": "ONEOK, Inc",
         "price": "70.06",
         "trend": "\u25b2 1.36%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiStuMN2OO20iSyuHgAnvWlMdqxQvdIo7x__Mh8GkXygq0RXII9zSzYmNNN-c&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlhyo3nbFUY6jQd0XS0d2GHAFli7lp4JvJyhbLFoCFf4at9kUxp3a9MGbSnA&s"
     },
     "ON": {
         "name": "ON Semiconductor Corporation",
@@ -2031,7 +2031,7 @@
         "name": "PACCAR Inc",
         "price": "85.075",
         "trend": "\u25b2 1.56%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf51_pheNtcMXizvh3WAmY8H9kHtcc0gSKzNUTE5Vdkk9DCj20TqhkcOjUFlM&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqpy7_4OtqfcccyFR10VQwiTs39wlGAyfA6coFeK-DDC_i9-rwTtcVEza-eg&s"
     },
     "PKG": {
         "name": "Packaging Corporation of America",
@@ -2043,7 +2043,7 @@
         "name": "Palo Alto Networks, Inc",
         "price": "261.48",
         "trend": "\u25b2 0.80%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7DdqZR6AKU717vCA1DAaWn6QVRM1d7wPgPntn47uNiVx8vx_JqFSilcVeOg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNyx8SP6s6TZy6ooNG777Gbvqtgc0MbyMWKFu0i6VgYZjXwfB8-0TxIIZcYP8&s"
     },
     "PARA": {
         "name": "Paramount Global - Class B",
@@ -2073,7 +2073,7 @@
         "name": "PayPal Holdings, Inc",
         "price": "56.98",
         "trend": "\u25b2 2.21%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMDqsiRqy_9WalygBm9pIyz8gT4Gu1i1QkxcOrpaoslNvMGaouJv38gVnZ26Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvSVuvQGSmfZTrHTm_XMmloEUjRhfycfAT1ZgHwP7896AltSS4ykb24aiaXk&s"
     },
     "PNR": {
         "name": "Pentair plc",
@@ -2085,13 +2085,13 @@
         "name": "PepsiCo, Inc",
         "price": "161.05",
         "trend": "\u25b2 0.66%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPIZ2RvDAbtZAGYLxkEwLUI27p5poUFvnJ5q3bAnlANUYP_ZtMQZKdjZM_Q&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUdj-wd6a09tA7WSRgUz-B2qk-GQ7yRlab3mYznprgepfChzl7sJ83pVn1pg&s"
     },
     "PFE": {
         "name": "Pfizer Inc",
         "price": "33.265",
         "trend": "\u25b2 3.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREVOiP-DgdhdGrJ_VsILucmotb3ocCw4pzUVBP-b8DsXgPj-zfd3-EIajrTg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyiEgrGq04hsCWDDNu6UZUYSxgWW8ZWyD-sYkFtNAw5Exn6dUsmHI_gilp7w&s"
     },
     "PCG": {
         "name": "PG&E Corporation",
@@ -2103,19 +2103,19 @@
         "name": "Philip Morris International Inc",
         "price": "93.105",
         "trend": "\u25b2 0.92%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYrpgSrwhkzc1vEOh4xdKC6a3UuWI-HizT4LmNMAbjP7VBJopuM1QgjXhiNkg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDmGZ-8FTLCpiT5ffd1hBzvpXlqT9BG6QOpBFELnQqbBSEZyAbt9dfMDAcNQ&s"
     },
     "PSX": {
         "name": "Phillips 66",
         "price": "111.79",
         "trend": "\u25b2 1.08%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNBENYiudUHFbbxwCGBSGTa0fVDs7rBKm-31VsfCOF_1GBkUZmD5yvoCjGg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6SUAC3MwSE-RRUeImtRKhwKmcZRa4uEyiXr4nTOl_8vUnsNSq4ITko3P3Q&s"
     },
     "PNW": {
         "name": "Pinnacle West Capital Corporation",
         "price": "76.56",
         "trend": "\u25b2 1.15%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bqt0QQiHXW65IeFQYhyqZZY7vgUkYD2wKB6TqLdj_r3lbHFIL5eZ0rb-tFA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcArafMms5C9Fad2KAsx8eNb5ZlxkD4IT5d40YBfEOI_kfKZtmhdxpr9Ig0g&s"
     },
     "PXD": {
         "name": "Pioneer Natural Resources Company",
@@ -2133,7 +2133,7 @@
         "name": "PPG Industries, Inc",
         "price": "130.34",
         "trend": "\u25b2 1.46%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZx1djEhXWS7_Gt89jLoTKJ_IJjnC_QBaWUjBioQZ23SGwqBNIRAC3TDeFAQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTobnRQNVSY2gKnR0ZvLjBgwUGjc24r5YeVVx67-rbnNaI2btq8S5VjczEPBQ&s"
     },
     "PPL": {
         "name": "PPL Corporation",
@@ -2151,13 +2151,13 @@
         "name": "Prologis, Inc",
         "price": "110.89",
         "trend": "\u25b2 1.13%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxqEaiV72mLaMdImq7VUAatvhY9HaH7C5CNN-kLv9yt8l0qFAFtrtuzMTelg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0fRKJptGX5jnx74BqUOnzZXMH1CMyEFcf_1CauhYf8u4-KlRjPjvNYfPNPg&s"
     },
     "PRU": {
         "name": "Prudential Financial, Inc",
         "price": "95.65",
         "trend": "\u25b2 1.90%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzIBI8h1MSjHDeycM2yDWdsyammCPzn8kSJTHZ15Yh4sebfAUdy3BdY7_gZw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMluKCav0zrsPmCMpedPBWD7XoJ-JsvqCTTFTCrfgUiyLdx2PqgcmXoVycSg&s"
     },
     "PTC": {
         "name": "PTC Inc",
@@ -2187,7 +2187,7 @@
         "name": "Qorvo, Inc",
         "price": "92.19",
         "trend": "\u25b2 1.40%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvyPecYWTjczCpxnTcDVyPYJYuSy4G_0Oe6Un575gGxR1wY1EI14F-xUxBEwM&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJioiTI16FvI7KrYTaGYneOCEwd6vTWC-nHcTkqaDrUvTFYhqdKZehmp0ByhY&s"
     },
     "QCOM": {
         "name": "QUALCOMM Incorporated",
@@ -2205,13 +2205,13 @@
         "name": "Quest Diagnostics Incorporated",
         "price": "122.77",
         "trend": "\u25b2 0.22%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Uuo81TdKNalzaxhWUpGUm5OmcheRTaG64bPLdMvQQPMD12bBjg0TQl4wOA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAjVkpMGWhNSjjZza6CWEgQp2n77rCQG_uzXICTWaavZ8KYImvPnPbq_Ju670&s"
     },
     "RL": {
         "name": "Ralph Lauren Corporation",
         "price": "111.83",
         "trend": "\u25b2 2.06%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ15xoN3n3PHTXSZrYB_r6iABAJkWw1IWPgcTlIYPy_tHzzMMvg3VtyBAAKE&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqnsTRJjpYULLBNz6iUsT-nHHNZmdUzusZULtvg7c8yFg68R_JedMlYak__KA&s"
     },
     "RJF": {
         "name": "Raymond James Financial, Inc",
@@ -2241,7 +2241,7 @@
         "name": "Regeneron Pharmaceuticals, Inc",
         "price": "843.30",
         "trend": "\u25b2 0.48%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyiXhtKAz5KGYHrNN5_eO0TPDzX75gXUuIa9GjNd6dqcQD-UAhheDqq8-7qw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LSpWXHzUMaaDHaiRabv-LGcjlLzl8NaWJBsNARMEI6s4PQsHop49ktW-aQ&s"
     },
     "RF": {
         "name": "Regions Financial Corporation",
@@ -2271,13 +2271,13 @@
         "name": "Robert Half International Inc",
         "price": "76.36",
         "trend": "\u25b2 0.87%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExuDblpTYi_-wgP95LdEfZ4iHHryjySbSbhx2W7q1k3akP2-5Gad04xQNIuk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqkZrc4iRXrUSgr0N1kd4qbdTiqZ2iz7rPD6WEb_CnK7EWU023K1uhJZbdAw&s"
     },
     "ROK": {
         "name": "Rockwell Automation, Inc",
         "price": "291.72",
         "trend": "\u25b2 1.18%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xHgT5WfqKY5gDH9fVaggTac15oWm0TXqJNmGd7BY5tvo_XBo6gosoy6LsA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBIL_WQtJZ0QiBMUSwhjJ5UGWONK6K7NaqeYPYDJMiRKFMI7v67lzpjnNCJ4&s"
     },
     "ROL": {
         "name": "Rollins, Inc",
@@ -2289,7 +2289,7 @@
         "name": "Roper Technologies, Inc",
         "price": "502.06",
         "trend": "\u25b2 0.85%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmothYFZ9Be0VD1XpTupFHua24CGjHIcHElKAH339ViS1KAAH-dnv_fSE39Mk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgUZoAu4KGqLZkdmAOIqGh960tRLnc0nL09zxteVRIK1WnN2ZBsRlo46p3oE0&s"
     },
     "ROST": {
         "name": "Ross Stores, Inc",
@@ -2301,13 +2301,13 @@
         "name": "Royal Caribbean Cruises Ltd",
         "price": "86.68",
         "trend": "\u25b2 0.66%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfG66N4ErRBmpAKy-uT0CROHjMh6vTplKBUGL0EmglvBUKqV0ydc9NZCKtXg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTih8R7RneS0AfdTXxIsIqPJtJc5xKqUiwEze2nejod8r-RZTA0HLtXaI1f4_4&s"
     },
     "CRM": {
         "name": "salesforce.com, inc",
         "price": "208.43",
         "trend": "\u25b2 1.88%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt0Nkq0kfeLFQgxn-uHL7KDRHjs5fOrKWTq3MCpaMhEe0ln9aYptAtg-4Vxw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIyPe5EQlw8N5X4OqiH_ZxNtyvr_EIRnFo9fvKzk803uG5LYijrZroqGdprA&s"
     },
     "SBAC": {
         "name": "SBA Communications Corporation",
@@ -2337,19 +2337,19 @@
         "name": "Sempra Energy",
         "price": "70.93",
         "trend": "\u25b2 2.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgWDjtRHrkkHgJdSXP19NOJnpdeS3VXozN6aJ2l33u3QoaQCB0CKdUoVaY40&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScaPg5oGP-FLEnPIk10MUC_NQD2On0852WsuP2_JyWspWiPOgtsP5niVod7yI&s"
     },
     "NOW": {
         "name": "ServiceNow, Inc",
         "price": "551.54",
         "trend": "\u25b2 0.34%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyheh0Sr6KyhHQNZKFm-nG5NZdZaPo2gplvEGUnSp4g-crqs21C5WDr2l7_s&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8dLKyI8C98niJanHsvjbCQK3f5qaUKVF74bwW-69UsFCvD9GoomNAR0_FRRE&s"
     },
     "SPG": {
         "name": "Simon Property Group, Inc",
         "price": "108.31",
         "trend": "\u25b2 1.20%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLIuGvUOVKW0Zts5t0IWfVfuubTynMBRsGJuYvKFanQo_5m6mxpNdfJL1XLQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiE6roT-ba__5Cuy7fvDQ_9iwmvpC9Ef1gwCCnfmTXlzQJJ97n7rgpWnIo04I&s"
     },
     "SWKS": {
         "name": "Skyworks Solutions, Inc",
@@ -2373,7 +2373,7 @@
         "name": "Southwest Airlines Co",
         "price": "25.61",
         "trend": "\u25b2 0.95%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQND4z-esxLbUVzxDrpcD98kTb6rAs81FHdzxdZNoJMGPA1p0FqfM23RMAZVQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQaKzWhOityRjjUsH1dA8xw2hkPQ6u6WI_Qnxidc88pt4-rOLfw6eGqMGQVg&s"
     },
     "SPGI": {
         "name": "S&P Global Inc",
@@ -2391,7 +2391,7 @@
         "name": "Starbucks Corporation",
         "price": "93.60",
         "trend": "\u25b2 2.32%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdjvfD6sc3rdTuVfXByIpv1nxDUyQosTOZazgrdh1PcB9mzWYwJ00OMeQyNUY&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-jZNf6WAlcNbFQDgEzoe13PScgt4NmDTIBrBlnylR6C8-z79HyaPP2PENdwU&s"
     },
     "STT": {
         "name": "State Street Corporation",
@@ -2403,7 +2403,7 @@
         "name": "Steel Dynamics, Inc",
         "price": "104.70",
         "trend": "\u25bc -1.14%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbvm4u29RZXh8io5dNU__zO8QW6T3yYHFuxoygty_1KNQnzfz9CFHT_PxUg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMviMqwn2E83lvrTc9Z_fAr1u-FgDEQP64axQ1MM8tfhzbPSveXhZsNc7TUw&s"
     },
     "STE": {
         "name": "STERIS plc",
@@ -2415,7 +2415,7 @@
         "name": "Stryker Corporation",
         "price": "264.02",
         "trend": "\u25b2 2.38%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8LqXgX5IGK_JAdF8V_l6QXy_0gqxAPsHXgciCgIu8nfVXCqwwdBj9MCYXQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZjbWyj7-fMg66gvqP2wSTXmhQuIhu1bSpQwgtHs3NxvdZ_V63QU7lhTw7s4&s"
     },
     "SYF": {
         "name": "Synchrony Financial",
@@ -2433,7 +2433,7 @@
         "name": "Sysco Corporation",
         "price": "64.39",
         "trend": "\u25b2 1.79%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbbPm8spOrYTCkhXl9bsbGH8oKbTKSjLoYEjQ_hJIjGnB9TRT3Ls7X9Iuxw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ON_2Zs3_bpMS6tyQb3T7jZGxeWEtI7eAzPUX0KLX-jF5GnDfmjN-cOsgBg&s"
     },
     "TTWO": {
         "name": "Take-Two Interactive Software, Inc",
@@ -2445,7 +2445,7 @@
         "name": "Tapestry, Inc",
         "price": "28.32",
         "trend": "\u25b2 2.65%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvkHhKDcgESCeHPR1CLqXuQfsA2tolAxehzr-ISybYrGzZ1Cs-HTe3Ot8bw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkF2PfgVzU5ibjYPGy18pEH0n1ddhthmNp0T94A5Xyan295Zd5nmueRbLgQC4&s"
     },
     "TRGP": {
         "name": "Targa Resources Corp",
@@ -2457,7 +2457,7 @@
         "name": "Target Corporation",
         "price": "111.40",
         "trend": "\u25bc -0.52%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Ci1PYTxJ5pMEU447hl6GDVs5eYWDLbWdnsTToYBb_s334AhrRht9P_xeGgQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPhPQyltjYg7pOf2sswvUl7NhHpyEOhjIfMtgoAj5f1I_aiVvRW1NxgaXZkQ&s"
     },
     "TEL": {
         "name": "TE Connectivity Ltd",
@@ -2469,13 +2469,13 @@
         "name": "Teledyne Technologies Incorporated",
         "price": "409.35",
         "trend": "\u25b2 1.18%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyHRkK3OtOfoDnkzeBOhdnLeAADPSMVfPCfsvrnl1tJndClrJCZi8JZx0d8gs&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3oLKeNxJLcFY0xPBJTsEAGBoIebXoJUdCA7lJSJLxeXYHEd4ElglR7vsSeo&s"
     },
     "TFX": {
         "name": "Teleflex Incorporated",
         "price": "190.92",
         "trend": "\u25b2 0.71%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxWg_HfOmDy6lbbF1gy8pZCYN35oZ7sPMEke5XjiWGBGwPxZ4H6YjEgXlh_w&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_85NpUPG1mxHYOHFM0jSCkZxAHVGM3dqNaXWdaH-W-L7Vex1FG-pKtj3KwVw&s"
     },
     "TER": {
         "name": "Teradyne, Inc",
@@ -2487,7 +2487,7 @@
         "name": "Tesla, Inc",
         "price": "253.87",
         "trend": "\u25b2 1.10%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQlF0LY5xLiuTWrVaOmp09v5rhUJnd2htKRlK0Llg8ri8amnqjeWoDy9mRvk8&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBsnnE78Xp3vnrzih3Yp9s46Zp87Ff84pP2eW5gIPrmhDc8S3P9Zf6zhLiVw&s"
     },
     "TXN": {
         "name": "Texas Instruments Incorporated",
@@ -2517,7 +2517,7 @@
         "name": "The Bank of New York Mellon Corporation",
         "price": "41.80",
         "trend": "\u25b2 1.51%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFqrCvJmhwCVBnJiX3DCTPrHsWfbaVeeMT-bKB6WVBMpgRf6-UrrtIh4CORG0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwV4oPFJuHOuko3gUTZNyPxnuZ72DwJPsVwsSNuE9DaztmsF9TgpjZ571hz9o&s"
     },
     "BX": {
         "name": "The Blackstone Group Inc",
@@ -2535,7 +2535,7 @@
         "name": "The Charles Schwab Corporation",
         "price": "53.69",
         "trend": "\u25b2 4.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmet9Rac4YY5ThIjFHHurIhKjKlpvRsaLRha7Lj4qmc1O-cZiUF7rTAp6PGkg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTydaLnPfG_XXkKmguWKdnE3XaSoM9274C91KxMreUcMcmbc2Qql8J5wtHaMcI&s"
     },
     "CLX": {
         "name": "The Clorox Company",
@@ -2565,7 +2565,7 @@
         "name": "The Goldman Sachs Group, Inc",
         "price": "314.31",
         "trend": "\u25b2 1.62%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzLFhqeZNxzdzSOg_JYjPu_yAb__PuTOPrsZ0oqDBi0ZhBo92E3ROyPU9Nw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2yBszojHw7uiP8B3kLQu6FTgpCY5cI3FlITHds0sG7Wm4pNei3a_TiCNZgQ&s"
     },
     "HIG": {
         "name": "The Hartford Financial Services Group, Inc",
@@ -2583,19 +2583,19 @@
         "name": "The Home Depot, Inc",
         "price": "297.22",
         "trend": "\u25b2 1.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nnHmmjAwX2urIY3_tEl5Vn2PzzBdn3OVu7svzlVvwGTwSjcVUu4NVapFZLg&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQsjkLtldoyd_S1Pb-3icM4BbH661p0trEfOxxOZClSDTLA6ELAwa-IKuTg&s"
     },
     "IPG": {
         "name": "The Interpublic Group of Companies, Inc",
         "price": "29.76",
         "trend": "\u25b2 3.08%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFk9FhbInkDPxh3B0uWpBbKNQmyOo0AI_-Eo67HhU1bJRzSVppkhr1tJqsELQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMfL1F8z7bERhwXjbP4sfvlyIWJFcRJgcnjedrHhTzQF8QYNxId44rUBbMIA&s"
     },
     "SJM": {
         "name": "The J. M. Smucker Company",
         "price": "112.71",
         "trend": "\u25bc -0.53%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCVgueYASaUno03dQMIsNazYxMftB9qA_4X-_pRtpC3QFfNZFllFwh6WJNag&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqCAiV-DGljQMdfSBYky7KgUByUMd768ClbyVSc2JZobz1pODtjK3grQYSaA&s"
     },
     "KHC": {
         "name": "The Kraft Heinz Company",
@@ -2637,13 +2637,13 @@
         "name": "Thermo Fisher Scientific Inc",
         "price": "488.23",
         "trend": "\u25b2 1.11%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxslQvqxuBtFPrJ0KdvoxYPgUJcLNwWfmcly4rXWH1MgqEq4BcaB_U4aS0BQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBGJV5dPt-tqz-yYWzy8NfZMLvimQ8QPCc0e-usZiWrZwBsaQvR80vv5wHg&s"
     },
     "SHW": {
         "name": "The Sherwin-Williams Company",
         "price": "252.35",
         "trend": "\u25b2 2.19%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS422jPW4vnaI6_ngnmemPJynHA0-Jo2dh74FW_OcyOYiILod0gs2g7qWHmyf0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG78hY2rMKchmKroMi_qOJsK5wq4SAwLkX4fPdbgwH1VpO9p7wWOTLDcgHGQ&s"
     },
     "SO": {
         "name": "The Southern Company",
@@ -2655,13 +2655,13 @@
         "name": "The TJX Companies, Inc",
         "price": "89.66",
         "trend": "\u25b2 1.20%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuB8NN6irjXM4-GQqFwdu_1wdR7J5vBYTwadQf_R2l7XlH0GnkN46eaYoGxX4&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_jNemvWXIZuJg-U4WwGd2lCZo37LZDD5F4f4ZeR4hfCDwOoHVbzim-IBBg0&s"
     },
     "TRV": {
         "name": "The Travelers Companies, Inc",
         "price": "167.56",
         "trend": "\u25b2 2.04%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTry3YQbEjZvgQC6QSd-a12jnzCx_AUNYu4UC0Zp4rNOKCl-9p4_aFGydnDaw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvWoxZOFbC9TIP6o_sXOBX7j1n6f_0X150FUf5T-f_IuIzNXcfcEYCIfjvVg&s"
     },
     "DIS": {
         "name": "The Walt Disney Company",
@@ -2685,7 +2685,7 @@
         "name": "Tractor Supply Company",
         "price": "205.67",
         "trend": "\u25b2 2.46%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPOqPJYzkeYHMpZ52df_IdBRYJ_iVAZUa9nPCZ2-DNlpT0kULBuWRpefgV4A&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJX7gM4s7D0SHQxwjN4B9rx5iilE-kj4JA56fZZBf2XBpco3bBxTBeDlS7RA&s"
     },
     "TT": {
         "name": "Trane Technologies plc",
@@ -2757,13 +2757,13 @@
         "name": "UnitedHealth Group Incorporated",
         "price": "538.05",
         "trend": "\u25bc -0.25%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvEYgR4oha60pGgVnF0MkmxsAwuAJVIvJZnv8CZRwb6JWmZXb5QznJQoPF0gU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe9c1lIckW7V8XWPW9gX6dsX_ZXF6EPVXJ3nCGQFuXVnW6a0SffjQjCYWjjtQ&s"
     },
     "UPS": {
         "name": "United Parcel Service, Inc",
         "price": "156.59",
         "trend": "\u25b2 0.97%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmfgbwgrA1bL4r021gp6aqRjuTpbeB5V7VlgTFnamgoTttImsO-k8f30w13BI&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gRJ6MG6XzI-kZ53Zp21OZkP8fuCYqr9ThXWMlOU7AtfPxIUk6fzTsZQBGKE&s"
     },
     "URI": {
         "name": "United Rentals, Inc",
@@ -2811,7 +2811,7 @@
         "name": "Verisk Analytics, Inc",
         "price": "242.45",
         "trend": "\u25bc -2.09%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3MuKWQZFlD00BjGGG_0F47FDERghZ8CHtcbO6TxYQG173Hv-A7aPpiHqQKw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVGBKhBG9bHfD1jxg0FolYaXxwPQZ-XTYWwWUPltHPnnVYI02RpcKatOrYP8&s"
     },
     "VZ": {
         "name": "Verizon Communications Inc",
@@ -2829,7 +2829,7 @@
         "name": "V.F. Corporation",
         "price": "16.195",
         "trend": "\u25b2 4.82%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1tfD1JTwB9FJ39WJevNT3MYlUhhe1XanZWL7V8tOqbZjHKURYWT6wvlal6OI&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJqZz-eZtwdah2QqrbFZr_z45ea6WGdOT2Q5W1dLfoiHJ2P4Blnw4-vq6J28w&s"
     },
     "VTRS": {
         "name": "Viatris Inc.",
@@ -2853,7 +2853,7 @@
         "name": "Vulcan Materials Company",
         "price": "213.03",
         "trend": "\u25b2 1.79%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1kDNCOHghW1QuuTaoATrqPe32maa9e7fLYR3XzEugt7AzXUq9dZz6gYEwpc&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAraq7fV7rawHWaaqA_zvE8oLjJp2epEL0RPvJh9icKMWJxY9mubq9LqI1jQ&s"
     },
     "WAB": {
         "name": "Wabtec Corporation",
@@ -2889,7 +2889,7 @@
         "name": "Waters Corporation",
         "price": "255.065",
         "trend": "\u25b2 0.97%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRYsU9N6wb5xRH4nlg_H-IECXAY5JGGmRUPHhTjYJr64716al-t9-dcYkIfpQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBU_9SE2ZAIXvxhtrqKB6Z2Mt-1Cs01Ylt-RYd1xpGHDtofUv2279QVmxDGb8&s"
     },
     "WEC": {
         "name": "WEC Energy Group, Inc",
@@ -2907,13 +2907,13 @@
         "name": "Welltower Inc",
         "price": "85.66",
         "trend": "\u25b2 0.60%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNHM9zA2x_M0hvgPZHVkMgP7i7ZWMqz72xP9Y3WeJYqsSI6HI07r-jOA_4qA&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wLqi5p3F6U1-OYpojm5K4U6mqBYQC6u_je6pVTLLUYrUrh2amygnLo0J6w&s"
     },
     "WDC": {
         "name": "Western Digital Corporation",
         "price": "45.73",
         "trend": "\u25b2 0.07%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzwR-PalTGnMX2mbtn-RWTUI4-a6fwt4KbyDi2V4MYQ8qP_amLNk8sgev-g&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuai8KtFY7hXukGku5M9DVj8BSHDkZQs8lzkzCwxN9Rx4Mw2bsfCs_2aYRpw&s"
     },
     "WST": {
         "name": "West Pharmaceutical Services, Inc",
@@ -2925,13 +2925,13 @@
         "name": "WestRock Company",
         "price": "37.04",
         "trend": "\u25b2 0.27%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWF8iGF0DQeclog5d1oJyGysw74bmK33qH3gOlWxSU8J6rAdBP8gtT3wDyMIk&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZygvPDuMThGlnPd8wwYA3aC_CxaONGiwmBodFYK1_7EnDJBax7ns8KMzjUo&s"
     },
     "WY": {
         "name": "Weyerhaeuser Company",
         "price": "30.08",
         "trend": "\u25b2 0.47%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AU_Z6l7k3h3-K7Ndqj7uB2pCx4v9YBSsfbHxWoxPNqnu4unH9UL9cZ6MDA0&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwS_h1RGhK0oY0dLuuV23V5KpCzhhnIxbYJ9s3iy6L2sqAjexbhF8_ORjWro&s"
     },
     "WHR": {
         "name": "Whirlpool Corporation",
@@ -2943,7 +2943,7 @@
         "name": "Willis Towers Watson Public Limited Co",
         "price": "215.05",
         "trend": "\u25b2 0.85%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtlwvleRcV3c9tqeRcJ-_64zmbp5eeOrvRZ1MuuW1hAv9EwLREsyQeeSocw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13vH09ydtFEXHSzgoI6qt94zd1891D-EanihnCJsvNEpIPcNttqvHjb5zPsQ&s"
     },
     "WRB": {
         "name": "W. R. Berkley Corporation",
@@ -2955,7 +2955,7 @@
         "name": "W.W. Grainger, Inc",
         "price": "731.45",
         "trend": "\u25bc 0.00%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyYVBeifV1m_ZR6H5PJZvm2mMRcCc1v1atX6eDWHALEheVVp1lQ0P2WWdZx8c&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlp0AUJQmu_YQZh_jHxHt6PFFkZMjOk6epuxy1q6lGDAZZUEH8rbiqH9WNhQ&s"
     },
     "WYNN": {
         "name": "Wynn Resorts, Limited",
@@ -2967,19 +2967,19 @@
         "name": "Xcel Energy Inc",
         "price": "59.55",
         "trend": "\u25b2 1.17%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRowD8WiR85dk0cgoz_67SaDSmgeZi15-8MoD2FC1pOTkuYp-bmlCXRqlCRQ&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8r62nu0k5TjTQx3vNARM8ASmTj2AUPBa_6aQPvMnrLTGMl1iVXTvSLgubTSQ&s"
     },
     "XYL": {
         "name": "Xylem Inc",
         "price": "91.87",
         "trend": "\u25b2 1.89%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ezoM4QbV3pxv4miyhjXYWNktLUY5CEhehYuPMfW5KPZpxzWBeLebeBzdBFU&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPBme33vilQzS-TWN04GYBSigXhJcTnm9YJjX2KOFfEcTB_-jQhujBNPwaePc&s"
     },
     "YUM": {
         "name": "YUM! Brands, Inc",
         "price": "118.45",
         "trend": "\u25b2 1.34%",
-        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRow3tCWwak4cWSWgLfxxx6EO0Q51a_lP2bqEIvGll2CFWq2ZvQpAlZ9V0Rmw&s"
+        "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe5zRtgCQkjJpZVjs2S7R652T1escgCf7AYXXx8hPMz9nC4POwl96eBsXh0A&s"
     },
     "ZBRA": {
         "name": "Zebra Technologies Corporation",
