@@ -12,7 +12,6 @@ p {
   font-size: 2vw;
 }
 
-
 header {
   text-align: center;
   font-family: arial;
@@ -39,8 +38,6 @@ header {
   border: solid;
 }
 
-
-
 #game-container {
 
   display: grid;
@@ -55,7 +52,6 @@ header {
   max-height: 430px;
 }
 
-
 .stock-image {
   max-width: 100%;
   height: auto;
@@ -65,7 +61,7 @@ header {
   transform: translate(-50%);
   border: none;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 1px;
   margin: auto;
 }
 
@@ -82,7 +78,6 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
-
 
 #guess-side,
 #comp-side,
@@ -138,7 +133,6 @@ header {
   color: white;
   font-weight: bold;
 }
-
 
 #js-new-game-button {
   display: none;

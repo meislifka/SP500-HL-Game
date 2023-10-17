@@ -21,7 +21,7 @@ if response.status_code == 200:
     # Extract and print the text from the second and third <td> tags under each <tr> tag
     url = ""
 
-    f = open("urls.txt", "r")
+    f = open("image_urls.txt", "r")
     for tr in tr_elements:
         td_elements = tr.find_all("td")
         if len(td_elements) >= 3:  # Ensure there are at least 3 <td> tags
@@ -50,3 +50,13 @@ if response.status_code == 200:
 
     print(f"stocks JSON data has been saved to {output_file_path}")
     output_file.close()
+
+    names_list = []
+    for tr in tr_elements:
+        td_elements = tr.find_all("td")
+        if len(td_elements) >= 3:
+            names_list.append(f"{td_elements[2].text.strip()}")
+    output_file = "stockNames.txt"
+    with open(output_file, "w") as out_file:
+        for item in names_list:
+            out_file.write(item + "\n")
