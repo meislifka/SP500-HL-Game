@@ -58,6 +58,12 @@ if response.status_code == 200:
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/M%26T_Bank_wordmark.svg/2560px-M%26T_Bank_wordmark.svg.png"
+            elif "Johnson & Johnson" in name:
+                print("name is johnson ")
+                inner_dict[
+                    fields[3]
+                ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png"
+
             else:
                 inner_dict[fields[3]] = url
 
