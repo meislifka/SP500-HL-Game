@@ -9,7 +9,7 @@ file_name = "image_urls.txt"
 with open(file_name, "w") as file:
     for name in stock_names:
         # Replace 'your search query' with the query you want to search for
-        query = name
+        query = name + "logo"
 
         # Send an HTTP GET request to Google Images
         url = f"https://www.google.com/search?q={query}&tbm=isch"

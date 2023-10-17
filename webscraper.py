@@ -42,16 +42,22 @@ if response.status_code == 200:
                 inner_dict[
                     fields[3]
                 ] = "https://static.gurufocus.com/cdn-cgi/image/width=500,quality=75/logos/0C0000071H.png"
-            if "Marsh & McLennan" in name:
+            elif "Marsh & McLennan" in name:
                 print("name is marsh")
                 inner_dict[
                     fields[3]
                 ] = "https://cdn.phenompeople.com/CareerConnectResources/MAMCGLOBAL/social/mmc-og-logo-1632326576517.png"
-            if "Church" in name:
+            elif "Church" in name:
                 print("name is church")
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Church_%26_Dwight_logo.svg/1200px-Church_%26_Dwight_logo.svg.png"
+
+            elif "M&T" in name:
+                print("name is M&T")
+                inner_dict[
+                    fields[3]
+                ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/M%26T_Bank_wordmark.svg/2560px-M%26T_Bank_wordmark.svg.png"
             else:
                 inner_dict[fields[3]] = url
 
