@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  font-size: 2vw;
+  font-size: 15px;
 }
 
 header {
@@ -81,6 +81,7 @@ header {
   transform: translateX(-50%);
 }
 
+
 #guess-side,
 #comp-side,
 #middle-side {
@@ -139,8 +140,12 @@ header {
 
 #js-new-game-button {
   display: none;
-  background-color: rgb(238, 222, 0);
-  font-size: 12px;
+  background-color: gold;
+  font-size: 11px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  height: 45px;
 }
 
 #js-higher-button {
@@ -168,10 +173,6 @@ header {
   background-color: rgb(255, 238, 1);
 }
 
-#js-new-game-button:hover {
-  background-color: rgb(255, 238, 1);
-}
-
 #end-game-overlay {
   position: fixed;
   top: 0;
@@ -187,6 +188,7 @@ header {
   color: white;
   display: none;
 
+
 }
 
 #overlay-container {
@@ -196,16 +198,54 @@ header {
   justify-content: center;
   border-style: solid;
   width: 150px;
-  height: 150px;
+  height: 170px;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(108, 3, 3);
   border-radius: 10px;
-  padding-top: 40px;
+  padding-top: 2px;
+  text-align: center;
+  overflow: hidden;
 }
 
+.green-text {
+  color: rgb(3, 187, 3);
+  white-space: normal;
+}
+
+.red-text {
+  color: rgb(187, 3, 3);
+  white-space: normal;
+}
+
+#overlay-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(3, 1, 83);
+  white-space: normal;
+  border-radius: 10px;
+  padding-top: 2px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+#newHS {
+  margin-top: -5px;
+  color: white;
+  margin-bottom: 2px;
+}
 
 @media only screen and (max-width: 768px) {
   #game-container {
@@ -217,7 +257,7 @@ header {
     border-radius: 30px;
     border-style: solid;
     background-color: rgb(65, 64, 64);
-    height: 40vh 20vmin;
+    height: 37vh;
   }
 
   #img-container {
@@ -225,18 +265,45 @@ header {
     height: 50px;
   }
 
+  p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #gStock-name,
+  #guessStock-price {
+    font-size: 10px;
+    line-height: 1px;
+
+  }
+
   #guess-side {
     vertical-align: middle;
     border-style: solid;
-
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
 
   #middle-side {
-    vertical-align: middle;
-    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* To vertically center items */
   }
+
+  .guess-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 40px;
+  }
+
+
+
 
   #comp-side {
     border-style: solid;
@@ -284,20 +351,26 @@ header {
     transform: translate(-50%, -50%);
     background-color: rgb(108, 3, 3);
     border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
   }
 
-}
-
-.main::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-  z-index: 2;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
+  #overlay-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(3, 1, 83);
+    border-radius: 10px;
+    padding-top: 2px;
+    text-align: center;
+    overflow: hidden;
+  }
 }

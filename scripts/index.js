@@ -40,10 +40,12 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
+
+        document.getElementById('gStock-name').innerHTML = `${guessName}`;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         setHighScore(wins)
-
         document.getElementById('end-game-overlay').style.display = "block"
+
       }
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -51,7 +53,9 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("wins").innerText = `Wins: ${wins}`;
-
+      if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
+        document.getElementById("newHS").style.color = "gold";
+      }
 
     })
 
@@ -62,10 +66,9 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
-        document.getElementById('guessStock-price').innerHTML = "";
+        document.getElementById('gStock-name').innerHTML = `${guessName}`;
+        document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('end-game-overlay').style.display = "block"
-
-
         setHighScore(wins)
       }
 
@@ -75,11 +78,15 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("wins").innerText = `Wins: ${wins}`;
+      if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
+        document.getElementById("newHS").style.color = "gold";
+      }
     })
 
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
-      document.getElementById('newHS').innerHTML = ""
+      document.getElementById("newHS").style.color = "rgb(108, 3, 3)";
+
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
@@ -106,7 +113,7 @@ fetch("./stocks.json")
 function setHighScore(score) {
   if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
-    document.getElementsById('newHS').innerHTML = "New High Score"
+
   } else {
     localStorage.setItem("highscore", localStorage.getItem("highscore"));
   }
@@ -168,7 +175,7 @@ function beginGame(data) {
   var guessTrend = data[guessTicker].trend;
   var compLogo = data[compTicker].logoUrl;
   var guessLogo = data[guessTicker].logoUrl;
-  console.log("GUESS: " + guessName + " " + guessPrice);
+
 
 
 
