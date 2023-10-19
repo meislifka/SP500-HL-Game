@@ -63,10 +63,7 @@ header {
 
 }
 
-#guessStock-price {
-  z-index: 100;
-  opacity: 100;
-}
+
 
 .stock-image {
   max-width: 100%;
@@ -246,7 +243,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  z-index: 9;
   transition: opacity 0.3s ease-in-out;
   color: white;
   display: none;
@@ -259,14 +256,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-style: solid;
-  width: 150px;
-  height: 170px;
+  border: none;
+
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(133, 0, 0);
+
   border-radius: 10px;
   padding-top: 2px;
   text-align: center;
@@ -325,11 +321,11 @@ header {
     margin-top: 10px;
   }
 
-  #gStock-name,
-  #guessStock-price {
-    font-size: 10px;
-    line-height: 1px;
 
+
+  #guessStock-price {
+    z-index: 100;
+    line-height: 1px;
   }
 
   #guess-side {
@@ -344,8 +340,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    /* To vertically center items */
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   .guess-button {
@@ -395,13 +391,12 @@ header {
     align-items: center;
     justify-content: center;
     border-style: solid;
-    width: 100px;
-    height: 150px;
+
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(108, 3, 3);
+    border: none;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;

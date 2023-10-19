@@ -69,6 +69,7 @@ fetch("./stocks.json")
         // document.getElementById('gStock-name').innerHTML = `${guessName}`;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('end-game-overlay').style.display = "block"
+
         setHighScore(wins)
       }
 
@@ -92,6 +93,7 @@ fetch("./stocks.json")
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
       document.getElementById('end-game-overlay').style.display = "none"
+
       var test = beginGame(data);
       compName = test[0];
       compTick = test[1];
