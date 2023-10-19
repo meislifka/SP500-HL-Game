@@ -52,7 +52,7 @@ fetch("./stocks.json")
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      document.getElementById("wins").innerText = `Wins: ${wins}`;
+      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
       if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
@@ -77,7 +77,7 @@ fetch("./stocks.json")
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      document.getElementById("wins").innerText = `Wins: ${wins}`;
+      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
       if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
@@ -104,7 +104,8 @@ fetch("./stocks.json")
       compLogo = test[8];
       guessLogo = test[9];
       wins = 0;
-      document.getElementById("wins").innerText = `Wins: ${wins}`;
+      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
+
 
     }
     )
