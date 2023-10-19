@@ -41,7 +41,7 @@ fetch("./stocks.json")
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
 
-        document.getElementById('gStock-name').innerHTML = `${guessName}`;
+        //document.getElementById('gStock-name').innerHTML = `${guessName}`;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         setHighScore(wins)
         document.getElementById('end-game-overlay').style.display = "block"
@@ -66,7 +66,7 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         higherButton.style.display = "none";
         lowerButton.style.display = "none";
-        document.getElementById('gStock-name').innerHTML = `${guessName}`;
+        // document.getElementById('gStock-name').innerHTML = `${guessName}`;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('end-game-overlay').style.display = "block"
         setHighScore(wins)
@@ -85,7 +85,7 @@ fetch("./stocks.json")
 
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
-      document.getElementById("newHS").style.color = "rgb(108, 3, 3)";
+      //document.getElementById("newHS").style.color = "rgb(108, 3, 3)";
 
 
       newGameButton.style.display = "none";
@@ -105,9 +105,8 @@ fetch("./stocks.json")
       guessLogo = test[9];
       wins = 0;
       document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
-
-
     }
+
     )
   });
 
@@ -154,8 +153,6 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 
   document.getElementById("guessStock-trend").innerText = guessTrend;
   document.getElementById("guessStock-image").src = guessLogo;
-
-
 }
 
 function beginGame(data) {
@@ -177,12 +174,8 @@ function beginGame(data) {
   var compLogo = data[compTicker].logoUrl;
   var guessLogo = data[guessTicker].logoUrl;
 
-
-
-
   setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   return [compName, compTick, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo];
-
 }
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, higher) {

@@ -63,7 +63,10 @@ header {
 
 }
 
-
+#guessStock-price {
+  z-index: 100;
+  opacity: 100;
+}
 
 .stock-image {
   max-width: 100%;
@@ -239,7 +242,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,7 +266,7 @@ header {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(108, 3, 3);
+  background-color: rgb(133, 0, 0);
   border-radius: 10px;
   padding-top: 2px;
   text-align: center;
@@ -280,30 +283,11 @@ header {
   white-space: normal;
 }
 
-#overlay-info-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-style: solid;
-  width: 150px;
-  height: 170px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(3, 1, 83);
-  white-space: normal;
-  border-radius: 10px;
-  padding-top: 2px;
-  text-align: center;
-  overflow: hidden;
-}
 
 
 #newHS {
   margin-top: -5px;
-  color: white;
+  color: rgb(108, 3, 3);
   margin-bottom: 2px;
 }
 
@@ -394,7 +378,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -423,24 +407,7 @@ header {
     overflow: hidden;
   }
 
-  #overlay-info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    width: 150px;
-    height: 70px;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(3, 1, 83);
-    border-radius: 10px;
-    padding-top: 2px;
-    text-align: center;
-    overflow: hidden;
-  }
+
 
   #bottom-l-side {
     color: white;
