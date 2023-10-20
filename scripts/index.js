@@ -31,7 +31,9 @@ fetch("./stocks.json")
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
-
+    const howToButton = document.getElementById("js-how-to-button")
+    const closeButton = document.getElementById("js-close-button")
+    const bannerImg = document.getElementById("banner-img");
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
 
@@ -84,6 +86,19 @@ fetch("./stocks.json")
       }
     })
 
+    howToButton.addEventListener("click", () => {
+      document.getElementById('how-to-overlay').style.display = "block";
+      document.getElementById('how-to-overlay-container').style.display = "block";
+      bannerImg.style.animationPlayState = 'paused';
+
+    })
+
+    closeButton.addEventListener("click", () => {
+      document.getElementById('how-to-overlay').style.display = "none";
+      document.getElementById('how-to-overlay-container').style.display = "none";
+      bannerImg.style.animationPlayState = 'running';
+    })
+
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
       //document.getElementById("newHS").style.color = "rgb(108, 3, 3)";
@@ -92,7 +107,7 @@ fetch("./stocks.json")
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
-      document.getElementById('end-game-overlay').style.display = "none"
+      document.getElementById('end-game-overlay').style.display = "none";
 
       var test = beginGame(data);
       compName = test[0];
