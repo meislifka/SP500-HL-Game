@@ -15,6 +15,8 @@ fetch("./stocks.json")
   })
 
   .then(data => {
+    document.getElementById("score").innerHTML = `   <pre> Score:${wins} <br> High Score:${localStorage.getItem("highscore")}</pre>`;
+
     var test = beginGame(data);
 
     compName = test[0];
@@ -54,7 +56,7 @@ fetch("./stocks.json")
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
+      document.getElementById("score").innerHTML = `   <pre> Score:${wins} <br> High Score:${localStorage.getItem("highscore")}</pre>`;
       if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
@@ -80,7 +82,7 @@ fetch("./stocks.json")
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
+      document.getElementById("score").innerHTML = `   <pre> Score:${wins} <br> High Score:${localStorage.getItem("highscore")}</pre>`;
       if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
@@ -101,8 +103,6 @@ fetch("./stocks.json")
 
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
-      //document.getElementById("newHS").style.color = "rgb(108, 3, 3)";
-
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
@@ -121,7 +121,7 @@ fetch("./stocks.json")
       compLogo = test[8];
       guessLogo = test[9];
       wins = 0;
-      document.getElementById("score").innerHTML = `Score: ${wins} <br> High Score: ${localStorage.getItem("highscore")} `;
+      document.getElementById("score").innerHTML = `   <pre> Score:${wins} <br> High Score:${localStorage.getItem("highscore")}</pre>`;
     }
 
     )

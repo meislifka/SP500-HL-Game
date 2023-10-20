@@ -107,13 +107,15 @@ header {
   display: grid;
   grid-template-rows: .25fr;
   grid-template-columns: 1fr .25fr 1fr;
-  margin: 5vw 10vw 0vw 10vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   /* top right  bottom left */
   border-radius: 30px;
   border-style: solid;
-  height: auto;
+
   margin: 5px;
   max-height: 430px;
+
 
 
 
@@ -156,6 +158,8 @@ header {
   vertical-align: middle;
   background-color: rgb(65, 64, 64);
   color: white;
+  height: 250px;
+
 }
 
 #guess-side {
@@ -163,6 +167,8 @@ header {
   border-style: solid;
   border-color: rgb(65, 64, 64);
   border-top-left-radius: 10px;
+
+
 
   position: relative;
   /* Add this to make it the positioning context for #score */
@@ -172,12 +178,13 @@ header {
   vertical-align: middle;
   border-style: solid;
   border-color: rgb(65, 64, 64);
-  padding-top: 45px;
+
 }
 
 #guess-text {
   color: rgb(255, 196, 0);
   margin-bottom: 5px;
+
 }
 
 #comp-side {
@@ -207,6 +214,10 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: top;
+  font-size: 15px;
+}
+
+
 }
 
 #bottom-m-side {
@@ -388,9 +399,10 @@ footer {
     grid-template-rows: 1fr .25fr 1fr;
     margin: 5vw 10vw 0vw 10vw;
     /* top right  bottom left */
-    border-radius: 30px;
-    border-style: solid;
-    background-color: rgb(65, 64, 64);
+
+    /* rgb(65, 64, 64);*/
+    padding-left: 5px;
+    padding-right: 5px;
 
   }
 
@@ -415,11 +427,24 @@ footer {
     line-height: 1px;
   }
 
+  pre {
+    margin: 0px;
+  }
+
+  #guess-side,
+  #middle-side,
+  #comp-side {
+    height: 150px;
+    width: auto;
+    border-width: 0;
+  }
+
   #guess-side {
     vertical-align: middle;
     border-style: solid;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
+    padding-left: 5px;
   }
 
   #middle-side {
@@ -427,8 +452,10 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 10px;
+
+    height: 100px;
+    margin: 0px;
+
   }
 
   .guess-button {
@@ -443,7 +470,7 @@ footer {
   #comp-side {
     border-style: solid;
     border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 0px;
   }
 
   #banner-img {
