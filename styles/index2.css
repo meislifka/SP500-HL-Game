@@ -105,15 +105,48 @@ header {
   height: 90px;
 }
 
+#guess-side,
+#middle-side,
+#comp-side {
+  border: solid;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-color: rgb(100, 100, 100);
+}
+
+#guess-side {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  border-left-width: 10px;
+  border-right-width: 0px;
+
+}
+
+#middle-side {
+  border-left-width: 0px;
+  border-right-width: 0px;
+
+}
+
+#comp-side {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left-width: 0px;
+  border-right-width: 10px;
+}
+
 #game-container {
   display: flex;
   flex-direction: column;
   width: 500px;
   height: 100%;
-  background-color: grey;
-
-
+  background-color: rgb(65, 64, 64);
+  color: white;
+  border-radius: 10px;
 }
+
+
 
 .row {
   display: flex;
@@ -121,17 +154,14 @@ header {
   flex-wrap: wrap;
   width: 100%;
   flex: 1;
-  justify-content: center;
-  /* Center horizontally */
-  align-items: center;
-  /* Center vertically */
+
 }
 
 .column {
   flex: 1;
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
+
   justify-content: center;
   /* Center horizontally */
   align-items: center;
@@ -139,19 +169,26 @@ header {
 
 }
 
-.column1 {
-  flex: .5;
-  display: flex;
-  flex-direction: column;
 
+.item {
+
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 78px;
 
 }
 
-.item {
-  border: 1px solid #ddd;
-  padding: 10px;
 
-
+#img-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  align-self: center;
 }
 
 .stock-image {
@@ -167,19 +204,6 @@ header {
   margin: auto;
 }
 
-#img-container {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 
 #score {
@@ -227,23 +251,23 @@ header {
 
 #js-higher-button {
   background-color: transparent;
-  color: rgb(20, 138, 10);
+  color: rgb(17, 174, 2);
 }
 
 
 #js-higher-button:hover {
   background-color: transparent;
-  color: rgb(76, 210, 74);
+  color: rgb(67, 250, 64);
 }
 
 #js-lower-button {
   background-color: transparent;
-  color: rgb(138, 10, 10);
+  color: rgb(207, 0, 0);
 }
 
 #js-lower-button:hover {
   background-color: transparent;
-  color: rgb(210, 74, 74);
+  color: rgb(255, 0, 0);
 }
 
 #js-new-game-button:hover {
@@ -294,23 +318,9 @@ header {
   margin-bottom: 2px;
 }
 
-
-footer {
-  background-color: rgb(65, 64, 64);
-  bottom: 0;
-  margin-left: -8px;
-  position: fixed;
+#score {
   color: white;
-  width: 100%;
-  height: 30px;
-  display: flex;
-  justify-content: center;
 }
-
-
-
-
-
 
 
 
@@ -322,6 +332,38 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #guess-side,
+  #middle-side,
+  #comp-side {
+    border: solid;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(100, 100, 100);
+    border-radius: 0px;
+  }
+
+  #guess-side {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 0px;
+  }
+
+  #middle-side {
+    border-right-width: 10px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+  }
+
+  #comp-side {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 0px;
+  }
+
   #game-container {
     flex-direction: column;
     width: 300px;
@@ -334,6 +376,16 @@ footer {
   .column {
     flex: 1;
   }
+
+  .item {
+
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 58px;
+
+  }
+
 
   #how-tos {
     height: 25px;
@@ -379,9 +431,16 @@ footer {
     line-height: 1px;
   }
 
-  pre {
-    margin: 0px;
+
+  #guessStock-trend,
+  #compStock-trend {
+    line-height: 1px;
   }
+
+
+
+
+
 
 
   .guess-button {
@@ -393,11 +452,6 @@ footer {
     font-size: 40px;
   }
 
-  #comp-side {
-    border-style: solid;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
 
   #banner-img {
     width: 100%;
@@ -462,31 +516,8 @@ footer {
     overflow: hidden;
   }
 
-  #bottom-l-side {
-    color: white;
-    vertical-align: top;
-    border-style: solid;
-    border-color: none;
-    background-color: rgb(65, 64, 64);
-    height: 20px;
-    padding-bottom: 0px;
-    position: relative;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    text-align: top;
-    /* Use flexbox */
-  }
 
 
 
-  #bottom-m-side {
-    display: none;
-  }
-
-  #bottom-r-side {
-    display: none;
-  }
 
 }
