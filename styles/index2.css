@@ -2,6 +2,9 @@ main {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -10,6 +13,8 @@ body {
 
 p {
   font-size: 15px;
+
+  text-align: center;
 }
 
 header {
@@ -103,9 +108,11 @@ header {
 #game-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 500px;
   height: 100%;
   background-color: grey;
+
+
 }
 
 .row {
@@ -317,6 +324,7 @@ footer {
 @media only screen and (max-width: 768px) {
   #game-container {
     flex-direction: column;
+    width: 300px;
   }
 
   .row {
@@ -348,7 +356,7 @@ footer {
     height: 60px;
   }
 
-  #game-container {}
+
 
   #img-container {
     width: 50px;
@@ -360,8 +368,8 @@ footer {
 
   p {
     font-size: 15px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+
+    text-align: center;
   }
 
 
