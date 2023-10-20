@@ -76,6 +76,7 @@ header {
   padding-top: 2px;
   text-align: center;
   overflow: hidden;
+
 }
 
 
@@ -299,6 +300,7 @@ header {
   align-items: center;
   justify-content: center;
   border: none;
+  height: 150px;
 
   position: absolute;
   top: 40%;
