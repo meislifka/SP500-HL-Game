@@ -101,16 +101,49 @@ header {
 }
 
 #game-container {
-  display: grid;
-  grid-template-rows: .25fr;
-  grid-template-columns: 1fr .25fr 1fr;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  /* top right  bottom left */
-  border-radius: 30px;
-  border-style: solid;
-  margin: 5px;
-  max-height: 430px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+
+}
+
+.column1 {
+  flex: .5;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 10px;
+
 
 }
 
@@ -141,84 +174,6 @@ header {
   transform: translateX(-50%);
 }
 
-
-#guess-side,
-#comp-side,
-#middle-side {
-  text-align: center;
-  vertical-align: middle;
-  background-color: rgb(65, 64, 64);
-  color: white;
-  height: 250px;
-
-}
-
-#guess-side {
-  vertical-align: middle;
-  border-style: solid;
-  border-color: rgb(65, 64, 64);
-  border-top-left-radius: 10px;
-  position: relative;
-  /* Add this to make it the positioning context for #score */
-}
-
-#middle-side {
-  vertical-align: middle;
-  border-style: solid;
-  border-color: rgb(65, 64, 64);
-}
-
-#guess-text {
-  color: rgb(255, 196, 0);
-  margin-bottom: 5px;
-}
-
-#comp-side {
-  border-style: solid;
-  border-color: rgb(65, 64, 64);
-  border-top-right-radius: 10px;
-}
-
-#bottom-l-side,
-#bottom-m-side,
-#bottom-r-side {
-  color: white;
-  vertical-align: top;
-  border-style: solid;
-  border-color: rgb(65, 64, 64);
-  background-color: rgb(65, 64, 64);
-  height: 20px;
-  padding-bottom: 0px;
-  font-size: 15px;
-
-
-  position: relative;
-  /* Add this to make it the positioning context for #score */
-
-}
-
-#bottom-l-side {
-  border-bottom-left-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  text-align: top;
-  font-size: 15px;
-
-  /*horz, vert, spread radious,shadow color*/
-}
-
-
-
-
-#bottom-m-side {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-#bottom-r-side {
-  border-bottom-right-radius: 10px;
-  text-align: right;
-}
 
 #score {
   position: absolute;
@@ -360,7 +315,17 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  #game-container {
+    flex-direction: column;
+  }
 
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 1;
+  }
 
   #how-tos {
     height: 25px;
@@ -383,18 +348,7 @@ footer {
     height: 60px;
   }
 
-  #game-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr .25fr 1fr;
-    margin: 5vw 10vw 0vw 10vw;
-    /* top right  bottom left */
-
-    /* rgb(65, 64, 64);*/
-    padding-left: 5px;
-    padding-right: 5px;
-
-  }
+  #game-container {}
 
   #img-container {
     width: 50px;
@@ -421,32 +375,6 @@ footer {
     margin: 0px;
   }
 
-  #guess-side,
-  #middle-side,
-  #comp-side {
-    height: 150px;
-    width: auto;
-    border-width: 0;
-  }
-
-  #guess-side {
-    vertical-align: middle;
-    border-style: solid;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    padding-left: 5px;
-  }
-
-  #middle-side {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    height: 100px;
-    margin: 0px;
-
-  }
 
   .guess-button {
     background: none;

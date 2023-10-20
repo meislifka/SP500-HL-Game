@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index2.css">
+  <script src="scripts/index.js" defer></script>
+  <title>Higher or Lower</title>
+</head>
+
+<body>
+
+  <header>
+    <div id="how-tos"><button id="js-how-to-button">?</button></div>
+    <img id="banner-img" src="stockbanner.png">
+
+  </header>
+
+  <main>
+    <div id="game-container">
+      <div class="row">
+        <div class="column" id="guess-side">
+          <div class="item">
+            <p id="guessStock-name"></p>
+          </div>
+          <div class="item" id="img-container"> <img class="stock-image" id="guessStock-image" src=""></div>
+
+          <div class="item">
+            <p id="guessStock-trend"></p>
+            <p id="guessStock-price"></p>
+
+          </div>
+
+        </div>
+        <div class="column" id="middle-side">
+          <div class="item">
+
+            <div id="button-container">
+              <p id="guess-text">is</p>
+              <button class="guess-button" id="js-higher-button"> &#9650; </button>
+              <button class="guess-button" id="js-lower-button"> &#9660; </button>
+              <p id="guess-text">than</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="column" id="comp-side">
+          <div class="item" id="compStock-name"> 7</div>
+          <div class="item" id="img-container"> <img class="stock-image" id="compStock-image" src=""></div>
+          <div class="item">
+            <p id="compStock-ticker">1</p>
+            <p id="compStock-trend">2</p>
+            <p id="compStock-price">3</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="item">Second Row Item</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div id="end-game-overlay">
+    <div id="overlay-info-container">
+
+
+    </div>
+
+    <div id="overlay-container">
+      <p>Game Over</p>
+      <button class="guess-button" id="js-new-game-button"> New Game</button>
+
+
+    </div>
+  </div>
+
+  <div id="how-to-overlay">
+    <div id="how-to-overlay-container">
+      <button id="js-close-button">X</button>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

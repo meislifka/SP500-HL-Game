@@ -42,10 +42,7 @@ fetch("./stocks.json")
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
-        higherButton.style.display = "none";
-        lowerButton.style.display = "none";
 
-        //document.getElementById('gStock-name').innerHTML = `${guessName}`;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         setHighScore(wins)
         document.getElementById('end-game-overlay').style.display = "block"
@@ -68,9 +65,7 @@ fetch("./stocks.json")
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
-        higherButton.style.display = "none";
-        lowerButton.style.display = "none";
-        // document.getElementById('gStock-name').innerHTML = `${guessName}`;
+
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('end-game-overlay').style.display = "block"
 
