@@ -13,7 +13,6 @@ body {
 
 p {
   font-size: 15px;
-
   text-align: center;
 }
 
@@ -398,7 +397,7 @@ header {
 
   #game-container {
     flex-direction: column;
-    width: 80vw;
+    width: 70vw;
   }
 
   .row {
@@ -522,6 +521,11 @@ header {
     border-radius: 10px;
     text-align: center;
 
+
+  }
+
+  #info-text {
+    margin: 12px;
   }
 
   #how-to-overlay-container {
@@ -539,6 +543,7 @@ header {
     background-color: rgb(3, 1, 83);
     border-radius: 10px;
     padding-top: 2px;
+
     text-align: center;
     overflow: hidden;
   }
