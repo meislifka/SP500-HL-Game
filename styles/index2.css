@@ -16,6 +16,11 @@ p {
   text-align: center;
 }
 
+#guess-text {
+  color: rgb(255, 200, 0);
+
+}
+
 header {
   display: grid;
   grid-template-rows: .1fr .1fr;
@@ -38,7 +43,8 @@ header {
   color: rgb(255, 200, 0);
   background-color: transparent;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  right: 4px;
 }
 
 
@@ -48,7 +54,7 @@ header {
 
 #js-close-button {
   position: absolute;
-  right: 10;
+  right: 1px;
   color: rgb(255, 200, 0);
   border: none;
   background-color: transparent;
@@ -96,13 +102,13 @@ header {
 }
 
 #banner-img {
-  width: 100%;
+  width: 600px;
   animation-name: banner-slide;
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   border: solid;
-  height: 90px;
+  height: 60px;
 }
 
 #guess-side,
@@ -497,7 +503,7 @@ header {
 
 
   #banner-img {
-    width: 100%;
+    width: 600px;
     animation-name: banner-slide;
     animation-duration: 17s;
     animation-timing-function: linear;
