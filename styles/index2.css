@@ -155,7 +155,23 @@ header {
 #score-item {
   height: 15px;
   width: 100%;
+  position: relative;
+  text-align: center;
 }
+
+.left-span,
+.right-span {
+  position: absolute;
+}
+
+.left-span {
+  left: 9px;
+}
+
+.right-span {
+  right: 9px;
+}
+
 
 #game-container {
   display: flex;
@@ -361,8 +377,9 @@ header {
   }
 
   #score-item {
-    height: 15px;
+    height: 20px;
     width: 100%;
+
   }
 
   #guess-side {

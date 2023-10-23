@@ -15,7 +15,7 @@ fetch("./stocks.json")
   })
 
   .then(data => {
-    document.getElementById("score").innerHTML = `<span> Score:${wins} </span> <span>High Score:${localStorage.getItem("highscore")}</span>`;
+    document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
 
     var test = beginGame(data);
 
@@ -54,7 +54,7 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
 
-      document.getElementById("score").innerHTML = `<span> Score:${wins} </span> <span">High Score:${localStorage.getItem("highscore")}</span>`;
+      document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
       if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
@@ -78,7 +78,8 @@ fetch("./stocks.json")
       guessPrice = oldGuess[2];
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
-      document.getElementById("score").innerHTML = `<span> Score:${wins} </span> <span">High Score:${localStorage.getItem("highscore")}</span>`; if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
+      document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
+      if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
         document.getElementById("newHS").style.color = "gold";
       }
     })
@@ -116,7 +117,7 @@ fetch("./stocks.json")
       compLogo = test[8];
       guessLogo = test[9];
       wins = 0;
-      document.getElementById("score").innerHTML = `<span> Score:${wins} </span> <span">High Score:${localStorage.getItem("highscore")}</span>`;
+      document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
     }
 
     )
