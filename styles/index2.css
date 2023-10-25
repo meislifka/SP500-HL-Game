@@ -1,8 +1,8 @@
 main {
+  display: flex;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   background-color: black;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -23,28 +23,28 @@ p {
 
 header {
   display: grid;
+  border-style: solid;
   grid-template-rows: .1fr .1fr;
   text-align: center;
   font-family: arial;
-  border-style: solid;
   overflow: hidden;
 }
 
 #how-tos {
-  background-color: black;
   height: 25px;
-  text-align: right;
+  background-color: black;
   color: white;
+  text-align: right;
 }
 
 #js-how-to-button {
   border: solid rgb(255, 200, 0);
-  border-radius: 15px;
+  position: absolute;
+  right: 4px;
   color: rgb(255, 200, 0);
   background-color: transparent;
   cursor: pointer;
-  position: absolute;
-  right: 4px;
+  border-radius: 15px;
 }
 
 
@@ -64,24 +64,23 @@ header {
 
 
 #how-to-overlay-container {
+  height: 170px;
+  width: 150px;
+  padding-top: 2px;
+  border-style: solid;
+  position: absolute;
+  top: 40%;
+  left: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-style: solid;
-  width: 150px;
-  height: 170px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: rgb(3, 1, 83);
   white-space: normal;
-  border-radius: 10px;
-  padding-top: 2px;
   text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
   overflow: hidden;
-
 }
 
 
@@ -102,13 +101,13 @@ header {
 }
 
 #banner-img {
+  height: 60px;
   width: 600px;
+  border: solid;
   animation-name: banner-slide;
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  border: solid;
-  height: 60px;
 }
 
 #guess-side,
@@ -123,17 +122,13 @@ header {
 
 #guess-side {
   border-top-left-radius: 10px;
-
-
   border-left-width: 10px;
   border-right-width: 0px;
-
 }
 
 #middle-side {
   border-left-width: 0px;
   border-right-width: 0px;
-
 }
 
 #comp-side {
@@ -153,9 +148,9 @@ header {
 }
 
 #score {
+  height: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 0px;
 }
 
 #score-item {
@@ -163,6 +158,7 @@ header {
   width: 100%;
   position: relative;
   text-align: center;
+  color: rgb(255, 200, 0);
 }
 
 .left-span,
@@ -180,20 +176,20 @@ header {
 
 
 #game-container {
+  height: 100%;
+  width: 70vw;
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  height: 100%;
   background-color: rgb(65, 64, 64);
   color: white;
   border-radius: 10px;
 }
 
 .row {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   flex: 1;
 
 }
@@ -210,77 +206,70 @@ header {
 
 }
 
-
 .item {
-
+  height: 78px;
+  padding: 5px;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  height: 78px;
-
 }
 
 
 #img-container {
-  width: 50px;
   height: 50px;
-  overflow: hidden;
-  position: relative;
+  width: 50px;
   border: none;
+  position: relative;
   background-color: white;
-  border-radius: 10px;
   align-self: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .stock-image {
-  max-width: 100%;
   height: auto;
   width: auto;
+  margin: auto;
+  max-width: 100%;
+  border: none;
   position: relative;
   left: 50%;
   transform: translate(-50%);
-  border: none;
   object-fit: cover;
   border-radius: 1px;
-  margin: auto;
 }
-
-
 
 
 #button-container {
   display: flex;
   justify-content: center;
   transform: translateX(-1px);
-
 }
 
 
 .guess-button {
+  border: none;
+  width: 50px;
+  height: 50px;
   margin-left: -5px;
   margin-right: -1px;
   margin-top: 6px;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
   padding-left: .1vw;
   padding-right: .1vw;
   text-align: center;
-  border: none;
   font-size: 35px;
-  transform: translateY(-5px);
   color: white;
   font-weight: bold;
+  transform: translateY(-5px);
 }
 
 #js-new-game-button {
-  display: none;
-  background-color: gold;
-  font-size: 11px;
+  height: 45px;
   margin-top: 0px;
   margin-bottom: 0px;
+  display: none;
+  font-size: 11px;
+  background-color: gold;
   border-radius: 5px;
-  height: 45px;
 }
 
 #js-higher-button {
@@ -310,39 +299,34 @@ header {
 
 #end-game-overlay,
 #how-to-overlay {
+  height: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
   z-index: 9;
   transition: opacity 0.3s ease-in-out;
-  color: white;
-  display: none;
-
-
 }
 
 #overlay-container {
+  height: 150px;
+  padding-top: 2px;
+  border: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: none;
-  height: 150px;
-
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  border-radius: 10px;
-  padding-top: 2px;
   text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -353,17 +337,39 @@ header {
   margin-bottom: 2px;
 }
 
-
-
-
-
-@media only screen and (min-width: 1100px) {
-  #button-container {
-    transform: translate(-5px, -7px);
-  }
-}
-
 @media only screen and (max-width: 768px) {
+  header {
+    height: 85px;
+    width: 100%;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    font-family: arial;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #banner-img {
+    height: 60px;
+    width: 600px;
+    border: solid;
+    animation-name: banner-slide;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  #img-container {
+    height: 50px;
+    width: 50px;
+    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    /*horz offset, vert offset, blur radius, shadow color */
+    /*z-index: 1;*/
+  }
 
   #guess-side,
   #middle-side,
@@ -377,15 +383,14 @@ header {
   }
 
   #score {
+    height: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 0px;
   }
 
   #score-item {
     height: 20px;
     width: 100%;
-
   }
 
   #guess-side {
@@ -397,30 +402,28 @@ header {
   }
 
   #middle-side {
+    border-top-width: 0px;
     border-right-width: 10px;
     border-bottom-width: 0px;
-    border-top-width: 0px;
   }
 
   #comp-side {
-    border-bottom-width: 0px;
     border-top-width: 0px;
+    border-bottom-width: 0px;
   }
 
   #score-side {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     border-top-width: 0px;
     border-bottom-width: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex;
     justify-content: space-between;
-
   }
 
-
   #game-container {
-    flex-direction: column;
     width: 70vw;
+    flex-direction: column;
   }
 
   .row {
@@ -432,119 +435,63 @@ header {
   }
 
   .item {
-
+    height: 58px;
+    padding: 5px;
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    height: 58px;
-
   }
-
 
   #how-tos {
     height: 25px;
     margin: 0px;
-
   }
-
-  header {
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    text-align: center;
-    font-family: arial;
-    border-style: solid;
-    height: 85px;
-
-  }
-
-  #banner-img {
-    height: 60px;
-  }
-
-
-
-  #img-container {
-    width: 50px;
-    height: 50px;
-    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    /*horz offset, vert offset, blur radius, shadow color */
-    /*z-index: 1;*/
-  }
-
-  p {
-    font-size: 15px;
-
-    text-align: center;
-  }
-
-
 
   #guessStock-price {
-    z-index: 100;
     line-height: 1px;
   }
-
 
   #guessStock-trend,
   #compStock-trend {
     line-height: 1px;
   }
 
-
   .guess-button {
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
     margin: 0px;
+    border: none;
+    background: none;
     font-size: 40px;
-  }
-
-
-  #banner-img {
-    width: 600px;
-    animation-name: banner-slide;
-    animation-duration: 17s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border: solid;
+    cursor: pointer;
   }
 
   #end-game-overlay,
   #how-to-overlay {
+    height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    display: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 999;
-    transition: opacity 0.3s ease-in-out;
+    background: rgba(0, 0, 0, 0.6);
     color: white;
-    display: none;
-
+    transition: opacity 0.3s ease-in-out;
+    z-index: 999;
   }
 
   #overlay-container {
+    border: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-style: solid;
-
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    border-radius: 10px;
     text-align: center;
-
-
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
   }
 
   #info-text {
@@ -552,27 +499,21 @@ header {
   }
 
   #how-to-overlay-container {
+    height: 200px;
+    width: 250px;
+    padding-top: 2px;
+    border-style: solid;
+    position: absolute;
+    top: 40%;
+    left: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-style: solid;
-    width: 250px;
-    height: 200px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
     background-color: rgb(3, 1, 83);
     border-radius: 10px;
-    padding-top: 2px;
-
-    text-align: center;
     overflow: hidden;
+    transform: translate(-50%, -50%);
   }
-
-
-
-
-
 }
