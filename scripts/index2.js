@@ -42,11 +42,18 @@ fetch("./stocks.json")
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
-
+        var windowWidth = window.innerWidth;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
-        setHighScore(wins)
-        document.getElementById('end-game-overlay').style.display = "block"
 
+        document.getElementById("game-over-text").innerHTML = setHighScore(wins);
+        //document.getElementById('end-game-overlay').style.display = "block"
+        document.getElementById('button-container').style.display = "none";
+        if (windowWidth > 778) {
+          document.getElementById('game-over-container').style.display = "block";
+        }
+        else {
+          document.getElementById('game-over-container').style.display = "flex";
+        }
       }
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -55,9 +62,7 @@ fetch("./stocks.json")
       guessLogo = oldGuess[4];
 
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-      if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
-        document.getElementById("newHS").style.color = "gold";
-      }
+
 
     })
 
@@ -68,9 +73,21 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
-        document.getElementById('end-game-overlay').style.display = "block"
+        //document.getElementById('end-game-overlay').style.display = "block"
+        document.getElementById('button-container').style.display = "none";
+        var windowWidth = window.innerWidth;
+        if (windowWidth > 778) {
+          document.getElementById('game-over-container').style.display = "block";
+        }
+        else {
+          document.getElementById('game-over-container').style.display = "flex";
+        }
 
-        setHighScore(wins)
+
+
+
+        document.getElementById("game-over-text").innerHTML = setHighScore(wins);
+
       }
 
       guessName = oldGuess[0];
@@ -79,9 +96,8 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-      if (parseInt(wins) > parseInt(localStorage.getItem("highscore"))) {
-        document.getElementById("newHS").style.color = "gold";
-      }
+
+
     })
 
     howToButton.addEventListener("click", () => {
@@ -103,8 +119,9 @@ fetch("./stocks.json")
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
-      document.getElementById('end-game-overlay').style.display = "none";
-
+      //document.getElementById('end-game-overlay').style.display = "none";
+      document.getElementById('button-container').style.display = "flex";
+      document.getElementById('game-over-container').style.display = "none";
       var test = beginGame(data);
       compName = test[0];
       compTick = test[1];
@@ -126,9 +143,11 @@ fetch("./stocks.json")
 function setHighScore(score) {
   if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
+    return "Game Over <br> New High Score!";
 
   } else {
     localStorage.setItem("highscore", localStorage.getItem("highscore"));
+    return "Game Over";
   }
 }
 

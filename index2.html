@@ -37,10 +37,17 @@
           <div class="item">
 
             <div id="button-container">
-              <p id="guess-text">is</p>
+              <p class="guess-text">is</p>
               <button class="guess-button" id="js-higher-button"> &#9650; </button>
               <button class="guess-button" id="js-lower-button"> &#9660; </button>
-              <p id="guess-text">than</p>
+              <p class="guess-text">than</p>
+            </div>
+            <div class="item" id="game-over-container">
+              <p class="guess-text" id="game-over-text"></p>
+
+              <button class="guess-button" id="js-new-game-button"> Play Again</button>
+
+
             </div>
           </div>
 
@@ -71,20 +78,6 @@
     </div>
 
   </main>
-  <div id="end-game-overlay">
-    <div id="overlay-info-container">
-
-
-    </div>
-
-    <div id="overlay-container">
-      <p>Game Over</p>
-      <button class="guess-button" id="js-new-game-button"> New Game</button>
-      <p id="newHS"></p>
-
-    </div>
-  </div>
-
   <div id="how-to-overlay">
     <div id="how-to-overlay-container">
       <button id="js-close-button">X</button>
