@@ -44,6 +44,7 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
         var windowWidth = window.innerWidth;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
+        document.getElementById('guessStock-price').style.border = "dotted";
 
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
         //document.getElementById('end-game-overlay').style.display = "block"
@@ -73,7 +74,7 @@ fetch("./stocks.json")
         newGameButton.style.display = "block";
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
-        //document.getElementById('end-game-overlay').style.display = "block"
+        document.getElementById('guessStock-price').style.border = "dotted";
         document.getElementById('button-container').style.display = "none";
         var windowWidth = window.innerWidth;
         if (windowWidth > 778) {
@@ -115,6 +116,7 @@ fetch("./stocks.json")
 
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
+      document.getElementById('guessStock-price').style.border = "none";
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
