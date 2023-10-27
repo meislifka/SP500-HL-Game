@@ -69,7 +69,7 @@ header {
   width: 150px;
   height: 170px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(3, 1, 83);
@@ -224,24 +224,24 @@ header {
   width: 50px;
   height: 50px;
   overflow: hidden;
-  position: relative;
+  display: flex;
+  /* Use flexbox to center content */
+  justify-content: center;
+  /* Horizontally center the image */
+  align-items: center;
+  /* Vertically center the image */
   border: none;
   background-color: white;
   border-radius: 10px;
-  align-self: center;
+
 }
 
 .stock-image {
   max-width: 100%;
-  height: auto;
-  width: auto;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  border: none;
-  object-fit: cover;
-  border-radius: 1px;
-  margin: auto;
+  /* Ensure the image doesn't exceed the container's width */
+  max-height: 100%;
+  /* Ensure the image doesn't exceed the container's height */
+  object-fit: contain;
 }
 
 
@@ -251,7 +251,6 @@ header {
   display: flex;
   justify-content: center;
   transform: translateX(-1px);
-
 }
 
 
@@ -270,6 +269,7 @@ header {
   transform: translateY(-5px);
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 #js-new-game-button {
@@ -346,9 +346,6 @@ header {
   text-align: center;
   overflow: hidden;
 }
-
-
-
 
 
 @media only screen and (max-width: 768px) {
@@ -447,14 +444,6 @@ header {
   }
 
 
-  #img-container {
-    width: 50px;
-    height: 50px;
-    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    /*horz offset, vert offset, blur radius, shadow color */
-    /*z-index: 1;*/
-  }
-
   p {
     font-size: 15px;
     text-align: center;
@@ -506,22 +495,14 @@ header {
   }
 
   #how-to-overlay-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    width: 400px;
-    height: 300px;
+
+    width: 300px;
+    height: 400px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(3, 1, 83);
-    border-radius: 10px;
-    padding-top: 2px;
-    text-align: center;
-    overflow: hidden;
+
   }
 
 }
