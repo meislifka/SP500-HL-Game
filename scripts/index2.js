@@ -119,7 +119,6 @@ fetch("./stocks.json")
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
-      //document.getElementById('end-game-overlay').style.display = "none";
       document.getElementById('button-container').style.display = "flex";
       document.getElementById('game-over-container').style.display = "none";
       var test = beginGame(data);

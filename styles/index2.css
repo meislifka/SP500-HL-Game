@@ -274,7 +274,7 @@ header {
 
 #js-new-game-button {
   display: none;
-  background-color: gold;
+  background-color: rgb(239, 195, 0);
   font-size: 11px;
 
   border-radius: 5px;
@@ -306,8 +306,8 @@ header {
 }
 
 #js-new-game-button:hover {
-  background-color: rgb(255, 238, 1);
-  color: black;
+  background-color: rgb(255, 213, 1);
+
 }
 
 #how-to-overlay {
@@ -328,24 +328,26 @@ header {
 
 }
 
-#overlay-container {
+#how-to-overlay-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: none;
-  height: 150px;
-
+  border-style: solid;
+  width: 400px;
+  height: 270px;
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
-
+  transform: translate(-50%, -57%);
+  background-color: rgb(3, 1, 83);
   border-radius: 10px;
   padding-top: 2px;
   text-align: center;
   overflow: hidden;
 }
+
+
 
 
 
@@ -509,8 +511,8 @@ header {
     align-items: center;
     justify-content: center;
     border-style: solid;
-    width: 250px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     position: absolute;
     top: 40%;
     left: 50%;
