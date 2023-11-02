@@ -5,6 +5,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 body {
@@ -359,6 +360,8 @@ header {
     border-bottom-width: 0px;
   }
 
+
+
   #middle-side {
     border-right-width: 10px;
     border-bottom-width: 0px;
@@ -397,7 +400,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    height: 58px;
+    height: 40px;
   }
 
   #how-tos {
@@ -424,6 +427,13 @@ header {
   p {
     font-size: 15px;
     text-align: center;
+  }
+
+
+  #guessStock-name,
+  #compStock-name {
+    margin-top: 2px;
+    margin-bottom: 1px;
   }
 
   #guessStock-trend,
