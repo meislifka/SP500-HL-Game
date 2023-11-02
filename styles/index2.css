@@ -180,7 +180,7 @@ header {
 #game-container {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 540px;
   height: 100%;
   background-color: rgb(65, 64, 64);
   color: white;
@@ -327,7 +327,10 @@ header {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+
+@media screen and (max-width: 768px) {
 
   #guess-side,
   #middle-side,
@@ -385,7 +388,7 @@ header {
 
   #game-container {
     flex-direction: column;
-    width: 60vw;
+    width: 380px;
   }
 
   .row {
@@ -416,6 +419,7 @@ header {
     font-family: arial;
     border-style: solid;
     height: 85px;
+    margin-bottom: 3px;
 
   }
 
