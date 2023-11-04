@@ -33,8 +33,11 @@ fetch("./stocks.json")
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
-    const howToButton = document.getElementById("js-how-to-button")
-    const closeButton = document.getElementById("js-close-button")
+    const howToButton = document.getElementById("js-how-to-button");
+    const closeButton = document.getElementById("js-close-button");
+    const close2Button = document.getElementById("js-close-button-2");
+    const nextButton = document.getElementById("js-next-button");
+    const backButton = document.getElementById("js-back-button");
     const bannerImg = document.getElementById("banner-img");
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
@@ -104,15 +107,35 @@ fetch("./stocks.json")
     howToButton.addEventListener("click", () => {
       document.getElementById('how-to-overlay').style.display = "block";
       document.getElementById('how-to-overlay-container').style.display = "block";
+      document.getElementById('how-to-overlay-container-2').style.display = "none";
       bannerImg.style.animationPlayState = 'paused';
 
     })
 
+    nextButton.addEventListener("click", () => {
+      console.log("Pressed")
+      document.getElementById('how-to-overlay-container-2').style.display = "block";
+    })
+
+    backButton.addEventListener("click", () => {
+
+      document.getElementById('how-to-overlay-container-2').style.display = "none";
+    })
+
     closeButton.addEventListener("click", () => {
       document.getElementById('how-to-overlay').style.display = "none";
-      document.getElementById('how-to-overlay-container').style.display = "none";
       bannerImg.style.animationPlayState = 'running';
     })
+
+    close2Button.addEventListener("click", () => {
+      document.getElementById('how-to-overlay').style.display = "none";
+      //document.getElementById('how-to-overlay-container-2').style.display = "none";
+      bannerImg.style.animationPlayState = 'running';
+      console.log("CLICK")
+    })
+
+
+
 
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
