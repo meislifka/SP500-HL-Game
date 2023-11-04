@@ -64,6 +64,10 @@ header {
   cursor: pointer;
 }
 
+a {
+  color: rgb(255, 200, 0);
+}
+
 
 
 #newHS {
