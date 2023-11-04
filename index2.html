@@ -20,39 +20,8 @@
   <main>
     <div id="game-container">
       <div class="row">
-        <div class="column" id="guess-side">
-          <div class="item">
-            <p id="guessStock-name"></p>
-          </div>
-          <div class="item" id="img-container"> <img class="stock-image" id="guessStock-image" src=""></div>
-
-          <div class="item">
-            <p id="guessStock-trend"></p>
-            <p id="guessStock-price"></p>
-
-          </div>
-
-        </div>
-        <div class="column" id="middle-side">
-          <div class="item">
-
-            <div id="button-container">
-              <p class="guess-text">is</p>
-              <button class="guess-button" id="js-higher-button"> &#9650; </button>
-              <button class="guess-button" id="js-lower-button"> &#9660; </button>
-              <p class="guess-text">than</p>
-            </div>
-            <div class="item" id="game-over-container">
-              <p class="guess-text" id="game-over-text"></p>
-
-              <button class="guess-button" id="js-new-game-button"> Play Again</button>
 
 
-            </div>
-          </div>
-
-
-        </div>
         <div class="column" id="comp-side">
           <div class="item">
             <p id="compStock-name"></p>
@@ -64,6 +33,23 @@
             <p id="compStock-price"></p>
           </div>
         </div>
+
+        <div class="column" id="guess-side">
+          <div class="item">
+            <p id="guessStock-name"></p>
+          </div>
+          <div class="item" id="img-container"> <img class="stock-image" id="guessStock-image" src=""></div>
+
+          <div class="item">
+            <p id="guessStock-trend"></p>
+            <button class="guess-button" id="js-higher-button"> &#9650; </button>
+            <button class="guess-button" id="js-lower-button"> &#9660; </button>
+            <p id="guessStock-price"></p>
+
+          </div>
+
+        </div>
+
       </div>
       <div class="row">
         <div class="column" id="score-side">
@@ -95,48 +81,42 @@
 
         HOW TO PLAY:
         <br>
-        Click <FONT COLOR="#11AE02">&#9650</FONT COLOR> to indicate that the first stock price is <FONT COLOR="#11AE02">
-          HIGHER</FONT COLOR> than the second.
+        Click <FONT COLOR="#11AE02">&#9650</FONT COLOR> to indicate that the stock price is <FONT COLOR="#11AE02">
+          HIGHER</FONT COLOR> than the other.
         <br>
-        Click <FONT COLOR="#CF0000">&#9660</FONT COLOR> to indicate that the first stock price
-        is <FONT COLOR="#CF0000">LOWER</FONT COLOR> than the second.
-        <br>
-
+        Click <FONT COLOR="#CF0000">&#9660</FONT COLOR> to indicate that the stock price
+        is <FONT COLOR="#CF0000">LOWER</FONT COLOR> than the other.
         <br>
 
-        <button id="js-next-button">Next</button>
+        <br>
+
+        Thanks for playing my game!
+        <br>
+        I hope you enjoyed it!
+        <br>
+        <br>
+        So far my high score is 8, can you beat it?
+        <br>
+        <br>
+        <a href="https://github.com/meislifka/SP500-HL-Game" target="_blank">
+          Checkout the source code on my Github
+        </a>
+        <br>
+        <br>
+
+        Created by Mei Sifka
 
       </p>
     </div>
-    <div id="how-to-overlay-container-2">
-      <button id="js-close-button-2">X</button>
-      <br>
-      Thanks for playing my game!
-      <br>
-      I hope you enjoyed it!
-      <br>
-      <br>
-      So far my high score is 8, can you beat it?
-      <br>
-      <br>
-      <a href="https://github.com/meislifka/SP500-HL-Game" target="_blank">
-        Checkout the source code on my Github
-      </a>
-      <br>
-      <br>
-      If you would like to support me:
-      <br>
-      Buy me a coffee
-      <br>
-      <br>
-      <br>
-      Created by Mei Sifka
-      <br>
-      <br>
-      <br>
-      <button id="js-back-button">Back</button>
+  </div>
+  <div id="game-over-container">
 
-    </div>
+    <p class="guess-text" id="game-over-text"></p>
+    <br>
+
+    <button class="guess-button" id="js-new-game-button"> Play Again</button>
+
+  </div>
 </body>
 
 </html>
