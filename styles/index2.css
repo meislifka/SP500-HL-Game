@@ -197,6 +197,13 @@ a {
   height: 78px;
 }
 
+
+
+
+.name-item {
+  height: 60px;
+}
+
 #img-container {
   width: 50px;
   height: 50px;
@@ -224,21 +231,17 @@ a {
 
 
 .guess-button {
-  margin-left: -5px;
-  margin-right: -1px;
-  margin-top: 6px;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  padding-left: .1vw;
-  padding-right: .1vw;
   text-align: center;
   border: none;
   font-size: 35px;
-  transform: translateY(-5px);
+
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
 
 #js-new-game-button {
@@ -257,6 +260,8 @@ a {
 
 #js-higher-button {
   background-color: transparent;
+  transform: translateX(14px);
+  transform: translateY(-10px);
   color: rgb(17, 174, 2);
 }
 
@@ -269,8 +274,9 @@ a {
 
 #js-lower-button {
   background-color: transparent;
+  transform: translateX(-14px);
+  transform: translateY(-10px);
   color: rgb(207, 0, 0);
-
 }
 
 #js-lower-button:hover {
@@ -383,7 +389,11 @@ a {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    height: 40px;
+    height: 55px;
+  }
+
+  .name-item {
+    height: 30px;
   }
 
   #how-tos {
@@ -427,11 +437,12 @@ a {
   .guess-button {
     background: none;
     border: none;
-    font-size: 24px;
     cursor: pointer;
     margin: 0px;
     font-size: 40px;
   }
+
+
 
   #banner-img {
     width: 600px;

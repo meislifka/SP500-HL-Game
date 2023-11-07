@@ -45,6 +45,8 @@ fetch("./stocks.json")
         var windowWidth = window.innerWidth;
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
+        lowerButton.classList.add('hide');
+        higherButton.classList.add('hide');
 
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
         //document.getElementById('button-container').style.display = "none";
@@ -71,6 +73,8 @@ fetch("./stocks.json")
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
       if (oldGuess === -1) {
         newGameButton.style.display = "block";
+        lowerButton.classList.add('hide');
+        higherButton.classList.add('hide');
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
@@ -115,6 +119,8 @@ fetch("./stocks.json")
     newGameButton.addEventListener("click", () => {
       document.getElementById('guessStock-price').innerHTML = "";
       document.getElementById('guessStock-price').style.border = "none";
+      lowerButton.classList.remove('hide');
+      higherButton.classList.remove('hide');
 
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
