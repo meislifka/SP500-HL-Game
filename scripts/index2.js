@@ -78,20 +78,16 @@ fetch("./stocks.json")
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
-        document.getElementById('button-container').style.display = "none";
+        //document.getElementById('button-container').style.display = "none";
         var windowWidth = window.innerWidth;
         if (windowWidth > 778) {
           document.getElementById('game-over-container').style.display = "block";
         }
         else {
-          document.getElementById('game-over-container').style.display = "flex";
+          document.getElementById('game-over-container').style.display = "block";
         }
 
-
-
-
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
-
       }
 
       guessName = oldGuess[0];
@@ -100,8 +96,6 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-
-
     })
 
     howToButton.addEventListener("click", () => {
@@ -125,7 +119,7 @@ fetch("./stocks.json")
       newGameButton.style.display = "none";
       higherButton.style.display = "inline";
       lowerButton.style.display = "inline";
-      document.getElementById('button-container').style.display = "flex";
+      //document.getElementById('button-container').style.display = "flex";
       document.getElementById('game-over-container').style.display = "none";
       var test = beginGame(data);
       compName = test[0];

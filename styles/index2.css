@@ -131,7 +131,17 @@ a {
 }
 
 #game-over-container {
+  border-radius: 5px;
+  height: 80px;
+  width: 100px;
+  border: solid;
+  border-color: black;
+  background-color: black;
+  position: relative;
+  top: -45vh;
+  left: 38vw;
   display: none;
+
 }
 
 #score {
@@ -269,7 +279,6 @@ a {
 #js-higher-button:hover {
   background-color: transparent;
   color: rgb(67, 250, 64);
-  transform: scale(1.25);
 }
 
 #js-lower-button {
@@ -282,7 +291,7 @@ a {
 #js-lower-button:hover {
   background-color: transparent;
   color: rgb(255, 0, 0);
-  transform: scale(1.25);
+
 }
 
 #how-to-overlay {
@@ -346,13 +355,10 @@ a {
   #score-item {
     height: 20px;
     width: 100%;
-
   }
 
   #guess-side {
-
     border-top-width: 0px;
-
   }
 
   #comp-side {
@@ -422,7 +428,6 @@ a {
     text-align: center;
   }
 
-
   #guessStock-name,
   #compStock-name {
     margin-top: 2px;
@@ -442,7 +447,17 @@ a {
     font-size: 40px;
   }
 
+  #js-higher-button {
+    transform: translateX(10px);
+    transform: translateY(-10px);
 
+  }
+
+
+  #js-lower-button {
+    transform: translateX(-24px);
+    transform: translateY(-10px);
+  }
 
   #banner-img {
     width: 600px;
@@ -488,6 +503,4 @@ a {
   #how-to-overlay-container-2 {
     display: none;
   }
-
-
 }
