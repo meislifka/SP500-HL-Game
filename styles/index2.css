@@ -131,6 +131,9 @@ a {
 }
 
 #game-over-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   height: 80px;
   width: 100px;
@@ -138,11 +141,11 @@ a {
   border-color: black;
   background-color: black;
   position: relative;
-  top: -45vh;
-  left: 38vw;
-  display: none;
+  top: -200px;
+  left: 43vw;
 
 }
+
 
 #score {
   margin-top: 0px;
@@ -255,13 +258,13 @@ a {
 }
 
 #js-new-game-button {
-  display: none;
   background-color: rgb(239, 195, 0);
-  font-size: 11px;
+  font-size: 9px;
   border-radius: 5px;
-  height: 45px;
-  transform: translateX(20px);
+  height: 30px;
   cursor: pointer;
+  transform: translate(19px, -2px);
+
 }
 
 #js-new-game-button:hover {
@@ -350,6 +353,11 @@ a {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 0px;
+  }
+
+  #game-over-container {
+    top: -256px;
+    left: 40%;
   }
 
   #score-item {

@@ -41,8 +41,7 @@ fetch("./stocks.json")
 
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
       if (oldGuess === -1) {
-        newGameButton.style.display = "block";
-        var windowWidth = window.innerWidth;
+        newGameButton.classList.remove("hide");
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
         lowerButton.classList.add('hide');
@@ -50,12 +49,7 @@ fetch("./stocks.json")
 
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
         //document.getElementById('button-container').style.display = "none";
-        if (windowWidth > 778) {
-          document.getElementById('game-over-container').style.display = "block";
-        }
-        else {
-          document.getElementById('game-over-container').style.display = "flex";
-        }
+        document.getElementById('game-over-container').classList.remove("hide");
       }
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -72,20 +66,14 @@ fetch("./stocks.json")
 
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
       if (oldGuess === -1) {
-        newGameButton.style.display = "block";
+        newGameButton.classList.remove("hide");
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
         //document.getElementById('button-container').style.display = "none";
-        var windowWidth = window.innerWidth;
-        if (windowWidth > 778) {
-          document.getElementById('game-over-container').style.display = "block";
-        }
-        else {
-          document.getElementById('game-over-container').style.display = "block";
-        }
+        document.getElementById('game-over-container').classList.remove("hide");
 
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
       }
@@ -116,11 +104,11 @@ fetch("./stocks.json")
       lowerButton.classList.remove('hide');
       higherButton.classList.remove('hide');
 
-      newGameButton.style.display = "none";
-      higherButton.style.display = "inline";
-      lowerButton.style.display = "inline";
+      newGameButton.classList.add("hide");
+      higherButton.classList.remove("hide");
+      lowerButton.classList.remove("hide");
       //document.getElementById('button-container').style.display = "flex";
-      document.getElementById('game-over-container').style.display = "none";
+      document.getElementById('game-over-container').classList.add("hide");
       var test = beginGame(data);
       compName = test[0];
       compTick = test[1];
@@ -210,8 +198,13 @@ function beginGame(data) {
 }
 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, higher) {
-  guessPrice = guessPrice.replace(/,/g, '');
-  compPrice = compPrice.replace(/,/g, '');
+  if (guessPrice.includes(',')) {
+    guessPrice = guessPrice.replace(/,/g, '');
+  }
+  if (compPrice.includes(',')) {
+    compPrice = compPrice.replace(/,/g, '');
+  }
+
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
