@@ -37,6 +37,7 @@ fetch("./stocks.json")
     const closeButton = document.getElementById("js-close-button");
     const bannerImg = document.getElementById("banner-img");
     const guessSide = document.getElementById("guess-side");
+    const compSide = document.getElementById("comp-side");
     var oldGuess = [];
 
     lowerButton.addEventListener("click", () => {
@@ -53,10 +54,13 @@ fetch("./stocks.json")
         // document.getElementById('game-over-overlay').classList.remove("hide");
 
         resultColor(guessSide, 'wrong');
+
+
       }
 
       resultColor(guessSide, 'correct');
 
+      slide(guessSide, compSide);
 
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -82,9 +86,13 @@ fetch("./stocks.json")
 
         setHighScore(wins);
         resultColor(guessSide, 'wrong');
+
       }
 
       resultColor(guessSide, 'correct');
+
+      slide(guessSide, compSide);
+
 
 
 
@@ -117,6 +125,7 @@ fetch("./stocks.json")
       //guessSide.classList.remove('wrong');
 
       newGameButton.classList.add("hide");
+
       higherButton.classList.remove("hide");
       lowerButton.classList.remove("hide");
       //document.getElementById('button-container').style.display = "flex";
@@ -267,3 +276,20 @@ function resultColor(side, result) {
   }, 500);
 
 }
+
+function slide(guessSide, compSide) {
+  //document.getElementById("guessStock-image").src = guessLogo;
+
+  setTimeout(function () {
+    guessSide.classList.add('slide-left');
+    compSide.classList.add('slide-down');
+  }, 1000);
+
+  // Remove the 'slide-left' class after 2 seconds (2000 milliseconds)
+  setTimeout(function () {
+    guessSide.classList.remove('slide-left');
+    compSide.classList.remove('slide-down');
+  }, 2000);
+
+}
+

@@ -114,9 +114,11 @@ a {
   border-right-width: 10px;
   border-color: rgb(100, 100, 100);
   transition: background-color .5s ease;
+  transition: transform 2s ease;
 }
 
 .correct {
+
   background-color: rgba(0, 255, 0, .5);
 }
 
@@ -124,25 +126,29 @@ a {
   background-color: rgba(255, 0, 0, .5);
 }
 
-.reset {
-  border-color: rgb(100, 100, 100);
+.slide-left {
+  border-width: none;
+  transform: translateX(-400px);
 }
 
-
+.slide-down {
+  border-width: none;
+  transform: translateY(1000px);
+}
 
 #comp-side {
   border-top-left-radius: 10px;
   border-left-width: 10px;
   border-right-width: 0px;
-  background-color: lightgrey;
+  background-color: rgb(157, 157, 0);
+
+  transition: transform 2s ease;
+
 }
 
 
-
-
-
 #score-side {
-  background-color: lightgrey;
+
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-left-width: 10px;
@@ -218,7 +224,6 @@ a {
   border-radius: 5px;
 }
 
-
 .row {
   display: flex;
   flex-direction: row;
@@ -242,9 +247,6 @@ a {
   height: 78px;
 }
 
-
-
-
 .name-item {
   height: 60px;
 }
@@ -261,7 +263,6 @@ a {
   border-radius: 10px;
 }
 
-
 .stock-image {
   max-width: 100%;
   max-height: 100%;
@@ -273,7 +274,6 @@ a {
   justify-content: center;
   transform: translateX(-1px);
 }
-
 
 .guess-button {
   text-align: center;
@@ -296,10 +296,7 @@ a {
   height: 30px;
   cursor: pointer;
   transform: translate(11px, 0px);
-
 }
-
-
 
 
 #js-new-game-button:hover {
@@ -312,7 +309,6 @@ a {
   transform: translateY(-10px);
   color: rgb(17, 174, 2);
 }
-
 
 #js-higher-button:hover {
   background-color: transparent;
@@ -367,6 +363,12 @@ a {
   text-align: center;
   overflow-y: auto;
 }
+
+
+
+
+
+
 
 
 
