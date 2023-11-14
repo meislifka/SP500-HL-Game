@@ -38,8 +38,8 @@ fetch("./stocks.json")
     const bannerImg = document.getElementById("banner-img");
     const guessSide = document.getElementById("guess-side");
     var oldGuess = [];
-    lowerButton.addEventListener("click", () => {
 
+    lowerButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
       if (oldGuess === -1) {
         newGameButton.classList.remove("hide");
@@ -48,18 +48,16 @@ fetch("./stocks.json")
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
 
-        document.getElementById("game-over-text").innerHTML = setHighScore(wins);
+        setHighScore(wins);
         //document.getElementById('button-container').style.display = "none";
         // document.getElementById('game-over-overlay').classList.remove("hide");
-        setTimeout(function () {
-          guessSide.classList.add('wrong');
-          console.log("wrong");
-        }, 0)
 
-        setTimeout(function () {
-          document.body.classList.remove('wrong');
-        }, 0);
+        resultColor(guessSide, 'wrong');
       }
+
+      resultColor(guessSide, 'correct');
+
+
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
       guessPrice = oldGuess[2];
@@ -67,14 +65,6 @@ fetch("./stocks.json")
       guessLogo = oldGuess[4];
 
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-      setTimeout(function () {
-        guessSide.classList.add('correct');
-        console.log("correct");
-      }, 0)
-
-      setTimeout(function () {
-        document.body.classList.remove('correct');
-      }, 0);
 
     })
 
@@ -88,20 +78,15 @@ fetch("./stocks.json")
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
         //document.getElementById('button-container').style.display = "none";
-        document.getElementById('game-over-overlay').classList.remove("hide");
+        //document.getElementById('game-over-overlay').classList.remove("hide");
 
-        //document.getElementById("game-over-text").innerHTML = setHighScore(wins);
-        setTimeout(function () {
-          guessSide.classList.add('wrong');
-          console.log("wrong");
-        }, 0)
-
-        setTimeout(function () {
-          document.body.classList.remove('wrong');
-
-        }, 0);
-
+        setHighScore(wins);
+        resultColor(guessSide, 'wrong');
       }
+
+      resultColor(guessSide, 'correct');
+
+
 
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -109,14 +94,7 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-      setTimeout(function () {
-        guessSide.classList.add('correct');
-        console.log("correct");
-      }, 0)
 
-      setTimeout(function () {
-        guessSide.classList.remove('correct');
-      }, 0)
     })
 
     howToButton.addEventListener("click", () => {
@@ -142,7 +120,7 @@ fetch("./stocks.json")
       higherButton.classList.remove("hide");
       lowerButton.classList.remove("hide");
       //document.getElementById('button-container').style.display = "flex";
-      document.getElementById('game-over-overlay').classList.add("hide");
+      //document.getElementById('game-over-overlay').classList.add("hide");
       var test = beginGame(data);
       compName = test[0];
       compTick = test[1];
@@ -164,11 +142,9 @@ fetch("./stocks.json")
 function setHighScore(score) {
   if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
-    return "Game Over <br> New High Score!";
 
   } else {
     localStorage.setItem("highscore", localStorage.getItem("highscore"));
-    return "Game Over";
   }
 }
 
@@ -195,6 +171,7 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   } else {
     document.getElementById("guessStock-trend").style.color = "rgb(76, 210, 74)";
   }
+
 
 
   document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
@@ -276,4 +253,17 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   guessPrice = guessPrice.replace(/,/g, '');
   compPrice = compPrice.replace(/,/g, '');
   return ([guessName, guessTick, guessPrice, guessTrend, guessLogo]);
+}
+
+function resultColor(side, result) {
+  //document.getElementById("guessStock-image").src = guessLogo;
+
+  setTimeout(function () {
+    side.classList.add(result);
+  }, 0)
+
+  setTimeout(function () {
+    side.classList.remove(result);
+  }, 500);
+
 }
