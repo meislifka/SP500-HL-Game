@@ -112,21 +112,37 @@ a {
   border-top-right-radius: 10px;
   border-left-width: 0px;
   border-right-width: 10px;
-  background-color: blue;
+  border-color: rgb(100, 100, 100);
+  transition: background-color .5s ease;
 }
+
+.correct {
+  background-color: rgba(0, 255, 0, .5);
+}
+
+.wrong {
+  background-color: rgba(255, 0, 0, .5);
+}
+
+.reset {
+  border-color: rgb(100, 100, 100);
+}
+
 
 
 #comp-side {
   border-top-left-radius: 10px;
   border-left-width: 10px;
   border-right-width: 0px;
-  background-color: pink;
+  background-color: lightgrey;
 }
 
 
 
+
+
 #score-side {
-  background-color: green;
+  background-color: lightgrey;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-left-width: 10px;
@@ -282,6 +298,9 @@ a {
   transform: translate(11px, 0px);
 
 }
+
+
+
 
 #js-new-game-button:hover {
   background-color: rgb(255, 213, 1);

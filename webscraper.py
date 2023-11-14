@@ -63,7 +63,11 @@ if response.status_code == 200:
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png"
-
+            elif "Stanley Black & Decker, Inc" in name:
+                print("name is stanley bd")
+                inner_dict[
+                    fields[3]
+                ] = "https://yt3.googleusercontent.com/ytc/APkrFKa4kdT3yz1PlcLF8AIrax3BSJcm2Ioc0eP4S5aY=s900-c-k-c0x00ffffff-no-rj"
             else:
                 inner_dict[fields[3]] = url
 

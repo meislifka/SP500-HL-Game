@@ -36,6 +36,7 @@ fetch("./stocks.json")
     const howToButton = document.getElementById("js-how-to-button");
     const closeButton = document.getElementById("js-close-button");
     const bannerImg = document.getElementById("banner-img");
+    const guessSide = document.getElementById("guess-side");
     var oldGuess = [];
     lowerButton.addEventListener("click", () => {
 
@@ -49,7 +50,15 @@ fetch("./stocks.json")
 
         document.getElementById("game-over-text").innerHTML = setHighScore(wins);
         //document.getElementById('button-container').style.display = "none";
-        document.getElementById('game-over-overlay').classList.remove("hide");
+        // document.getElementById('game-over-overlay').classList.remove("hide");
+        setTimeout(function () {
+          guessSide.classList.add('wrong');
+          console.log("wrong");
+        }, 0)
+
+        setTimeout(function () {
+          document.body.classList.remove('wrong');
+        }, 0);
       }
       guessName = oldGuess[0];
       guessTick = oldGuess[1];
@@ -58,12 +67,18 @@ fetch("./stocks.json")
       guessLogo = oldGuess[4];
 
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
+      setTimeout(function () {
+        guessSide.classList.add('correct');
+        console.log("correct");
+      }, 0)
 
+      setTimeout(function () {
+        document.body.classList.remove('correct');
+      }, 0);
 
     })
 
     higherButton.addEventListener("click", () => {
-
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
       if (oldGuess === -1) {
         newGameButton.classList.remove("hide");
@@ -75,7 +90,17 @@ fetch("./stocks.json")
         //document.getElementById('button-container').style.display = "none";
         document.getElementById('game-over-overlay').classList.remove("hide");
 
-        document.getElementById("game-over-text").innerHTML = setHighScore(wins);
+        //document.getElementById("game-over-text").innerHTML = setHighScore(wins);
+        setTimeout(function () {
+          guessSide.classList.add('wrong');
+          console.log("wrong");
+        }, 0)
+
+        setTimeout(function () {
+          document.body.classList.remove('wrong');
+
+        }, 0);
+
       }
 
       guessName = oldGuess[0];
@@ -84,6 +109,14 @@ fetch("./stocks.json")
       guessTrend = oldGuess[3];
       guessLogo = oldGuess[4];
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
+      setTimeout(function () {
+        guessSide.classList.add('correct');
+        console.log("correct");
+      }, 0)
+
+      setTimeout(function () {
+        guessSide.classList.remove('correct');
+      }, 0)
     })
 
     howToButton.addEventListener("click", () => {
@@ -103,6 +136,7 @@ fetch("./stocks.json")
       document.getElementById('guessStock-price').style.border = "none";
       lowerButton.classList.remove('hide');
       higherButton.classList.remove('hide');
+      //guessSide.classList.remove('wrong');
 
       newGameButton.classList.add("hide");
       higherButton.classList.remove("hide");
