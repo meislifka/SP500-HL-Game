@@ -54,10 +54,15 @@ fetch("./stocks.json")
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
         setHighScore(wins);
-        resultColor(guessSide, 'wrong');
+
+
+        setTimeout(function () {
+          gameOver(guessSide);
+        }, 0)
+
       }
       else {
-        resultColor(guessSide, 'correct');
+
         //slide(guessSide, compSide);
         if (window.innerWidth < 768) {
           slideSmallScreen(guessSide, compSide);
@@ -92,10 +97,13 @@ fetch("./stocks.json")
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
         setHighScore(wins);
-        resultColor(guessSide, 'wrong');
+
+        setTimeout(function () {
+          gameOver(guessSide);
+        }, 0)
       }
       else {
-        resultColor(guessSide, 'correct');
+
         if (window.innerWidth <= 768) {
           slideSmallScreen(guessSide, compSide);
         } else {
@@ -245,21 +253,9 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   return ([guessName, guessTick, guessPrice, guessTrend, guessLogo]);
 }
 
-function resultColor(side, result) {
-  //document.getElementById("guessStock-image").src = guessLogo;
-
-  setTimeout(function () {
-    side.classList.add(result);
-  }, 0)
-
-  setTimeout(function () {
-    side.classList.remove(result);
-  }, 500);
-
-}
-
 
 function slideFullScreen(guessSide, compSide) {
+  guessSide.classList.add('correct');
   guessSide.style.animation = 'slide-left 2s ease-in-out';
   compSide.style.animation = 'slide-down 2s ease-in-out';
 
@@ -271,7 +267,7 @@ function slideFullScreen(guessSide, compSide) {
 
   //wait 1ms (for animation to remnove) then run slide-in
   setTimeout(function () {
-    guessSide.style.animation = 'slide-in 2s ease-in-out';
+    guessSide.style.animation = 'slide-right-in 2s ease-in-out';
   }, 2001)
 
   //wait 2s (for animation to finish) then remove
@@ -300,4 +296,32 @@ function slideSmallScreen(guessSide, compSide) {
   setTimeout(function () {
     guessSide.style.animation = '';
   }, 4001)
+
+
+}
+
+function gameOver(side) {
+  side.style.backgroundColor = 'red';
+  const gameArea = document.getElementById('gameArea');
+  gameArea.innerHTML = '<p>Game Over</p></button>';
+
+  // Set up the countdown timer
+  let count = 3;
+  const countdownElement = document.createElement('p');
+  gameArea.appendChild(countdownElement);
+
+  function updateCountdown() {
+    countdownElement.innerText = `New game in ${count} seconds`;
+    count--;
+
+    if (count >= 0) {
+      setTimeout(updateCountdown, 1000);
+    }
+  }
+
+  updateCountdown();
+
+  setTimeout(function () {
+    location.reload();
+  }, 3000)
 }

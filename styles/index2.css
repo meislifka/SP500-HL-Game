@@ -13,7 +13,43 @@ body {
   background-color: black;
 }
 
+#gameArea {
+  z-index: 1001;
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  border-radius: 5px;
 
+}
+
+@keyframes flipIn {
+  0% {
+    transform: perspective(400px) rotateY(90deg);
+    /* Rotate from the side */
+    opacity: 0;
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    /* Rotate to face the front */
+    opacity: 1;
+  }
+}
+
+/* Flip-out animation */
+@keyframes flipOut {
+  0% {
+    transform: perspective(400px) rotateY(0deg);
+    /* Rotate to face the front */
+    opacity: 1;
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(90deg);
+    /* Rotate to the side */
+    opacity: 0;
+  }
+}
 
 p {
   font-size: 15px;
@@ -142,16 +178,6 @@ a {
   }
 }
 
-@keyframes slide-in {
-  0% {
-    transform: translateX(500px);
-  }
-
-  100% {
-    transform: translateX(0px);
-  }
-}
-
 @keyframes slide-down {
   100% {
     transform: translateY(1000px);
@@ -165,10 +191,9 @@ a {
   }
 }
 
-
-@keyframes slide-up-in {
+@keyframes slide-right-in {
   0% {
-    transform: translateY(500px);
+    transform: translateX(500px);
   }
 
   100% {
@@ -176,20 +201,14 @@ a {
   }
 }
 
+@keyframes slide-up-in {
+  0% {
+    transform: translateY(480px);
+  }
 
-.slide-left {
-  border-width: none;
-  transform: translateX(-400px);
-}
-
-#score-side {
-
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  border-bottom-width: 10px;
-  border-top-width: 0px;
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 
