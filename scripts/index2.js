@@ -59,7 +59,13 @@ fetch("./stocks.json")
       else {
         resultColor(guessSide, 'correct');
         //slide(guessSide, compSide);
-        slides(guessSide, compSide)
+        if (window.innerWidth < 768) {
+          slideSmallScreen(guessSide, compSide);
+        } else {
+          slideFullScreen(guessSide, compSide);
+        }
+
+
         guessName = oldGuess[0];
         guessTick = oldGuess[1];
         guessPrice = oldGuess[2];
@@ -89,9 +95,13 @@ fetch("./stocks.json")
         resultColor(guessSide, 'wrong');
       }
       else {
-
         resultColor(guessSide, 'correct');
-        slides(guessSide, compSide)
+        if (window.innerWidth <= 768) {
+          slideSmallScreen(guessSide, compSide);
+        } else {
+          slideFullScreen(guessSide, compSide);
+        }
+
         guessName = oldGuess[0];
         guessTick = oldGuess[1];
         guessPrice = oldGuess[2];
@@ -248,23 +258,8 @@ function resultColor(side, result) {
 
 }
 
-function slide(guessSide, compSide) {
-  //document.getElementById("guessStock-image").src = guessLogo;
 
-  setTimeout(function () {
-    guessSide.classList.add('slide-left');
-    compSide.classList.add('slide-down');
-  }, 1000);
-
-  // Remove the 'slide-left' class after 2 seconds (2000 milliseconds)
-  setTimeout(function () {
-    guessSide.classList.remove('slide-left');
-    compSide.classList.remove('slide-down');
-  }, 2000);
-
-}
-
-function slides(guessSide, compSide) {
+function slideFullScreen(guessSide, compSide) {
   guessSide.style.animation = 'slide-left 2s ease-in-out';
   compSide.style.animation = 'slide-down 2s ease-in-out';
 
@@ -286,6 +281,23 @@ function slides(guessSide, compSide) {
 }
 
 
+function slideSmallScreen(guessSide, compSide) {
+  guessSide.style.animation = 'slide-up 2s ease-in-out';
+  compSide.style.animation = 'slide-up 2s ease-in-out';
 
+  //wait 2 seconds (for animation to finish) then remove animation
+  setTimeout(function () {
+    guessSide.style.animation = '';
+    compSide.style.animation = '';
+  }, 2000)
 
+  //wait 1ms (for animation to remnove) then run slide-in
+  setTimeout(function () {
+    guessSide.style.animation = 'slide-up-in 2s ease-in-out';
+  }, 2001)
 
+  //wait 2s (for animation to finish) then remove
+  setTimeout(function () {
+    guessSide.style.animation = '';
+  }, 4001)
+}

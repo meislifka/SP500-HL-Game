@@ -13,6 +13,8 @@ body {
   background-color: black;
 }
 
+
+
 p {
   font-size: 15px;
   text-align: center;
@@ -36,6 +38,7 @@ header {
   overflow: hidden;
   margin-bottom: 10px;
 
+
 }
 
 #how-tos {
@@ -43,6 +46,7 @@ header {
   height: 25px;
   text-align: right;
   color: white;
+  z-index: 99;
 }
 
 #js-how-to-button {
@@ -53,6 +57,7 @@ header {
   cursor: pointer;
   position: absolute;
   right: 4px;
+
 }
 
 #js-how-to-button:hover {
@@ -98,17 +103,8 @@ a {
   animation-iteration-count: infinite;
   border: solid;
   height: 55px;
+  z-index: 1;
 }
-
-/*
-#guess-side,
-#comp-side,
-#score-side {
-  border: solid;
-  border-top-width: 10px;
-  border-bottom-width: 0px;
-  border-color: rgb(100, 100, 100);
-}*/
 
 #guess-side {
   border: solid;
@@ -117,6 +113,7 @@ a {
   border-color: rgb(137, 136, 136);
   margin: 5px;
   background-color: cyan;
+
 }
 
 #comp-side {
@@ -126,6 +123,7 @@ a {
   border-color: rgb(137, 136, 136);
   margin: 5px;
   background-color: mediumseagreen;
+
 }
 
 .correct {
@@ -160,6 +158,25 @@ a {
   }
 }
 
+@keyframes slide-up {
+  100% {
+    transform: translateY(-201px);
+    background-color: mediumseagreen;
+  }
+}
+
+
+@keyframes slide-up-in {
+  0% {
+    transform: translateY(500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
 .slide-left {
   border-width: none;
   transform: translateX(-400px);
@@ -180,6 +197,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   height: 0px;
+  color: white;
 }
 
 #score-item {
@@ -220,7 +238,33 @@ a {
   border-width: 7px;
   border-radius: 10px;
   padding: 5px;
+
 }
+
+
+.game-container::before {
+  content: "";
+
+  z-index: -2;
+  /* Push the pseudo-element behind the game container */
+}
+
+#mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Semi-transparent black overlay */
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+
+}
+
+
 
 .overlay {
   position: absolute;
@@ -233,7 +277,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 100;
   opacity: .95;
   /* Ensure the overlay appears above other content */
 }
@@ -359,7 +403,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9;
+  z-index: 101;
   transition: opacity 0.3s ease-in-out;
   color: white;
   display: none;
@@ -396,17 +440,6 @@ a {
 
 @media screen and (max-width: 768px) {
 
-  #guess-side,
-  #comp-side,
-  #score-side {
-    border: solid;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: rgb(100, 100, 100);
-    border-radius: 0px;
-    border-bottom-width: 0px;
-  }
-
   #score {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -414,31 +447,9 @@ a {
   }
 
 
-
   #score-item {
     height: 20px;
     width: 100%;
-  }
-
-  #guess-side {
-    border-top-width: 0px;
-
-  }
-
-  #comp-side {
-    border-bottom-width: 0px;
-    border-top-width: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-
-  #score-side {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-width: 0px;
-    border-bottom-width: 10px;
-    display: flex;
-    justify-content: space-between;
   }
 
 
@@ -469,6 +480,7 @@ a {
   #how-tos {
     height: 25px;
     margin: 0px;
+
   }
 
   header {
@@ -542,7 +554,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 999;
+    z-index: 101s;
     transition: opacity 0.3s ease-in-out;
     color: white;
     display: none;
