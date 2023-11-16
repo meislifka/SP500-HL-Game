@@ -68,6 +68,11 @@ if response.status_code == 200:
                 inner_dict[
                     fields[3]
                 ] = "https://yt3.googleusercontent.com/ytc/APkrFKa4kdT3yz1PlcLF8AIrax3BSJcm2Ioc0eP4S5aY=s900-c-k-c0x00ffffff-no-rj"
+            elif "Bath & Body Works Inc" in name:
+                print("name is bath and body works")
+                inner_dict[
+                    fields[3]
+                ] = "https://shopcrossroadstc.com/wp-content/uploads/sites/4/2022/08/6036af54f292eb81615262e0_Bath-Body-works1000px-Square-Logo-1-800x800-1.jpg"
             else:
                 inner_dict[fields[3]] = url
 

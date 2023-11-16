@@ -17,6 +17,8 @@ fetch("./stocks.json")
   .then(data => {
     document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
 
+
+    //Getting and setting startings values
     var test = beginGame(data);
 
     compName = test[0];
@@ -30,6 +32,7 @@ fetch("./stocks.json")
     compLogo = test[8];
     guessLogo = test[9];
 
+    //Declaring constants
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
     const newGameButton = document.getElementById("js-new-game-button");
@@ -42,31 +45,30 @@ fetch("./stocks.json")
 
     lowerButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
+
+      //Condition if guess was wrong
       if (oldGuess === -1) {
         newGameButton.classList.remove("hide");
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
-
         setHighScore(wins);
-        //document.getElementById('button-container').style.display = "none";
-        // document.getElementById('game-over-overlay').classList.remove("hide");
-
         resultColor(guessSide, 'wrong');
+      }
+      else {
+        resultColor(guessSide, 'correct');
+        //slide(guessSide, compSide);
+        slides(guessSide, compSide)
+        guessName = oldGuess[0];
+        guessTick = oldGuess[1];
+        guessPrice = oldGuess[2];
+        guessTrend = oldGuess[3];
+        guessLogo = oldGuess[4];
+
 
 
       }
-
-      resultColor(guessSide, 'correct');
-
-      slide(guessSide, compSide);
-
-      guessName = oldGuess[0];
-      guessTick = oldGuess[1];
-      guessPrice = oldGuess[2];
-      guessTrend = oldGuess[3];
-      guessLogo = oldGuess[4];
 
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
 
@@ -74,6 +76,8 @@ fetch("./stocks.json")
 
     higherButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
+
+      //Condition if guess was wrong
       if (oldGuess === -1) {
         newGameButton.classList.remove("hide");
         lowerButton.classList.add('hide');
@@ -81,26 +85,20 @@ fetch("./stocks.json")
 
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
-        //document.getElementById('button-container').style.display = "none";
-        //document.getElementById('game-over-overlay').classList.remove("hide");
-
         setHighScore(wins);
         resultColor(guessSide, 'wrong');
+      }
+      else {
+
+        resultColor(guessSide, 'correct');
+        slides(guessSide, compSide)
+        guessName = oldGuess[0];
+        guessTick = oldGuess[1];
+        guessPrice = oldGuess[2];
+        guessTrend = oldGuess[3];
+        guessLogo = oldGuess[4];
 
       }
-
-      resultColor(guessSide, 'correct');
-
-      slide(guessSide, compSide);
-
-
-
-
-      guessName = oldGuess[0];
-      guessTick = oldGuess[1];
-      guessPrice = oldGuess[2];
-      guessTrend = oldGuess[3];
-      guessLogo = oldGuess[4];
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
 
     })
@@ -117,35 +115,7 @@ fetch("./stocks.json")
       bannerImg.style.animationPlayState = 'running';
     })
 
-    newGameButton.addEventListener("click", () => {
-      document.getElementById('guessStock-price').innerHTML = "";
-      document.getElementById('guessStock-price').style.border = "none";
-      lowerButton.classList.remove('hide');
-      higherButton.classList.remove('hide');
-      //guessSide.classList.remove('wrong');
 
-      newGameButton.classList.add("hide");
-
-      higherButton.classList.remove("hide");
-      lowerButton.classList.remove("hide");
-      //document.getElementById('button-container').style.display = "flex";
-      //document.getElementById('game-over-overlay').classList.add("hide");
-      var test = beginGame(data);
-      compName = test[0];
-      compTick = test[1];
-      compPrice = test[2];
-      guessName = test[3];
-      guessTick = test[4];
-      guessPrice = test[5];
-      compTrend = test[6];
-      guessTrend = test[7];
-      compLogo = test[8];
-      guessLogo = test[9];
-      wins = 0;
-      document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-    }
-
-    )
   });
 
 function setHighScore(score) {
@@ -170,6 +140,7 @@ function getTicker(data) {
 }
 
 function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo) {
+  console.log("hi")
   if (compTrend.includes("-")) {
     document.getElementById("compStock-trend").style.color = "rgb(210, 74, 74)";
   } else {
@@ -180,8 +151,6 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   } else {
     document.getElementById("guessStock-trend").style.color = "rgb(76, 210, 74)";
   }
-
-
 
   document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
   document.getElementById("compStock-price").innerText = `$ ${compPrice}`;
@@ -257,8 +226,10 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
   var guessLogo = data[guessTicker].logoUrl;
+  setTimeout(function () {
+    setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
+  }, 2000)
 
-  setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   guessPrice = guessPrice.replace(/,/g, '');
   compPrice = compPrice.replace(/,/g, '');
   return ([guessName, guessTick, guessPrice, guessTrend, guessLogo]);
@@ -292,4 +263,29 @@ function slide(guessSide, compSide) {
   }, 2000);
 
 }
+
+function slides(guessSide, compSide) {
+  guessSide.style.animation = 'slide-left 2s ease-in-out';
+  compSide.style.animation = 'slide-down 2s ease-in-out';
+
+  //wait 2 seconds (for animation to finish) then remove animation
+  setTimeout(function () {
+    guessSide.style.animation = '';
+    compSide.style.animation = '';
+  }, 2000)
+
+  //wait 1ms (for animation to remnove) then run slide-in
+  setTimeout(function () {
+    guessSide.style.animation = 'slide-in 2s ease-in-out';
+  }, 2001)
+
+  //wait 2s (for animation to finish) then remove
+  setTimeout(function () {
+    guessSide.style.animation = '';
+  }, 4001)
+}
+
+
+
+
 

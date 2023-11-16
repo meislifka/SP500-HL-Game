@@ -5,7 +5,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  overflow: hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -99,6 +100,7 @@ a {
   height: 55px;
 }
 
+/*
 #guess-side,
 #comp-side,
 #score-side {
@@ -106,15 +108,24 @@ a {
   border-top-width: 10px;
   border-bottom-width: 0px;
   border-color: rgb(100, 100, 100);
-}
+}*/
 
 #guess-side {
-  border-top-right-radius: 10px;
-  border-left-width: 0px;
-  border-right-width: 10px;
-  border-color: rgb(100, 100, 100);
-  transition: background-color .5s ease;
-  transition: transform 2s ease;
+  border: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgb(137, 136, 136);
+  margin: 5px;
+  background-color: cyan;
+}
+
+#comp-side {
+  border: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgb(137, 136, 136);
+  margin: 5px;
+  background-color: mediumseagreen;
 }
 
 .correct {
@@ -126,26 +137,33 @@ a {
   background-color: rgba(255, 0, 0, .5);
 }
 
+@keyframes slide-left {
+  100% {
+    transform: translateX(-270px);
+    background-color: mediumseagreen;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-down {
+  100% {
+    transform: translateY(1000px);
+  }
+}
+
 .slide-left {
   border-width: none;
   transform: translateX(-400px);
 }
-
-.slide-down {
-  border-width: none;
-  transform: translateY(1000px);
-}
-
-#comp-side {
-  border-top-left-radius: 10px;
-  border-left-width: 10px;
-  border-right-width: 0px;
-  background-color: rgb(157, 157, 0);
-
-  transition: transform 2s ease;
-
-}
-
 
 #score-side {
 
@@ -197,8 +215,11 @@ a {
   width: 540px;
   height: 100%;
   background-color: rgb(65, 64, 64);
-  color: white;
+  border: solid;
+  border-color: rgb(100, 100, 100);
+  border-width: 7px;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .overlay {
@@ -401,6 +422,7 @@ a {
 
   #guess-side {
     border-top-width: 0px;
+
   }
 
   #comp-side {
