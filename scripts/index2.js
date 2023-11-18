@@ -287,7 +287,7 @@ function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
 
 function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.style.animation = 'slide-up 2s ease-in-out';
-  compSide.style.animation = 'slide-up 2s ease-in-out';
+  compSide.style.animation = 'slide-up1  2s ease-in-out';
   lowerButton.classList.add('hide');
   higherButton.classList.add('hide');
   //wait 2 seconds (for animation to finish) then remove animation
