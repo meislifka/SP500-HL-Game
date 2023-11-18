@@ -1,3 +1,17 @@
+header {
+  display: grid;
+  grid-template-rows: .1fr .1fr;
+  text-align: center;
+  font-family: arial;
+  border-style: solid;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: black;
+}
+
 main {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -7,10 +21,6 @@ main {
   align-items: center;
   overflow: hidden;
   overflow-y: hidden;
-}
-
-body {
-  background-color: black;
 }
 
 #gameArea {
@@ -32,25 +42,6 @@ body {
   animation: flip-out 1s ease-in-out;
 }
 
-@keyframes flip-in {
-  from {
-    transform: rotateX(-180deg);
-  }
-
-  to {
-    transform: rotateX(0deg);
-  }
-}
-
-@keyframes flip-out {
-  from {
-    transform: rotateX(180deg);
-  }
-
-  to {
-    transform: rotateX(0deg);
-  }
-}
 
 p {
   font-size: 15px;
@@ -64,16 +55,6 @@ p {
 
 .guess-text {
   color: rgb(255, 200, 0);
-}
-
-header {
-  display: grid;
-  grid-template-rows: .1fr .1fr;
-  text-align: center;
-  font-family: arial;
-  border-style: solid;
-  overflow: hidden;
-  margin-bottom: 10px;
 }
 
 #how-tos {
@@ -119,16 +100,6 @@ a {
   margin-bottom: 2px;
 }
 
-@keyframes banner-slide {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 #banner-img {
   width: 600px;
   animation-name: banner-slide;
@@ -166,64 +137,6 @@ a {
 
 .wrong {
   background-color: rgba(255, 0, 0, .5);
-}
-
-@keyframes slide-left {
-  100% {
-    transform: translateX(-270px);
-    background-color: darkblue;
-  }
-}
-
-@keyframes slide-down {
-  100% {
-    transform: translateY(1000px);
-
-  }
-}
-
-@keyframes slide-up {
-  100% {
-    transform: translateY(-185px);
-    background-color: darkblue;
-  }
-}
-
-@keyframes slide-up1 {
-  100% {
-    transform: translateY(-195px);
-    background-color: darkblue;
-  }
-}
-
-@keyframes slide {
-  0% {
-    transform: translateY(-500px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-@keyframes slide-right-in {
-  0% {
-    transform: translateX(500px);
-  }
-
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes slide-up-in {
-  0% {
-    transform: translateY(480px);
-  }
-
-  100% {
-    transform: translateX(0px);
-  }
 }
 
 #score {
@@ -286,7 +199,6 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  /* Semi-transparent black overlay */
   background-color: black;
   display: flex;
   align-items: center;
@@ -301,17 +213,14 @@ a {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  /* Adjust the opacity as needed */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 100;
-  opacity: .95;
-  /* Ensure the overlay appears above other content */
+
 }
 
 .overlay-content {
-  /* Style your overlay content here */
   padding: 8px;
   background: rgba(0, 0, 0, 0.94);
   border-radius: 5px;
@@ -609,5 +518,84 @@ a {
 
   #how-to-overlay-container-2 {
     display: none;
+  }
+}
+
+@keyframes banner-slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes flip-in {
+  from {
+    transform: rotateX(-180deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+@keyframes flip-out {
+  from {
+    transform: rotateX(180deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+
+@keyframes slide-left {
+  100% {
+    transform: translateX(-270px);
+    background-color: darkblue;
+  }
+}
+
+@keyframes slide-down {
+  100% {
+    transform: translateY(1000px);
+
+  }
+}
+
+@keyframes slide-up {
+  100% {
+    transform: translateY(-185px);
+    background-color: darkblue;
+  }
+}
+
+@keyframes slide-up1 {
+  100% {
+    transform: translateY(-195px);
+    background-color: darkblue;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slide-up-in {
+  0% {
+    transform: translateY(480px);
+  }
+
+  100% {
+    transform: translateX(0px);
   }
 }

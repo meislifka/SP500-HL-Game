@@ -35,7 +35,6 @@ fetch("./stocks.json")
     //Declaring constants
     const lowerButton = document.getElementById("js-lower-button");
     const higherButton = document.getElementById("js-higher-button");
-    const newGameButton = document.getElementById("js-new-game-button");
     const howToButton = document.getElementById("js-how-to-button");
     const closeButton = document.getElementById("js-close-button");
     const bannerImg = document.getElementById("banner-img");
@@ -304,7 +303,7 @@ function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
   //wait 1ms (for animation to remnove) then run slide-in
   setTimeout(function () {
 
-    guessSide.style.animation = 'slide 2s ease-in-out';
+    guessSide.style.animation = 'slide-in 2s ease-in-out';
     lowerButton.classList.remove('hide');
     higherButton.classList.remove('hide');
   }, 2000)
@@ -326,7 +325,7 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
     compSide.style.animation = '';
   }, 2000)
 
-  //wait 1ms (for animation to remnove) then run slide-in
+  //wait 1ms (for animation to remove) then run slide-in
   setTimeout(function () {
     guessSide.style.animation = 'slide-up-in 2s ease-in-out';
     lowerButton.classList.remove('hide');
@@ -361,7 +360,6 @@ function gameOver(side) {
   }
   //Call function to count down
   updateCountdown();
-
 
   gameArea.classList.remove("flipOut");
   gameArea.classList.add("flipOut");
