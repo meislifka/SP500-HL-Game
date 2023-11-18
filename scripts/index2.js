@@ -65,9 +65,9 @@ fetch("./stocks.json")
 
         //slide(guessSide, compSide);
         if (window.innerWidth < 768) {
-          slideSmallScreen(guessSide, compSide);
+          slideSmallScreen(guessSide, compSide, lowerButton, higherButton);
         } else {
-          slideFullScreen(guessSide, compSide);
+          slideFullScreen(guessSide, compSide, lowerButton, higherButton);
         }
 
 
@@ -105,9 +105,9 @@ fetch("./stocks.json")
       else {
 
         if (window.innerWidth <= 768) {
-          slideSmallScreen(guessSide, compSide);
+          slideSmallScreen(guessSide, compSide, lowerButton, higherButton);
         } else {
-          slideFullScreen(guessSide, compSide);
+          slideFullScreen(guessSide, compSide, lowerButton, higherButton);
         }
 
         guessName = oldGuess[0];
@@ -254,11 +254,12 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
 }
 
 
-function slideFullScreen(guessSide, compSide) {
+function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.classList.add('correct');
   guessSide.style.animation = 'slide-left 2s ease-in-out';
   compSide.style.animation = 'slide-down 2s ease-in-out';
-
+  lowerButton.classList.add('hide');
+  higherButton.classList.add('hide');
   //wait 2 seconds (for animation to finish) then remove animation
   setTimeout(function () {
     guessSide.style.animation = '';
@@ -267,20 +268,28 @@ function slideFullScreen(guessSide, compSide) {
 
   //wait 1ms (for animation to remnove) then run slide-in
   setTimeout(function () {
-    guessSide.style.animation = 'slide-right-in 2s ease-in-out';
-  }, 2001)
+
+    guessSide.style.animation = 'slide 2s ease-in-out';
+    lowerButton.classList.remove('hide');
+    higherButton.classList.remove('hide');
+  }, 2000)
 
   //wait 2s (for animation to finish) then remove
   setTimeout(function () {
     guessSide.style.animation = '';
+
   }, 4001)
+
+
+
 }
 
 
-function slideSmallScreen(guessSide, compSide) {
+function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.style.animation = 'slide-up 2s ease-in-out';
   compSide.style.animation = 'slide-up 2s ease-in-out';
-
+  lowerButton.classList.add('hide');
+  higherButton.classList.add('hide');
   //wait 2 seconds (for animation to finish) then remove animation
   setTimeout(function () {
     guessSide.style.animation = '';
@@ -290,12 +299,17 @@ function slideSmallScreen(guessSide, compSide) {
   //wait 1ms (for animation to remnove) then run slide-in
   setTimeout(function () {
     guessSide.style.animation = 'slide-up-in 2s ease-in-out';
+    lowerButton.classList.remove('hide');
+    higherButton.classList.remove('hide');
   }, 2001)
 
   //wait 2s (for animation to finish) then remove
   setTimeout(function () {
     guessSide.style.animation = '';
+
   }, 4001)
+
+
 
 
 }
@@ -303,12 +317,16 @@ function slideSmallScreen(guessSide, compSide) {
 function gameOver(side) {
   side.style.backgroundColor = 'red';
   const gameArea = document.getElementById('gameArea');
+  gameArea.classList.remove("flipIn");
+  gameArea.classList.add("flipIn");
+
   gameArea.innerHTML = '<p>Game Over</p></button>';
 
   // Set up the countdown timer
   let count = 3;
   const countdownElement = document.createElement('p');
-  gameArea.appendChild(countdownElement);
+
+  setTimeout(gameArea.appendChild(countdownElement), 1000);
 
   function updateCountdown() {
     countdownElement.innerText = `New game in ${count} seconds`;
@@ -320,8 +338,9 @@ function gameOver(side) {
   }
 
   updateCountdown();
-
+  gameArea.classList.remove("flipOut");
+  gameArea.classList.add("flipOut");
   setTimeout(function () {
     location.reload();
-  }, 3000)
+  }, 4000)
 }

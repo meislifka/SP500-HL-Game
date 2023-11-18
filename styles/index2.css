@@ -15,39 +15,38 @@ body {
 
 #gameArea {
   z-index: 1001;
+
   position: absolute;
-  top: 0px;
+  top: 10px;
   background-color: white;
   border-radius: 5px;
-
 }
 
-@keyframes flipIn {
-  0% {
-    transform: perspective(400px) rotateY(90deg);
-    /* Rotate from the side */
-    opacity: 0;
+.flipIn {
+  animation: flip-in 1s ease-in-out;
+}
+
+.flip {
+  animation: flip-out 1s ease-in-out;
+}
+
+@keyframes flip-in {
+  from {
+    transform: rotateX(-180deg);
   }
 
-  100% {
-    transform: perspective(400px) rotateY(0deg);
-    /* Rotate to face the front */
-    opacity: 1;
+  to {
+    transform: rotateX(0deg);
   }
 }
 
-/* Flip-out animation */
-@keyframes flipOut {
-  0% {
-    transform: perspective(400px) rotateY(0deg);
-    /* Rotate to face the front */
-    opacity: 1;
+@keyframes flip-out {
+  from {
+    transform: rotateX(180deg);
   }
 
-  100% {
-    transform: perspective(400px) rotateY(90deg);
-    /* Rotate to the side */
-    opacity: 0;
+  to {
+    transform: rotateX(0deg);
   }
 }
 
@@ -148,7 +147,7 @@ a {
   border-radius: 10px;
   border-color: rgb(137, 136, 136);
   margin: 5px;
-  background-color: cyan;
+  background-color: rgb(223, 219, 2);
 
 }
 
@@ -158,9 +157,11 @@ a {
   border-radius: 10px;
   border-color: rgb(137, 136, 136);
   margin: 5px;
-  background-color: mediumseagreen;
+  background-color: darkblue;
 
 }
+
+
 
 .correct {
 
@@ -174,20 +175,31 @@ a {
 @keyframes slide-left {
   100% {
     transform: translateX(-270px);
-    background-color: mediumseagreen;
+    background-color: darkblue;
   }
 }
 
 @keyframes slide-down {
   100% {
     transform: translateY(1000px);
+
   }
 }
 
 @keyframes slide-up {
   100% {
-    transform: translateY(-201px);
-    background-color: mediumseagreen;
+    transform: translateY(-185px);
+    background-color: darkblue;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
 
@@ -258,6 +270,7 @@ a {
   border-radius: 10px;
   padding: 5px;
 
+
 }
 
 
@@ -268,6 +281,7 @@ a {
   /* Push the pseudo-element behind the game container */
 }
 
+
 #mask {
   position: fixed;
   top: 0;
@@ -275,7 +289,7 @@ a {
   width: 100%;
   height: 100%;
   /* Semi-transparent black overlay */
-  background-color: pink;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
