@@ -43,73 +43,85 @@ fetch("./stocks.json")
     const compSide = document.getElementById("comp-side");
     var oldGuess = [];
 
+    //Actions for when lower button is pressed
     lowerButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 0);
 
       //Condition if guess was wrong
       if (oldGuess === -1) {
-        newGameButton.classList.remove("hide");
+
+        //show guess price
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
+
+        //Remove higher and lower buttons
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
+
+        //Set high score
         setHighScore(wins);
 
-
+        //Call game over function
         setTimeout(function () {
           gameOver(guessSide);
         }, 0)
 
       }
+
+      //If guess is right
       else {
 
-        //slide(guessSide, compSide);
+        //Change slide based on window size
         if (window.innerWidth < 768) {
           slideSmallScreen(guessSide, compSide, lowerButton, higherButton);
         } else {
           slideFullScreen(guessSide, compSide, lowerButton, higherButton);
         }
 
-
+        //Change previous guess slide to comp side
         guessName = oldGuess[0];
         guessTick = oldGuess[1];
         guessPrice = oldGuess[2];
         guessTrend = oldGuess[3];
         guessLogo = oldGuess[4];
-
-
-
       }
 
+      //Update score
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
 
     })
 
+    //Actions for higher button
     higherButton.addEventListener("click", () => {
       oldGuess = getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, 1);
 
       //Condition if guess was wrong
       if (oldGuess === -1) {
-        newGameButton.classList.remove("hide");
+        //Remove higher and lower buttons
         lowerButton.classList.add('hide');
         higherButton.classList.add('hide');
 
+        //show guess price
         document.getElementById('guessStock-price').innerHTML = `$${guessPrice}`;
         document.getElementById('guessStock-price').style.border = "dotted";
+
+        //Set high score
         setHighScore(wins);
 
+        //Call game over function
         setTimeout(function () {
           gameOver(guessSide);
         }, 0)
       }
+      //If guess is right
       else {
-
+        //Change slide based on window size
         if (window.innerWidth <= 768) {
           slideSmallScreen(guessSide, compSide, lowerButton, higherButton);
         } else {
           slideFullScreen(guessSide, compSide, lowerButton, higherButton);
         }
-
+        //Change previous guess slide to comp side
         guessName = oldGuess[0];
         guessTick = oldGuess[1];
         guessPrice = oldGuess[2];
@@ -117,18 +129,24 @@ fetch("./stocks.json")
         guessLogo = oldGuess[4];
 
       }
+      //Update score
       document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-
     })
 
+
+    //Action for how to button
     howToButton.addEventListener("click", () => {
+
+      //Add text and pause banner
       document.getElementById('how-to-overlay').style.display = "block";
       document.getElementById('how-to-overlay-container').style.display = "block";
       bannerImg.style.animationPlayState = 'paused';
 
     })
 
+    //Action for close button
     closeButton.addEventListener("click", () => {
+      //Remove text and resume banner
       document.getElementById('how-to-overlay').style.display = "none";
       bannerImg.style.animationPlayState = 'running';
     })
@@ -136,7 +154,10 @@ fetch("./stocks.json")
 
   });
 
+
 function setHighScore(score) {
+
+  //if current score is higher than high score, update high score to current score
   if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
 
@@ -145,20 +166,17 @@ function setHighScore(score) {
   }
 }
 
+
+//Function to get the ticker by selecting a random key
 function getTicker(data) {
-  //array of object keys
   const keys = Object.keys(data);
-
-  //random index
   const randIndex = Math.floor(Math.random() * keys.length);
-
-  // Select a key from the array of keys using the random index
   const randTicker = keys[randIndex];
   return (randTicker);
 }
 
+//Function to set elements 
 function setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo) {
-  console.log("hi")
   if (compTrend.includes("-")) {
     document.getElementById("compStock-trend").style.color = "rgb(210, 74, 74)";
   } else {
@@ -181,14 +199,19 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   document.getElementById("guessStock-image").src = guessLogo;
 }
 
+
+//Function to begin the game
 function beginGame(data) {
   var compTicker = getTicker(data);
   var guessTicker = getTicker(data);
 
-  while (compTicker === guessTicker) { //made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
+
+  //Made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
+  while (compTicker === guessTicker) {
     guessTicker = getTicker(data);
   }
 
+  //Setting variables
   var compName = data[compTicker].name;
   var compTick = compTicker;
   var compPrice = data[compTicker].price;
@@ -204,7 +227,10 @@ function beginGame(data) {
   return [compName, compTick, compPrice, guessName, guessTick, guessPrice, compTrend, guessTrend, compLogo, guessLogo];
 }
 
+
+//Function to get data 
 function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, guessTrend, guessLogo, higher) {
+  //Removes comma if it exists in the price of either
   if (guessPrice.includes(',')) {
     guessPrice = guessPrice.replace(/,/g, '');
   }
@@ -212,38 +238,47 @@ function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, 
     compPrice = compPrice.replace(/,/g, '');
   }
 
+  //If guess is right for higher
   if (higher) {
     if (Number(guessPrice) > Number(compPrice)) {
       wins++;
       return (nextGame(data, guessName, guessTick, guessPrice, guessTrend, guessLogo));
     }
+    //If guess is wrong for higher
     else {
       return (-1);
     }
   }
+  //If guess is right for lower
   else {
     if (Number(guessPrice) < Number(compPrice)) {
       wins++;
       return (nextGame(data, guessName, guessTick, guessPrice, guessTrend, guessLogo));
     }
+    //If guess is wrong for higher
     else {
       return (-1);
     }
   }
 };
 
+//Resets the game 
 function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessTrend, prevGuessLogo) {
   compName = prevGuessName;
   compTick = prevGuessTick;
   compPrice = prevGuessPrice;
   compTrend = prevGuessTrend;
   compLogo = prevGuessLogo;
+
+  //Get new data for guess
   var guessTicker = getTicker(data);
   var guessName = data[guessTicker].name;
   var guessTick = guessTicker;
   var guessPrice = data[guessTicker].price;
   var guessTrend = data[guessTicker].trend;
   var guessLogo = data[guessTicker].logoUrl;
+
+  //Set the elementss
   setTimeout(function () {
     setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   }, 2000)
@@ -277,13 +312,8 @@ function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
   //wait 2s (for animation to finish) then remove
   setTimeout(function () {
     guessSide.style.animation = '';
-
   }, 4001)
-
-
-
 }
-
 
 function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.style.animation = 'slide-up 2s ease-in-out';
@@ -306,11 +336,7 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   //wait 2s (for animation to finish) then remove
   setTimeout(function () {
     guessSide.style.animation = '';
-
   }, 4001)
-
-
-
 
 }
 
@@ -319,15 +345,12 @@ function gameOver(side) {
   const gameArea = document.getElementById('gameArea');
   gameArea.classList.remove("flipIn");
   gameArea.classList.add("flipIn");
-
   gameArea.innerHTML = '<p>Game Over</p></button>';
 
   // Set up the countdown timer
   let count = 3;
   const countdownElement = document.createElement('p');
-
   setTimeout(gameArea.appendChild(countdownElement), 1000);
-
   function updateCountdown() {
     countdownElement.innerText = `New game in ${count} seconds`;
     count--;
@@ -336,8 +359,10 @@ function gameOver(side) {
       setTimeout(updateCountdown, 1000);
     }
   }
-
+  //Call function to count down
   updateCountdown();
+
+
   gameArea.classList.remove("flipOut");
   gameArea.classList.add("flipOut");
   setTimeout(function () {
