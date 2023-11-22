@@ -115,20 +115,22 @@ a {
   border: solid;
   border-width: 5px;
   border-radius: 10px;
-  border-color: rgb(137, 136, 136);
+  border-color: rgb(70, 70, 70);
   margin: 5px;
-  background-color: rgb(0, 255, 234);
+  background-color: rgb(146, 146, 146);
   box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 #comp-side {
   border: solid;
   border-width: 5px;
   border-radius: 10px;
-  border-color: rgb(137, 136, 136);
+  border-color: rgb(146, 146, 146);
   margin: 5px;
-  background-color: darkblue;
+  background-color: rgb(70, 70, 70);
   box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .correct {
@@ -145,6 +147,8 @@ a {
   height: 0px;
   color: white;
 }
+
+
 
 #score-item {
   height: 15px;
@@ -178,9 +182,9 @@ a {
   justify-content: center;
   width: 540px;
   height: 100%;
-  background-color: rgb(65, 64, 64);
+  background-color: goldenrod;
   border: solid;
-  border-color: rgb(100, 100, 100);
+  border-color: rgb(184, 139, 24);
   border-width: 7px;
   border-radius: 10px;
   padding: 5px;
@@ -188,7 +192,6 @@ a {
 
 .game-container::before {
   content: "";
-
   z-index: -2;
   /* Push the pseudo-element behind the game container */
 }
@@ -253,24 +256,6 @@ a {
   height: 60px;
 }
 
-#img-container {
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
-}
-
-.stock-image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
 
 #button-container {
   display: flex;
@@ -287,10 +272,6 @@ a {
   font-weight: bold;
   cursor: pointer;
 
-}
-
-.hide {
-  display: none;
 }
 
 #js-new-game-button {
@@ -310,7 +291,7 @@ a {
   background-color: transparent;
   transform: translateX(14px);
   transform: translateY(-10px);
-  color: rgb(17, 174, 2);
+  color: rgb(0, 123, 0);
 }
 
 #js-higher-button:hover {
@@ -365,7 +346,10 @@ a {
   padding-top: 2px;
   text-align: center;
   overflow-y: auto;
+}
 
+.hide {
+  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -432,13 +416,7 @@ a {
     font-family: arial;
     border-style: solid;
     height: 85px;
-
   }
-
-  #banner-img {
-    height: 60px;
-  }
-
 
   p {
     font-size: 15px;
@@ -455,6 +433,7 @@ a {
   #compStock-trend {
     line-height: 1px;
   }
+
 
   .guess-button {
     background: none;
@@ -521,6 +500,30 @@ a {
   }
 }
 
+#banner-img {
+  height: 60px;
+}
+
+#img-container {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.stock-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
 @keyframes banner-slide {
   0% {
     transform: translateX(100%);
@@ -528,6 +531,16 @@ a {
 
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes green-flash {
+  50% {
+    background-color: rgb(0, 212, 0);
+  }
+
+  100% {
+    background-color: rgb(146, 146, 146);
   }
 }
 
@@ -553,9 +566,19 @@ a {
 
 
 @keyframes slide-left {
+  0% {
+    background-color: rgb(0, 212, 0);
+  }
+
+  30% {
+    background-color: rgb(146, 146, 146);
+  }
+
   100% {
     transform: translateX(-270px);
-    background-color: darkblue;
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(146, 146, 146);
+    color: white;
   }
 }
 
@@ -569,14 +592,18 @@ a {
 @keyframes slide-up {
   100% {
     transform: translateY(-185px);
-    background-color: darkblue;
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(146, 146, 146);
+    color: white;
   }
 }
 
 @keyframes slide-up1 {
   100% {
     transform: translateY(-195px);
-    background-color: darkblue;
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(146, 146, 146);
+    color: white;
   }
 }
 

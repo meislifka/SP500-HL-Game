@@ -184,7 +184,7 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
   if (guessTrend.includes("-")) {
     document.getElementById("guessStock-trend").style.color = "rgb(210, 74, 74)";
   } else {
-    document.getElementById("guessStock-trend").style.color = "rgb(76, 210, 74)";
+    document.getElementById("guessStock-trend").style.color = "rgb(0, 123, 0)";
   }
 
   document.getElementById("compStock-name").innerText = compName + `(${compTick})`;
@@ -289,6 +289,8 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
 
 
 function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
+  guessSide.style.animation = ('green-flash 1s ease-in-out');
+
   guessSide.classList.add('correct');
   guessSide.style.animation = 'slide-left 2s ease-in-out';
   compSide.style.animation = 'slide-down 2s ease-in-out';
