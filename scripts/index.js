@@ -337,7 +337,7 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   //wait 2s (for animation to finish) then remove
   setTimeout(function () {
     guessSide.style.animation = '';
-  }, 4001)
+  }, 2001)
 
 }
 
