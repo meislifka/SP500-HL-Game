@@ -289,8 +289,6 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
 
 
 function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
-  guessSide.style.animation = ('green-flash 1s ease-in-out');
-
   guessSide.classList.add('correct');
   guessSide.style.animation = 'slide-left 2s ease-in-out';
   compSide.style.animation = 'slide-down 2s ease-in-out';
@@ -334,10 +332,10 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
     higherButton.classList.remove('hide');
   }, 2001)
 
-  //wait 2s (for animation to finish) then remove
+  //wait for animation to finish then remove
   setTimeout(function () {
     guessSide.style.animation = '';
-  }, 2001)
+  }, 4001)
 
 }
 
