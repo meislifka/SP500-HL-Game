@@ -7,7 +7,7 @@ if (highscore === null) {
   localStorage.setItem("highscore", highscore);
 }
 
-fetch("../stock-info/stocks.json")
+fetch("./stocks.json")
   .then(response => {
     return response.json();
   })
@@ -351,6 +351,7 @@ function gameOver(newHighScore) {
   const endGameAlert = document.getElementById('endGameAlert');
   endGameAlert.classList.remove("flipIn");
   endGameAlert.classList.add("flipIn");
+
   if (newHighScore) {
     endGameAlert.innerHTML = '<p>Game Over <br> <br> <br> <br>New High Score!<br></p>';
   }
