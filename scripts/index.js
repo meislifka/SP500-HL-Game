@@ -349,8 +349,12 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
 function gameOver(newHighScore) {
   //Game over alert
   const endGameAlert = document.getElementById('endGameAlert');
-  endGameAlert.classList.remove("flipIn");
-  endGameAlert.classList.add("flipIn");
+
+  if (window.innerWidth >= 768) {
+    endGameAlert.classList.remove("flipIn");
+    endGameAlert.classList.add("flipIn");
+  }
+
 
   if (newHighScore) {
     endGameAlert.innerHTML = '<p>Game Over <br> <br> <br> <br>New High Score!<br></p>';
@@ -379,8 +383,12 @@ function gameOver(newHighScore) {
   //Call function to count down
   updateCountdown();
 
-  endGameAlert.classList.remove("flipOut");
-  endGameAlert.classList.add("flipOut");
+  if (window.innerWidth >= 768) {
+    endGameAlert.classList.remove("flipOut");
+    endGameAlert.classList.add("flipOut");
+  }
+
+
   setTimeout(function () {
     location.reload();
   }, 4000)
