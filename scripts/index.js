@@ -67,7 +67,7 @@ fetch("./stocks.json")
 
       }
 
-      //If guess is right
+      //If guess is correct
       else {
 
         //Change slide based on window size
@@ -136,7 +136,7 @@ fetch("./stocks.json")
     //Action for how to button
     howToButton.addEventListener("click", () => {
 
-      //Add text and pause banner
+      //Add text to overlay and pause banner
       document.getElementById('how-to-overlay').style.display = "block";
       document.getElementById('how-to-overlay-container').style.display = "block";
       bannerImg.style.animationPlayState = 'paused';
@@ -150,10 +150,10 @@ fetch("./stocks.json")
       bannerImg.style.animationPlayState = 'running';
     })
 
-
   });
 
 
+//Function to set high score 
 function setHighScore(score) {
 
   //if current score is higher than high score, update high score to current score
@@ -200,11 +200,12 @@ function setElements(compName, compTick, compPrice, guessName, guessTick, compTr
 
 
 //Function to begin the game
+//Only run the once at the start
 function beginGame(data) {
   var compTicker = getTicker(data);
   var guessTicker = getTicker(data);
 
-
+  //Get new guess stock if comp and guess are the same
   //Made it here instead of returning array of 2 values from getTicker() because getTicker is used for only one value from here on
   while (compTicker === guessTicker) {
     guessTicker = getTicker(data);
@@ -261,7 +262,8 @@ function getData(data, guessPrice, compPrice, guessName, guessTick, guessPrice, 
   }
 };
 
-//Resets the game 
+//Resets the game after win
+//Called from getData
 function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessTrend, prevGuessLogo) {
   compName = prevGuessName;
   compTick = prevGuessTick;
@@ -282,12 +284,13 @@ function nextGame(data, prevGuessName, prevGuessTick, prevGuessPrice, prevGuessT
     setElements(compName, compTick, compPrice, guessName, guessTick, compTrend, guessTrend, compLogo, guessLogo);
   }, 2000)
 
+  //Handles condition if price is over 1,000
   guessPrice = guessPrice.replace(/,/g, '');
   compPrice = compPrice.replace(/,/g, '');
   return ([guessName, guessTick, guessPrice, guessTrend, guessLogo]);
 }
 
-
+//Handles animation when in full screen
 function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.classList.add('correct');
   guessSide.style.animation = 'slide-left 2s ease-in-out';
@@ -314,6 +317,7 @@ function slideFullScreen(guessSide, compSide, lowerButton, higherButton) {
   }, 4001)
 }
 
+//Handles animation when in small screen
 function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
   guessSide.style.animation = 'slide-up 2s ease-in-out';
   compSide.style.animation = 'slide-up1  2s ease-in-out';
@@ -339,7 +343,10 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
 
 }
 
+
+//Function to handle game over sequence
 function gameOver(side) {
+  //Game over alert
   side.style.backgroundColor = 'red';
   const gameArea = document.getElementById('gameArea');
   gameArea.classList.remove("flipIn");
