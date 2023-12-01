@@ -38,38 +38,31 @@ if response.status_code == 200:
             url = url.strip()
 
             if "Brown & Brown" in name:
-                print("name is brown")
                 inner_dict[
                     fields[3]
                 ] = "https://static.gurufocus.com/cdn-cgi/image/width=500,quality=75/logos/0C0000071H.png"
             elif "Marsh & McLennan" in name:
-                print("name is marsh")
                 inner_dict[
                     fields[3]
                 ] = "https://cdn.phenompeople.com/CareerConnectResources/MAMCGLOBAL/social/mmc-og-logo-1632326576517.png"
             elif "Church" in name:
-                print("name is church")
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Church_%26_Dwight_logo.svg/1200px-Church_%26_Dwight_logo.svg.png"
 
             elif "M&T" in name:
-                print("name is M&T")
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/M%26T_Bank_wordmark.svg/2560px-M%26T_Bank_wordmark.svg.png"
             elif "Johnson & Johnson" in name:
-                print("name is johnson ")
                 inner_dict[
                     fields[3]
                 ] = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Johnson_and_Johnson_Logo.svg/2560px-Johnson_and_Johnson_Logo.svg.png"
             elif "Stanley Black & Decker, Inc" in name:
-                print("name is stanley bd")
                 inner_dict[
                     fields[3]
                 ] = "https://yt3.googleusercontent.com/ytc/APkrFKa4kdT3yz1PlcLF8AIrax3BSJcm2Ioc0eP4S5aY=s900-c-k-c0x00ffffff-no-rj"
             elif "Bath & Body Works Inc" in name:
-                print("name is bath and body works")
                 inner_dict[
                     fields[3]
                 ] = "https://shopcrossroadstc.com/wp-content/uploads/sites/4/2022/08/6036af54f292eb81615262e0_Bath-Body-works1000px-Square-Logo-1-800x800-1.jpg"
@@ -88,13 +81,3 @@ if response.status_code == 200:
 
     print(f"stocks JSON data has been saved to {output_file_path}")
     output_file.close()
-
-    names_list = []
-    for tr in tr_elements:
-        td_elements = tr.find_all("td")
-        if len(td_elements) >= 3:
-            names_list.append(f"{td_elements[2].text.strip()}")
-    output_file = "stockNames.txt"
-    with open(output_file, "w") as out_file:
-        for item in names_list:
-            out_file.write(item + "\n")

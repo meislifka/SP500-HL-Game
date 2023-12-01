@@ -16,10 +16,14 @@
   </header>
 
   <main>
+    <!-- Mask hides animation outside game container -->
     <div id="mask"></div>
     <div id="gameArea"></div>
+
     <div id="game-container">
       <div class="row">
+
+        <!-- Computer side -->
         <div class="column" id="comp-side">
           <div class="item name-item">
             <p id="compStock-name"></p>
@@ -32,6 +36,7 @@
           </div>
         </div>
 
+        <!-- Guess side -->
         <div class="column" id="guess-side">
           <div class="item name-item">
             <p id="guessStock-name"></p>
@@ -47,6 +52,7 @@
         </div>
       </div>
 
+      <!-- Score -->
       <div class="row">
         <div class="column" id="score-side">
           <div class="item" id="score-item">
@@ -63,6 +69,8 @@
       </div>
 
   </main>
+
+  <!-- Overlay -->
   <div id="how-to-overlay">
     <div id="how-to-overlay-container">
       <button id="js-close-button">X</button>
@@ -70,15 +78,17 @@
 
         <br>
         <br>
-        HOW THE GAME WORKS:
+        <FONT COLOR="#daa520">HOW THE GAME WORKS:</FONT COLOR>
         <br>
-        You are given the name, ticker symbol, and trend of 2 stocks but only the price for the second one.
+        You are given the name, ticker symbol, and trend of 2 stocks <br> but only the price for the second one.
+        <br>
         <br>
         You must determine if the stock is higher or lower than the stock with the given price.
         <br>
         <br>
 
-        HOW TO PLAY:
+        <FONT COLOR="#daa520">HOW TO PLAY:</FONT COLOR>
+
         <br>
         Click <FONT COLOR="#11AE02">&#9650</FONT COLOR> to indicate that the stock price is <FONT COLOR="#11AE02">
           HIGHER</FONT COLOR> than the other.

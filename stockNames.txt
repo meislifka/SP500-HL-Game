@@ -223,6 +223,7 @@ Hormel Foods Corporation
 Host Hotels & Resorts, Inc
 Howmet Aerospace Inc.
 HP Inc
+Hubbell Incorporated
 Humana Inc
 Huntington Bancshares Incorporated
 Huntington Ingalls Industries, Inc
@@ -273,6 +274,7 @@ LKQ Corporation
 Lockheed Martin Corporation
 Loews Corporation
 Lowe's Companies, Inc
+Lululemon Athletica Inc
 LyondellBasell Industries N.V
 Marathon Oil Corporation
 Marathon Petroleum Corporation
@@ -334,7 +336,6 @@ ONEOK, Inc
 ON Semiconductor Corporation
 Oracle Corporation
 O'Reilly Automotive, Inc
-Organon & Co.
 Otis Worldwide Corporation
 PACCAR Inc
 Packaging Corporation of America
