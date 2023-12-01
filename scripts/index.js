@@ -351,7 +351,6 @@ function gameOver(newHighScore) {
   const endGameAlert = document.getElementById('endGameAlert');
   endGameAlert.classList.remove("flipIn");
   endGameAlert.classList.add("flipIn");
-  console.log(newHighScore);
   if (newHighScore) {
     endGameAlert.innerHTML = '<p>Game Over <br> <br> <br> <br>New High Score!<br></p>';
   }
