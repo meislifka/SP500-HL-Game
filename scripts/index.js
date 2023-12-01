@@ -1,13 +1,11 @@
 var wins = 0;
 var highscore = localStorage.getItem("highscore"); // Retrieve the highscore from local storage
-
+var newHighScore = true;
 if (highscore === null) {
   // If the highscore is not in local storage, set it to 0
   highscore = 0;
   localStorage.setItem("highscore", highscore);
 }
-
-console.log(localStorage);
 
 fetch("./stocks.json")
   .then(response => {
@@ -16,7 +14,6 @@ fetch("./stocks.json")
 
   .then(data => {
     document.getElementById("score").innerHTML = `<span class = "left-span"> Score:${wins} </span> <span class = "right-span">High Score:${localStorage.getItem("highscore")}</span>`;
-
 
     //Getting and setting startings values
     var test = beginGame(data);
@@ -58,11 +55,12 @@ fetch("./stocks.json")
         higherButton.classList.add('hide');
 
         //Set high score
-        setHighScore(wins);
+        newHighScore = setHighScore(wins);
 
-        //Call game over function
+        //Call game over function 
+        guessSide.style.backgroundColor = 'red';
         setTimeout(function () {
-          gameOver(guessSide);
+          gameOver(newHighScore);
         }, 0)
 
       }
@@ -108,8 +106,9 @@ fetch("./stocks.json")
         setHighScore(wins);
 
         //Call game over function
+        guessSide.style.backgroundColor = 'red';
         setTimeout(function () {
-          gameOver(guessSide);
+          gameOver(newHighScore);
         }, 0)
       }
       //If guess is right
@@ -159,9 +158,11 @@ function setHighScore(score) {
   //if current score is higher than high score, update high score to current score
   if (parseInt(score) > parseInt(localStorage.getItem("highscore"))) {
     localStorage.setItem("highscore", score);
+    return true;
 
   } else {
     localStorage.setItem("highscore", localStorage.getItem("highscore"));
+    return false;
   }
 }
 
@@ -329,7 +330,7 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
     compSide.style.animation = '';
   }, 2000)
 
-  //wait 1ms (for animation to remove) then run slide-in
+  //wait 1ms (for animation to remove) then run slide-up-in
   setTimeout(function () {
     guessSide.style.animation = 'slide-up-in 2s ease-in-out';
     lowerButton.classList.remove('hide');
@@ -345,18 +346,28 @@ function slideSmallScreen(guessSide, compSide, lowerButton, higherButton) {
 
 
 //Function to handle game over sequence
-function gameOver(side) {
+function gameOver(newHighScore) {
   //Game over alert
-  side.style.backgroundColor = 'red';
-  const gameArea = document.getElementById('gameArea');
-  gameArea.classList.remove("flipIn");
-  gameArea.classList.add("flipIn");
-  gameArea.innerHTML = '<p>Game Over</p></button>';
+  const endGameAlert = document.getElementById('endGameAlert');
+  endGameAlert.classList.remove("flipIn");
+  endGameAlert.classList.add("flipIn");
+  console.log(newHighScore);
+  if (newHighScore) {
+    endGameAlert.innerHTML = '<p>Game Over <br> <br> <br> <br>New High Score!<br></p>';
+  }
+  else {
+    endGameAlert.innerHTML = '<p>Game Over</p>';
+  }
+
 
   // Set up the countdown timer
   let count = 3;
   const countdownElement = document.createElement('p');
-  setTimeout(gameArea.appendChild(countdownElement), 1000);
+
+
+  setTimeout(function () {
+    endGameAlert.appendChild(countdownElement);
+  }, 0);
   function updateCountdown() {
     countdownElement.innerText = `New game in ${count} seconds`;
     count--;
@@ -368,8 +379,8 @@ function gameOver(side) {
   //Call function to count down
   updateCountdown();
 
-  gameArea.classList.remove("flipOut");
-  gameArea.classList.add("flipOut");
+  endGameAlert.classList.remove("flipOut");
+  endGameAlert.classList.add("flipOut");
   setTimeout(function () {
     location.reload();
   }, 4000)
