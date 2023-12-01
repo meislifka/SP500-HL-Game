@@ -7,7 +7,7 @@ if (highscore === null) {
   localStorage.setItem("highscore", highscore);
 }
 
-fetch("./stocks.json")
+fetch("../stock-data/stocks.json")
   .then(response => {
     return response.json();
   })
