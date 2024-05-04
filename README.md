@@ -58,7 +58,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -80,6 +79,7 @@
 * [![HTML][HTML]][Html-url]
 * [![CSS][CSS]][Css-url]
 * [![JavaScript][JavaScript]][JavaScript-url]
+* [![Github Pages][GithubPages]][GithubPages-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ Project Link: [https://github.com/meislifka/SP500-HL-Game](https://github.com/me
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/meislifka/SP500-HL-Game.svg?style=for-the-badge
 [license-url]: https://github.com/meislifka/SP500-HL-Game/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0d74e7
 [linkedin-url]: https://linkedin.com/in/meislifka
 [product-screenshot]: images/screenshot.png
 [HTML]: https://img.shields.io/badge/html-FF5733?style=for-the-badge&logo=html5&logoColor=white
@@ -128,3 +128,6 @@ Project Link: [https://github.com/meislifka/SP500-HL-Game](https://github.com/me
 [Css-url]: [https://reactjs.org/](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [Javascript]: https://img.shields.io/badge/JavaScript-f0db4f?style=for-the-badge&logo=javascript&logoColor=black
 [javascript-url]: https://www.javascript.com/
+[GithubPages]: https://img.shields.io/badge/githubpages-0d74e7?style=for-the-badge&logo=githubpages&logoColor=black
+[GithubPages-url]: https://pages.github.com/
+
