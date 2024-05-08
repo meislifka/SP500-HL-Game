@@ -69,7 +69,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://higherlowerstocks.com/)
+This is a web based guessing game. The user is given the name, ticker symbol, and trend of 2 stocks but only the price for the first one. They must guess whether the price of the second stock is higher or lower than the one given.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -121,7 +122,7 @@ Project Link: [https://github.com/meislifka/SP500-HL-Game](https://github.com/me
 [license-url]: https://github.com/meislifka/SP500-HL-Game/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0d74e7
 [linkedin-url]: https://linkedin.com/in/meislifka
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/higherlowerstocks.jpg
 [HTML]: https://img.shields.io/badge/html-FF5733?style=for-the-badge&logo=html5&logoColor=white
 [Html-url]: https://html.com/
 [Css]: https://img.shields.io/badge/Css-2965f1?style=for-the-badge&logo=css3&logoColor=white
