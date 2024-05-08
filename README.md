@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/meislifka/SP500-HL-Game">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">S&P 500 Higher Lower Game</h3>
@@ -117,7 +117,7 @@ Project Link: [https://github.com/meislifka/SP500-HL-Game](https://github.com/me
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/meislifka/SP500-HL-Game.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/license-MIT-a5c914.svg?style=for-the-badge
 [license-url]: https://github.com/meislifka/SP500-HL-Game/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0d74e7
 [linkedin-url]: https://linkedin.com/in/meislifka
