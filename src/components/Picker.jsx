@@ -1,21 +1,20 @@
 import React from "react";
 import IconButton from '@mui/material/IconButton';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
-import ShowChartIcon from '@mui/icons-material/ShowChart';
+import ForwardIcon from '@mui/icons-material/Forward';
 const Picker = ({ props }) => {
   return (
-    <div className="text-center font-arial  p-4 border-2">
+    <div className="text-center ">
       <Tooltip title="Higher">
        <IconButton >
-        <ShowChartIcon sx={{ fontSize: 80, color:"green" }} />
-      </IconButton>
+       <ForwardIcon className="text-green-500 w-20 h-20 rotate-[270deg]" />      </IconButton>
       </Tooltip>
-      <div></div>
-      <Tooltip title="Lower">
+
+      <Tooltip title="Higher">
       <IconButton>
-        <ShowChartIcon sx={{ fontSize: 80, color:"red",  transform: "scaleX(-1)" }} />
-      </IconButton>
+      <ForwardIcon className="text-red-500 w-20 h-20 rotate-90 " />      </IconButton>
       </Tooltip>
+
     </div>
   );
 };

@@ -1,31 +1,44 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import StockCard from './StockCard.jsx';
-import Picker from "./Picker.jsx";
 import InstructionsOverlay from "./InstructionsOverlay.jsx"
 import IconButton from '@mui/material/IconButton';
 import InfoIcon from '@mui/icons-material/Info';
+import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
+import Tooltip from '@mui/material/Tooltip';
 
 const Main = () => {
   const [open, setOpen] = useState(false);
+  const [overlayType, setOverlayType] = useState();
 
-  const handleToggleInfo = () => {
+  // Update the handleToggleInfo function to accept overlayType
+  const handleToggleInfo = (type) => {
     setOpen(true);
+    setOverlayType(type); // Correctly sets the overlay type
   };
+
+  const lSide = ["Apple Inc", "AAPL", "150.00"];
+  const rSide = ["Microsoft Corp", "MSFT", "391.26"];
 
   return (
     <>
-      <IconButton aria-label="delete" onClick={handleToggleInfo}>
-        <InfoIcon  />
-      </IconButton>
+      <Tooltip title="Info">
+        <IconButton aria-label="info" onClick={() => handleToggleInfo("info")}>
+          <InfoIcon />
+        </IconButton>
+      </Tooltip>
 
-      
-      {open && <InstructionsOverlay open={open} setOpen={setOpen} />}
+      <Tooltip title="Stats">
+        <IconButton aria-label="stats" onClick={() => handleToggleInfo("stat")}>
+          <SignalCellularAltIcon />
+        </IconButton>
+      </Tooltip>
 
-<div className="grid grid-cols-1 md:grid-cols-3 m-6 border-solid border-8 border-[#dcad13] rounded-md p-4">
-          <StockCard companyName="Apple Inc." ticker="AAPL" price="150.00" />
-          <Picker />
-          <StockCard companyName="Apple Inc." ticker="AAPL" price="150.00" />
-        </div>
+      {open && <InstructionsOverlay open={open} setOpen={setOpen} overlayType={overlayType} />}
+
+      <div className="grid grid-cols-1 md:grid-cols-2 m-6 border-solid border-8 border-[#dcad13] rounded-md p-4">
+        <StockCard companyName={lSide[0]} ticker={lSide[1]} price={lSide[2]} />
+        <StockCard companyName={rSide[0]} ticker={rSide[1]} isRightSide={true} />
+      </div>
     </>
   );
 };
