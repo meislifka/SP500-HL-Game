@@ -13,11 +13,11 @@ const Main = () => {
   // Update the handleToggleInfo function to accept overlayType
   const handleToggleInfo = (type) => {
     setOpen(true);
-    setOverlayType(type); // Correctly sets the overlay type
+    setOverlayType(type);
   };
 
-  const lSide = ["Apple Inc", "AAPL", "150.00"];
-  const rSide = ["Microsoft Corp", "MSFT", "391.26"];
+  const lSide = ["Apple Inc", "AAPL", "microsoft"];
+  const rSide = ["Microsoft Corp", "MSFT", "apple"];
 
   return (
     <>
@@ -36,8 +36,8 @@ const Main = () => {
       {open && <InstructionsOverlay open={open} setOpen={setOpen} overlayType={overlayType} />}
 
       <div className="grid grid-cols-1 md:grid-cols-2 m-6 border-solid border-8 border-[#dcad13] rounded-md p-4">
-        <StockCard companyName={lSide[0]} ticker={lSide[1]} price={lSide[2]} />
-        <StockCard companyName={rSide[0]} ticker={rSide[1]} isRightSide={true} />
+        <StockCard companyName={lSide[0]} ticker={lSide[1]}/>
+        <StockCard companyName={rSide[0]} ticker={rSide[1]}/>
       </div>
     </>
   );

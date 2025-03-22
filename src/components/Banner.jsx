@@ -3,7 +3,7 @@ import bannerimg from "../assets/images/stockbanner.png";
 
 const Banner = () => {
   return (
-    <header className=" text-center font-arial border-solid mb-2">
+    <header>
       <img src={bannerimg} alt="Banner" className="animate-moveBanner" />
     </header>
   );
